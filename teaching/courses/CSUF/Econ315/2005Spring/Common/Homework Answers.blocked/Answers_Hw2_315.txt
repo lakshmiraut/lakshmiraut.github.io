@@ -1,0 +1,39 @@
+Answers to HW#2
+Econ 315-17
+Professor Lakshmi K. Raut
+
+Q3_1 = a
+Q3_2 = b
+Q3_3 = d
+Q3_4 = b
+Q3_5 = c
+Q3_6 = c
+Q3_7 = b
+Q3_8 = b
+Q3_9 = c
+Q3_10 = a
+Q3_11 = a
+Q3_12 = d
+Q3_13 = c
+Q3_14 = c
+Q3_15 = b
+Q3_16 = c
+Q3_17 = a
+Q3_18 = b
+Q3_19 = d
+Q3_20 = b
+Q3_21 = c
+Q3_22 = b
+Q3_23 = b
+Q3_24 = d
+Q3_25 = c
+Q3_26 = a
+Q3_27 = c
+Q3_28 = a
+Q3_29 = d
+Q3_30 = c
+Q3_31 = a
+Q3_32 = b
+Q3_33 = a
+Q3_34 = b
+Q3_35 = a

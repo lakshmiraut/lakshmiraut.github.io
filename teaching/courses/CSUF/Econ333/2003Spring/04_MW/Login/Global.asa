@@ -1,0 +1,17 @@
+<SCRIPT LANGUAGE="VBScript"  RUNAT="Server">
+Sub Application_OnStart 
+  End Sub
+Sub Application_OnEnd
+    Application("siteName")=""
+End Sub
+Sub Session_OnStart
+    Session("Status")="2003Spring_Econ333_04"
+    Session("UserName")=""
+    Session("UserID")=""
+    mdb"      
+    End Sub
+Sub Session_OnEnd
+    
+End Sub
+ 
+</SCRIPT>

@@ -1,0 +1,9 @@
+libname in 'd:\';
+filename raw1 'd:\rawdat.txt';
+
+options linesize=80 pagesize=55;
+data in.temp1;
+infile raw1;
+input CC Y EM EF IMR EXP_ED EXP_HL EXP_SS;
+run;
+

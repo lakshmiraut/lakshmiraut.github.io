@@ -1,0 +1,35 @@
+
+import static RautSoft.math.functions.Orthopoly.*;
+
+public class OrthopolyEx {
+    
+    public static void main(String[] args) {
+           
+        
+        
+        System.out.println("Chebyshev Polynomials T(0,10.5)  = " + T(0,10.5));
+        System.out.println("Chebyshev Polynomials T(1,10.5)  = " + T(1,10.5));
+        System.out.println("Chebyshev Polynomials T(25,10.5) = " + T(25,10.5));
+        
+        System.out.println("Hermite Polynomials H(0,10.5)  = " + H(0,10.5));
+        System.out.println("Hermite Polynomials H(1,10.5)  = " + H(1,10.5));
+        System.out.println("Hermite Polynomials H(25,10.5) = " + H(25,10.5));
+        
+        
+        System.out.println("Laguerre Polynomials L(0,10.5)  = " + L(0,10.5));
+        System.out.println("Laguerre Polynomials L(1,10.5)  = " + L(1,10.5));
+        System.out.println("Laguerre Polynomials L(25,10.5) = " + L(25,10.5));
+        
+        
+        System.out.println("Legendre Polynomials P(0,10.5)  = " + P(0,10.5));
+        System.out.println("Legendre Polynomials P(1,10.5)  = " + P(1,10.5));
+        System.out.println("Legendre Polynomials P(25,10.5) = " + P(25,10.5));
+        int n1=10;
+        for (int i=1;i<= n1;i++){
+            
+            System.out.println("The chevyshev zeroes are : " + ChebyshevZeros(i, n1,10,100)  ) ;
+        }
+     
+    }
+    
+}

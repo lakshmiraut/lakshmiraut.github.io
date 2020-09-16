@@ -1,0 +1,61 @@
+package Exercises.rautsoft.opt;
+import java.io.*;
+import static RautSoft.util.RautSoftUtil.*;
+import static RautSoft.math.lp.solve.*;
+import Jama.Matrix;
+import RautSoft.math.lp.LpSolve;
+
+
+
+public class LpSolveEX1  {
+    
+    
+    
+    public static void main(String args[]) {
+        { //Ex1
+            double [][] A = {{2,1},{1,2},{1,1},{1.5,2.5}};
+            double [] obj= {1.5, 2.5};
+            double [] rhs ={  10.0, 6.5, 5, 12};
+            
+            
+            System.out.println("*********************************");
+            System.out.println("The Solution of the first problem");
+            LpSolve lp = new LpSolve();
+            lp.LpMaxStandard(A, rhs,obj);
+            System.out.println("LP output from super"+lp);
+            System.out.println("The optimal Primal solution vector");
+            double [] opt=lp.getOptimalPrimalSolution();
+            for (int i=0;i<opt.length;i++)System.out.println(opt[i]);
+            System.out.println("The optimal Dual solution vector");
+            double [] optdual=lp.getOptimalDualSolution();
+            for (int i=0;i<optdual.length;i++)System.out.println(optdual[i]);
+            System.out.println("Optimal value of the obj function:" +lp.getOptimizedObjective());
+        }//end of Ex1
+        
+        {//ex2
+            int n1 = 50;
+            double [][] C = new double [n1][n1];
+            double [] rhsC = new double [n1];
+            double [] objC = new double [n1];
+            for (int i=0;i<C.length;i++){
+                for (int j =0;j<C[0].length;j++){
+                    C[i][j]= (i+j)*10*Math.random();
+                    //System.out.println("\t" + C[i][j]);
+                }
+            }
+            for (int i=0;i<C.length;i++)  rhsC[i]= 1000*Math.random();
+            for (int i=0;i<C[0].length;i++)  objC[i]= Math.random();
+            LpSolve lp = new LpSolve();
+            lp.LpMaxStandard(C,rhsC,objC);
+           
+            System.out.println("The optimal Primal solution vector");
+            double [] opt=lp.getOptimalPrimalSolution();
+            for (int i=0;i<opt.length;i++)System.out.println(opt[i]);
+            System.out.println("The optimal Dual solution vector");
+            double [] optdual=lp.getOptimalDualSolution();
+            for (int i=0;i<optdual.length;i++)System.out.println(optdual[i]);
+            System.out.println("Optimal value of the obj function:" +lp.getOptimizedObjective());
+               
+        } //end of ex2
+    }
+}

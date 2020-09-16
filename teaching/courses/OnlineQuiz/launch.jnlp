@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/MyProjects/2009/LearningJDom/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>LearningJDom</title>
+        <vendor>Lakshmi</vendor>
+        <homepage href=""/>
+        <description>LearningJDom</description>
+        <description kind="short">LearningJDom</description>
+
+
+    <offline-allowed/>
+</information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="LearningJDom.jar" main="true"/>
+
+
+    <jar href="lib/jdom.jar"/>
+<jar href="lib/DJNativeSwing-SWT.jar"/>
+<jar href="lib/DJNativeSwing.jar"/>
+<jar href="lib/swt-3.5M1-win32-win32-x86.jar"/>
+<jar href="lib/MozillaInterfaces.jar"/>
+</resources>
+    <application-desc main-class="browsers.SimpleWebBrowserExample">
+
+    </application-desc>
+</jnlp>

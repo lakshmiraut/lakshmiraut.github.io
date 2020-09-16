@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+
+<script language="JavaScript">
+// This Script And Over 400 Others Found At
+//  Java City 2000 http://www.jc2k.com
+
+<!--
+//The page they go to if they get it right.
+var goodURL = "Econ333-08-mainframe.html"
+
+
+alert("Only the students with valid username and password can  "
++"access these materials.\n \n type your last name as username"
++" type the passwords given to you in the class.")
+
+var username = prompt("Enter in your username","")
+var password = prompt("Enter in your password","")
+if (username == null || password == null) {
+
+alert("Authenification failed!!!")
+history.back();
+}
+
+else {
+// var combo = username + password
+var combo =  password
+var total = combo.toLowerCase()
+
+//This next line is where you can add usernames and passwords.
+if (total == "123123" || total == "econ123123" || total == "123123") {
+
+alert("You passed authenification!  You may view the course material")
+
+location = goodURL
+
+}
+
+
+else {
+
+alert("Authenification failed!!!")
+history.back();
+}
+}
+
+//-->
+</script>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#FF0000" VLINK="#000080" ALINK="#000080">
+
+</BODY>
+</HTML>
+

@@ -1,0 +1,45 @@
+
+import static RautSoft.util.nrutil.*;
+import RautSoft.Interfaces.FunctionOfOneVariable;
+import RautSoft.math.fsolve.*;
+
+public class OneEquationEX {
+    
+    public static void main(String[] args) {
+        
+        FunctionOfOneVariable f = new FunctionOfOneVariable() {
+            public double value(double x) {
+                return (x-2)*(x-2);
+            }
+        };
+        
+        FunctionOfOneVariable df = new FunctionOfOneVariable() {
+            public double value(double x) {
+                return 2*x -4;
+            }
+        };
+        ZeroFinder zf=new ZeroFinder();
+        zf.MAXITS=10;
+        double xopt = zf.rtnewt(f,df, -10,10,0.0001);
+        System.out.println(zf.getLogs() );
+        if (zf.getExitCode()==0){
+            System.out.println("The optimal solution using rtnewt, xopt = " + xopt);
+        }else {System.out.println("Optimal solution could not be obtained, see the errorLog");}
+        
+        zf.MAXITS=100;
+        xopt = zf.rtnewt(f,df, -10,10,0.0001);
+        System.out.println(zf.getLogs() );
+        if (zf.getExitCode()==0){
+            System.out.println("The optimal solution using rtnewt, xopt = " + xopt);
+        }else {System.out.println("Optimal solution could not be obtained, see the errorLog");}
+        
+        ZeroFinder zf2=new ZeroFinder();//it has default MAXITS=200
+        xopt = zf2.rtsafe(f,  df, -10,10,0.0000000000001);
+        System.out.println(zf2.getLogs() );
+        if (zf2.getExitCode()==0){
+            System.out.println("The optimal solution using rtsafe, xopt = " + xopt);
+        }else {System.out.println("Optimal solution could not be obtained, see the errorLog");}
+        
+    }
+    
+}

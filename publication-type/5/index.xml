@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 | Lakshmi K. Raut</title>
+    <link>/publication-type/5/</link>
+      <atom:link href="/publication-type/5/index.xml" rel="self" type="application/rss+xml" />
+    <description>5</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>5</title>
+      <link>/publication-type/5/</link>
+    </image>
+    
+    <item>
+      <title>Trade, Growth and Development: Essays in Honor of Professor T.N. Srinivasan</title>
+      <link>/publication/1999-01-01_trade_growth_and_de/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/1999-01-01_trade_growth_and_de/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory of Games and its Applications to Economics and Politics</title>
+      <link>/publication/1981-01-01_theory_of_games_and_/</link>
+      <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
+      <guid>/publication/1981-01-01_theory_of_games_and_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+Econ 333, Spring 2003: Answers to Hw#2
+Q2_1 = b
+Q2_2 = c
+Q2_3 = e
+Q2_4 = c
+Q2_5 = d
+Q2_6 = d
+Q2_7 = c

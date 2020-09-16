@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Lakshmi K. Raut</title>
+    <link>/teaching/courses/</link>
+      <atom:link href="/teaching/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>/teaching/courses/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/teaching/courses/csuf/econ335/2003spring/common/_vti_cnf/study-guide-for-mid-term-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/teaching/courses/csuf/econ335/2003spring/common/_vti_cnf/study-guide-for-mid-term-2/</guid>
+      <description>vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|24 Apr 2003 05:47:08 -0000
+vti_extenderversion:SR|5.0.2.4803
+vti_backlinkinfo:VX|Courses/CSUF/Econ335/2003Spring/02_MW/Login/RestrictedPage.asp
+vti_author:SR|MYCOMPUTER\\Owner
+vti_modifiedby:SR|MYCOMPUTER\\Owner
+vti_timecreated:TR|24 Apr 2003 05:47:08 -0000
+vti_cacheddtm:TX|24 Apr 2003 05:47:08 -0000
+vti_filesize:IR|478
+vti_cachedbodystyle:SR|&lt;body bgcolor=&#34;#000000&#34; text=&#34;#00FFFF&#34;&gt;
+vti_cachedneedsrewrite:BR|false
+vti_cachedhasbots:BR|false
+vti_cachedhastheme:BR|false
+vti_cachedhasborder:BR|false
+vti_charset:SR|windows-1252
+vti_lineageid:SR|{E8E4CC88-E841-441B-BB2C-C8E7FC788D91}
+</description>
+    </item>
+    
+  </channel>
+</rss>

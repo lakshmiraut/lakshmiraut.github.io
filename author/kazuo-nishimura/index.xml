@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kazuo Nishimura | Lakshmi K. Raut</title>
+    <link>/author/kazuo-nishimura/</link>
+      <atom:link href="/author/kazuo-nishimura/index.xml" rel="self" type="application/rss+xml" />
+    <description>Kazuo Nishimura</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Kazuo Nishimura</title>
+      <link>/author/kazuo-nishimura/</link>
+    </image>
+    
+    <item>
+      <title>Family Expansion and Capital Accumulation of a Dynasty</title>
+      <link>/publication/2013-01-01_family_expansion_and/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/2013-01-01_family_expansion_and/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>School Choice and the Intergenerational Poverty Trap</title>
+      <link>/publication/2007-01-01_school_choice_and_th/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/2007-01-01_school_choice_and_th/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Endogenous fertility and growth dynamics</title>
+      <link>/publication/1999-01-01_endogenous_fertility/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/1999-01-01_endogenous_fertility/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

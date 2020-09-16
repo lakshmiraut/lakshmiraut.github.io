@@ -1,0 +1,156 @@
+package Exercises.opt;
+/*
+ * DonlpJava
+ *
+ * Created on December 17, 2004, 11:44 AM
+ */
+
+//package math.optimization.multivariate.JNI;
+
+import Interfaces.*;
+import opt.DonlpJava;
+
+/**
+ *
+ * @author  743661
+ */
+public class DonlpEX3  {
+ 
+
+
+
+
+//============================================================================================
+
+    public static void main(String[] args) {
+
+
+
+final int n=10; //number of variables
+final   int nlin = 5; //number of linear constriants
+final    int nonlin = 6;//number of nonlinear constraints
+        
+
+        
+        FunctionOfManyVariables myObj = new FunctionOfManyVariables(){
+            public double value(double [] x){
+                  return  5.04e0*x[1]+.035e0*x[2]+10.e0*x[3]+3.36e0*x[5]-.063e0*x[4]*x[7];
+         
+            }
+        };
+
+
+
+
+//====================
+VectorOfFunctionsOfManyVariables Constraints = new VectorOfFunctionsOfManyVariables(){
+            
+            public double [] value(double [] x){
+                double [] con = new double[nonlin+1];
+                con[0]=0;
+double a=0.99, b=0.9, t,c=(1/a)-a,d=(1/b)-b;                 
+       con[1] =1.12e0*x[1]+.13167e0*x[1]*x[8]-.00667e0*x[1]*Math.pow(x[8],2)-a*x[4];
+           t = 1.12e0*x[1]+.13167e0*x[1]*x[8]-.00667e0*x[1]*Math.pow(x[8],2)-a*x[4];
+        con[2] =  -t+c*x[4];
+        con[3] = 57.425e0+1.098e0*x[8]-.038e0*Math.pow(x[8],2)+.325e0*x[6]-a*x[7];
+           t= 57.425e0+1.098e0*x[8]-.038e0*Math.pow(x[8],2)+.325e0*x[6]-a*x[7];
+        con[4] = -t+c*x[7];
+        con[5]  = 9.8e4*x[3]/(x[4]*x[9]+1.e3*x[3])-x[6];
+        con[6]  = (x[2]+x[5])/x[1]-x[8];
+
+                return con;
+            }
+        };
+
+                
+
+//linear constraints
+
+
+   
+              double [] x  =          {0.,/* not used : index 0 */
+                                1745.e0  ,12.e3  ,11.e1,3048.e0 ,1974.e0,
+                                  89.2e0 ,92.8e0 , 8.e0,   3.6e0, 145.e0 };    
+                
+                double [] xLow = {0.,/* not used : index 0 */
+                              1.e-5, 1.e-5,1.e-5,1.e-5,  1.e-5,
+                             85.e0, 90.e0 ,3.e0 ,1.2e0,145.e0 };
+
+               double [] xUp =  {0.,/* not used : index 0 */
+                              2.e3 ,16.e3, 1.2e2,5.e3,  2.e3,
+                              93.e0,95.e0,12.e0, 4.e0,162.e0 };
+                                
+              double [] low = new double [n+nlin+nonlin+1];
+               double [] up = new double [n+nlin+nonlin+1];
+               for (int i = 1 ; i <= n ; i++ ) { low[i]=xLow[i];up[i]=xUp[i];}
+            
+
+double acons = .99e0,bcons = .9e0,ccons = 1.01010101010101e0,
+                    dcons = 1.11111111111111e0;
+
+
+double    big = 1.e20;
+  
+    low[11] = -35.82;
+    low[13] = 35.82;
+    low[12] = 133.0 ;
+    low[14] = -133.0;
+    low[15]=0.0;
+    for (int  i = 16 ; i<=21; i++ ) {low[i]=0.0;}
+
+    for (int  i = 11 ; i<= 14; i++ ) {up[i]=big;}  
+    /* 4 linear inequality constraints >=0*/
+    up[15]=0.0;   /* linear equality constraint */
+    for (int  i=16; i<= 19; i++ ) {up[i]=big;}
+    /* 4 nonlinear inequality constraints >=0 */
+    up[20] = up[21] = 0.0 ;
+    /* two nonlinear equalities =0*/
+
+    /* store coefficients of linear constraints directly in gres */
+
+
+ double [][] gres = new double[n+1][nlin+1];
+
+for (int i=0;i<gres.length;i++) 
+                     for (int j=0;j<gres[0].length;j++)
+                       {gres[i][j]=0;}               
+
+    for (int  i = 1 ; i<= 5 ; i++ )
+    { 
+      for (int j = 1 ; j <= 10 ; j++ )
+        {
+          gres[j][i] = 0.0 ;
+        }
+    }
+    gres[9][1] = - bcons;
+    gres[10][1]= -0.222;
+    gres[7][2] = 3.0;
+    gres[10][2]= -acons;
+    gres[9][3] = 1.0/bcons;
+    gres[10][3]= 0.222;
+    gres[7][4] = -3.0;
+    gres[10][4]=1.0/acons;
+    gres[1][5] = -1.0;
+    gres[5][5] = -1.0;
+    gres[4][5] = 1.22;
+
+
+
+                                DonlpJava hwjni = new DonlpJava();
+
+                             
+                                hwjni.NlpMixedConstrainedNumerical( myObj,x, nlin,nonlin,gres,Constraints,low, up);
+
+                                hwjni.DonlpJNI();
+                                
+                                System.out.printf("The  optimal solution is: \n");
+                                for (int i=0;i<x.length;i++) System.out.printf("x*[%d] = %10f \n",i, x[i]);
+
+                                System.out.printf("\nThe optimal f* = %f\n", myObj.value(x));
+
+                                
+                                
+                                
+    }
+}
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Marc Nerlove | Lakshmi K. Raut</title>
+    <link>/author/marc-nerlove/</link>
+      <atom:link href="/author/marc-nerlove/index.xml" rel="self" type="application/rss+xml" />
+    <description>Marc Nerlove</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 1997 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Marc Nerlove</title>
+      <link>/author/marc-nerlove/</link>
+    </image>
+    
+    <item>
+      <title>Chapter 20 Growth models with endogenous population: A general framework </title>
+      <link>/publication/1997-01-01_chapter_20_growth_mo/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>/publication/1997-01-01_chapter_20_growth_mo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
