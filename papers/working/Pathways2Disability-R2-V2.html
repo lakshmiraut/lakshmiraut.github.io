@@ -11,7 +11,7 @@
 
 <meta name="author" content="Lakshmi K. Raut" />
 
-<meta name="date" content="2020-09-20" />
+<meta name="date" content="2020-09-21" />
 
 <title>Pathways to disability and death before disability in mid-ages: Estimates from the Health and Retirement Study Data</title>
 
@@ -561,7 +561,7 @@ summary {
 
 <h1 class="title toc-ignore">Pathways to disability and death before disability in mid-ages: Estimates from the Health and Retirement Study Data</h1>
 <h4 class="author">Lakshmi K. Raut<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></h4>
-<h4 class="date">2020-09-20</h4>
+<h4 class="date">2020-09-21</h4>
 
 </div>
 
@@ -674,17 +674,17 @@ absolutely continuous in <span class="math inline">\(s\)</span> and <span class=
 known as the <em>hazard rate</em> in the survival analysis literature when exits occur because of one event, and as the <em>cause-specific hazard rate</em> in the competing risk analysis<a href="#fn7" class="footnote-ref" id="fnref7"><sup>7</sup></a> when exits occur because of many events — of the health process
 <span class="math inline">\({X_{t}}\)</span> from health state <span class="math inline">\(h\)</span> to health state <span class="math inline">\(j\)</span> at time <span class="math inline">\(t\)</span> is given by the
 derivative</p>
-<p><span class="math display">\[\begin{eqnarray*}
+<p><span class="math display" id="eq:eq2-1">\[\begin{eqnarray}
 \lambda _{hj}(t) &amp;=&amp;\lim_{\Delta t\rightarrow 0}\frac{P_{hj}(t,t+\Delta
-t)-P_{hj}\left( t,t\right) }{\Delta t},\text{ for }j\in S  \\
+t)-P_{hj}\left( t,t\right) }{\Delta t},\text{ for }j\in S \nonumber \\
 &amp;=&amp;\lim_{\Delta t\rightarrow 0}\frac{P_{hj}(t,t+\Delta t)}{\Delta t},\text{
- for }j \ne h  \\
+ for }j \ne h \nonumber \\
 \lambda _{hh}(t) &amp;=&amp;\lim_{\Delta t\rightarrow 0}\frac{P_{hh}(t,t+\Delta t)-1
-}{\Delta t}, \text{ for } j=h,  \label{eq6} \\
+}{\Delta t}, \text{ for } j=h,  \tag{2.2} \\
 &amp;=&amp;-\lim_{\Delta t\rightarrow 0}\frac{\sum_{j\neq h}P_{hj}(t,t+\Delta t)}{
-\Delta t}   \\
-&amp;=&amp;-\sum_{j\neq h}\lambda _{hj}\left( t\right)   
-\end{eqnarray*}\]</span></p>
+\Delta t}   \nonumber\\
+&amp;=&amp;-\sum_{j\neq h}\lambda _{hj}\left( t\right)   \nonumber
+\end{eqnarray}\]</span></p>
 <p>For absorbing states <span class="math inline">\(h=3,4\)</span>, the transition intensities <span class="math inline">\(\lambda _{hj}(t)=0\)</span>, for all <span class="math inline">\(j\in S\)</span>. Denote the matrix of transition intensities by</p>
 <p><span class="math display" id="eq:eq2">\[\begin{equation}
 \Gamma (t)=\left( 
@@ -697,16 +697,16 @@ _{13}\left( t\right) &amp; \lambda _{14}\left( t\right) \\
 0 &amp; 0 &amp; 0 &amp; 0 \\ 
 0 &amp; 0 &amp; 0 &amp; 0
 \end{array}
-\right)     \tag{2.2}
+\right)     \tag{2.3}
 \end{equation}\]</span></p>
 <p>Notice that while <span class="math inline">\(P_{hj}(s,t)\)</span> is an unconditional probability, the transition intensity or the hazard rate <span class="math inline">\(\lambda _{hj}(t)\Delta t\)</span> is the conditional (instantaneous) probability of an individual experiencing the event <span class="math inline">\(j\)</span> in a small time interval <span class="math inline">\([t, t +\Delta t)\)</span> given that he has been in state <span class="math inline">\(h\)</span> at time <span class="math inline">\(t\)</span>. This conditional probability may depend on time <span class="math inline">\(t\)</span> and other characteristics of the individual and the path through various health states that is followed by the individual to be in the health state <span class="math inline">\(h\)</span> at time <span class="math inline">\(t\)</span>. I am assuming that the process is Markovian, i.e., it depends only on the health state <span class="math inline">\(h\)</span> that he is in at time <span class="math inline">\(s\)</span>, and on the times <span class="math inline">\(s\)</span> and <span class="math inline">\(t\)</span>, but it does not depend on the path that he followed to come to state <span class="math inline">\(h\)</span> at time <span class="math inline">\(s\)</span>. Or in other words, the future health condition depends on the current health condition but not how one came to the current health state.</p>
-<p>It can be shown that the Chapman-Kolmogorov equation leads to the following Kolmogorov forward equation<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></p>
+<p>It can be shown that the Chapman-Kolmogorov equation leads to the following Kolmogorov Forward Equation<a href="#fn8" class="footnote-ref" id="fnref8"><sup>8</sup></a></p>
 <p><span class="math display" id="eq:eq3">\[\begin{equation}
 \frac{\partial P\left( s,t\right) }{\partial t}=P\left( s,t\right) \cdot
-\Gamma \left( t\right) \tag{2.3}
+\Gamma \left( t\right) \tag{2.4}
 \end{equation}\]</span></p>
-<p>and the initial condition <span class="math inline">\(P( s,s) =I\)</span> for all <span class="math inline">\(s\in T\)</span>. Thus, given intensities <span class="math inline">\(\Gamma( t)\)</span>, the solution <span class="math inline">\(P(s,t)\)</span> of the above differential equation defines a continuous time Markov chain and conversely, given a set of absolutely continuous transition probabilities <span class="math inline">\(P(s,t)\)</span> for a continuous time Markov chain, one has the Kolmogorov forward Equation <a href="#eq:eq3">(2.3)</a>.</p>
-<p>Given an intensity matrix function <span class="math inline">\(\Gamma (t)\)</span>, from the Fundamental Theorem of ordinary differential equations, we know that there exists a unique solution <span class="math inline">\(P(s,t)\)</span> to the system of ordinary differential equations in Equation <a href="#eq:eq3">(2.3)</a>. It is, however, not possible to find analytic solution of the Kolmogorov forward equation without further restrictions on the nature of transitions. One can use a numerical method to solve the Kolmogorov Forward Equation with an estimate of the intensity matrix function <span class="math inline">\(\hat\Gamma (t)\)</span>.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> No statistical distribution theory is readily available to compute standard errors of the estimated transition probabilities. Generalizing the classic product limit procedure of <span class="citation">Kaplan and Meier (<a href="#ref-Kaplan.Meier_1958" role="doc-biblioref">1958</a>)</span> for the estimation of survival function in survival analysis, the statistical literature introduced the notion of <em>Product Limit</em> to solve and transition probabilities and study the statistical distribution theory of the estimates using Martingale theory. I follow this approach in this paper and describe the procedure briefly in the section <a href="#sec3">3</a>.</p>
+<p>and the initial condition <span class="math inline">\(P( s,s) =I\)</span> for all <span class="math inline">\(s\in T\)</span>. Thus, given intensities <span class="math inline">\(\Gamma( t)\)</span>, the solution <span class="math inline">\(P(s,t)\)</span> of the above differential equation defines a continuous time Markov chain and conversely, given a set of absolutely continuous transition probabilities <span class="math inline">\(P(s,t)\)</span> for a continuous time Markov chain, one has the Kolmogorov Forward Equation <a href="#eq:eq3">(2.4)</a>.</p>
+<p>Given an intensity matrix function <span class="math inline">\(\Gamma (t)\)</span>, from the Fundamental Theorem of ordinary differential equations, we know that there exists a unique solution <span class="math inline">\(P(s,t)\)</span> to the system of ordinary differential equations in Equation <a href="#eq:eq3">(2.4)</a>. It is, however, not possible to find analytic solution of the Kolmogorov Forward Equation without further restrictions on the nature of transitions. One can use a numerical method to solve the Kolmogorov Forward Equation with an estimate of the intensity matrix function <span class="math inline">\(\hat\Gamma (t)\)</span>.<a href="#fn9" class="footnote-ref" id="fnref9"><sup>9</sup></a> No statistical distribution theory is readily available to compute standard errors of the estimated transition probabilities. Generalizing the classic product limit procedure of <span class="citation">Kaplan and Meier (<a href="#ref-Kaplan.Meier_1958" role="doc-biblioref">1958</a>)</span> for the estimation of survival function in survival analysis, the statistical literature introduced the notion of <em>Product Limit</em> to solve and transition probabilities and study the statistical distribution theory of the estimates using Martingale theory. I follow this approach in this paper and describe the procedure briefly in the section <a href="#sec3">3</a>.</p>
 </div>
 <div id="sec3" class="section level1">
 <h1><span class="header-section-number">3</span> Econometric specifications and estimation methods</h1>
@@ -737,10 +737,12 @@ In statistical models,  the dependence of transition probabilities on individual
 \lambda _{hj}\left( t;X\left( t\right) \right) =\lambda _{hj}^{0}\left(
 t\right) e^{\beta _{hj}^{\prime }X\left( t\right) }. \tag{3.3}
 \end{equation}\]</span></p>
-<p>In the above specification, <span class="math inline">\(\lambda _{hj}^{0}(t)\)</span> is known as the <em>baseline hazard function</em>. The specification of transition intensity in Equation <a href="#eq:eq7">(3.3)</a> is known as the <em>proportional hazard model</em>. It aggregates the effects of the regressors linearly as a measure of some kind of latent factor, and that latent factor shifts the baseline hazard proportionately, i.e., the effect on hazard is uniform over time. Two papers <span class="citation">(Fleming <a href="#ref-Fleming_1978a" role="doc-biblioref">1978</a>; and Aalen and Johansen <a href="#ref-Aalen.Johansen_1978" role="doc-biblioref">1978</a>)</span> independently extended the Kaplan-Meier nonparametric product limit estimator from survival analysis to the multi-state time to event models. While Fleming gave the estimator for complete data, Aalen and Johansen gave the estimator for censored data. First I describe the Aalen-Johansen-Flemming estimator for the models with no covariates and then the general case with covariates.</p>
+<p>In the above specification, <span class="math inline">\(\lambda _{hj}^{0}(t)\)</span> is known as the <em>baseline hazard function</em>. The specification of transition intensity in Equation <a href="#eq:eq7">(3.3)</a> is known as the <em>proportional hazard model</em>. It aggregates the effects of the regressors linearly as a measure of some kind of latent factor, and that latent factor shifts the baseline hazard proportionately, i.e., the effect on hazard is uniform over time. Two papers <span class="citation">(Fleming <a href="#ref-Fleming_1978a" role="doc-biblioref">1978</a>; and Aalen and Johansen <a href="#ref-Aalen.Johansen_1978" role="doc-biblioref">1978</a>)</span> independently extended the Kaplan-Meier nonparametric product limit estimator from survival analysis to the multi-state time to event models.<a href="#fn12" class="footnote-ref" id="fnref12"><sup>12</sup></a> I use this estimation method in this paper. First I describe the Aalen-Johansen-Flemming estimator for models with no covariates and then I describe the method for the general case with covariates.</p>
 <div id="sec3-1-1" class="section level3">
 <h3><span class="header-section-number">3.1.1</span> Aalen-Johansen-Flemming estimator without covariates</h3>
-<p>To describe the Aalen-Johansen-Flemming estimator, I introduce some concepts and notation. For each individual <span class="math inline">\(i,i=1,2,...,n\)</span> and corresponding to each transient health state, <span class="math inline">\(h\)</span>, (<span class="math inline">\(h=1,2\)</span>), define two types of stochastic processes: (1) the counting processes <span class="math inline">\(N_{hj,i}(t)\)</span> denoting the <strong>observed</strong> number of transitions from health state <span class="math inline">\(h\)</span> to health state <span class="math inline">\(j\)</span> that the individual <span class="math inline">\(i\)</span> has made by time <span class="math inline">\(t\)</span> — which in our case is either <span class="math inline">\(0\)</span> or <span class="math inline">\(1\)</span>, since by assumption when an individual exits a health state, the individual does not return to it in future ; and (2) <span class="math inline">\(Y_{h,i}(t)\)</span>, taking value <span class="math inline">\(1\)</span> if individual <span class="math inline">\(i\)</span> is at risk at time <span class="math inline">\(t\)</span> for transition to another possible health state, and taking value <span class="math inline">\(0\)</span> otherwise.</p>
+<p>To describe the Aalen-Johansen-Flemming estimator, I introduce some concepts and notation. For each individual <span class="math inline">\(i,i=1,2,...,n\)</span> and corresponding to each transient health state, <span class="math inline">\(h\)</span>, (<span class="math inline">\(h=1,2\)</span>), define two types of stochastic processes: (1) the counting processes <span class="math inline">\(N_{hj,i}(t)\)</span> denoting the <strong>observed</strong> number of transitions from health state <span class="math inline">\(h\)</span> to health state <span class="math inline">\(j\)</span> that the individual <span class="math inline">\(i\)</span> has made by time <span class="math inline">\(t\)</span>;
+<!-- &mdash; which in our case is either $0$ or $1$, since by assumption when an individual exits a health state, the individual does not return to it in future ;  -->
+and (2) <span class="math inline">\(Y_{h,i}(t)\)</span>, taking value <span class="math inline">\(1\)</span> if individual <span class="math inline">\(i\)</span> is at risk at time <span class="math inline">\(t\)</span> for transition to another possible health state, and taking value <span class="math inline">\(0\)</span> otherwise.</p>
 <p>Let us focus on one transition <span class="math inline">\(h\rightarrow j\)</span>. Denote by <span class="math inline">\(\bar{N} _{hj}(t)=\sum_{i}^{n}N_{hj,i}(t)\)</span>, a counting process measuring the number of transitions of the type <span class="math inline">\(h\rightarrow j\)</span> in the sample at time <span class="math inline">\(t\)</span>, <span class="math inline">\(\bar{Y} _{h}(t)=\sum_{i}^{n}Y_{h,i}(t)\)</span>, a counting process measuring the number of individuals in the sample at risk for a transition at time <span class="math inline">\(t\)</span>, and <span class="math inline">\(\bar{M} _{hj}(t)=\sum_{i}^{n}M_{hj,i}(t)\)</span>. In any empirical study the data will be at the discrete times, say in ordered times <span class="math inline">\(0=t_{0}&lt;t_{1}&lt;...&lt;t_{m}\)</span>. At each time <span class="math inline">\(t_{i}\)</span>, we calculate</p>
 <p><span class="math display" id="eq:eq8">\[\begin{equation}
 \hat{\lambda}_{hj}(t_{i}) =\frac{\triangle \bar{N}_{hj} (t_{i}) }{\bar{Y}_{h}(t_{i}) },j \neq h, \tag{3.4}
@@ -776,11 +778,11 @@ u) ) = \widetilde{\prod\limits_{i:t_{i}\leq t}} (I+\left[ \hat{\Lambda}
 <p>With covariates one obtains the Cox partial likelihood estimate for <span class="math inline">\(\hat\beta _{hj}\)</span> for each transition <span class="math inline">\(h\rightarrow j\)</span> separately and then computes an weighted risk set defined by</p>
 <p><span class="math display" id="eq:eq12">\[\begin{equation}
 \bar{Y}_{hj}^{\ast }(t)=\sum_{i=1}^{n}Y_{hj,i}\left( t\right) \exp \left( 
-\hat{\beta}_{hj}^{\prime }X_{h,i}^{0}\right). \tag{3.7}
+\hat{\beta}_{hj}^{\prime }X_{h,i}^{0}(t)\right). \tag{3.7}
 \end{equation}\]</span></p>
 <p>The estimates of cumulative intensities with covariates are obtained from
 Equation <a href="#eq:eq8">(3.4)</a> by replacing, <span class="math inline">\(\bar{Y}_{h}(t)\)</span> with <span class="math inline">\(\bar{Y}_{hj}^{\ast }(t)\)</span>.</p>
-<p>Aalen-Johnson-Fleming estimator has nice statistical property. For instance, using Martingale calculus, it can be shown that the estimator is asymptotically unbiased. Using the results from Martingale theory, one can derive the formula for variance-covariance estimates of parameter estimates and the normalized estimate is normally distributed (central limit theorem holds for normalized parameter estimates), see for details, <span class="citation">(Aalen, Borgan, and Gjessing <a href="#ref-Aalen.etal_2008_Book" role="doc-biblioref">2008</a>; Andersen et al. <a href="#ref-Andersen.etal_1993_Book" role="doc-biblioref">1993</a>; Fleming and Harrington <a href="#ref-Fleming_Harrington_2005_Book" role="doc-biblioref">2005</a>)</span>.</p>
+<p>Aalen-Johnson-Fleming estimator has nice statistical property. For instance, using Martingale calculus, it can be shown that the estimator is asymptotically unbiased and the normalized estimate is normally distributed (i.e., the central limit theorem holds for normalized parameter estimates) with an asymptotic estimable variance-covariance matrix <span class="citation">(see for details, Aalen, Borgan, and Gjessing <a href="#ref-Aalen.etal_2008_Book" role="doc-biblioref">2008</a>; Andersen et al. <a href="#ref-Andersen.etal_1993_Book" role="doc-biblioref">1993</a>; Fleming and Harrington <a href="#ref-Fleming_Harrington_2005_Book" role="doc-biblioref">2005</a>)</span>.</p>
 <!-- For this counting process framework, the likelihood of the sample is given by^[For details, see [@Andersen.etal_1993_Book;@Andersen.Perme_2008;@Commenges_2002].],   -->
 <!-- \begin{equation} -->
 <!-- L\left( \theta \right) =\prod\limits_{i}\prod\limits_{h=1,2,j=2,3,4,h\neq j}\left( \prod\limits_{t}\lambda -->
@@ -801,104 +803,223 @@ Equation <a href="#eq:eq8">(3.4)</a> by replacing, <span class="math inline">\(\
 <p>The number of respondents were 13,593. Since 1992, the survey were repeated every two years, each is referred to as a wave of survey. New cohorts were added in 1993, 1998, 2004 and 2010, ending the survey up with the sample size of 37,495 from around 23,000 households in wave 12 in 2014. The RAND created many variables from the original HRS data for ease of use. I create all the variables (with a few exceptions noted below) from the RAND HRS dataset version P. The details of the Rand HRS version P can be found in <span class="citation">Bugliari et al. (<a href="#ref-Bugliari.etal_2016" role="doc-biblioref">2016</a>)</span>. I use the original cohort first interviewed in 1992 so that we have a homogeneous group of individuals with data for many years to avoid cohort effects in our analysis. This sample has the largest sample size.</p>
 <p>As mentioned in the introduction, I define the disability health state to be the one that qualifies one to be on the disability programs OASDI or SSI. The data on disability is self-reported. Later I plan to use the Social Security Administration’s matched administrative data on this variable and earnings variables not included here. The matched data will, however, reduce the sample size to half, as only 50 percent of the respondents are used for matching HRS with SSA Administrative data. The HRS data collected information on if and when the doctor diagnosed that the respondent has any of the severe diseases such as high blood pressure, diabetes, cancer, lung disease, heart attack, stroke, psychiatric disorder and severe arthritis.</p>
 <p>I drop respondents who were enrolled on to disability programs before the first survey year 1992 and I also drop the spouses in the sample who were not born between 1931 to 1941, so that the respondents in our sample are between ages 51 to 61 and are not disabled or dead by the first survey year 1992. I ended up with the final sample size of 9601 for this analysis. Table <a href="#tab:table1">4.1</a> provides summary health statistics of the cohorts in our sample over the survey years.</p>
-<table style="width:100%;">
-<caption><span id="tab:table1">Table 4.1: </span>Summary of the health status of the individuals in the sample over the survey years.</caption>
-<colgroup>
-<col width="10%"></col>
-<col width="21%"></col>
-<col width="16%"></col>
-<col width="13%"></col>
-<col width="20%"></col>
-<col width="12%"></col>
-<col width="5%"></col>
-</colgroup>
+<table class="table table-striped table-hover table-condensed lightable-classic" style="width: auto !important; margin-left: auto; margin-right: auto; font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:table1">Table 4.1: </span>Summary of the health status of the individuals in the sample over the survey years.
+</caption>
 <thead>
-<tr class="header">
-<th align="right">Survey Year</th>
-<th align="right">alive with normal health</th>
-<th align="right">alive with disease</th>
-<th align="right">became disabled</th>
-<th align="right">died before disability</th>
-<th align="right">65+, censored</th>
-<th align="right">Total</th>
+<tr>
+<th style="text-align:right;">
+Survey Year
+</th>
+<th style="text-align:right;">
+Alive:normal health
+</th>
+<th style="text-align:right;">
+Alive: diseased
+</th>
+<th style="text-align:right;">
+Became disabled
+</th>
+<th style="text-align:right;">
+Died before disability
+</th>
+<th style="text-align:right;">
+65+: censored
+</th>
+<th style="text-align:right;">
+Total
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="right">1992</td>
-<td align="right">3026</td>
-<td align="right">6483</td>
-<td align="right">92</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">9601</td>
+<tr>
+<td style="text-align:right;">
+1992
+</td>
+<td style="text-align:right;">
+3026
+</td>
+<td style="text-align:right;">
+6483
+</td>
+<td style="text-align:right;">
+92
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9601
+</td>
 </tr>
-<tr class="even">
-<td align="right">1994</td>
-<td align="right">2591</td>
-<td align="right">6608</td>
-<td align="right">166</td>
-<td align="right">144</td>
-<td align="right">0</td>
-<td align="right">9509</td>
+<tr>
+<td style="text-align:right;">
+1994
+</td>
+<td style="text-align:right;">
+2591
+</td>
+<td style="text-align:right;">
+6608
+</td>
+<td style="text-align:right;">
+166
+</td>
+<td style="text-align:right;">
+144
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9509
+</td>
 </tr>
-<tr class="odd">
-<td align="right">1996</td>
-<td align="right">2291</td>
-<td align="right">6623</td>
-<td align="right">139</td>
-<td align="right">146</td>
-<td align="right">0</td>
-<td align="right">9199</td>
+<tr>
+<td style="text-align:right;">
+1996
+</td>
+<td style="text-align:right;">
+2291
+</td>
+<td style="text-align:right;">
+6623
+</td>
+<td style="text-align:right;">
+139
+</td>
+<td style="text-align:right;">
+146
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9199
+</td>
 </tr>
-<tr class="even">
-<td align="right">1998</td>
-<td align="right">1726</td>
-<td align="right">5478</td>
-<td align="right">134</td>
-<td align="right">123</td>
-<td align="right">727</td>
-<td align="right">8188</td>
+<tr>
+<td style="text-align:right;">
+1998
+</td>
+<td style="text-align:right;">
+1726
+</td>
+<td style="text-align:right;">
+5478
+</td>
+<td style="text-align:right;">
+134
+</td>
+<td style="text-align:right;">
+123
+</td>
+<td style="text-align:right;">
+727
+</td>
+<td style="text-align:right;">
+8188
+</td>
 </tr>
-<tr class="odd">
-<td align="right">2000</td>
-<td align="right">1279</td>
-<td align="right">4313</td>
-<td align="right">86</td>
-<td align="right">113</td>
-<td align="right">741</td>
-<td align="right">6532</td>
+<tr>
+<td style="text-align:right;">
+2000
+</td>
+<td style="text-align:right;">
+1279
+</td>
+<td style="text-align:right;">
+4313
+</td>
+<td style="text-align:right;">
+86
+</td>
+<td style="text-align:right;">
+113
+</td>
+<td style="text-align:right;">
+741
+</td>
+<td style="text-align:right;">
+6532
+</td>
 </tr>
-<tr class="even">
-<td align="right">2002</td>
-<td align="right">848</td>
-<td align="right">3148</td>
-<td align="right">54</td>
-<td align="right">58</td>
-<td align="right">759</td>
-<td align="right">4867</td>
+<tr>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:right;">
+848
+</td>
+<td style="text-align:right;">
+3148
+</td>
+<td style="text-align:right;">
+54
+</td>
+<td style="text-align:right;">
+58
+</td>
+<td style="text-align:right;">
+759
+</td>
+<td style="text-align:right;">
+4867
+</td>
 </tr>
-<tr class="odd">
-<td align="right">2004</td>
-<td align="right">468</td>
-<td align="right">1893</td>
-<td align="right">34</td>
-<td align="right">48</td>
-<td align="right">781</td>
-<td align="right">3224</td>
+<tr>
+<td style="text-align:right;">
+2004
+</td>
+<td style="text-align:right;">
+468
+</td>
+<td style="text-align:right;">
+1893
+</td>
+<td style="text-align:right;">
+34
+</td>
+<td style="text-align:right;">
+48
+</td>
+<td style="text-align:right;">
+781
+</td>
+<td style="text-align:right;">
+3224
+</td>
 </tr>
-<tr class="even">
-<td align="right">2006</td>
-<td align="right">132</td>
-<td align="right">636</td>
-<td align="right">4</td>
-<td align="right">14</td>
-<td align="right">795</td>
-<td align="right">1581</td>
+<tr>
+<td style="text-align:right;">
+2006
+</td>
+<td style="text-align:right;">
+132
+</td>
+<td style="text-align:right;">
+636
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:right;">
+795
+</td>
+<td style="text-align:right;">
+1581
+</td>
 </tr>
 </tbody>
 </table>
-<p>The table reports these statistics up to the survey year 2006, as the individuals exited the study because of disability or death before disability or censored because they are over age 65 after this survey year. The table shows that the first period of this study in 1992 has 3026 individuals, which is 32 percent of the sample, in good health, 6483 individuals (i.e., 68 percent) in diseased health state with one-or-more chronic diseases and 92 individuals (i.e., 1 percent) left the study as they become disabled. No individuals died or were censored because of ages higher than 65 — this is the result of sample selection criterion mentioned above. In the next survey year 1994, out of 9509 non-exited individuals, 144 died without any disability. In the survey year 1998 for the first time, 727 individuals in the sample left our study because they reached ages above 65. The total number of individuals during the last survey round of 2006 before they all become older than 65 is 1581, i.e. about 16 percent of the original sample.</p>
+<p>The table reports these statistics only up to the survey year 2006, as the individuals exited the study because of disability or death before disability or censored because they are over age 65 after this survey year. The table shows that the first period of this study in 1992 has 3026 individuals, which is 32 percent of the sample, in good health, 6483 individuals (i.e., 68 percent) in diseased health state with one-or-more chronic diseases and 92 individuals (i.e., 1 percent) left the study as they become disabled. No individuals died or were censored because of ages higher than 65 — this is the result of sample selection criterion mentioned above. In the next survey year 1994, out of 9509 non-exited individuals, 144 died without any disability. In the survey year 1998 for the first time, 727 individuals in the sample left our study because they reached ages above 65. The total number of individuals during the last survey round of 2006 before they all become older than 65 is 1581, i.e. about 16 percent of the original sample.</p>
 </div>
 <div id="sec4-2" class="section level2">
 <h2><span class="header-section-number">4.2</span> Variables</h2>
@@ -914,14 +1035,14 @@ Equation <a href="#eq:eq8">(3.4)</a> by replacing, <span class="math inline">\(\
 <p><strong>behav_smoke:</strong> This variable is constructed to be a binary variable taking value 1 if the respondent has reported yes to ever smoked question during any of the waves as reported in the RAND HRS data and then repeated the value for all the years.</p>
 <p><strong>behav_drink:</strong> This variable created using the dynamic IRT on the categorical variables in the RAND HRS reporting the number of days per week the respondent drinks. The data is available from wave 3 (i.e., 1996) onward. Using the same methodology as for the behav_prev described above, I create this binary variable.</p>
 <p><strong>behav_vigex:</strong> The RAND HRS has data on whether the respondent did vigorous exercise three or more days per week. I created in each time period to be 1 if the respondent did vigorous exercise three or more days per week in any of the waves and then that value is assigned to all the years.</p>
-<p><strong>cSES:</strong> This variable is a binary variable measuring childhood SES. I constructed it using the IRT procedure as follows. From the HRS data I created four binary variables using the original categorical data on family moved for financial reason, family usually got financial help during childhood, father unemployed during childhood, father’s usual occupation during childhood (0 = disadvantaged and 1 = advantaged), and three tertiary variables two on each parent’s educational levels (0 = High School dropout, 1 = some college, 2 = completed college and higher) and third on family financial situation (0 = poor, 1 = average, 2 = well-off). I used these seven variables as items in the IRT procedure to first compute a continuous score estimate and then I define <strong>cSES</strong> = 1 if the score is above mean plus one standard deviation of the scores and 0 otherwise. I will discuss more about it in Section @ref(#sec6).</p>
+<p><strong>cSES:</strong> This variable is a binary variable measuring childhood SES. I constructed it using the IRT procedure as follows. From the HRS data I created four binary variables using the original categorical data on family moved for financial reason, family usually got financial help during childhood, father unemployed during childhood, father’s usual occupation during childhood (0 = disadvantaged and 1 = advantaged), and three tertiary variables two on each parent’s educational levels (0 = High School dropout, 1 = some college, 2 = completed college and higher) and third on family financial situation (0 = poor, 1 = average, 2 = well-off). I used these seven variables as items in the IRT procedure to first compute a continuous score estimate and then I define <strong>cSES</strong> = 1 if the score is above mean plus one standard deviation of the scores and 0 otherwise. I will discuss more about it in Section <a href="#sec6">6</a>.</p>
 <p><strong>cHLTH</strong> is a binary measure of childhood health constructed from the self-reported qualitative childhood health variable in HRS. I define <strong>cHLTH</strong> = 1 if the respondent reported very good or excellent, and zero otherwise.</p>
 <p><strong>Init.HLTH</strong> is a categorical variable denoting the initial health state of an respondent right before the respondent entered the Health and Retirement Study, taking value <span class="math inline">\(1\)</span> or <span class="math inline">\(2\)</span>.</p>
 </div>
 </div>
 <div id="sec5" class="section level1">
 <h1><span class="header-section-number">5</span> Transition probability estimates for the overall population</h1>
-<p>I have used the R package <em>mstate</em> that implemented most of the estimation methods with and without covariates I described in Section <a href="#sec3">3</a> <span class="citation">(see, Wreede, Fiocco, and Putter <a href="#ref-Wreede.etal_2010" role="doc-biblioref">2010</a> for details)</span>.
+<p>I have used the R package <em>mstate</em> that implemented most of the estimation methods with and without covariates that I described in Section <a href="#sec3">3</a> <span class="citation">(see, Wreede, Fiocco, and Putter <a href="#ref-Wreede.etal_2010" role="doc-biblioref">2010</a> for details on the package)</span>.
 In this section, I report the estimated transition probabilities for the overall population without any covariate. The notation <span class="math inline">\(P_{ij}(t)\)</span> denotes the probability of transiting to state <span class="math inline">\(j\)</span> by time <span class="math inline">\(t\)</span> starting from state<span class="math inline">\(i\)</span> at the base age <span class="math inline">\(51\)</span> (the base period of this paper is 51).
 I report in the path diagram of Figure <a href="#fig:fig2">5.1</a> these estimated probabilities for <span class="math inline">\(t=60\)</span> and <span class="math inline">\(65\)</span>.
 I report these estimated probabilities for all other ages in Table <a href="#tab:table5">5.1</a> and plot in Figure <a href="#fig:fig4">5.2</a> from two transitory states — state 1 (normal health status) in panel (a) and state 2 (diseased health status) in panel (b), both starting in the transient state at the base age of 51.</p>
@@ -931,188 +1052,478 @@ I report these estimated probabilities for all other ages in Table <a href="#tab
 Figure 5.1: Path diagram of the estimated model for the overall population.
 </p>
 </div>
-<p>The estimated probabilities show some general characteristics of the population. For instance, for the <span class="math inline">\(1 \to 3\)</span> transition, i.e., getting onto the disability state (state 3) from normal health state (state 1), the probability is <span class="math inline">\(0.051\)</span> by age <span class="math inline">\(60\)</span> and that probability increases to <span class="math inline">\(0.075\)</span> by age <span class="math inline">\(65\)</span>. The corresponding probabilities for an individual in diseased health state (state 2, all activities from it are denoted in red) are <span class="math inline">\(0.087\)</span> and <span class="math inline">\(0.115\)</span> about <span class="math inline">\(4\)</span> percentage point higher than from the normal health. Similarly the estimates of the competing risk of death before disability from these two transient health states can be read from the lower part of the figure. The transition probability estimates of the competing risk — death before disability — are important because it can give some ideas how the probabilities of getting onto disability may increase due to improvements in medical technology or changes in health related behaviors that may reduce the probabilities of the competing risks.</p>
+<p>The estimated probabilities show some general characteristics of the population. For instance, an individual of age <span class="math inline">\(51\)</span> with normal health has the probability of getting onto the disability rolls (i.e., transition <span class="math inline">\(1 \to 3\)</span>) <span class="math inline">\(0.051\)</span> by age <span class="math inline">\(60\)</span> and <span class="math inline">\(0.075\)</span> by age <span class="math inline">\(65\)</span>. Similarly, an individual of age <span class="math inline">\(51\)</span> with one or more chronic diseased has the probability of getting onto the disability rolls (i.e., transition <span class="math inline">\(2 \to 3\)</span>) <span class="math inline">\(0.087\)</span> by age <span class="math inline">\(60\)</span> and <span class="math inline">\(0.115\)</span> by age <span class="math inline">\(65\)</span>, which are higher than for an individual with normal health. The latter is expected, but one can get a quantitive comparisons. Similarly the estimates of the competing risk of death before disability from these two transient health states can be read from the lower part of the figure. The transition probability estimates of the competing risk — death before disability — are important because it can give some quantitative ideas how the probabilities of getting onto disability may increase due to improvements in medical technology or changes in health related behaviors that may reduce the probabilities of the competing risks.</p>
 <p>Table <a href="#tab:table5">5.1</a> and Figure <a href="#fig:fig2">5.1</a> give more details of the nature of these transition probabilities age by age.</p>
-<table>
-<caption><span id="tab:table5">Table 5.1: </span>Estimated transition probabilities by duration of stay.</caption>
+<table class="table table-striped table-hover table-condensed lightable-classic" style="width: auto !important; margin-left: auto; margin-right: auto; font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>
+<span id="tab:table5">Table 5.1: </span>Estimated transition probabilities by duration of stay.
+</caption>
 <thead>
-<tr class="header">
-<th align="right">Age</th>
-<th align="right"><span class="math inline">\(1 \to 1\)</span></th>
-<th align="right"><span class="math inline">\(2 \to 2\)</span></th>
-<th align="right"><span class="math inline">\(1 \to 2\)</span></th>
-<th align="right"><span class="math inline">\(2 \to 1\)</span></th>
-<th align="right"><span class="math inline">\(1 \to 3\)</span></th>
-<th align="right"><span class="math inline">\(2 \to 3\)</span></th>
-<th align="right"><span class="math inline">\(1 \to 4\)</span></th>
-<th align="right"><span class="math inline">\(2 \to 4\)</span></th>
+<tr>
+<th style="text-align:right;">
+Age
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(1 \to 1\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(2 \to 2\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(1 \to 2\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(2 \to 1\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(1 \to 3\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(2 \to 3\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(1 \to 4\)</span>
+</th>
+<th style="text-align:right;">
+<span class="math inline">\(2 \to 4\)</span>
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="right">51</td>
-<td align="right">1.000</td>
-<td align="right">1.000</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
+<tr>
+<td style="text-align:right;">
+51
+</td>
+<td style="text-align:right;">
+1.000
+</td>
+<td style="text-align:right;">
+1.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
 </tr>
-<tr class="even">
-<td align="right">52</td>
-<td align="right">0.995</td>
-<td align="right">0.972</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
-<td align="right">0.000</td>
-<td align="right">0.017</td>
-<td align="right">0.005</td>
-<td align="right">0.010</td>
+<tr>
+<td style="text-align:right;">
+52
+</td>
+<td style="text-align:right;">
+0.995
+</td>
+<td style="text-align:right;">
+0.972
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.000
+</td>
+<td style="text-align:right;">
+0.017
+</td>
+<td style="text-align:right;">
+0.005
+</td>
+<td style="text-align:right;">
+0.010
+</td>
 </tr>
-<tr class="odd">
-<td align="right">53</td>
-<td align="right">0.898</td>
-<td align="right">0.953</td>
-<td align="right">0.086</td>
-<td align="right">0.012</td>
-<td align="right">0.005</td>
-<td align="right">0.021</td>
-<td align="right">0.011</td>
-<td align="right">0.014</td>
+<tr>
+<td style="text-align:right;">
+53
+</td>
+<td style="text-align:right;">
+0.898
+</td>
+<td style="text-align:right;">
+0.953
+</td>
+<td style="text-align:right;">
+0.086
+</td>
+<td style="text-align:right;">
+0.012
+</td>
+<td style="text-align:right;">
+0.005
+</td>
+<td style="text-align:right;">
+0.021
+</td>
+<td style="text-align:right;">
+0.011
+</td>
+<td style="text-align:right;">
+0.014
+</td>
 </tr>
-<tr class="even">
-<td align="right">54</td>
-<td align="right">0.837</td>
-<td align="right">0.930</td>
-<td align="right">0.135</td>
-<td align="right">0.016</td>
-<td align="right">0.014</td>
-<td align="right">0.033</td>
-<td align="right">0.013</td>
-<td align="right">0.021</td>
+<tr>
+<td style="text-align:right;">
+54
+</td>
+<td style="text-align:right;">
+0.837
+</td>
+<td style="text-align:right;">
+0.930
+</td>
+<td style="text-align:right;">
+0.135
+</td>
+<td style="text-align:right;">
+0.016
+</td>
+<td style="text-align:right;">
+0.014
+</td>
+<td style="text-align:right;">
+0.033
+</td>
+<td style="text-align:right;">
+0.013
+</td>
+<td style="text-align:right;">
+0.021
+</td>
 </tr>
-<tr class="odd">
-<td align="right">55</td>
-<td align="right">0.762</td>
-<td align="right">0.900</td>
-<td align="right">0.202</td>
-<td align="right">0.032</td>
-<td align="right">0.018</td>
-<td align="right">0.041</td>
-<td align="right">0.018</td>
-<td align="right">0.027</td>
+<tr>
+<td style="text-align:right;">
+55
+</td>
+<td style="text-align:right;">
+0.762
+</td>
+<td style="text-align:right;">
+0.900
+</td>
+<td style="text-align:right;">
+0.202
+</td>
+<td style="text-align:right;">
+0.032
+</td>
+<td style="text-align:right;">
+0.018
+</td>
+<td style="text-align:right;">
+0.041
+</td>
+<td style="text-align:right;">
+0.018
+</td>
+<td style="text-align:right;">
+0.027
+</td>
 </tr>
-<tr class="even">
-<td align="right">56</td>
-<td align="right">0.703</td>
-<td align="right">0.877</td>
-<td align="right">0.251</td>
-<td align="right">0.041</td>
-<td align="right">0.025</td>
-<td align="right">0.048</td>
-<td align="right">0.022</td>
-<td align="right">0.034</td>
+<tr>
+<td style="text-align:right;">
+56
+</td>
+<td style="text-align:right;">
+0.703
+</td>
+<td style="text-align:right;">
+0.877
+</td>
+<td style="text-align:right;">
+0.251
+</td>
+<td style="text-align:right;">
+0.041
+</td>
+<td style="text-align:right;">
+0.025
+</td>
+<td style="text-align:right;">
+0.048
+</td>
+<td style="text-align:right;">
+0.022
+</td>
+<td style="text-align:right;">
+0.034
+</td>
 </tr>
-<tr class="odd">
-<td align="right">57</td>
-<td align="right">0.635</td>
-<td align="right">0.854</td>
-<td align="right">0.308</td>
-<td align="right">0.050</td>
-<td align="right">0.029</td>
-<td align="right">0.056</td>
-<td align="right">0.028</td>
-<td align="right">0.041</td>
+<tr>
+<td style="text-align:right;">
+57
+</td>
+<td style="text-align:right;">
+0.635
+</td>
+<td style="text-align:right;">
+0.854
+</td>
+<td style="text-align:right;">
+0.308
+</td>
+<td style="text-align:right;">
+0.050
+</td>
+<td style="text-align:right;">
+0.029
+</td>
+<td style="text-align:right;">
+0.056
+</td>
+<td style="text-align:right;">
+0.028
+</td>
+<td style="text-align:right;">
+0.041
+</td>
 </tr>
-<tr class="even">
-<td align="right">58</td>
-<td align="right">0.582</td>
-<td align="right">0.830</td>
-<td align="right">0.347</td>
-<td align="right">0.054</td>
-<td align="right">0.037</td>
-<td align="right">0.068</td>
-<td align="right">0.033</td>
-<td align="right">0.049</td>
+<tr>
+<td style="text-align:right;">
+58
+</td>
+<td style="text-align:right;">
+0.582
+</td>
+<td style="text-align:right;">
+0.830
+</td>
+<td style="text-align:right;">
+0.347
+</td>
+<td style="text-align:right;">
+0.054
+</td>
+<td style="text-align:right;">
+0.037
+</td>
+<td style="text-align:right;">
+0.068
+</td>
+<td style="text-align:right;">
+0.033
+</td>
+<td style="text-align:right;">
+0.049
+</td>
 </tr>
-<tr class="odd">
-<td align="right">59</td>
-<td align="right">0.529</td>
-<td align="right">0.805</td>
-<td align="right">0.389</td>
-<td align="right">0.062</td>
-<td align="right">0.044</td>
-<td align="right">0.078</td>
-<td align="right">0.038</td>
-<td align="right">0.055</td>
+<tr>
+<td style="text-align:right;">
+59
+</td>
+<td style="text-align:right;">
+0.529
+</td>
+<td style="text-align:right;">
+0.805
+</td>
+<td style="text-align:right;">
+0.389
+</td>
+<td style="text-align:right;">
+0.062
+</td>
+<td style="text-align:right;">
+0.044
+</td>
+<td style="text-align:right;">
+0.078
+</td>
+<td style="text-align:right;">
+0.038
+</td>
+<td style="text-align:right;">
+0.055
+</td>
 </tr>
-<tr class="even">
-<td align="right">60</td>
-<td align="right">0.489</td>
-<td align="right">0.782</td>
-<td align="right">0.416</td>
-<td align="right">0.067</td>
-<td align="right">0.051</td>
-<td align="right">0.087</td>
-<td align="right">0.044</td>
-<td align="right">0.064</td>
+<tr>
+<td style="text-align:right;">
+60
+</td>
+<td style="text-align:right;">
+0.489
+</td>
+<td style="text-align:right;">
+0.782
+</td>
+<td style="text-align:right;">
+0.416
+</td>
+<td style="text-align:right;">
+0.067
+</td>
+<td style="text-align:right;">
+0.051
+</td>
+<td style="text-align:right;">
+0.087
+</td>
+<td style="text-align:right;">
+0.044
+</td>
+<td style="text-align:right;">
+0.064
+</td>
 </tr>
-<tr class="odd">
-<td align="right">61</td>
-<td align="right">0.442</td>
-<td align="right">0.763</td>
-<td align="right">0.448</td>
-<td align="right">0.067</td>
-<td align="right">0.058</td>
-<td align="right">0.096</td>
-<td align="right">0.052</td>
-<td align="right">0.074</td>
+<tr>
+<td style="text-align:right;">
+61
+</td>
+<td style="text-align:right;">
+0.442
+</td>
+<td style="text-align:right;">
+0.763
+</td>
+<td style="text-align:right;">
+0.448
+</td>
+<td style="text-align:right;">
+0.067
+</td>
+<td style="text-align:right;">
+0.058
+</td>
+<td style="text-align:right;">
+0.096
+</td>
+<td style="text-align:right;">
+0.052
+</td>
+<td style="text-align:right;">
+0.074
+</td>
 </tr>
-<tr class="even">
-<td align="right">62</td>
-<td align="right">0.400</td>
-<td align="right">0.744</td>
-<td align="right">0.473</td>
-<td align="right">0.067</td>
-<td align="right">0.068</td>
-<td align="right">0.106</td>
-<td align="right">0.060</td>
-<td align="right">0.084</td>
+<tr>
+<td style="text-align:right;">
+62
+</td>
+<td style="text-align:right;">
+0.400
+</td>
+<td style="text-align:right;">
+0.744
+</td>
+<td style="text-align:right;">
+0.473
+</td>
+<td style="text-align:right;">
+0.067
+</td>
+<td style="text-align:right;">
+0.068
+</td>
+<td style="text-align:right;">
+0.106
+</td>
+<td style="text-align:right;">
+0.060
+</td>
+<td style="text-align:right;">
+0.084
+</td>
 </tr>
-<tr class="odd">
-<td align="right">63</td>
-<td align="right">0.362</td>
-<td align="right">0.730</td>
-<td align="right">0.500</td>
-<td align="right">0.068</td>
-<td align="right">0.072</td>
-<td align="right">0.111</td>
-<td align="right">0.066</td>
-<td align="right">0.091</td>
+<tr>
+<td style="text-align:right;">
+63
+</td>
+<td style="text-align:right;">
+0.362
+</td>
+<td style="text-align:right;">
+0.730
+</td>
+<td style="text-align:right;">
+0.500
+</td>
+<td style="text-align:right;">
+0.068
+</td>
+<td style="text-align:right;">
+0.072
+</td>
+<td style="text-align:right;">
+0.111
+</td>
+<td style="text-align:right;">
+0.066
+</td>
+<td style="text-align:right;">
+0.091
+</td>
 </tr>
-<tr class="even">
-<td align="right">64</td>
-<td align="right">0.360</td>
-<td align="right">0.719</td>
-<td align="right">0.493</td>
-<td align="right">0.067</td>
-<td align="right">0.074</td>
-<td align="right">0.114</td>
-<td align="right">0.073</td>
-<td align="right">0.100</td>
+<tr>
+<td style="text-align:right;">
+64
+</td>
+<td style="text-align:right;">
+0.360
+</td>
+<td style="text-align:right;">
+0.719
+</td>
+<td style="text-align:right;">
+0.493
+</td>
+<td style="text-align:right;">
+0.067
+</td>
+<td style="text-align:right;">
+0.074
+</td>
+<td style="text-align:right;">
+0.114
+</td>
+<td style="text-align:right;">
+0.073
+</td>
+<td style="text-align:right;">
+0.100
+</td>
 </tr>
-<tr class="odd">
-<td align="right">65</td>
-<td align="right">0.299</td>
-<td align="right">0.711</td>
-<td align="right">0.548</td>
-<td align="right">0.069</td>
-<td align="right">0.075</td>
-<td align="right">0.115</td>
-<td align="right">0.078</td>
-<td align="right">0.105</td>
+<tr>
+<td style="text-align:right;">
+65
+</td>
+<td style="text-align:right;">
+0.299
+</td>
+<td style="text-align:right;">
+0.711
+</td>
+<td style="text-align:right;">
+0.548
+</td>
+<td style="text-align:right;">
+0.069
+</td>
+<td style="text-align:right;">
+0.075
+</td>
+<td style="text-align:right;">
+0.115
+</td>
+<td style="text-align:right;">
+0.078
+</td>
+<td style="text-align:right;">
+0.105
+</td>
 </tr>
 </tbody>
 </table>
@@ -1122,16 +1533,18 @@ Figure 5.1: Path diagram of the estimated model for the overall population.
 Figure 5.2: Transition probabilities (a) from normal health state, (b) from one-or-more diseased health state
 </p>
 </div>
-<p>From the transition probabilities in Table <a href="#tab:table5">5.1</a>, one can compute the probability of various other transition paths. For instance, if an individual is known to be in a transient health state of normal health (state 1) or diseased health state (state 2) at age <span class="math inline">\(60\)</span>, we may like to know the risks of disability or death before disability. Or to compare these risks for two individuals one joined the study at age <span class="math inline">\(51\)</span> and the other age <span class="math inline">\(60\)</span>. That is we want to compute <span class="math inline">\(P(60,65)\)</span>. To that end, applying the Chapman-Kolmogorov Equation <a href="#eq:eq1">(2.1)</a>, one has <span class="math inline">\(P(51,65) = P(51,60) \cdot P(60,65)\)</span>. This implies, <span class="math inline">\(P(60,65) = [P(51,60)]^{-1} \cdot P(51,65)\)</span>, (assuming that the inverse exists).</p>
-<p>The estimated transition probabilities in <span class="math inline">\(P(60,65)\)</span> for the transitions given in the heading of Table <a href="#tab:table5">5.1</a> are computed to have values: <span class="math inline">\(1 \to 1\)</span> = 0.579, <span class="math inline">\(2 \to 2\)</span> = 0.877, <span class="math inline">\(1 \to 2\)</span> = 0.374, <span class="math inline">\(2 \to 1\)</span> = 0.038, <span class="math inline">\(1 \to 3\)</span> = 0.021, <span class="math inline">\(2 \to 3\)</span> = 0.034, <span class="math inline">\(1 \to 4\)</span> = 0.026, <span class="math inline">\(2 \to 4\)</span> = 0.051. Compare these probabilities with the corresponding probabilities in the last row of Table <a href="#tab:table5">5.1</a>.</p>
+<p>From the transition probabilities in Table <a href="#tab:table5">5.1</a>, one can compute the probability of various transition paths. For instance, suppose one is interested in estimating the risk of disability by age 65 for a person who is in normal health state at age <span class="math inline">\(60\)</span>. How does that probability compare with the probability of one who is in diseased health state at age <span class="math inline">\(60\)</span>? Or one is interested in estimating such probabilities for an individual who joined the Health and Retirement Study at age <span class="math inline">\(60\)</span>. These can be obtained if we can compute <span class="math inline">\(P(60,65)\)</span>. To compute this transition probability matrix <span class="math inline">\(P(60,65)\)</span> from the computed probabilities in Table <a href="#tab:table5">5.1</a>, note that applying the Chapman-Kolmogorov Equation <a href="#eq:eq1">(2.1)</a>, one has <span class="math inline">\(P(51,65) = P(51,60) \cdot P(60,65)\)</span>. This implies, <span class="math inline">\(P(60,65) = [P(51,60)]^{-1} \cdot P(51,65)\)</span>, (assuming that the inverse exists).</p>
+<p>The components of the estimated transition probability matrix <span class="math inline">\(P(60,65)\)</span> for the transitions in Table <a href="#tab:table5">5.1</a> turn out to have values: <span class="math inline">\(1 \to 1\)</span> = 0.579, <span class="math inline">\(2 \to 2\)</span> = 0.877, <span class="math inline">\(1 \to 2\)</span> = 0.374, <span class="math inline">\(2 \to 1\)</span> = 0.038, <span class="math inline">\(1 \to 3\)</span> = 0.021, <span class="math inline">\(2 \to 3\)</span> = 0.034, <span class="math inline">\(1 \to 4\)</span> = 0.026, <span class="math inline">\(2 \to 4\)</span> = 0.051. Compare these probabilities with the corresponding probabilities in the last row of Table <a href="#tab:table5">5.1</a>.</p>
 </div>
 <div id="sec6" class="section level1">
 <h1><span class="header-section-number">6</span> Childhood factors and mid-age health developments</h1>
-<p>Molecular biology literature mentioned in the introduction points out that the stressors of the body cells are important determinants of nature of cell divisions during early development and later life health outcomes. While those stressors cannot be directly observed or measured many socioeconomic factors modulate those stressors and cell developments, and which in turn will affect later life health outcomes. The HRS dataset does not have prenatal or immediate postnatal information on individuals in our sample. But it has some other information during childhood which are correlates of those stressors. Utilizing the available information in the dataset, I will examine the effects of such childhood factors as childhood SES (<strong>cSES</strong>), childhood health status (<strong>cHLTH</strong>) and attained education level (<strong>College+</strong>, which takes value <span class="math inline">\(1\)</span> if an individual completed college, else takes value <span class="math inline">\(0\)</span>) on mid-age health outcomes. I will examine two types of mid-age health outcomes — initial health status with which an individual begins the Health and Retirement Study in 1992, this variable is denoted below as <strong>Init.HLTH</strong> and the other one is the pathway through the health states that the individual will traverse starting from the initial health state.</p>
+<p>Molecular biology literature mentioned in the introduction points out that the stressors of the body cells are important determinants of the nature of cell divisions during early development and later life health outcomes.<a href="#fn13" class="footnote-ref" id="fnref13"><sup>13</sup></a> While those stressors cannot be directly observed or measured, it is postulated that many socioeconomic factors modulate those stressors and cell developments, and thus affect later life health outcomes.</p>
+<p>The HRS dataset does not have prenatal or immediate postnatal information on individuals in our sample. But it has some other information during childhood which are correlates of those stressors. I utilize these information in the dataset and examine the effects of such childhood factors as childhood SES (cSES), childhood health status (cHLTH) and attained education level (College+) on mid-age health outcomes. I will examine two types of mid-age health outcomes — initial health status (Init.HLTH), the health status that a respondent had when first participated in the Health and Retirment Study, and the other one is the pathway through the health states that the individual will traverse starting from the initial health state.</p>
 <p>Some of these childhood factors are dependent on other childhood factors. For instance, the variable cHLTH may depend on the cSES, and the variable College+ may depend on cSES and cHLTH. Furthermore, the variable College+ will influence the cSES of their children and thus will have an intergenerational effect on their children’s childhood health, childhood health and college completion, and thus the health trajectories. In the next section, I will specify these dependencies in a recursive set of logit models and estimate these models.</p>
-<p>While other childhood factors can be quantified more easily, how does one quantify the childhood SES? There is no consensus on exactly what constitutes SES. Many studies use a set of variables to represent SES. For instance, <span class="citation">Luo and Waite (<a href="#ref-Luo.Waite_2005" role="doc-biblioref">2005</a>)</span> used father’s and mother’s education and family financial well-being directly without aggregating them into a single measure to examine how it affect a measure of mid-age health for the HRS sample. It is useful to have a single measure of SES. Some studies used latent variable approach to come with a statistically defined measure of childhood SES. For instance, <span class="citation">Vable et al. (<a href="#ref-Vable.etal_2017" role="doc-biblioref">2017</a>)</span> used Mplus software and a number of other variables from the HRS data to create their cSES measure. I have used the latent variable statistical procedure, IRT on a set of characteristics of each respondent’s parents during during the respondent’s childhood as mentioned in Section <a href="#sec4-2">4.2</a>. I will validate this measure on cSES on the set of logit models in the next section by running two logit models for characterstic, cHLTH, College+ and Init.HLTH. In one, I will have the cSES measure I have created in this paper, and the other model with three variables used in <span class="citation">Luo and Waite (<a href="#ref-Luo.Waite_2005" role="doc-biblioref">2005</a>)</span>, — Father’s Education, Mother’s Education and Father’s job situation during the respondent’s childhood &amp;mdash and examine if the coefficient estimates and their significance levels of the other covariates of the models are similar in both specifications.</p>
+<p>While other childhood factors can be quantified more easily, how does one quantify the childhood SES? There is no consensus on what exactly constitutes cSES. Some studies use different sets of variables to represent cSES. For instance, <span class="citation">Luo and Waite (<a href="#ref-Luo.Waite_2005" role="doc-biblioref">2005</a>)</span> used father’s and mother’s education and family financial well-being directly without aggregating them into a single measure to examine how it affect a measure of mid-age health for the HRS sample. It is useful to have a single measure of SES. Some studies used the latent variable approach to come with a statistically defined measure of cSES. For instance, <span class="citation">Vable et al. (<a href="#ref-Vable.etal_2017" role="doc-biblioref">2017</a>)</span> used Mplus software and a number of variables from the HRS dataset to create their cSES measure. Similar to their approach, I have used the latent variable statistical procedure IRT on a set of parental characteristics of the respondents during their childhood as described in Section <a href="#sec4-2">4.2</a>. In the next subsection, I will validate this paper’s measure of cSES on a number of regression models. The validation is performed by running two logit regression models for each childhood characterstic variable &amp;mdash cHLTH, College+ and Init.HLTH. In one regression model, I will include the cSES measure I have created in this paper, and in the second regression model, I include in its palce three family background variables used in <span class="citation">Luo and Waite (<a href="#ref-Luo.Waite_2005" role="doc-biblioref">2005</a>)</span>, — Father’s Education, Mother’s Education and Father’s job situation during the respondent’s childhood &amp;mdash and examine if the coefficient estimates and their significance levels of the common covariates of the models are similar. If they are similar, then the single measure cSES of the paper is validated. This turns out to be true.</p>
 <div id="sec6.1" class="section level2">
 <h2><span class="header-section-number">6.1</span> Determinants of childhood factors, initial mid-age health and validation of the cSES measure</h2>
+<p>cSES is an important factor in child health, which together with childhood are important factor in determining the chances of completing college. All these in turn affect later life health. I specify simple models of these childhood factors. While these childhood variables are affected by many other variables, but I specify these models with variables that are readily available in HRS data and also will guide us designing appropriate disability preventive health care policies. For each model, I specify two models mentioned in the previous subsection to validate the statistically constructed measure of this paper, cSES.</p>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
@@ -2157,9 +2570,9 @@ PH test
 </div>
 <div id="transition-probability-estimates-for-sub-populations" class="section level2">
 <h2><span class="header-section-number">6.3</span> Transition probability estimates for sub populations</h2>
-<p>Table <a href="#tab:table6">6.3</a> shows for various groups the parameter estimates and transition probabilities at 10 years, i.e., at age 60 starting, the probability that an individual will exit a health because of disability or mortality before disability.</p>
+<p>Table <a href="#tab:table6">6.3</a> shows for various groups the estimated transition probabilities at age <span class="math inline">\(65\)</span>.</p>
 <div style="page-break-after: always;"></div>
-<table class="table table-striped table-hover table-condensed" style="font-size: 14px; width: auto !important; margin-left: auto; margin-right: auto;">
+<table class="table table-striped table-hover table-condensed lightable-classic" style="font-size: 14px; width: auto !important; margin-left: auto; margin-right: auto; font-family: Cambria; width: auto !important; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:table6">Table 6.3: </span>Transition Probabilities by age 65 for various groups.
 </caption>
@@ -3580,10 +3993,12 @@ PH test
 <li id="fn5"><p>definition if possible<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
 <li id="fn6"><p>The focus is on the first time entitlement onto a disability program. A few people, however, recover and move to normal or diseased health state, but more likely they come back later to the disability rolls, see <span class="citation">Raut (<a href="#ref-Raut_2017b" role="doc-biblioref">2017</a>)</span> for details on some of these probabilities.<a href="#fnref6" class="footnote-back">↩︎</a></p></li>
 <li id="fn7"><p>See for instance, <span class="citation">Raut (<a href="#ref-Raut_2017b" role="doc-biblioref">2017</a>)</span> for a competing risk analysis in a similar context using the SSA Administrative data and compare that with the present framework.<a href="#fnref7" class="footnote-back">↩︎</a></p></li>
-<li id="fn8"><p>There is also a Chapman-Kolmogorov backward equation, which goes backward in time to trace probabilities of various paths leading to a particular state of interest at some time. For our purpose, the forward equation is of interest.<a href="#fnref8" class="footnote-back">↩︎</a></p></li>
+<li id="fn8"><p>There is also a Chapman-Kolmogorov Backward Equation, which goes backward in time to trace probabilities of various paths leading to a particular state of interest at some time. For our purpose, the forward equation is of interest.<a href="#fnref8" class="footnote-back">↩︎</a></p></li>
 <li id="fn9"><p>I have given analytic solution in <span class="citation">Raut (<a href="#ref-Raut_2019" role="doc-biblioref">2019</a>)</span> under the assumption that individuals once become chronically ill never return to normal health, and also I have computed the transition probabilities based on the estimated hazard matrix.<a href="#fnref9" class="footnote-back">↩︎</a></p></li>
-<li id="fn10"><p>From the definition of transition intensity above and writing it in the matrix form, we have <span class="math inline">\(\Gamma \left( t\right) =\lim_{\Delta t\downarrow 0}\frac{P\left( t,t+\Delta t\right) -P\left( t,t\right) }{\Delta t}=\lim_{\Delta t\downarrow 0}\frac{P\left( t,t+\Delta t\right) -I}{\Delta t}\)</span>. From this it follows that for small <span class="math inline">\(\Delta t\)</span>, we have <span class="math inline">\(P(t,t +\Delta t) = I +\Gamma(t)\Delta t\)</span>.<a href="#fnref10" class="footnote-back">↩︎</a></p></li>
+<li id="fn10"><p>From the definition of transition intensity in Equations <a href="#eq:eq2-1">(2.2)</a> and writing it in the matrix form, we have <span class="math inline">\(\Gamma \left( t\right) =\lim_{\Delta t\downarrow 0}\frac{P\left( t,t+\Delta t\right) -P\left( t,t\right) }{\Delta t}=\lim_{\Delta t\downarrow 0}\frac{P\left( t,t+\Delta t\right) -I}{\Delta t}\)</span>. From this it follows that for small <span class="math inline">\(\Delta t\)</span>, we have <span class="math inline">\(P(t,t +\Delta t) = I +\Gamma(t)\Delta t\)</span>.<a href="#fnref10" class="footnote-back">↩︎</a></p></li>
 <li id="fn11"><p>For a more formal treatment of product integral see <span class="citation">Gill and Johansen (<a href="#ref-Gill.Johansen_1990" role="doc-biblioref">1990</a>)</span> and for a lucid exposition with some applications, see <span class="citation">Gill (<a href="#ref-Gill_2005" role="doc-biblioref">2005</a>)</span>.<a href="#fnref11" class="footnote-back">↩︎</a></p></li>
+<li id="fn12"><p>Fleming gave the estimator for complete data, Aalen and Johansen gave the estimator for censored data.<a href="#fnref12" class="footnote-back">↩︎</a></p></li>
+<li id="fn13"><p>Genetic make-up also controls gene expressions for producing proteins that create diseases but the epigenetic factors creating the stressors are important as well.<a href="#fnref13" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
