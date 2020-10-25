@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>e-audio book Reader: Created by Lakshmi K. Raut</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width'>
+		<link rel='stylesheet' href='styles/jquery/ui/jquery-ui.css'>
+		<link rel='stylesheet' href='styles/jquery/ui/base.css'>
+		<script src='scripts/jquery-3.1.1.js'></script>
+		<script src='scripts/ui/jquery-ui.js'></script>
+		<link rel='stylesheet' href='styles/lk_style.css' type='text/css' media='screen' />
+		<link rel='stylesheet' href='styles/print.css' type='text/css' media='print' />
+		<script>
+			function resizeText(multiplier) {
+				var x = document.getElementById('mainText');
+				var y = (x.contentWindow || x.contentDocument);
+				if (y.document)y = y.document;
+					if (y.body.style.fontSize == '') {
+				y.body.style.fontSize = '1.00em';
+				 }
+				y.body.style.fontSize = parseFloat(y.body.style.fontSize) + (multiplier * 0.5) + 'em';
+			}
+			$(function (){$('#resizable').resizable();});
+		</script>
+	</head>
+	<body id='resizable' >
+	<center> <p style='color:blue'>e-audio book Reader: Created by Lakshmi K. Raut</p></center>
+	<div class='audio' id='audio2'>
+		<audio controls  style='width: 100%;height:100% ' >
+			<source src="audio/How I Edited an Agricultural Paper-Mark Twain.mp3">
+		</audio>
+	</div>
+	<div id='mainFrame' class='mainContent'>
+		<object id='mainText'  data="text/How I Edited an Agricultural Paper-Mark Twain.html" style='width: 100%; height: 94%;'>
+		</object>
+	</div>
+
+<div class='RautLibEbNav' align='center'>
+	<a href="Cousin William-Harriet Beecher Stowe-index.html" class='Prev'>[Previous Chapter]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="../Various,  - Great Classic Stories II.html" class='Home'> [Contents]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="A Piece of String-Guy de Maupassant-index.html" class='calibreANext'> [Next Chapter]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#" class='fontIncrease' onclick='resizeText(1)' style='color:blue'>[Increase Font Size]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#" class='fontIncrease' onclick='resizeText(-1)' style='color:blueViolet'>[Decrease Font Size]</a>
+</div>
+</body>
+</html>
