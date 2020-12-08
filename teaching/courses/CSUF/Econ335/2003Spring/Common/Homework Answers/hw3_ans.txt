@@ -1,0 +1,16 @@
+HW#3 Answers, Econ 335, Spring 2003. 
+Q4_1 = d
+Q4_2 = a
+Q4_3 = e
+Q4_4 = b
+Q4_5 = f
+Q4_6 = c
+Q4_7 = c
+Q4_8 = b
+Q4_9 = c
+Q4_10 = b
+Q4_11 = a
+Q4_12 = a
+Q4_13 = a
+Q4_14 = c
+Q4_15 = b

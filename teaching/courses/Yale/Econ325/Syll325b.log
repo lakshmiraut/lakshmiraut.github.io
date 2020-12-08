@@ -1,0 +1,245 @@
+This is PDFTeX, Version 0.11 (based on TeX Version 3.14159) (Web2c 7.0) (format=pdftex 97.6.29)  11 JAN 2000 03:05
+**&pdftex Syll325b
+(Syll325b.tex
+LaTeX2e <1996/12/01> patch level 1
+(c:\pctex\latex2e/article.cls
+Document Class: article 1996/10/31 v1.3u Standard LaTeX document class
+(c:\pctex\latex2e/size11.clo
+File: size11.clo 1996/10/31 v1.3u Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (c:\pctex\latex2e/times.sty
+Package: times 1995/08/16 5.2 Times PSNFSS2e package
+)
+(c:\pctex\latex2e/graphicx.sty
+Package: graphicx 1997/06/09 v1.0d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:\pctex\latex2e/keyval.sty
+Package: keyval 1995/09/21 v1.09 key=value parser (DPC)
+)
+(c:\pctex\latex2e/graphics.sty
+Package: graphics 1997/06/07 v1.0d Standard LaTeX Graphics (DPC,SPQR)
+ (c:\pctex\latex2e/trig.sty
+Package: trig 1994/10/16 v1.08 sin cos tan (DPC)
+)
+(c:\pctex\latex2e/graphics.cfg)
+Package graphics Info: Driver file: pdftex.def on input line 84.
+ (c:\pctex\latex2e/pdftex.def
+File: pdftex.def 1997/06/02 v0.02a graphics/color for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(c:\pctex\latex2e/epsfig.sty
+Package: epsfig 1996/10/04 v1.7 (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+) (c:\pctex\latex2e/calc.sty
+Style Option: `calc' 3.7 <1993/09/26 19:56:43> (KKT and FJ)
+\global@count=\count87
+\local@count=\count88
+\global@dimen=\dimen107
+\local@dimen=\dimen108
+\global@skip=\skip43
+\local@skip=\skip44
+\global@muskip=\muskip10
+\local@muskip=\muskip11
+\ratio@count=\count89
+) (c:\pctex\latex2e/fancybox.sty
+Style option: `fancybox' v1.0 <93/02/10> (tvz)
+\@fancybox=\box26
+\shadowsize=\dimen109
+\@Sbox=\box27
+\do@VerbBox=\toks14
+\the@fancyput=\toks15
+\this@fancyput=\toks16
+\EndVerbatimTokens=\toks17
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+) (c:\pctex\latex2e/url.sty
+Package: url 1996/02/06  ver 1.1  Verb mode for urls, email addresses, and file
+ names
+) (c:\pctex\latex2e/makeidx.sty
+Package: makeidx 1995/04/19 v1.0j Standard LaTeX package
+)
+(c:\pctex\latex2e/hyperref.sty
+Package: hyperref 1998/03/25 6.19 Hypertext links for LaTeX
+\@linkdim=\dimen110
+ (c:\pctex\latex2e/hyperref.cfg
+Package hyperref Info: option colorlinks set false on input line 4.
+Package hyperref Info: option bookmarks set true on input line 4.
+Package hyperref Info: option figures set true on input line 4.
+Package hyperref Info: option hyperindex set true on input line 4.
+)
+(c:\pctex\latex2e/hpdftex.def
+\@outlinefile=\write4
+)
+Package hyperref Info: option hyperindex set true on input line 265.
+Package hyperref Info: Bookmarks ON on input line 267.
+Package hyperref Info: Hyper figures ON on input line 282.
+Package hyperref Info: Link nesting OFF on input line 289.
+Package hyperref Info: Hyperindex ON on input line 292.
+Package hyperref Info: Plain pages ON on input line 297.
+Package hyperref Info: Backreferencing ON on input line 302.
+Package hyperref Info: Link coloring OFF on input line 314.
+ (c:\pctex\latex2e/nameref.sty
+Package: nameref 1997/11/24 Cross-referencing by name of section
+)
+(c:\pctex\latex2e/backref.sty
+Package: backref 1998/01/26: bibliographical back referencing, 1.12
+)
+\c@Item=\count90
+\c@Hfootnote=\count91
+\OddToc=\count92
+Package hyperref Info: Hyper figures ON on input line 999.
+Package hyperref Info: Link nesting OFF on input line 1006.
+Package hyperref Info: Hyper index ON on input line 1009.
+Package hyperref Info: Plain pages ON on input line 1014.
+Package hyperref Info: backreferencing ON on input line 1019.
+Package hyperref Info: Link coloring OFF on input line 1026.
+) (c:\pctex\latex2e/varioref.sty
+Package: varioref 1997/06/12 v1.1c package for extended references (FMi)
+\c@vrcnt=\count93
+)
+\@indexfile=\write5
+\openout5 = `Syll325b.idx'.
+
+
+Writing index file Syll325b.idx
+(c:\pctex\latex2e/tcilatex.tex
+TCILATEX Macros for Scientific Word 2.0 <12 Jan 95>.
+NOTICE: This macro file is NOT proprietary and may be freely copied and distrib
+uted.
+\@hour=\count94
+\@minute=\count95
+\GRAPHICSTYPE=\count96
+\draft=\count97
+\dispkind=\count98
+\c@chapter=\count99
+\theight=\dimen111
+LaTeX Info: Redefining \rm on input line 524.
+LaTeX Info: Redefining \sf on input line 525.
+LaTeX Info: Redefining \tt on input line 526.
+LaTeX Info: Redefining \bf on input line 527.
+LaTeX Info: Redefining \it on input line 528.
+LaTeX Info: Redefining \sl on input line 529.
+LaTeX Info: Redefining \sc on input line 530.
+(c:\pctex\latex2e/latexsym.sty
+Package: latexsym 1996/11/20 v2.2d Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 85.
+)
+\c@theorem=\count100
+\c@axiom=\count101
+\c@remark=\count102
+\c@example=\count103
+\c@exercise=\count104
+\c@definition=\count105
+\c@equationnumber=\count106
+\intno@=\count107
+\ex@=\dimen112
+) (Syll325b.aux)
+\openout1 = `Syll325b.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
+ (c:\pctex\latex2e/ot1ptm.fd
+File: OT1ptm.fd 1996/01/28 Fontinst v1.504 font definitions for OT1/ptm.
+)
+(c:\pctex\latex2e/supp-pdf.tex (c:\pctex\latex2e/supp-mis.tex
+loading : Context Support Macros / Missing
+\protectiondepth=\count108
+\scratchcounter=\count109
+\scratchdimen=\dimen113
+\scratchskip=\skip45
+\scratchmuskip=\muskip12
+\scratchbox=\box28
+\scratchread=\read2
+\scratchwrite=\write6
+\nextbox=\box29
+\nextdepth=\dimen114
+\everyline=\toks18
+\!!counta=\count110
+\!!countb=\count111
+\recursecounter=\count112
+)
+loading : Context Support Macros / PDF
+\nofMPsegments=\count113
+\nofMParguments=\count114
+) (Syll325b.out) (Syll325b.out)
+\openout4 = `Syll325b.out'.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 46.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 46.
+ (c:\pctex\latex2e/ulasy.fd
+File: ulasy.fd 1996/11/20 v2.2dLaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 58.
+
+(c:\pctex\latex2e/omsptm.fd
+File: OMSptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+ [1
+
+]
+Overfull \hbox (4.01958pt too wide) in paragraph at lines 108--110
+\OT1/ptm/m/n/10.95 gium, Den-mark, France, West Ger-many, Italy, Nor-way, U.K. 
+(Deni-
+ []
+
+[2]
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \begin{itemize}
+                     
+? 
+[3] (Syll325b.aux) ) 
+Here is how much of TeX's memory you used:
+ 2570 strings out of 10656
+ 27608 string characters out of 94772
+ 74725 words of memory out of 263001
+ 4902 multiletter control sequences out of 10000+0
+ 10511 words of font info for 34 fonts, out of 100000 for 500
+ 14 hyphenation exceptions out of 1000
+ 25i,4n,21p,215b,336s stack positions out of 300i,100n,500p,3000b,4000s
+<c:/emtex/data/dvips/8r.enc><c:/pctex///pdftex/cmmi.enc><c:
+/pctex///pdftex/cmtext.enc><c:/pctex///pdftex/cmsy.enc><c:/pctex/fonts/type1/cm
+r10.pfb><c:/pctex/fonts/type1/cmmi10.pfb><c:/pctex/fonts/type1/cmsy10.pfb>
+Output written on Syll325b.pdf (3 pages, 26011 bytes).
