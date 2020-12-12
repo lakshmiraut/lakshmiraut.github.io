@@ -5,12 +5,24 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Tex2Rmd--A package I developed in C&#43;&#43; and Java to covert Latex document to R markdown</title>
+      <link>/post/2020-12-10-/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-12-10-/</guid>
+      <description>&lt;p&gt;A software package I developed in C++ and Java that converts a Latex document to the Rmarkdown format. The converted markdown document, possibly after further addition of other features and edits, can be converted to the html and word formats using R package knitr. 
+For details how to use and where to get it, follow this link: 
+&lt;a href=&#34;/software/Tex2Rmd/index.html&#34;&gt;Tex2Rmd&lt;/a&gt; and for a short guide here 
+&lt;a href=&#34;/software/Tex2Rmd/Temp1-converted.html&#34;&gt;Tex2Rmd-a short guide&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
