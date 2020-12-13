@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Tex2Rmd--A package I developed in C&#43;&#43; and Java to covert Latex document to R markdown</title>
+      <title>Tex2Rmd--A package I developed in C&#43;&#43; and Java to covert Latex document to R markdown and via knitr to html and docx</title>
       <link>/post/2020-12-10-tex2rmd/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       <guid>/post/2020-12-10-tex2rmd/</guid>
@@ -21,6 +21,8 @@
 For details how to use and where to get it, follow this link: 
 &lt;a href=&#34;/software/Tex2Rmd/index.html&#34;&gt;Tex2Rmd&lt;/a&gt; and for a short guide here 
 &lt;a href=&#34;/software/Tex2Rmd/Temp1-converted.html&#34;&gt;Tex2Rmd-a short guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To download it and to see a live demo on what it does, you can go directly to 
+&lt;a href=&#34;https://github.com/lakshmiraut/Tex2Rmd/releases/tag/V0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tex2Rmd Github distribution page&lt;/a&gt; of the project.&lt;/p&gt;
 </description>
     </item>
     
