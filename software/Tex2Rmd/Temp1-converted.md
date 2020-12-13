@@ -1,7 +1,7 @@
 ---
 title: "Tex2Rmd&#58; A package to covert Latex document to R markdown and in turn to html and Microsoft word format"
 author:  Lakshmi K. Raut^[Visiting Fellow, CEHD, University of Chicago, 1126 E. 59th St., Chicago, IL 60637, USA, lakshmiraut@gmail.com]
-date: "`r Sys.Date()`"
+date: "2020-12-13"
 
 #-------------------------------------------------------------------
 output:
@@ -31,10 +31,7 @@ geometry: left = 1.25in, right = 1.25in, top = 1in, bottom = 1in
 
 ---
 
-```{r setup, include=FALSE, cache=TRUE}
-library(bookdown)
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 
 ####  Abstract {-} 
@@ -81,7 +78,7 @@ The program creates Temp1-converted.Rmd. You can download those files to a direc
 # Referencing {#sec3}
 The program converts pretty much all formats of citation.  For instance, Consider the following LaTex text with citations.
 
-```` `r ""`
+```` 
 The main findings in \citep{Aalen.etal_2008_Book,Kanherkar.etal_2014} are that .... 
 For the effects of early childhood factors on school and labor market outcomes, 
 see \cite{Heckman.Raut_2016}, and also see \cite{Raut_2018} with an updated references. 
@@ -97,7 +94,7 @@ The main findings in [@Aalen.etal_2008_Book;@Kanherkar.etal_2014] are that .... 
 # Equations {#sec4}
 
 The display equations in LaTex with numbers for both equation environment and eqnarray environments are properly converted.  For instance,
-```` `r ""`
+```` 
 \begin{equation}
 \int_0^1 f(x) dx = 1 \label{eq10}
 \end{equation}
@@ -107,8 +104,8 @@ will produce
 \begin{equation}
 \int_0^1 f(x) dx = 1 (\#eq:eq10)
 \end{equation}
-The reference to the above equation in LaTex such as Eq. ```` `r ""`\ref{eq10}````
- (or, ```` `r ""`\eqref{eq10}````
+The reference to the above equation in LaTex such as Eq. ```` \ref{eq10}````
+ (or, ```` \eqref{eq10}````
 ) will be referring to the above as Eq. \@ref(eq:eq10) (or Eq. \@ref(eq:eq10)) as it is meant to be.
  
 Here is an eqnarray environment copied directly from the Latex source file of my paper, @Raut_2019. 
@@ -126,45 +123,35 @@ and for }j=h\text{ becomes}  \nonumber \\
 &=&-\sum_{j\neq h}\lambda _{hj}\left( t\right)   \nonumber
 \end{eqnarray}
 
-See section \@ref(sec7) for more equations.  You can have inline math in the LaTex document such as ```` `r ""`$\int_0^1 f(x) d\mu(x)$````
+See section \@ref(sec7) for more equations.  You can have inline math in the LaTex document such as ```` $\int_0^1 f(x) d\mu(x)$````
  will convert to $\int_0^1 f(x) d\mu(x)$. Make sure there are no spaces at the beginning and end of the inline math delimiter \$. 
 
 # Figures and Tables {#sec5}
 
 This is an example of converting a Latex figure with includegraphics in png format. It can be referred in the text using Figure \@ref(fig:fig1).
  
-```{r, echo=FALSE,out.width ="50%", fig.align='center', label='fig1', fig.cap='Extensive form representation of the multi-stage game, $\\Gamma(h_t)$'}
-knitr::include_graphics('tree1.png')
-```
+<div class="figure" style="text-align: center">
+<img src="tree1.png" alt="Extensive form representation of the multi-stage game, $\Gamma(h_t)$" width="50%" />
+<p class="caption">(\#fig:fig1)Extensive form representation of the multi-stage game, $\Gamma(h_t)$</p>
+</div>
 
 
 The software can also convert Tikz pictures as well.  Here is one taken from my @Raut_2017a paper.
 
-```{tikz, echo=FALSE, fig.align='center', fig.ext= 'png', label='fig2', fig.cap='Sets of individuals $(\\tau_t,s_{t-1})$ for whom $\\sigma(\\tau_t,s_{t-1})=s_t$ and $\\sigma(\\tau _t,s_{t-1})=s^{\\prime }_t$'}
-
-\begin{center}
-\begin{tikzpicture}[scale=0.5]
-\draw[thick,<->] (0,10) node[left]{$\tau_t$}--(0,0)--(10,0) node[below]{$s_{t-1}$};
-\node [below left] at (0,0) {$0$};
-\draw(0.5,10) ..controls (1,5) and (3.5,2) .. (10,0.5) node[right]{$\sigma(\tau_t, s_{t-1})=s_t$};
-\draw(1,10) ..controls (2,4.5) and (3,3.5) .. (10,1.2) node[right]{$\sigma(\tau_t, s_{t-1})=s'_t$};
-\node [below left] at (6,6) {$s'_t > s_t$};
-\end{tikzpicture}
-\end{center}
-
-
-
-```
+<div class="figure" style="text-align: center">
+<img src="Temp1-converted_files/figure-html/fig2-1.png" alt="Sets of individuals $(\tau_t,s_{t-1})$ for whom $\sigma(\tau_t,s_{t-1})=s_t$ and $\sigma(\tau _t,s_{t-1})=s^{\prime }_t$"  />
+<p class="caption">(\#fig:fig2)Sets of individuals $(\tau_t,s_{t-1})$ for whom $\sigma(\tau_t,s_{t-1})=s_t$ and $\sigma(\tau _t,s_{t-1})=s^{\prime }_t$</p>
+</div>
 
 
 The following table can be referenced like "Table \ref{table2}" or like "Table \@ref(tab:table2)". Both produce the same link as you can see.
 <!-- ============================================================================== -->
-```{r, echo=FALSE,warnings=FALSE, label='table2'}
-table1 <- knitr::kable(data.frame('your data frame'),
-	digits=3,
-	caption='Steady-state local learning and subgame perfect gift equilibria for the economy with $\\delta _{0}=0.35$')
-table1
-```
+
+Table: (\#tab:table2)Steady-state local learning and subgame perfect gift equilibria for the economy with $\delta _{0}=0.35$
+
+|X.your.data.frame. |
+|:------------------|
+|your data frame    |
 
 <!-- ================================================================= -->
 
@@ -198,8 +185,7 @@ Description items
 # Theorem like environments {#sec7}
 I illustrate the content of this section taking a section of my paper, @Raut_2017a. This involves definition, theorem and proof environments.  Similarly, it will convert other theorem and theorem like environments of your Latex document.
  
-```{definition, label = 'def1'}
-
+\BeginKnitrBlock{definition}<div class="definition"><span class="definition" id="def:def1"><strong>(\#def:def1) </strong></span>
  Initial distribution $\pi ^{0}$ of social groups in $\mathcal{S}$, is given. A **signaling equilibrium**\index{Signaling equilibrium} is a sequence of probability distributions $\left\{ q_{t}\left( e_{t}|s_{t}\right) \right\} _{1}^{\infty }$ and a sequence of optimal schooling decision rules $\left\{ \sigma _{t}\left( \tau _{t},s_{t-1}\right) \right\} _{1}^{\infty }$ such that at each period $t\geq 1,$
 
 
@@ -214,8 +200,7 @@ agent $\left( \tau _{t},s_{t-1}\right)$.
 $s_{t}=\sigma _{t}\left( \tau _{t},s_{t-1}\right)$ obtained by using Bayes
 rule coincides with the anticipated conditional distribution $q_{t}\left(
 e_{t}|s_{t}\right)$ for all $s_{t}$.
-
-```
+</div>\EndKnitrBlock{definition}
 
 
 
@@ -224,32 +209,25 @@ I assume the following:
 
 (ref:A1) A1
 
-```{block2,echo = TRUE, type='assumption'}
-**Assumption (ref:A1):** 
+\BeginKnitrBlock{assumption}<div class="assumption">**Assumption (ref:A1):** 
 $\theta _{t}(s_{t},\tau _{t},s_{t-1})$ $=\theta _{1}\left( s_{t}\right) \cdot \theta _{2}\left( \tau _{t}\right) \cdot \theta _{3}\left( s_{t-1}\right) ,$ $\theta _{1}\left( {}\right)$ is smooth, monotonically increasing and concave, $\theta _{2}\left( {}\right)$ and $\theta _{3}\left( .\right)$ are smooth, monotonically decreasing.
-
-```
+</div>\EndKnitrBlock{assumption}
 
 
 (ref:A2) A2
 
-```{block2,echo = TRUE, type='assumption'}
-**Assumption (ref:A2):** 
+\BeginKnitrBlock{assumption}<div class="assumption">**Assumption (ref:A2):** 
 The distributions $g\left( \tau \right)$ and $\pi _{0}\left( s_{0}\right)$ belong to a concave conjugate family.
+</div>\EndKnitrBlock{assumption}
 
-```
 
-
-```{theorem}
-
-Under Assumption (ref:A1) and Assumption (ref:A2), there exists a signaling equilibrium.
-```
+\BeginKnitrBlock{theorem}<div class="theorem"><span class="theorem" id="thm:unnamed-chunk-3"><strong>(\#thm:unnamed-chunk-3) </strong></span>
+Under Assumption (ref:A1) and Assumption (ref:A2), there exists a signaling equilibrium.</div>\EndKnitrBlock{theorem}
 
 
 
 <br>
-```{proof, type='Proof'}
-
+\BeginKnitrBlock{proof}<div class="proof">\iffalse{} <span class="proof"><em>Proof. </em></span>  \fi{}
 Suppose we have found a smooth concave wage schedule $w_{t}\left( s\right)$
 with a first derivative $w_{t}^{\prime }\left( {}\right)$. The first order
 condition of the optimization problem is given by 
@@ -262,8 +240,7 @@ condition of the optimization problem is given by
 The rest is given in @Raut_2017a.
 
 
-<div style="text-align:right;">$\blacksquare$</div>
-```
+<div style="text-align:right;">$\blacksquare$</div></div>\EndKnitrBlock{proof}
 
 
 # Remarks {#sec8}
@@ -273,33 +250,29 @@ Remarks are numbered and and can have labels which can used to refer to them in 
 
 (ref:R1) R1
 
-```{block2,echo = TRUE, type='rmark'}
-**Remark (ref:R1):** 
+\BeginKnitrBlock{rmark}<div class="rmark">**Remark (ref:R1):** 
 The processing of Rmarkdown file is best done in Rstudio. It can also be done in R. You need to have the following R packages in R or Rstudio, issuing command: install.packages(c("knitr","rmarkdown","bookdown","reticulate","pdftools","magick")). Package reticulate is needed if you want to incorporate python codes in Rmarkdown document. Apart from R, you need to have a Latex document processing system such as Miktex for windows and Tex Live for Linux.  You also need pandoc which is automatically installed with RStudio installation, otherwise you need this package. You also need to pandoc's pandoc-crossref package that can work with your pandoc package.  
-
-```
+</div>\EndKnitrBlock{rmark}
 
 
 
 (ref:re10) R2
 
-```{block2,echo = TRUE, type='rmark'}
-**Remark (ref:re10):** 
+\BeginKnitrBlock{rmark}<div class="rmark">**Remark (ref:re10):** 
 This remark can be referred in the text. In the latex document using its convention. 
 To see how it is to be done in Rmarkdown, see the converted Rmarkdown document and the text below it.
-
-```
+</div>\EndKnitrBlock{rmark}
 
 
 The LaTex code for the above remark is
-```` `r ""`
+```` 
 \begin{remark}
 \label{re10}This remark can be referred in the text. In the latex document using its convention. To see how it is to be done in Rmarkdown, see the converted Rmarkdown document and the text below it.
 \end{remark}
 ````
 
-Let me point out that the reference to a remark with a label for instance in the above LaTex code will be converted. For instance LaTex code Remark ```` `r ""`\ref{re10}````
- (or ```` `r ""`\autoref{re10}````
+Let me point out that the reference to a remark with a label for instance in the above LaTex code will be converted. For instance LaTex code Remark ```` \ref{re10}````
+ (or ```` \autoref{re10}````
 ) will refer to Remark (ref:re10) (or Remark (ref:re10)) in the converted document.
 
  

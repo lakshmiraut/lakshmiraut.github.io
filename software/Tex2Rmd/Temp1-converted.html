@@ -11,7 +11,7 @@
 
 <meta name="author" content="Lakshmi K. Raut" />
 
-<meta name="date" content="2020-12-06" />
+<meta name="date" content="2020-12-13" />
 
 <title>Tex2Rmd: A package to covert Latex document to R markdown and in turn to html and Microsoft word format</title>
 
@@ -414,7 +414,7 @@ summary {
 
 <h1 class="title toc-ignore">Tex2Rmd: A package to covert Latex document to R markdown and in turn to html and Microsoft word format</h1>
 <h4 class="author">Lakshmi K. Raut<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></h4>
-<h4 class="date">2020-12-06</h4>
+<h4 class="date">2020-12-13</h4>
 
 </div>
 
@@ -440,8 +440,9 @@ summary {
 </div>
 <div id="sec1" class="section level1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
-<p>This article uses bits and pieces of Latex contents from my own papers to illustrate features of this package. It is important to <em>emphasize</em> in <strong>bold text that NOT ALL</strong> features involving complex formatting codes in the Latex can be converted. It will convert only those that it is able to convert and the rest will be left alone. It incorporates basic minimum features generally used in a Ph.D. thesis, scientific article or a book. See this footnote<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> for limitations on converting Latex table environment.</p>
-<p>Section <a href="#sec2">2</a> describes how to get the software and use it. It runs under 32bit or 64bit windows 7, 8, 10 and 64bit Linux operating system. I programmed it in C++ and Java. In future, I will develop an R package that can combine knitr step to produce directly html file. The steps are simplified to minimum of just downloading an exec file meant for your operating system and running it on your Latex file. The rest of the article describes various features of Latex document, it can convert.</p>
+<p>I love reading research articles and books typeset with LaTex and rendered in pdf format. I also love reading articles in html format which has its own charms. Quite a few times, the work place, or some publishers require documents to be prepared in the Microsoft Word format. It has been always a struggle to find an open source software to convert LaTex document with maths, figures and equations to Microsoft word and html formats in a straightforward way. Part of my work involves statistical and econometric analysis using various statistical software on Big Data using SAS, R and more recently Python. Many times, I struggled to recollect which paper involved what codes using which software. Moreover, when I modify the dataset, I end up manually change all the tables, figures and reference to the estimates in the text body. Simply gruesome. I then came across the R markdown document processing system which can create a document embedding R and other software codes directly in the R markdown document and then apply knitr (which in the backend uses Tex processing system, pandoc, and other R packages) to convert the R markdown document to html, word and pdf (or LaTex) documents, see <span class="citation">(Allaire et al. <a href="#ref-Allaire.etal_2020" role="doc-biblioref">2020</a>; Xie, Dervieux, and Riederer <a href="#ref-Xie.Riederer_2020" role="doc-biblioref">2020</a>)</span> on R markdown and <span class="citation">Xie (<a href="#ref-Xie_2015" role="doc-biblioref">2015</a>)</span> on knitr. It can also produce other formats. This is part of what is known as Reproducible Research which many journals and publishers insist one to provide.</p>
+<p>This article uses bits and pieces of Latex contents from my own papers to illustrate features of this package. It is important to <em>emphasize</em> in <strong>bold text</strong> that NOT ALL features involving complex formatting codes in the Latex can be converted. It will convert only those that it is able to convert and the rest will be left alone. It incorporates basic minimum features generally used in a Ph.D. thesis, scientific article or a book. See this footnote<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> for limitations on converting Latex table environment.</p>
+<p>Section <a href="#sec2">2</a> describes how to get the software and use it. It runs under any 32bit or 64bit windows 7, 8, 10 operating system and 64bit Linux operating system. I programmed it in C++ and Java. In future, I will develop an R package that can combine knitr step to produce directly html file. The steps are simplified to minimum of just downloading an exec file meant for your operating system and running it on your Latex file. The rest of the article describes various features of Latex document, it can convert.</p>
 <p>Section <a href="#sec3">3</a> discusses how it converts references. Section <a href="#sec4">4</a> shows what kind of equations both displayed and inline are converted. Pretty much it converts all math formats. Section <a href="#sec5">5</a> shows conversions of figures and tables. Section <a href="#sec6">6</a> describes the list like environments such as itemize, enumerate and description. These environments may be present inside other environments such as in propositions, theorems, lemmas, conjectures, proofs, remarks etc, as shown in Section <a href="#sec7">7</a>. Conversions of list environments are not perfect, you may need some tweaking in the converted Rmarkdown document. Section <a href="#sec7">7</a> shows theorem like Latex environments such as Theorem, Lemma, Proposition each with its own auto numbering, and proof like environments without numbering. Section <a href="#sec8">8</a> discusses a few important facts and how to remark.</p>
 </div>
 <div id="sec2" class="section level1">
@@ -450,20 +451,37 @@ summary {
 <p>Easiest way to start is to run the exec file by typing tex2rmd. It will show it’s usage as below:</p>
 <p>usage: tex2rmd inputTexFileName.tex -b bibFile.bib -o outputRmdFileName.Rmd</p>
 <p>where inputTexFileName.tex is the name of the source tex file. The rest are optional. If you did not provide the rest, it will not use any bibliography file (which you can add later) and also it will save the Rmd file in the source text directory with the same file name appending “-converted” and with file extension Rmd.</p>
-<p>-b bibFile.bib means user provides a bibliography file, which in this example is named bibFile. It can use only bibliography files in bibTex format. This you specify if you have references in your document.</p>
-<p>-o outputRmdFileName.Rmd means user provides a name the the R markdown file. If it is not provided, then the program will create a file in the same directory with the same source filename with -converted appended with extension Rmd in the same directory as the source file.</p>
-<p>Next step:You can edit and add R markdown chunks and then use knitr to convert the Rmd file to html or word document.</p>
-<p>As an example, I used Example1.tex and bibFile1.bib, and ran</p>
-<p>tex2rmd Example1.tex -b bibFile1.bib</p>
-<p>creates Example1-converted.Rmd. You can download those files to a directory of your choice and ran the above command. If you want to convert this Rmd file to other formats, you also need to download any other files it refers to, in this case tree1.png file. I then use knitr on the file Example1-converted.Rmd to create html file Example1-converted.html. You can also create word document using the appropriate yml commands on the top of the Rmd file.</p>
+<p>-b bibFile.bib means user provides a bibliography file, which in this example is named bibFile.bib. It can use only bibliography files in bibTex format. This you may specify if you have citations in your document.</p>
+<p>-o outputRmdFileName.Rmd means user provides a name for the the R markdown output file, including path. If no path is specified, it will save in the current directory. If “-o outputRmdFileName.Rmd” not provided, the program will create a file in the same directory with the same source filename with -converted appended and extension Rmd is added in the same directory as the source file.</p>
+<p>Next step: You can edit and add R markdown chunks and then use knitr to convert the Rmd file to html or word document.</p>
+<p>As an example, I used Temp1.tex and bibFile1.bib, and ran</p>
+<p>tex2rmd Temp1.tex -b bibFile1.bib</p>
+<p>The program creates Temp1-converted.Rmd. You can download those files to a directory of your choice and run the above command. If you want to convert this Rmd file to other formats like html and docx using knitr, you also need to download any other files it refers to, in this case tree1.png file. I then use knitr on the file Temp1-converted.Rmd to create html file Temp1-converted.html. You can also create word document using appropriate yml commands on the top of the Rmd file. For details on what can be done with R markdown documents, see <span class="citation">(Allaire et al. <a href="#ref-Allaire.etal_2020" role="doc-biblioref">2020</a>; Xie, Dervieux, and Riederer <a href="#ref-Xie.Riederer_2020" role="doc-biblioref">2020</a>)</span>.</p>
 </div>
 <div id="sec3" class="section level1">
 <h1><span class="header-section-number">3</span> Referencing</h1>
-<p>The program converts pretty much all formats of citation. For instance, the text with citations as given below converts perfectly.</p>
+<p>The program converts pretty much all formats of citation. For instance, Consider the following LaTex text with citations.</p>
+<pre><code>The main findings in \citep{Aalen.etal_2008_Book,Kanherkar.etal_2014} are that .... 
+For the effects of early childhood factors on school and labor market outcomes, 
+see \cite{Heckman.Raut_2016}, and also see \cite{Raut_2018} with an updated references. 
+In machine learning, \cite{Altae-Tran_2016,Altae-Tran.etal_2017} show 
+how an RNN can be used with limited data.</code></pre>
+<p>The above converts perfectly as follows.</p>
 <p>The main findings in <span class="citation">(Aalen, Borgan, and Gjessing <a href="#ref-Aalen.etal_2008_Book" role="doc-biblioref">2008</a>; Kanherkar, Bhatia-Dey, and Csoka <a href="#ref-Kanherkar.etal_2014" role="doc-biblioref">2014</a>)</span> are that …. For the effects of early childhood factors on school and labor market outcomes, see <span class="citation">Heckman and Raut (<a href="#ref-Heckman.Raut_2016" role="doc-biblioref">2016</a>)</span>, and also see <span class="citation">Raut (<a href="#ref-Raut_2018" role="doc-biblioref">2018</a>)</span> with an updated references. In machine learning, <span class="citation">(Altae-Tran <a href="#ref-Altae-Tran_2016" role="doc-biblioref">2016</a>; Altae-Tran et al. <a href="#ref-Altae-Tran.etal_2017" role="doc-biblioref">2017</a>)</span> show how an RNN can be used with limited data.</p>
 </div>
 <div id="sec4" class="section level1">
 <h1><span class="header-section-number">4</span> Equations</h1>
+<p>The display equations in LaTex with numbers for both equation environment and eqnarray environments are properly converted. For instance,</p>
+<pre><code>\begin{equation}
+\int_0^1 f(x) dx = 1 \label{eq10}
+\end{equation}</code></pre>
+<p>will produce
+<span class="math display" id="eq:eq10">\[\begin{equation}
+\int_0^1 f(x) dx = 1 \tag{4.1}
+\end{equation}\]</span>
+The reference to the above equation in LaTex such as Eq. <code>\ref{eq10}</code>
+(or, <code>\eqref{eq10}</code>
+) will be referring to the above as Eq. <a href="#eq:eq10">(4.1)</a> (or Eq. <a href="#eq:eq10">(4.1)</a>) as it is meant to be.</p>
 <p>Here is an eqnarray environment copied directly from the Latex source file of my paper, <span class="citation">Raut (<a href="#ref-Raut_2019" role="doc-biblioref">2019</a>)</span>.</p>
 <p><span class="math display" id="eq:eq3">\[\begin{eqnarray}
 \lambda _{hj}(t) &amp;=&amp;\lim_{\Delta t\rightarrow 0}\frac{P_{hj}(t,t+\Delta
@@ -472,12 +490,13 @@ j\neq h\text{ becomes}  \nonumber \\
 &amp;=&amp;\lim_{\Delta t\rightarrow 0}\frac{P_{hj}(t,t+\Delta t)}{\Delta t},\text{
 and for }j=h\text{ becomes}  \nonumber \\
 \lambda _{hh}(t) &amp;=&amp;\lim_{\Delta t\rightarrow 0}\frac{P_{hh}(t,t+\Delta t)-1
-}{\Delta t}  \tag{4.1} \\
+}{\Delta t}  \tag{4.2} \\
 &amp;=&amp;-\lim_{\Delta t\rightarrow 0}\frac{\sum_{j\neq h}P_{hj}(t,t+\Delta t)}{
 \Delta t}  \nonumber \\
 &amp;=&amp;-\sum_{j\neq h}\lambda _{hj}\left( t\right)   \nonumber
 \end{eqnarray}\]</span></p>
-<p>See section <a href="#sec7">7</a> for more equations. You can have inline math such as <span class="math inline">\(\int f(x) d\mu(x)\)</span>. Make sure there are trailing spaces of the text of this inline math equation, that sometimes do not convert properly.</p>
+<p>See section <a href="#sec7">7</a> for more equations. You can have inline math in the LaTex document such as <code>$\int_0^1 f(x) d\mu(x)$</code>
+will convert to <span class="math inline">\(\int_0^1 f(x) d\mu(x)\)</span>. Make sure there are no spaces at the beginning and end of the inline math delimiter $.</p>
 </div>
 <div id="sec5" class="section level1">
 <h1><span class="header-section-number">5</span> Figures and Tables</h1>
@@ -527,7 +546,7 @@ Figure 5.2: Sets of individuals <span class="math inline">\((\tau_t,s_{t-1})\)</
 <li><p>Can convert assumption and remark environments: Assumption is user created environment, and remarks either as Latex environment or user created latex environment.</p></li>
 <li><p>Figures: Can convert includegraphics with png files and embedded Tikz figure environment.</p></li>
 <li><p>Tables: It converts tables as a Rmarkdown table chunk keeping only the label and caption of the Latex tables. The references to the table is also converted throughout the document. The content of a Latex table may involve complex structure and often created using excel or R and better left for various R packages to create those Rmarkdown table contents in the converted Rmarkdown document.</p></li>
-<li><p>It converts other Latex envirnments: quote, and other Latex commands as \section, \subsection, \subsubsection, \emph, \texbf \url \footnote. This document contains all these, so you can compare the source file and converted file to see those. For other examples, go to my publications page <a href="https://lakshmiraut.github.io/publication/">https://lakshmiraut.github.io/publication/</a>, click on the preprint button, or to my main page, <a href="https://lakshmiraut.github.io">https://lakshmiraut.github.io</a>.</p></li>
+<li><p>It converts other Latex envirnments: quote, verbatim. I have incorporated Latex commands: \section, \subsection, \subsubsection, \emph, \texbf \url \footnote \verb. This document contains all these, so you can compare the source file and converted file to see those. For other examples, go to my publications page <a href="https://lakshmiraut.github.io/publication/">https://lakshmiraut.github.io/publication/</a>, click on the preprint button, or to my main page, <a href="https://lakshmiraut.github.io">https://lakshmiraut.github.io</a>.</p></li>
 </ul>
 </div>
 <div id="sec7" class="section level1">
@@ -577,7 +596,7 @@ with a first derivative <span class="math inline">\(w_{t}^{\prime }\left( {}\rig
 condition of the optimization problem is given by</p>
 <p><span class="math display" id="eq:eq10">\[\begin{equation}
  \frac{w_{t}^{\prime }\left( s_{t}\right) }{\theta _{1}^{\prime }\left( s_{t}\right) }=
- \theta _{2}\left( \tau _{t}\right) \theta _{3}\left( s_{t-1}\right) \tag{7.1}
+ \theta _{2}\left( \tau _{t}\right) \theta _{3}\left( s_{t-1}\right) \tag{4.1}
 \end{equation}\]</span></p>
 <p>The rest is given in <span class="citation">Raut (<a href="#ref-Raut_2017a" role="doc-biblioref">2017</a>)</span>.</p>
 <div style="text-align:right;">
@@ -600,16 +619,26 @@ The processing of Rmarkdown file is best done in Rstudio. It can also be done in
 
 <div class="rmark">
 <p><strong>Remark R2:</strong>
-This remark can be referred in the text. In the latex document using its convention. To see how it is to be done in Rmarkdown, see the converted Rmarkdown document and the text below it.</p>
+This remark can be referred in the text. In the latex document using its convention.
+To see how it is to be done in Rmarkdown, see the converted Rmarkdown document and the text below it.</p>
 </div>
 
-<p>Let me point out that a remark with a label, can be referred, e.g. Remark R2 will point to the above remark.</p>
+<p>The LaTex code for the above remark is</p>
+<pre><code>\begin{remark}
+\label{re10}This remark can be referred in the text. In the latex document using its convention. To see how it is to be done in Rmarkdown, see the converted Rmarkdown document and the text below it.
+\end{remark}</code></pre>
+<p>Let me point out that the reference to a remark with a label for instance in the above LaTex code will be converted. For instance LaTex code Remark <code>\ref{re10}</code>
+(or <code>\autoref{re10}</code>
+) will refer to Remark R2 (or Remark R2) in the converted document.</p>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1>References</h1>
 <div id="refs">
 <div id="ref-Aalen.etal_2008_Book">
 <p>Aalen, Odd O., Ørnulf Borgan, and Håkon K. Gjessing. 2008. <em>Survival and Event History Analysis</em>. Survival Analysis, Stochastic Process. Springer New York. <a href="https://doi.org/10.1007/978-0-387-68560-1">https://doi.org/10.1007/978-0-387-68560-1</a>.</p>
+</div>
+<div id="ref-Allaire.etal_2020">
+<p>Allaire, J. J., Yihui Xie, Jonathan McPherson, Javier Luraschi, Kevin Ushey, Aron Atkins, Hadley Wickham, Joe Cheng, Winston Chang, and and Richard Iannone. 2020. “Rmarkdown: Dynamic Documents for R.” <em>Github</em>. <a href="https://github.com/rstudio/rmarkdown">https://github.com/rstudio/rmarkdown</a>.</p>
 </div>
 <div id="ref-Altae-Tran_2016">
 <p>Altae-Tran, Han. 2016. “RNNs for Model Predictive Control in Unknown Dynamical Systems with Low Sampling Rates.” <em>Working Paper, Stanford University</em>.</p>
@@ -631,6 +660,12 @@ This remark can be referred in the text. In the latex document using its convent
 </div>
 <div id="ref-Raut_2018">
 <p>———. 2018. “Long-Term Effects of Preschool on School Performance, Earnings and Social Mobility.” <em>Studies in Microeconomics</em> 6 (1-2): 24–49. <a href="https://doi.org/10.1177/2321022218802023">https://doi.org/10.1177/2321022218802023</a>.</p>
+</div>
+<div id="ref-Xie_2015">
+<p>Xie, Yihui. 2015. <em>Dynamic Documents with R and Knitr</em>. Cran R, Rmarkdown. 2nd ed. Chapman &amp; Hall/Crc the R Series. Chapman; Hall/CRC. <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a>.</p>
+</div>
+<div id="ref-Xie.Riederer_2020">
+<p>Xie, Yihui, Christophe Dervieux, and Emily Riederer. 2020. <em>R Markdown Cookbook</em>. Cran R, Rmarkdown. Chapman &amp; Hall/CRC. <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">https://bookdown.org/yihui/rmarkdown-cookbook/</a>.</p>
 </div>
 </div>
 </div>

@@ -1,8 +1,6 @@
 
 h1.title {
     font-size: 38px;
-	/* color:#ac371e; */
-	/* background-color:rgba(0,0,255,0.3); */
 	background-color:#348419;
 	 padding: 35px;
 	 margin-bottom: 0em;
@@ -10,8 +8,6 @@ h1.title {
 	 background-image: linear-gradient(to right,  Olive , teal);
 }
 h4.author{
-	/* background-color:rgba(0,0,255,0.3); */
-	/* color: #FFC00;  */
 	color: #d9dd06;
 	background-color:#348419;
 	 padding: 15px;
@@ -21,7 +17,6 @@ h4.author{
 	  background-image: linear-gradient(to right,  Olive , teal);
 }
 h4.date{
-	/* background-color:rgba(0,0,255,0.3); */
 	margin: 0
 	color: #FFC300; 
 	background-color:#348419;
@@ -31,7 +26,6 @@ h4.date{
 	  background-image: linear-gradient(to right,  Olive , teal);
 }
 h1 {
-   /* color: #900C3F;  */
    color: #FFC300; 
    background-color: #2a86e8;
     padding: 15px;
@@ -55,7 +49,6 @@ h3 {
 
 div #TOC{
 	line-height: 1.2em;
-	/* color: #259fb0;  */
 	color: #641e16;
 	background-color: #cfd895;
 	font-size: 14px;
@@ -63,14 +56,12 @@ div #TOC{
 
 div #abstract{
 	line-height: 1.2;
-	/* color: #259fb0; */
 	font-size: 14px;
 	background-color: #f3edfa;
 }
 
 div #acknowledgement-and-disclaimer{
 	line-height: 1.2;
-	/* color: #259fb0; */
 	font-size: 14px;
 	background-color: #e5fafb;
 }
@@ -95,13 +86,9 @@ pre code {
 body {
     padding: 0;
      margin: 0.1in;
-    /* font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif; */
 	font-family: "Times New Roman", Times, serif;
       font-size: 20px;  
-    /* line-height: 1.5; */
-    /* color: #606c71; */
 	color: black;
 	text-align: justify;
 	font-weight: 500; 
-	 /* text-indent: 24px; */
 }
