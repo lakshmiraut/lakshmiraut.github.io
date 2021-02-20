@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="Health outcomes such as serious diseases and death develop sequentially over one’s life span. Genetic and epigenetic factors, and health related behaviors throughout one’s life condition those health outcomes. Some individuals develop one or more diseases and their health deteriorate faster, worsening their quality of lives and survival probabilities. The models in health economics literature formulate progression of health outcomes over the life span using the multi-state time to event framework, and estimate the effects of the above mitigating factors on probabilities of transitions from one health state to another. The sequential nature of health progression is captured in the Markovian structure. Markov chain models have short memory, i.e., these models assume that given the current health outcome, the past does not influence the probability of transition to another health outcome. Many chronic diseases such as cancers and heart diseases manifest as a result of long lagged past health behaviors. Markov chain models are limited in capturing these effects. More recently, long short term memory (LSTM) recurrent neural network (RNN) models are developed in the machine (deep) learning literature that keep track of important features from the past inputs in its memory cells, which the model determine important in the ‘context’ of the future outcomes. These models are generally applied to natural language processing, creating audio streams, and video subtitling. In this paper, I adapt the existing LSTM-RNN models for the prediction of sequential health outcomes in mid-ages. I first compare the merits and shortcomings of these two approaches and then use the Health and Retirement Study (HRS) data to compare their performances in predicting sequential health outcomes.">
+  <meta name="description" content="Identification of factors and prediction of the risks of diseases are important for public policies and disease diagnosis in health care. The biomedical literature suggests that much of an individual’s later life health outcomes is programmed at early stages of life. The programming is strongly modulated by the epigentic inputs created by the environment in mother’s womb at prenatal stage and also by the environment at early postnatal ages. The most important epigenetic factor is stress of any kind – psychological, financial, social and chemical. Other significant factors are diet, smoking, substance use, and exercising. These modulating factors are important throughout life, with stronger effects imparted in early stages of life. I use the most popular statistical model – mulinomial logit model – and the neural network model – multi-layer deep learning model – for identification of important determining factors and prediction of the risks of various diseases that individuals experience in their middle ages. I use the Health and Retirement Studies (HRS) data to that end. I compare their predictive powers using confusion matrix indicator and discuss various criteria used by these two methods to identify the important factors of the risks. I discuss pros and cons of these two types from prediction and inference viewpoint.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/">
+  <link rel="alternate" hreflang="en-us" href="/talk/2021-02-20-parikh-fesch-mnl-neuralnet/">
 
   
 
@@ -256,7 +256,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/">
+  <link rel="canonical" href="/talk/2021-02-20-parikh-fesch-mnl-neuralnet/">
 
   
   
@@ -275,15 +275,15 @@
   <meta property="twitter:creator" content="@lakshmiraut">
   
   <meta property="og:site_name" content="Lakshmi K. Raut">
-  <meta property="og:url" content="/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/">
-  <meta property="og:title" content="Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models | Lakshmi K. Raut">
-  <meta property="og:description" content="Health outcomes such as serious diseases and death develop sequentially over one’s life span. Genetic and epigenetic factors, and health related behaviors throughout one’s life condition those health outcomes. Some individuals develop one or more diseases and their health deteriorate faster, worsening their quality of lives and survival probabilities. The models in health economics literature formulate progression of health outcomes over the life span using the multi-state time to event framework, and estimate the effects of the above mitigating factors on probabilities of transitions from one health state to another. The sequential nature of health progression is captured in the Markovian structure. Markov chain models have short memory, i.e., these models assume that given the current health outcome, the past does not influence the probability of transition to another health outcome. Many chronic diseases such as cancers and heart diseases manifest as a result of long lagged past health behaviors. Markov chain models are limited in capturing these effects. More recently, long short term memory (LSTM) recurrent neural network (RNN) models are developed in the machine (deep) learning literature that keep track of important features from the past inputs in its memory cells, which the model determine important in the ‘context’ of the future outcomes. These models are generally applied to natural language processing, creating audio streams, and video subtitling. In this paper, I adapt the existing LSTM-RNN models for the prediction of sequential health outcomes in mid-ages. I first compare the merits and shortcomings of these two approaches and then use the Health and Retirement Study (HRS) data to compare their performances in predicting sequential health outcomes."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/talk/2021-02-20-parikh-fesch-mnl-neuralnet/">
+  <meta property="og:title" content="Determinants and Predictions of Risks of Diseases in Middle Ages — Statistical Models versus Neural Network Machine Learning Models | Lakshmi K. Raut">
+  <meta property="og:description" content="Identification of factors and prediction of the risks of diseases are important for public policies and disease diagnosis in health care. The biomedical literature suggests that much of an individual’s later life health outcomes is programmed at early stages of life. The programming is strongly modulated by the epigentic inputs created by the environment in mother’s womb at prenatal stage and also by the environment at early postnatal ages. The most important epigenetic factor is stress of any kind – psychological, financial, social and chemical. Other significant factors are diet, smoking, substance use, and exercising. These modulating factors are important throughout life, with stronger effects imparted in early stages of life. I use the most popular statistical model – mulinomial logit model – and the neural network model – multi-layer deep learning model – for identification of important determining factors and prediction of the risks of various diseases that individuals experience in their middle ages. I use the Health and Retirement Studies (HRS) data to that end. I compare their predictive powers using confusion matrix indicator and discuss various criteria used by these two methods to identify the important factors of the risks. I discuss pros and cons of these two types from prediction and inference viewpoint."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-01-04T12:30:00&#43;00:00">
+      <meta property="article:published_time" content="2021-02-19T07:30:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-01-04T12:30:00&#43;00:00">
+    <meta property="article:modified_time" content="2021-02-19T07:30:00&#43;00:00">
   
 
   
@@ -302,17 +302,12 @@
   "@type": "Event",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/"
+    "@id": "/talk/2021-02-20-parikh-fesch-mnl-neuralnet/"
   },
-  "name": "Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models",
-  
-  "location": {
-    "@type": "Place",
-    "name": "Manchester Grand Hyatt, Mission Beach B, San Diego"
-  },
+  "name": "Determinants and Predictions of Risks of Diseases in Middle Ages — Statistical Models versus Neural Network Machine Learning Models",
   
   
-  "startDate": "2020-01-04T12:30:00Z",
+  "startDate": "2021-02-19T07:30:00Z",
   
   
   "performer": {
@@ -320,7 +315,7 @@
     "name": "Lakshmi K. Raut"
   },
   
-  "description": "Health outcomes such as serious diseases and death develop sequentially over one’s life span. Genetic and epigenetic factors, and health related behaviors throughout one’s life condition those health outcomes. Some individuals develop one or more diseases and their health deteriorate faster, worsening their quality of lives and survival probabilities. The models in health economics literature formulate progression of health outcomes over the life span using the multi-state time to event framework, and estimate the effects of the above mitigating factors on probabilities of transitions from one health state to another. The sequential nature of health progression is captured in the Markovian structure. Markov chain models have short memory, i.e., these models assume that given the current health outcome, the past does not influence the probability of transition to another health outcome. Many chronic diseases such as cancers and heart diseases manifest as a result of long lagged past health behaviors. Markov chain models are limited in capturing these effects. More recently, long short term memory (LSTM) recurrent neural network (RNN) models are developed in the machine (deep) learning literature that keep track of important features from the past inputs in its memory cells, which the model determine important in the ‘context’ of the future outcomes. These models are generally applied to natural language processing, creating audio streams, and video subtitling. In this paper, I adapt the existing LSTM-RNN models for the prediction of sequential health outcomes in mid-ages. I first compare the merits and shortcomings of these two approaches and then use the Health and Retirement Study (HRS) data to compare their performances in predicting sequential health outcomes."
+  "description": "Identification of factors and prediction of the risks of diseases are important for public policies and disease diagnosis in health care. The biomedical literature suggests that much of an individual’s later life health outcomes is programmed at early stages of life. The programming is strongly modulated by the epigentic inputs created by the environment in mother’s womb at prenatal stage and also by the environment at early postnatal ages. The most important epigenetic factor is stress of any kind – psychological, financial, social and chemical. Other significant factors are diet, smoking, substance use, and exercising. These modulating factors are important throughout life, with stronger effects imparted in early stages of life. I use the most popular statistical model – mulinomial logit model – and the neural network model – multi-layer deep learning model – for identification of important determining factors and prediction of the risks of various diseases that individuals experience in their middle ages. I use the Health and Retirement Studies (HRS) data to that end. I compare their predictive powers using confusion matrix indicator and discuss various criteria used by these two methods to identify the important factors of the risks. I discuss pros and cons of these two types from prediction and inference viewpoint."
 }
 </script>
 
@@ -336,7 +331,7 @@
 
 
 
-  <title>Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models | Lakshmi K. Raut</title>
+  <title>Determinants and Predictions of Risks of Diseases in Middle Ages — Statistical Models versus Neural Network Machine Learning Models | Lakshmi K. Raut</title>
 
 </head>
 
@@ -827,7 +822,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</h1>
+  <h1>Determinants and Predictions of Risks of Diseases in Middle Ages — Statistical Models versus Neural Network Machine Learning Models</h1>
 
   
 
@@ -850,7 +845,7 @@
   
   
   <span class="middot-divider"></span>
-  <a href="/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/#disqus_thread"></a>
+  <a href="/talk/2021-02-20-parikh-fesch-mnl-neuralnet/#disqus_thread"></a>
   
 
   
@@ -889,7 +884,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.aeaweb.org/conference/2020/preliminary/paper/KKRTYQrK" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/talk/2021-02-20-Parikh-Fesch-MNL-Neuralnet/Lakshmi_Raut_Presentation-ppt-Final.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -907,7 +902,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/Lakshmi%20Raut-presentation%20slides%20for%202020%20ASSA%20Meeting.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/talk/2021-02-20-parikh-fesch-mnl-neuralnet/Lakshmi_Raut_Presentation-ppt-Final.html" target="_blank" rel="noopener">
   Slides
 </a>
 
@@ -953,7 +948,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Jan 4, 2020 12:30 PM
+            Feb 19, 2021 7:30 AM
           </div>
         </div>
       </div>
@@ -968,9 +963,9 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Event</div>
           <div class="col-12 col-md-9">
-            <a href="https://www.aeaweb.org/conference/2020/preliminary/2172?q=eNo1jEEKhDAQBP_SZxcUdi--wZN4l0EHHDAmZOKKSP7uBPFW1VB9QVlV_DacgdFer6JFg1xcgVT9ZIIKiaMz6mlPZsoUp6UTXCdJS2fr4uO4kqa3neks-PmWWBw_N3_howQxBBt-NXK-AWJcMCmp" target="_blank" rel="noopener">
-            American Economic Association Meetings, San Diego, 2020
-            </a>
+            
+            Kirith Parikh Festshchrift Conference, New Delhi, February 20, 2021
+            
           </div>
         </div>
       </div>
@@ -979,19 +974,6 @@
     <div class="d-md-none space-below"></div>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Manchester Grand Hyatt, Mission Beach B, San Diego</div>
-          
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     <div class="space-below"></div>
@@ -1018,7 +1000,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/&amp;text=Health%20Outcomes%20in%20Mid-Ages:%20Multistate%20Time%20to%20Event%20Statistical%20Models%20Versus%20Long%20Short%20Term%20Memory%20%28LSTM%29%20Recurrent%20Neural%20Network%20%28RNN%29%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/talk/2021-02-20-parikh-fesch-mnl-neuralnet/&amp;text=Determinants%20and%20Predictions%20of%20Risks%20of%20Diseases%20in%20Middle%20Ages%20%e2%80%94%20Statistical%20Models%20versus%20Neural%20Network%20Machine%20Learning%20Models" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1031,7 +1013,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/&amp;t=Health%20Outcomes%20in%20Mid-Ages:%20Multistate%20Time%20to%20Event%20Statistical%20Models%20Versus%20Long%20Short%20Term%20Memory%20%28LSTM%29%20Recurrent%20Neural%20Network%20%28RNN%29%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/talk/2021-02-20-parikh-fesch-mnl-neuralnet/&amp;t=Determinants%20and%20Predictions%20of%20Risks%20of%20Diseases%20in%20Middle%20Ages%20%e2%80%94%20Statistical%20Models%20versus%20Neural%20Network%20Machine%20Learning%20Models" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1044,7 +1026,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Health%20Outcomes%20in%20Mid-Ages:%20Multistate%20Time%20to%20Event%20Statistical%20Models%20Versus%20Long%20Short%20Term%20Memory%20%28LSTM%29%20Recurrent%20Neural%20Network%20%28RNN%29%20Models&amp;body=/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Determinants%20and%20Predictions%20of%20Risks%20of%20Diseases%20in%20Middle%20Ages%20%e2%80%94%20Statistical%20Models%20versus%20Neural%20Network%20Machine%20Learning%20Models&amp;body=/talk/2021-02-20-parikh-fesch-mnl-neuralnet/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1057,7 +1039,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/&amp;title=Health%20Outcomes%20in%20Mid-Ages:%20Multistate%20Time%20to%20Event%20Statistical%20Models%20Versus%20Long%20Short%20Term%20Memory%20%28LSTM%29%20Recurrent%20Neural%20Network%20%28RNN%29%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/talk/2021-02-20-parikh-fesch-mnl-neuralnet/&amp;title=Determinants%20and%20Predictions%20of%20Risks%20of%20Diseases%20in%20Middle%20Ages%20%e2%80%94%20Statistical%20Models%20versus%20Neural%20Network%20Machine%20Learning%20Models" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1070,7 +1052,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Health%20Outcomes%20in%20Mid-Ages:%20Multistate%20Time%20to%20Event%20Statistical%20Models%20Versus%20Long%20Short%20Term%20Memory%20%28LSTM%29%20Recurrent%20Neural%20Network%20%28RNN%29%20Models%20/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Determinants%20and%20Predictions%20of%20Risks%20of%20Diseases%20in%20Middle%20Ages%20%e2%80%94%20Statistical%20Models%20versus%20Neural%20Network%20Machine%20Learning%20Models%20/talk/2021-02-20-parikh-fesch-mnl-neuralnet/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1083,7 +1065,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/&amp;title=Health%20Outcomes%20in%20Mid-Ages:%20Multistate%20Time%20to%20Event%20Statistical%20Models%20Versus%20Long%20Short%20Term%20Memory%20%28LSTM%29%20Recurrent%20Neural%20Network%20%28RNN%29%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/talk/2021-02-20-parikh-fesch-mnl-neuralnet/&amp;title=Determinants%20and%20Predictions%20of%20Risks%20of%20Diseases%20in%20Middle%20Ages%20%e2%80%94%20Statistical%20Models%20versus%20Neural%20Network%20Machine%20Learning%20Models" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1276,7 +1258,7 @@
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/talk/2019-04-05-sge-annual-conference/" rel="prev">Pathways to disability and mortality in mid-ages: Estimates from the Health and Retirement Study Data</a>
+    <a href="/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/" rel="prev">Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</a>
   </div>
   
 </div>
@@ -1317,6 +1299,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/yaml.min.js"></script>
         
       
 

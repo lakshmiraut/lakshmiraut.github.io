@@ -5,12 +5,20 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent  Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jan 2020 12:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Feb 2021 07:30:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Recent  Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Determinants and Predictions of Risks of Diseases in Middle Ages — Statistical Models versus Neural Network Machine Learning Models</title>
+      <link>/talk/2021-02-20-parikh-fesch-mnl-neuralnet/</link>
+      <pubDate>Fri, 19 Feb 2021 07:30:00 +0000</pubDate>
+      <guid>/talk/2021-02-20-parikh-fesch-mnl-neuralnet/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
