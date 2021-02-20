@@ -3,8 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/talk/2021-02-20-parikh-fesch-mnl-neuralnet/</loc>
+    <lastmod>2021-02-19T07:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-19T07:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2021-02-19T07:30:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,11 +59,6 @@
   
   <url>
     <loc>/talk/2020-01-04-aea-multi-state-rnn-lstm-paper/</loc>
-    <lastmod>2020-01-04T12:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
     <lastmod>2020-01-04T12:30:00+00:00</lastmod>
   </url>
   
