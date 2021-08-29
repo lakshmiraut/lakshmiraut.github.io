@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Signaling | Lakshmi K. Raut</title>
+    <link>/tag/signaling/</link>
+      <atom:link href="/tag/signaling/index.xml" rel="self" type="application/rss+xml" />
+    <description>Signaling</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2017 14:30:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Signaling</title>
+      <link>/tag/signaling/</link>
+    </image>
+    
+    <item>
+      <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model)</title>
+      <link>/talk/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</link>
+      <pubDate>Tue, 02 May 2017 14:30:00 +0000</pubDate>
+      <guid>/talk/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model</title>
+      <link>/talk/2017-01-06-aea/</link>
+      <pubDate>Fri, 06 Jan 2017 12:30:00 +0000</pubDate>
+      <guid>/talk/2017-01-06-aea/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

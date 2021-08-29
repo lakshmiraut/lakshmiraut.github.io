@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discrete dynamic programming | Lakshmi K. Raut</title>
+    <link>/tag/discrete-dynamic-programming/</link>
+      <atom:link href="/tag/discrete-dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>Discrete dynamic programming</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2016 14:30:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Discrete dynamic programming</title>
+      <link>/tag/discrete-dynamic-programming/</link>
+    </image>
+    
+    <item>
+      <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model (joint paper with Professor James Heckman)</title>
+      <link>/talk/2016-3-04-iim-udaipur/</link>
+      <pubDate>Fri, 04 Mar 2016 14:30:00 +0000</pubDate>
+      <guid>/talk/2016-3-04-iim-udaipur/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

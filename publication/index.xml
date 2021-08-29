@@ -5,428 +5,482 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
     
     <item>
-      <title>Pathways to disability and death before disability in mid-ages: Estimates from the Health and Retirement Study Data</title>
-      <link>/publication/2020-09-15_pathways2disability/</link>
-      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-09-15_pathways2disability/</guid>
+      <title>Determinants and Predictions of Risks of Diseases in Mid Ages: Logistic Regression Models versus Deep Neural Network Models</title>
+      <link>/publication/2021-01-01_determinants_and_predictions_o_unpublished/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/2021-01-01_determinants_and_predictions_o_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pathways to Disability and Death Before Disability in middle ages: Estimates from the Health and Retirement Study Data</title>
+      <link>/publication/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Econometric Multi-state Model of Pathways to Disability and Mortality in Mid-ages</title>
+      <link>/publication/2020-01-01_an_econometric_multi-state_mod_unpublished/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_an_econometric_multi-state_mod_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate time to event Statistical Models versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>/publication/2020-01-01_health_outcomes_in_m/</link>
+      <link>/publication/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-01-01_health_outcomes_in_m/</guid>
-      <description>
-
-
-
-
-
-
-
-</description>
+      <guid>/publication/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Pathways to disability and mortality in mid-ages: Estimates from the Health and Retirement Study Data</title>
-      <link>/publication/2019-01-01_pathways_to_disabili/</link>
+      <link>/publication/2019-01-01_pathways_to_disability_and_mor_unpublished/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019-01-01_pathways_to_disabili/</guid>
+      <guid>/publication/2019-01-01_pathways_to_disability_and_mor_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unscented Kalman filters (UKF), particle filters (PF) and Recurrent Neural Network (RNN) methods for estimating health developments – a survey with simulation results</title>
+      <link>/publication/2019-01-01_unscented_kalman_filters_ukf_unpublished/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_unscented_kalman_filters_ukf_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Altruism, Gaussian curvature and Pareto Optimality: An Implication for Sen’s Meta Ranking Ethical Principle</title>
-      <link>/publication/2018-01-01_altruism_gaussian_c/</link>
+      <link>/publication/2018-01-01_altruism_gaussian_curvature_a_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-01-01_altruism_gaussian_c/</guid>
+      <guid>/publication/2018-01-01_altruism_gaussian_curvature_a_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application of Lie Groups to Economics and Game Theory</title>
+      <link>/publication/2018-01-01_application_of_lie_groups_to_e_unpublished/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-01-01_application_of_lie_groups_to_e_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identification of Structural Parameters in Stochastic Dynamic Programming Models</title>
+      <link>/publication/2018-01-01_identification_of_structural_p_unpublished/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/2018-01-01_identification_of_structural_p_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Long-term Effects of Preschool on School Performance, Earnings and Social Mobility</title>
-      <link>/publication/2018-01-01_long-term_effects_of/</link>
+      <link>/publication/2018-01-01_long-term_effects_of_preschool/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-01-01_long-term_effects_of/</guid>
+      <guid>/publication/2018-01-01_long-term_effects_of_preschool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cost-effectiveness, Competitiveness and Export Performance of Indian Private Firms</title>
-      <link>/publication/2017-01-01_cost-effectiveness_/</link>
+      <link>/publication/2017-01-01_cost-effectiveness_competitiv/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-01-01_cost-effectiveness_/</guid>
+      <guid>/publication/2017-01-01_cost-effectiveness_competitiv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model</title>
-      <link>/publication/2017-01-01_early_childhood_deve/</link>
+      <link>/publication/2017-01-01_early_childhood_development_e_unpublished/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-01-01_early_childhood_deve/</guid>
+      <guid>/publication/2017-01-01_early_childhood_development_e_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Education and Economic Growth: A Comparative Study of China and India</title>
-      <link>/publication/2017-01-01_education_and_econom/</link>
+      <link>/publication/2017-01-01_education_and_economic_growth_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-01-01_education_and_econom/</guid>
+      <guid>/publication/2017-01-01_education_and_economic_growth_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exits from Disability: Estimates from a Competing Risk Model</title>
-      <link>/publication/2017-01-01_exits_from_disabilit/</link>
+      <link>/publication/2017-01-01_exits_from_disability_estimate/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-01-01_exits_from_disabilit/</guid>
+      <guid>/publication/2017-01-01_exits_from_disability_estimate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Rapid Introduction to Differential Geometry with Applications in Economics and Optimization</title>
+      <link>/publication/2016-01-01_a_rapid_introduction_to_differ_unpublished/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational long-term effects of preschool-structural estimates from a discrete dynamic programming model</title>
-      <link>/publication/2016-01-01_intergenerational_lo/</link>
+      <link>/publication/2016-01-01_intergenerational_long-term_ef/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/2016-01-01_intergenerational_lo/</guid>
+      <guid>/publication/2016-01-01_intergenerational_long-term_ef/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Economic Burden of Disability in India: Estimates from the NSS Data</title>
-      <link>/publication/2014-01-01_the_economic_burden_/</link>
+      <link>/publication/2014-01-01_the_economic_burden_of_disabil_unpublished/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/2014-01-01_the_economic_burden_/</guid>
+      <guid>/publication/2014-01-01_the_economic_burden_of_disabil_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Family Expansion and Capital Accumulation of a Dynasty</title>
-      <link>/publication/2013-01-01_family_expansion_and/</link>
+      <link>/publication/2013-01-01_family_expansion_and_capital_a/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/2013-01-01_family_expansion_and/</guid>
+      <guid>/publication/2013-01-01_family_expansion_and_capital_a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool - Structural Estimates from a Discrete Dynamic Programming Model</title>
-      <link>/publication/2013-01-01_intergenerational_lo/</link>
+      <link>/publication/2013-01-01_intergenerational_long_term_ef/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/2013-01-01_intergenerational_lo/</guid>
+      <guid>/publication/2013-01-01_intergenerational_long_term_ef/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Incentives and Social Security Disability Entitlements in a Counting Process Model</title>
-      <link>/publication/2010-01-01_economic_incentives_/</link>
+      <link>/publication/2010-01-01_economic_incentives_and_social_unpublished/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>/publication/2010-01-01_economic_incentives_/</guid>
+      <guid>/publication/2010-01-01_economic_incentives_and_social_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home Ownership and School Outcomes of Children: Evidence from the PSID Child Development Supplement</title>
-      <link>/publication/2009-01-01_home_ownership_and_s/</link>
+      <link>/publication/2009-01-01_home_ownership_and_school_outc/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>/publication/2009-01-01_home_ownership_and_s/</guid>
+      <guid>/publication/2009-01-01_home_ownership_and_school_outc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ageing and Elderly Care in an Open Economy</title>
-      <link>/publication/2007-01-01_ageing_and_elderly_c/</link>
+      <link>/publication/2007-01-01_ageing_and_elderly_care_in_an_/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>/publication/2007-01-01_ageing_and_elderly_c/</guid>
+      <guid>/publication/2007-01-01_ageing_and_elderly_care_in_an_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immigration vs Foreign Investment to Ease the Ageing Problems of an Ageing Open Economy</title>
-      <link>/publication/2007-01-01_immigration_vs_forei/</link>
+      <link>/publication/2007-01-01_immigration_vs_foreign_investm/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>/publication/2007-01-01_immigration_vs_forei/</guid>
+      <guid>/publication/2007-01-01_immigration_vs_foreign_investm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mortality and Disability Risk Sharing under the OASDI Program in a Stochastic Overlapping Generations Framework</title>
-      <link>/publication/2007-01-01_mortality_and_disabi/</link>
+      <link>/publication/2007-01-01_mortality_and_disability_risk__unpublished/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>/publication/2007-01-01_mortality_and_disabi/</guid>
+      <guid>/publication/2007-01-01_mortality_and_disability_risk__unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>School Choice and the Intergenerational Poverty Trap</title>
-      <link>/publication/2007-01-01_school_choice_and_th/</link>
+      <link>/publication/2007-01-01_school_choice_and_the_intergen/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>/publication/2007-01-01_school_choice_and_th/</guid>
+      <guid>/publication/2007-01-01_school_choice_and_the_intergen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two-sided altruism, Lindahl equilibrium, and Pareto optimality in overlapping generations models</title>
-      <link>/publication/2006-01-01_two-sided_altruism_/</link>
+      <link>/publication/2006-01-01_two-sided_altruism_lindahl_eq/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>/publication/2006-01-01_two-sided_altruism_/</guid>
+      <guid>/publication/2006-01-01_two-sided_altruism_lindahl_eq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firm&#39;s R&amp;D Behavior Under Rational Expectations</title>
-      <link>/publication/2005-01-01_firms_rnd_behavior_/</link>
+      <link>/publication/2005-01-01_firms_rd_behavior_under_rati/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/publication/2005-01-01_firms_rnd_behavior_/</guid>
+      <guid>/publication/2005-01-01_firms_rd_behavior_under_rati/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental human capital investment and old-age transfers from children: Is it a loan contract or reciprocity for Indonesian families?</title>
-      <link>/publication/2005-01-01_parental_human_capit/</link>
+      <link>/publication/2005-01-01_parental_human_capital_investm/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>/publication/2005-01-01_parental_human_capit/</guid>
+      <guid>/publication/2005-01-01_parental_human_capital_investm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria and Income Growth</title>
-      <link>/publication/2004-01-01_economic_epidemiolog/</link>
+      <link>/publication/2004-01-01_economic_epidemiology_of_malar_unpublished/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>/publication/2004-01-01_economic_epidemiolog/</guid>
-      <description>&lt;p&gt;For further on malaria project at the World Bank, look at 
-&lt;a href=&#34;http://documents1.worldbank.org/curated/en/491541468740153091/pdf/multi0page.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The World Bank Research Program: Abstract of current sudies, 2001&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>/publication/2004-01-01_economic_epidemiology_of_malar_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learned Convention and Subgame Perfect Equilibrium in an Overlapping Generations Model with Two-Sided Altruism</title>
+      <link>/publication/2004-01-01_learned_convention_and_subgame_unpublished/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/2004-01-01_learned_convention_and_subgame_unpublished/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>A Reformulation of the Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
-      <link>/publication/2003-01-01_a_reformulation_of_t/</link>
+      <link>/publication/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>/publication/2003-01-01_a_reformulation_of_t/</guid>
+      <guid>/publication/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Competitiveness, Productivity and Export Performance of Indian Private Firms</title>
-      <link>/publication/2003-01-01_competitiveness_pro/</link>
+      <link>/publication/2003-01-01_competitiveness_productivity_/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>/publication/2003-01-01_competitiveness_pro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Long Term Effects of Preschool Investment on school Performance and Labor Market Outcome</title>
-      <link>/publication/2003-01-01_long_term_effects_of/</link>
-      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>/publication/2003-01-01_long_term_effects_of/</guid>
+      <guid>/publication/2003-01-01_competitiveness_productivity_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symmetry Axiom and Haar Measure for Random Order Shapley Value of Games</title>
-      <link>/publication/2003-01-01_symmetry_axiom_and_h/</link>
+      <link>/publication/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>/publication/2003-01-01_symmetry_axiom_and_h/</guid>
+      <guid>/publication/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Analysis of Thailand’s Capital Flows</title>
-      <link>/publication/2001-01-01_an_analysis_of_thail/</link>
+      <link>/publication/2001-01-01_an_analysis_of_thailandas_ca/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>/publication/2001-01-01_an_analysis_of_thail/</guid>
+      <guid>/publication/2001-01-01_an_analysis_of_thailandas_ca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reciprocity with Two-sided Altruism in Intergenerational Transfers: Evidence from Indonesian Family Life Survey Data</title>
-      <link>/publication/2000-01-01_reciprocity_with_two/</link>
+      <link>/publication/2000-01-01_reciprocity_with_two-sided_alt/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      <guid>/publication/2000-01-01_reciprocity_with_two/</guid>
+      <guid>/publication/2000-01-01_reciprocity_with_two-sided_alt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Analysis of Thailand’s Capital Flows</title>
+      <link>/publication/1999-01-01_an_analysis_of_thailandas_ca/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/1999-01-01_an_analysis_of_thailandas_ca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aumann-Shapley random order values of non-atomic games</title>
-      <link>/publication/1999-01-01_aumann-shapley_rando/</link>
+      <link>/publication/1999-01-01_aumann-shapley_random_order_va/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/1999-01-01_aumann-shapley_rando/</guid>
+      <guid>/publication/1999-01-01_aumann-shapley_random_order_va/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Endogenous fertility and growth dynamics</title>
-      <link>/publication/1999-01-01_endogenous_fertility/</link>
+      <link>/publication/1999-01-01_endogenous_fertility_and_growt/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/1999-01-01_endogenous_fertility/</guid>
+      <guid>/publication/1999-01-01_endogenous_fertility_and_growt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trade, Growth and Development: Essays in Honor of Professor T.N. Srinivasan</title>
-      <link>/publication/1999-01-01_trade_growth_and_de/</link>
+      <link>/publication/1999-01-01_trade_growth_and_development_/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>/publication/1999-01-01_trade_growth_and_de/</guid>
+      <guid>/publication/1999-01-01_trade_growth_and_development_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning to Perfect Manipulation: Implications for Fertility, Savings, and Old-Age Social Security</title>
-      <link>/publication/1998-01-01_learning_to_perfect_/</link>
+      <link>/publication/1998-01-01_learning_to_perfect_manipulati_unpublished/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>/publication/1998-01-01_learning_to_perfect_/</guid>
+      <guid>/publication/1998-01-01_learning_to_perfect_manipulati_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chapter 20 Growth models with endogenous population: A general framework </title>
-      <link>/publication/1997-01-01_chapter_20_growth_mo/</link>
+      <link>/publication/1997-01-01_chapter_20_growth_models_with_/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>/publication/1997-01-01_chapter_20_growth_mo/</guid>
+      <guid>/publication/1997-01-01_chapter_20_growth_models_with_/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Complementarities between Exports and Human Capital in Economic Growth: Evidence from the Semi-industrialized Countries</title>
-      <link>/publication/1997-01-01_complementarities_be/</link>
+      <title>Complementarities between Exports and Human Capital in Economic Growth: Evidence from the Semiâ€?industrialized Countries</title>
+      <link>/publication/1997-01-01_complementarities_between_expo/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>/publication/1997-01-01_complementarities_be/</guid>
+      <guid>/publication/1997-01-01_complementarities_between_expo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Construction of a Haar measure on the projective limit group and random order values of non-atomic games</title>
-      <link>/publication/1997-01-01_construction_of_a_ha/</link>
+      <link>/publication/1997-01-01_construction_of_a_haar_measure/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>/publication/1997-01-01_construction_of_a_ha/</guid>
+      <guid>/publication/1997-01-01_construction_of_a_haar_measure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Old-age Security and Gender Preference Hypotheses: A Duration Analysis of Malaysian Family Life Survey Data</title>
-      <link>/publication/1996-01-01_old-age_security_and/</link>
+      <link>/publication/1996-01-01_old-age_security_and_gender_pr/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
-      <guid>/publication/1996-01-01_old-age_security_and/</guid>
+      <guid>/publication/1996-01-01_old-age_security_and_gender_pr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A non-standard analysis of random order values of non-atomic games</title>
-      <link>/publication/1995-01-01_a_non-standard_analy/</link>
+      <link>/publication/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>/publication/1995-01-01_a_non-standard_analy/</guid>
+      <guid>/publication/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R&amp;D spillover and productivity growth: Evidence from Indian private firms</title>
-      <link>/publication/1995-01-01_rnd_spillover_and_pr/</link>
+      <title>R &amp; D spillover and productivity growth: Evidence from Indian private firms</title>
+      <link>/publication/1995-01-01_r__d_spillover_and_productivi/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>/publication/1995-01-01_rnd_spillover_and_pr/</guid>
+      <guid>/publication/1995-01-01_r__d_spillover_and_productivi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
-      <link>/publication/1995-01-01_signaling_equilibriu/</link>
+      <link>/publication/1995-01-01_signaling_equilibrium_interge/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>/publication/1995-01-01_signaling_equilibriu/</guid>
+      <guid>/publication/1995-01-01_signaling_equilibrium_interge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
+      <link>/publication/1995-01-01_signaling_equilibrium_interge_unpublished/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
+      <guid>/publication/1995-01-01_signaling_equilibrium_interge_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamics of Endogenous Growth</title>
-      <link>/publication/1994-01-01_dynamics_of_endogeno/</link>
+      <link>/publication/1994-01-01_dynamics_of_endogenous_growth/</link>
       <pubDate>Sat, 01 Jan 1994 00:00:00 +0000</pubDate>
-      <guid>/publication/1994-01-01_dynamics_of_endogeno/</guid>
+      <guid>/publication/1994-01-01_dynamics_of_endogenous_growth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Per capita income growth, social expenditures and living standards: Evidence from rural India</title>
-      <link>/publication/1993-01-01_per_capita_income_gr/</link>
+      <link>/publication/1993-01-01_per_capita_income_growth_soci/</link>
       <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
-      <guid>/publication/1993-01-01_per_capita_income_gr/</guid>
+      <guid>/publication/1993-01-01_per_capita_income_growth_soci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theories of Long-Run Growth: Old and New</title>
-      <link>/publication/1993-01-01_theories_of_long-run/</link>
+      <link>/publication/1993-01-01_theories_of_long-run_growth_ol/</link>
       <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
-      <guid>/publication/1993-01-01_theories_of_long-run/</guid>
+      <guid>/publication/1993-01-01_theories_of_long-run_growth_ol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demographic Links to Savings in Life Cycle Models: Identification of Issues for LDCs</title>
-      <link>/publication/1992-01-01_demographic_links_to/</link>
+      <link>/publication/1992-01-01_demographic_links_to_savings_i/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>/publication/1992-01-01_demographic_links_to/</guid>
+      <guid>/publication/1992-01-01_demographic_links_to_savings_i/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Social Security on Fertility and Saving: An Overlapping Generations Model</title>
-      <link>/publication/1992-01-01_effects_of_social_se/</link>
+      <link>/publication/1992-01-01_effects_of_social_security_on_/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>/publication/1992-01-01_effects_of_social_se/</guid>
+      <guid>/publication/1992-01-01_effects_of_social_security_on_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subgame perfect manipulation of children by overlapping generations of agents with two-sided altruism and endogenous fertility</title>
-      <link>/publication/1992-01-01_subgame_perfect_mani/</link>
+      <link>/publication/1992-01-01_subgame_perfect_manipulation_o_unpublished/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>/publication/1992-01-01_subgame_perfect_mani/</guid>
+      <guid>/publication/1992-01-01_subgame_perfect_manipulation_o_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capital accumulation, income distribution and endogenous fertility in an overlapping generations general equilibrium model</title>
-      <link>/publication/1990-01-01_capital_accumulation/</link>
+      <link>/publication/1990-01-01_capital_accumulation_income_d/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
-      <guid>/publication/1990-01-01_capital_accumulation/</guid>
+      <guid>/publication/1990-01-01_capital_accumulation_income_d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Determinants of Consumption and Savings Behavior in Developing Countries</title>
-      <link>/publication/1989-01-01_determinants_of_cons/</link>
+      <link>/publication/1989-01-01_determinants_of_consumption_an/</link>
       <pubDate>Sun, 01 Jan 1989 00:00:00 +0000</pubDate>
-      <guid>/publication/1989-01-01_determinants_of_cons/</guid>
+      <guid>/publication/1989-01-01_determinants_of_consumption_an/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R&amp;D Behavior of Indian Firms: A Stochastic Control Model</title>
-      <link>/publication/1988-01-01_rnd_behavior_of_indi/</link>
+      <title>R&amp; D Behavior of Indian Firms: A Stochastic Control Model</title>
+      <link>/publication/1988-01-01_r_d_behavior_of_indian_firms_/</link>
       <pubDate>Fri, 01 Jan 1988 00:00:00 +0000</pubDate>
-      <guid>/publication/1988-01-01_rnd_behavior_of_indi/</guid>
+      <guid>/publication/1988-01-01_r_d_behavior_of_indian_firms_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Myopic topologies on general commodity spaces</title>
-      <link>/publication/1986-01-01_myopic_topologies_on/</link>
+      <link>/publication/1986-01-01_myopic_topologies_on_general_c/</link>
       <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
-      <guid>/publication/1986-01-01_myopic_topologies_on/</guid>
+      <guid>/publication/1986-01-01_myopic_topologies_on_general_c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theory of Games and its Applications to Economics and Politics</title>
-      <link>/publication/1981-01-01_theory_of_games_and_/</link>
+      <link>/publication/1981-01-01_theory_of_games_and_its_applic/</link>
       <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
-      <guid>/publication/1981-01-01_theory_of_games_and_/</guid>
+      <guid>/publication/1981-01-01_theory_of_games_and_its_applic/</guid>
       <description></description>
     </item>
     
