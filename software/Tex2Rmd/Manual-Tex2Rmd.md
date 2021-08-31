@@ -300,7 +300,7 @@ The footnotes with latex math often results in nested curly brackets. This is al
 
 ```` 
 This is a note\footnote{I have used $x^2$ and $x_{10}$ which involve curly brackets 
-within the footnote.} and the test continues. Another note\footnote{%
+within the footnote.} and the test continues. Another note\footnote{
 this one involves deeper nested curly braces $\frac{x^{2}}{y^2}$ in the footnote.}. 
 Both should convert properly.
 ````
