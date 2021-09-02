@@ -1,5 +1,5 @@
 ---
-#File: Manual-Tex2Rmd.Rmd
+#File: C:/Myprojects/TexRmdConversion/InOutFiles/Tex2Rmd/Manual-Tex2Rmd.Rmd
 
 
 title: "Tex2Rmd&#58; A package to covert Latex document to R markdown and in turn to html and Microsoft word format"
