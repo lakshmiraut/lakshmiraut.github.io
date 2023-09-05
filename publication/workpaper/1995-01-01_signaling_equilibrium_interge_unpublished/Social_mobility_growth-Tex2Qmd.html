@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Lakshmi K. Raut">
+<meta name="dcterms.date" content="2021-08-11">
+
+<title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="Social_mobility_growth-Tex2Qmd_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Social_mobility_growth-Tex2Qmd_files/libs/quarto-html/quarto.js"></script>
+<script src="Social_mobility_growth-Tex2Qmd_files/libs/quarto-html/popper.min.js"></script>
+<script src="Social_mobility_growth-Tex2Qmd_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Social_mobility_growth-Tex2Qmd_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Social_mobility_growth-Tex2Qmd_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Social_mobility_growth-Tex2Qmd_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Social_mobility_growth-Tex2Qmd_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Social_mobility_growth-Tex2Qmd_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Social_mobility_growth-Tex2Qmd_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<link rel="stylesheet" href="raut-html-style1.css">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</h1>
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      Lakshmi K. Raut 
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Visiting Fellow, University of Chicago
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 11, 2021</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="toc-section-number">1</span>  Introduction</a></li>
+  <li><a href="#sec-sec2" id="toc-sec-sec2" class="nav-link" data-scroll-target="#sec-sec2"><span class="toc-section-number">2</span>  The Basic Model</a>
+  <ul class="collapse">
+  <li><a href="#employers-choice-problem" id="toc-employers-choice-problem" class="nav-link" data-scroll-target="#employers-choice-problem"><span class="toc-section-number">2.1</span>  Employers’ choice problem</a></li>
+  <li><a href="#individuals-choice-problem" id="toc-individuals-choice-problem" class="nav-link" data-scroll-target="#individuals-choice-problem"><span class="toc-section-number">2.2</span>  Individual’s choice problem</a></li>
+  <li><a href="#signaling-equilibrium" id="toc-signaling-equilibrium" class="nav-link" data-scroll-target="#signaling-equilibrium"><span class="toc-section-number">2.3</span>  Signaling equilibrium</a></li>
+  <li><a href="#classifications-of-equilibria" id="toc-classifications-of-equilibria" class="nav-link" data-scroll-target="#classifications-of-equilibria"><span class="toc-section-number">2.4</span>  Classifications of equilibria</a></li>
+  </ul></li>
+  <li><a href="#sec-sec3" id="toc-sec-sec3" class="nav-link" data-scroll-target="#sec-sec3"><span class="toc-section-number">3</span>  Mobility and growth</a></li>
+  <li><a href="#sec-sec4" id="toc-sec-sec4" class="nav-link" data-scroll-target="#sec-sec4"><span class="toc-section-number">4</span>  Labor Market Practices</a>
+  <ul class="collapse">
+  <li><a href="#sec-sec4-1" id="toc-sec-sec4-1" class="nav-link" data-scroll-target="#sec-sec4-1"><span class="toc-section-number">4.1</span>  Quits, layoffs, and promotion</a></li>
+  <li><a href="#sec-sec4-2" id="toc-sec-sec4-2" class="nav-link" data-scroll-target="#sec-sec4-2"><span class="toc-section-number">4.2</span>  Labor Market Signaling and Job Matching</a></li>
+  </ul></li>
+  <li><a href="#sec-sec5" id="toc-sec-sec5" class="nav-link" data-scroll-target="#sec-sec5"><span class="toc-section-number">5</span>  Educational Systems: public, private, school voucher</a></li>
+  <li><a href="#sec-sec7" id="toc-sec-sec7" class="nav-link" data-scroll-target="#sec-sec7"><span class="toc-section-number">6</span>  Policies and conclusions</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<blockquote class="blockquote">
+<p>[I]t is not a story that concludes, Genius will out-though Ramanujan’s in the main, did. Because so nearly did events turn out otherwise that we need no imagination to see how the least bit less persistence, or the least bit less luck, might have consigned him to obscurity. In a way, then, this is also a story about social and educational systems, and about how they matter, and how they sometimes nurture talent and sometimes crush it. How many Ramanujans, his life begs us to ask, dwell in India today, unknown and unrecognized? And how many in America and Britain, locked away in racial or economic ghettos, scarcely aware of worlds outside of their own?</p>
+</blockquote>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>Recent literature on endogenous growth attributes the stock of tested and useful technological knowledge as the main source of economic growth, and provides economic models of such knowledge creation. <span class="citation" data-cites="Lucas_1988">Lucas (<a href="#ref-Lucas_1988" role="doc-biblioref">1988</a>)</span> provides a model in which identical workers spend part of their time acquiring skills or vocational training which increases their productivity; the new technologically useful knowledge that the individual workers acquire from their vocational or on the job training adds to the pool of social knowledge. In his model, factors that increase average education level of the work force also create higher long-run growth. Other models also emphasize the creation of human capital in the growth process. There are ample empirical studies document that accumulated basic scientific and engineering knowledge stocks spillover to the rest of the economy or even to the rest of the world (see <span class="citation" data-cites="Adams_1990">Adams (<a href="#ref-Adams_1990" role="doc-biblioref">1990</a>)</span> for a study using published articles in various scientific fields, <span class="citation" data-cites="Jaffe_1986">Jaffe (<a href="#ref-Jaffe_1986" role="doc-biblioref">1986</a>)</span> for a study on the US manufacturing industry, <span class="citation" data-cites="Coe_Helpman_1995">Coe and Helpman (<a href="#ref-Coe_Helpman_1995" role="doc-biblioref">1995</a>)</span> for international spillover, and <span class="citation" data-cites="Raut_1995">Raut (<a href="#ref-Raut_1995" role="doc-biblioref">1995</a>)</span> for a study on India).</p>
+<p>While the creation of knowledge in the growth literature plays an important role, workers in this literature are generally assumed to be identical in their innate ability to create knowledge and to produce income. But in reality they do differ in their ability, and the heterogeneity in innate ability make a big difference in the process of knowledge creation; while average level of education is important, the distribution of education among the workers of different abilities and the matching of jobs to workers of different ability and schooling are important determinants of the rate of knowledge creation. For instance, when the workers with higher innate ability get educated in technical areas and are matched with jobs that are more suitable to generate basic scientific and technological knowledge, we would expect higher rate of technical progress and economic growth. How well these are done, depends on educational system and labor market practices. For instance, children of poor family backgrounds are generally found to acquire less education. Then it is quite clear that if talented individuals from poorer background did not obtain higher schooling, they are not tapped into the growth process. In such economies, therefore, higher social mobility through higher education of talented individuals from all backgrounds, and their assignment to the appropriate jobs in the growth enhancing modern sectors will lead to higher mobility and faster growth. The main barrier is the asymmetric information on innate ability: The innate ability or the talent of an individual is a private knowledge - known to the individual but not to the school administrators and the employers.</p>
+<p>To analyze the effect of the above asymmetric information on social mobility and economic growth, and to design policies that can remove bottlenecks, I extend the education signaling model of <span class="citation" data-cites="Spence_1973">Spence (<a href="#ref-Spence_1973" role="doc-biblioref">1973</a>)</span>, incorporating the job matching within an overlapping generations framework.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> This model of schooling investment and job matching differs from the existing models on several aspects. First, most theoretical models of job matching formulates the decision making in a search theoretic framework, in which, infinitely lived workers search over time for the best job that can produce the highest life-time earnings (see <span class="citation" data-cites="Jovanovic_1979">Jovanovic (<a href="#ref-Jovanovic_1979" role="doc-biblioref">1979</a>)</span> who incorporates worker’s productivity to vary with the matched job). In these models, however, employers are passive, they do not design complex wage contracts nor use any signals from workers to get an idea about the worker’s innate ability and negotiate the wage contracts accordingly. Furthermore, the assumption of agents living infinitely, which is suitable for studying unemployment duration, or labor mobility across jobs, turns out to be technically not suitable for studying intergenerational social mobility. Second, this model differs from the basic models of human capital theory (<span class="citation" data-cites="Becker_1962 Ben-Porath_1967 Mincer_1958 Rosen_1977 Willis_1986">(<a href="#ref-Becker_1962" role="doc-biblioref">G. S. Becker 1962</a>; <a href="#ref-Ben-Porath_1967" role="doc-biblioref">Ben-Porath 1967</a>; <a href="#ref-Mincer_1958" role="doc-biblioref">Mincer 1958</a>; <a href="#ref-Rosen_1977" role="doc-biblioref">Rosen 1977</a>; <a href="#ref-Willis_1986" role="doc-biblioref">Willis 1986</a>)</span>) in that the present model agents live effectively only for one period and thus it does not take into account the life cycle events such as on-the-job-training, and more importantly, the borrowing constraints for educational investment.</p>
+<p>The rest of the paper is organized as follows: <a href="#sec-sec2">Section&nbsp;2</a> describes the basic model, and defines the signaling equilibrium with one-time non-renegotiable wage contracts, and a few other equilibrium concepts. <a href="#sec-sec3">Section&nbsp;3</a> studies the properties of signaling equilibria. <a href="#sec-sec4">Section&nbsp;4</a>, examines various labor market practices such as quits, layoffs and promotions. <a href="#sec-sec5">Section&nbsp;5</a> briefly discusses the role of education system and education policies that can improve social mobility and economic growth. <a href="#sec-sec7">Section&nbsp;6</a> discusses the policy implications of our model for intergenerational social mobility and economic growth and concludes the paper.</p>
+</section>
+<section id="sec-sec2" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> The Basic Model</h1>
+<p>Consider an overlapping generations model in which in each period one person is born to each parent. Denote by <span class="math inline">\tau</span> an individual’s innate ability which affects his productivity at workplace and learning in school. There is some dispute in the sociology, psychometry and economics literature as to whether <span class="math inline">\tau</span> should consist of one component, which is then generally referred to as level of intelligence, or IQ, or should it be a vector allowing individuals to vary in their ability for various skills, such as verbal skill, mathematical or logical skills.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> I assume for simplicity of exposition that <span class="math inline">\tau</span> is one dimensional, and it takes a finite set of discrete ordinal values, <span class="math inline">T=\{1,2,...,\hat{\tau}\}</span>. In the set <span class="math inline">T</span>, a higher number denotes a greater talent. I assume that a when a child is born to a parent, the child’s innate ability <span class="math inline">\tau \in T</span> with probability <span class="math inline">g(\tau )</span>, and it is independent of parent’s innate ability. <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>The innate ability of an individual is a private information, observed only by him. An individual chooses education to signal his talent type. Education signal is assumed to be a one dimensional variable and it is denoted by <span class="math inline">s</span>. Realistically, <span class="math inline">s</span> is a vector, <span class="math inline">s=\left( s^{1},s^{2},s^{3}\right)</span>, where <span class="math inline">s^{1}</span> represents the number of years of schooling, <span class="math inline">s^{2}</span> represents major specialization, such as Engineering, Medical Science, Physics, Chemistry, Business Administration, and other general subjects, and <span class="math inline">s^{3}</span> may represent quality of education, which is generally associated with the quality of the school from which <span class="math inline">s^{1}</span>, and s<span class="math inline">^{2}</span> are obtained, for instance private, public, the average of the top 25% SAT scores of the school, student faculty ratio, and a host of such variables of the school (see, <span class="citation" data-cites="Daniel.etal_1997">Daniel, Black, and Smith (<a href="#ref-Daniel.etal_1997" role="doc-biblioref">1997</a>)</span>, and <span class="citation" data-cites="Heckman.etal_1995">J. Heckman, Layne-Farrar, and Todd (<a href="#ref-Heckman.etal_1995" role="doc-biblioref">1995</a>)</span> for some of these variables in their empirical studies on school quality using NLSY data). Signal <span class="math inline">s</span> is viewed as quality adjusted number of years of schooling. A higher number represents either a better quality or higher level of schooling. Possible education levels are assumed to be the ordinal numbers in <span class="math inline">S=\left\{ 1,2,...,\hat{s}\right\}</span>, a higher number representing a higher education level.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>A job in our set-up is characterized by its task and is denoted by <span class="math inline">\eta</span>. In a job a worker is most productive if he has required abilities and schooling. Less qualified workers can also perform the job but the output will be at a lower level. Assume that <span class="math inline">\eta</span> takes finite ordinal numbers from the set <span class="math inline">H\ =\left\{ 1,2,...,\hat{\eta}\right\}</span>, a higher index represents a more technical and growth enhancing job. It is important to distinguish<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> between an earnings function and the <em> productivity function</em> in order to understand where signaling theory of educational investment differs from human capital investment theory. Productivity function <span class="math inline">e(s,\tau ,\eta )</span> is the number of efficiency unit of labor or productivity level of a worker of schooling level <span class="math inline">s</span>, innate ability <span class="math inline">\tau</span>, working in job <span class="math inline">\eta</span>. The earnings function <span class="math inline">w=\phi (s,\tau ,\eta )</span> is the labor market wage rate of a unit of labor with education level <span class="math inline">s</span> and ability <span class="math inline">\tau</span>. I assume that labor productivity of all workers are uniformly growing over time, i.e., a unit of labor with schooling level <span class="math inline">s</span>, innate ability <span class="math inline">\tau</span>, and working in job <span class="math inline">\eta</span> in period <span class="math inline">t</span> is given by <span class="math inline">A_{t}e(s,\tau ,\eta )</span>. The multiplicative factor <span class="math inline">A_{t}</span> is endogenously determined as follows: I presume that more able workers with higher education and working in higher up jobs in <span class="math inline">H</span> can create higher amount of publicly available new scientific and engineering basic knowledge and ideas about how to produce and distribute old products or new products cheaply. Let <span class="math inline">a(s,\tau ,\eta )</span> be the amount of basic scientific and engineering spillover knowledge created by a worker with education level <span class="math inline">s</span> and innate ability <span class="math inline">\tau</span> when matched with the employer <span class="math inline">\eta</span>. Let <span class="math inline">R_{t}</span> denote the aggregate flow of spillover knowledge in period t in the economy, aggregated over all <span class="math inline">s,\tau</span> and <span class="math inline">\eta</span> in the population. <span class="math inline">A_{t}</span> evolves over time according to:</p>
+<p><span id="eq-eq2"><span class="math display">
+A_{t+1}=A_{t}\left( 1+\gamma (R_{t})\right)   
+\tag{1}</span></span> where <span class="math inline">\gamma (R_{t})</span> is the growth rate of productivity level, assumed to be a time invariant function. If <span class="math inline">R_{t}=0</span>, <span class="math inline">\gamma (R_{t})=0</span> and <span class="math inline">\gamma</span> may be assumed to be an increasing function as for instance, <span class="math inline">\gamma (R_{t})=R_{t}^{\mu }</span>, <span class="math inline">\mu &gt;0</span>.</p>
+<section id="employers-choice-problem" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="employers-choice-problem"><span class="header-section-number">2.1</span> Employers’ choice problem</h2>
+<p>In the economics of imperfect information there are mainly two ways in which the workers’ and employers’ problems are formulated: the first approach is the Spence model where the employer announces a wage schedule, then workers make their decisions on education levels; the other approach due to <span class="citation" data-cites="Rothschild.Stiglitz_1970">Rothschild and Stiglitz (<a href="#ref-Rothschild.Stiglitz_1970" role="doc-biblioref">1970</a>)</span> is more appropriate in the insurance context, see for other schemes, <span class="citation" data-cites="Kreps_1990_Book">Kreps (<a href="#ref-Kreps_1990_Book" role="doc-biblioref">1990</a>)</span>. Spence’s approach is more appropriate in our context, and we will follow this approach.</p>
+<p>I assume that the production sector is competitive; the producer is risk neutral and he treats <span class="math inline">A_{t}</span> as an externality when making his decisions. In each period <span class="math inline">t\geq 1</span>, a producer <span class="math inline">\eta _{t}</span>’s role is to announce a wage schedule <span class="math inline">\omega _{t}(s_{t};\eta _{t})</span> for hiring purposes. He observes the education level <span class="math inline">s_{t}</span> of a worker but not his innate productive ability level <span class="math inline">\tau _{t}</span>. The employer <span class="math inline">\eta _{t}</span> holds a subjective belief about the conditional probability distribution of the productivity level <span class="math inline">e\left( s_{t},\tau _{t},\eta _{t}\right)</span> of an worker with education level <span class="math inline">s_{t}</span>. Denote this conditional probability by</p>
+<p><span id="eq-eq3"><span class="math display">
+q_{t}\left( e
+s_{t};\eta _{t}\right) =
+\text{Probability}\{e
+s_{t};\eta _{t}\},e\in E,s_{t}\in S,\eta _{t}\in H
+\tag{2}</span></span></p>
+<p>Let <span class="math inline">\omega _{t}(s_{t};\eta _{t})</span> be the wage profile that the producer <span class="math inline">\eta _{t}</span> announces. Perfect competition, and expected profit maximization imply that</p>
+<p><span id="eq-eq4"><span class="math display">
+\begin{array}{ccl}
+\omega _{t}(s_{t};\eta _{t}) &amp;=  A_{t}\sum_{e\in \mathcal{E}}e\cdot
+q_{t}(e
+s_{t};\eta _{t}) \\
+&amp;  &amp;  \\
+&amp; \equiv  &amp; A_{t}w_{t}(s_{t};\eta _{t}),
+\end{array}
+\tag{3}</span></span> where <span class="math inline">w_{t}(s_{t};\eta _{t})\equiv \sum_{e\in \mathcal{E}}e\cdot q_{t}\left( e|s_{t};\eta _{t}\right)</span>. Notice that <span class="math inline">w_{t}(.)</span> depends on the producer’s subjective conditional probability distribution, <span class="math inline">q_{t}(e|s_{t};\eta _{t})</span>, and dependence of <span class="math inline">w_{t}(.)</span> on <span class="math inline">t</span> is through the dependence of <span class="math inline">q</span> on <span class="math inline">t</span>.</p>
+</section>
+<section id="individuals-choice-problem" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="individuals-choice-problem"><span class="header-section-number">2.2</span> Individual’s choice problem</h2>
+<p>We consider only human capital investment in education, other important forms of human capital investment such as health and nutrition are not considered here. The investment in the level of education of an individual is a complex decision making process. Generally, parents make the initial investments such as preschool investments and investments up to college or so, until an individual reaches enough maturity to make his own schooling decision. Family background can have great influence on educational attainment in several other ways. For instance, suppose that the quality of preschool investment of parents’ time at home affect children’s motivation and persistence to continue schooling. Then, of course, more highly educated parents can provide better learning environment for their children at home. Similarly, more highly educated parents with their better knowledge base of child care, or simply because of their higher incomes can provide better prenatal care, and health care for proper cognitive development of their children. Furthermore, innate ability will also affect the time and efforts it takes to complete an academic curriculum, and hence are important determinants of cost of schooling.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>We represent these effects of family background in our model simply by assuming that the cost, <span class="math inline">\theta _{t}(s_{t},\tau _{t},s_{t-1},\eta _{t-1})</span> , of obtaining a certain level of education <span class="math inline">s_{t}\in S</span> for an individual in period<span class="math inline">\ t</span> depends on his innate ability <span class="math inline">\tau _{t}\in T</span>, and his parent’s socio-occupational status <span class="math inline">\left( s_{t-1},\eta _{t-1}\right) \in S\times H</span>. Assume that <span class="math inline">\theta _{t}(s_{t},\tau _{t},s_{t-1},\eta _{t-1})</span> is increasing in <span class="math inline">s_{t}</span>, and decreasing in <span class="math inline">\tau _{t}</span>, <span class="math inline">s_{t-1}</span> and <span class="math inline">\eta _{t-1}</span>. The assumption that <span class="math inline">\theta _{t}(s_{t},\tau _{t},s_{t-1},\eta _{t-1})</span> varies with <span class="math inline">\tau _{t}</span> is necessary for education to act as signal for talent, see <span class="citation" data-cites="Spence_1973">Spence (<a href="#ref-Spence_1973" role="doc-biblioref">1973</a>)</span>, or <span class="citation" data-cites="Kreps_1990_Book">Kreps (<a href="#ref-Kreps_1990_Book" role="doc-biblioref">1990</a>)</span> for a justification. We further assume that</p>
+<p><span class="math display">
+\theta _{t}(s_{t},\tau _{t},s_{t-1},\eta _{t-1})=A_{t}\theta (s_{t},\tau
+,s_{t-1},\eta _{t-1})
+</span>where <span class="math inline">A_{t}</span> is the productivity shift parameter of the aggregate production function defined earlier, and <span class="math inline">\theta (.)</span> is a time invariant function.</p>
+<p>We assume that all individuals have identical linear<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> utility function <span class="math inline">u(c_{t})=c_{t}</span> where <span class="math inline">c_{t}</span> is the consumption of an adult of period <span class="math inline">t</span>. An adult of period t with talent type <span class="math inline">\tau _{t}\in T</span> and from a parent of education level <span class="math inline">s_{t-1}</span> takes the announced wage function <span class="math inline">w_{t}(s_{t};\eta _{t})</span> of period t as given and decides his education level <span class="math inline">s_{t}\in S</span> and the expected job to perform by solving the following problem:</p>
+<p><span class="math display">
+\max_{s_{t}\in \mathcal{S,}\eta _{t}\in \mathcal{H}} \left[ \omega
+_{t}(s_{t};\eta _{t})-\theta _{t}(s_{t},\tau _{t},s_{t-1},\eta _{t-1})\right]
+</span>which is equivalent to solving the following problem <span id="eq-eq5"><span class="math display">
+A_{t}\max_{s_{t}\in \mathcal{S,}\eta _{t}\in \mathcal{H}} \left[
+w_{t}(s_{t};\eta _{t})-\theta (s_{t},\tau _{t},s_{t-1},\eta _{t-1})\right]
+\tag{4}</span></span></p>
+<p>Except for degenerate cases, there is a unique optimal solution <span class="math inline">s_{t}</span> for each <span class="math inline">\tau _{t}</span> and <span class="math inline">s_{t-1}</span>, which is independent of <span class="math inline">A_{t}</span>. Notice that in our framework, all individuals with talent <span class="math inline">\tau _{t}</span> and family background <span class="math inline">s_{t-1}</span>, and <span class="math inline">\eta _{t-1}</span> behave identically. We will refer to such an agent as <span class="math inline">\left( \tau _{t},s_{t-1},\eta _{t-1}\right)</span>. We denote the optimal solution of <a href="#eq-eq5">Equation&nbsp;4</a> for agent <span class="math inline">\left( \tau _{t},s_{t-1},\eta _{t-1}\right)</span> by <span class="math inline">\sigma _{t}\left( \tau _{t},s_{t-1},\eta _{t-1}\right)</span> and <span class="math inline">\eta _{t}\left( \tau _{t},s_{t-1},\eta _{t-1}\right)</span>. We define a binary function <span class="math inline">\chi _{\eta _{t}}^{\sigma _{t}}(s_{t},\eta _{t},\tau _{t},s_{t-1},\eta _{t-1})</span> which fully represents the optimal solution of <a href="#eq-eq5">Equation&nbsp;4</a> by</p>
+<p><span id="eq-eq6"><span class="math display">
+\chi _{\eta _{t}}^{\sigma _{t}}(s_{t},\eta _{t}^{\prime },\tau
+_{t},s_{t-1},\eta _{t-1})=\left\{
+\begin{array}{ll}
+1 &amp;
+\text{ if optimal solution for agent }\left( \tau _{t},s_{t-1},\eta
+_{t-1}\right) \text{ is }s_{t}\text{ and }\eta _{t}^{\prime } \\
+0 &amp; \text{otherwise }
+\end{array}
+\right. \text{ }  
+\tag{5}</span></span> for all <span class="math inline">s_{t},s_{t-1}\in S</span> and <span class="math inline">\tau _{t}\in T</span>, and <span class="math inline">\eta _{t-1},\eta _{t}^{\prime }\in H</span>. We refer to this <span class="math inline">\chi _{\eta _{t}}^{\sigma _{t}}\left( {}\right)</span> as optimal schooling and job choices in binary form.</p>
+<p>In each period the active members of the society will belong to one of the social groups in <span class="math inline">S\times H</span>.Intergenerational social mobility refers in this paper as the mobility of families across the groups in <span class="math inline">S\times H</span>. Let <span class="math inline">\pi _{t}</span> be the probability mass function of the population distributed over the education levels in <span class="math inline">S\times H</span> in period <span class="math inline">t</span>, <span class="math inline">t\geq 0</span>. The economy begins at time <span class="math inline">t=1</span> with an adult population whose parents’ socio-occupational status is distributed as <span class="math inline">\pi _{0}</span>. Denote by <span class="math inline">P_{t}</span> the transition matrix or mobility matrix, rows corresponds the parent’s socio-occupational status (<span class="math inline">s_{t-1},\eta _{t-1})</span> and the columns corresponds to the socio-occupational status that a child will attain, and the elements of the matrix represents the likelihood of the event. Given <span class="math inline">\pi _{0}</span>, the transition matrix <span class="math inline">P_{t}</span> determines the dynamics of the income distribution <span class="math inline">\pi _{t}</span>, the nature of the intergenerational social and occupational mobility, and how they affect the rate of technological progress and the rate of earnings growth over time. In this paper, I provide a signaling model of human capital investment, and job matching that determine the mobility matrix <span class="math inline">P_{t}</span>.</p>
+</section>
+<section id="signaling-equilibrium" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="signaling-equilibrium"><span class="header-section-number">2.3</span> Signaling equilibrium</h2>
+<p>The signaling equilibrium is recursively defined over time as follows: At the beginning of time period <span class="math inline">t</span>, <span class="math inline">\pi _{t-1}</span> and <span class="math inline">A_{t}</span> are already known. Producer <span class="math inline">\eta _{t}</span> knows these and he knows the distribution of <span class="math inline">\tau</span> in the population, but he does not observe agent’s family background <span class="math inline">\left( s_{t-1},\eta _{t-1}\right)</span> and his productivity level <span class="math inline">e\left( s,\tau \eta \right)</span>. He anticipates a conditional distribution <span class="math inline">q_{t}(e|s;\eta _{t})</span> as in <a href="#eq-eq3">Equation&nbsp;2</a>,and announces the wage profile <span class="math inline">A_{t}w_{t}(s_{t};\eta _{t})</span> as in <a href="#eq-eq4">Equation&nbsp;3</a>. Given <span class="math inline">A_{t}w_{t}(s_{t};\eta _{t})</span>, the worker <span class="math inline">\left( \tau _{t},s_{t-1},\eta _{t-1}\right)</span> decides the education level and the job <span class="math inline">\chi _{\eta _{t}}^{\sigma _{t}}(s_{t},\eta _{t},\tau _{t},s_{t-1})</span> as in <a href="#eq-eq6">Equation&nbsp;5</a>. The optimal decisions together with the distribution of their family background <span class="math inline">\pi _{t-1}</span> and talent <span class="math inline">g(\tau _{t})</span> generate the observed distribution <span class="math inline">\hat{q}_{t}(e^{\prime }|s;\eta _{t})</span> of productivity level <span class="math inline">e^{\prime }</span> given education level <span class="math inline">s</span> in the job <span class="math inline">\eta _{t}</span> as follows:</p>
+<p><span id="eq-eq7"><span class="math display">
+\hat{q}_{t}(e^{\prime }
+s;\eta _{t})=\frac{\sum_{\tau ,\left( s_{t-1},\eta
+_{t-1}\right) }\mathcal{I}_{e^{\prime }}\left( e\left( s,\tau ,\eta
+_{t}\right) \right) \chi _{\eta _{t}}^{\sigma _{t}}\left( s_{t},\eta
+_{t},\tau _{t},s_{t-1},\eta _{t-1}\right) .g\left( \tau \right) \pi
+_{t-1}\left( s_{t-1},\eta _{t-1}\right) }{\sum_{\tau ,\left( s_{t-1},\eta
+_{t-1}\right) }\chi _{\eta _{t}}^{\sigma _{t}}\left( s_{t},\eta _{t},\tau
+_{t},s_{t-1},\eta _{t-1}\right) .g\left( \tau \right) \pi _{t-1}\left(
+s_{t-1},\eta _{t-1}\right) },  
+\tag{6}</span></span> where <span class="math inline">I_{e}\left( x\right)</span> is an indicator function, which takes value <span class="math inline">1</span> if <span class="math inline">x=e</span>, otherwise it takes value <span class="math inline">0</span>. In signaling equilibrium, the anticipated distribution in <a href="#eq-eq3">Equation&nbsp;2</a> coincides with the above observed distribution for each job and each education level that are chosen by some agent. Notice that optimal schooling choices <span class="math inline">\chi _{\eta _{t}}^{\sigma _{t}}(s_{t},\eta _{t},\tau _{t},s_{t-1},\eta _{t-1})</span> determines the transition probability <span class="math inline">p_{t}((s_{t-1},\eta _{t-1}),\left( s_{t},\eta _{t}\right) )</span> of an individual born in the family background <span class="math inline">(s_{t-1},\eta _{t-1})</span>, moves to the family background <span class="math inline">(s_{t},\eta _{t})</span>, for all <span class="math inline">(s_{t-1},\eta _{t-1})</span>, <span class="math inline">\left( s_{t},\eta _{t}\right) \in S\times H</span> as follows: <span id="eq-eq8"><span class="math display">
+p_{t}((s_{t-1},\eta _{t-1}),\left( s_{t},\eta _{t}\right) )=\sum_{\eta
+_{t},\tau _{t}}\chi _{\eta _{t}}^{\sigma _{t}}\left( s_{t},\eta _{t},\tau
+_{t},s_{t-1},\eta _{t-1}\right) g(\tau _{t})  
+\tag{7}</span></span></p>
+<p>Let <span class="math inline">P_{t}=\left[ p_{t}((s_{t-1},\eta _{t-1}),\left( s_{t},\eta _{t}\right) )\right] _{(s_{t-1},\eta _{t-1}),\left( s_{t},\eta _{t}\right) \in \mathcal{S\times H}}</span> be the transition matrix in period <span class="math inline">t</span>. Given <span class="math inline">\pi _{t-1}</span>, <span class="math inline">P_{t}</span> determines <span class="math inline">\pi _{t}</span> according to the following equation</p>
+<p><span id="eq-eq9"><span class="math display">
+\pi _{t}=\pi _{t-1}P_{t}  
+\tag{8}</span></span> and <span class="math inline">\pi _{t-1}</span> and <span class="math inline">\chi _{\eta _{t}}^{\sigma _{t}}(s_{t},\eta _{t},\tau _{t},s_{t-1},\eta _{t-1})</span> determine <span class="math inline">R_{t}</span> by <span id="eq-eq9-1"><span class="math display">
+R_{t}=\sum_{s_{t},\tau _{t},\eta _{t},\left( s_{t-1},\eta _{t-1}\right)
+}a\left( s_{t},\tau _{t},\eta _{t}\right) \chi _{\eta _{t}}^{\sigma
+_{t}}\left( s_{t},\eta _{t},\tau _{t},s_{t-1,}\eta _{t-1}\right) g\left(
+\tau _{t}\right) \pi _{t-1}^{{}}\left( \left( s_{t-1},\eta _{t-1}\right)
+\right)   
+\tag{9}</span></span> and thus the growth rate, <span class="math inline">\gamma (R_{t})</span> or equivalently, <span class="math inline">A_{t+1}</span> according to <a href="#eq-eq2">Equation&nbsp;1</a>. The economy moves to the next period with known <span class="math inline">\pi _{t}</span> and <span class="math inline">A_{t+1}</span>, and the above process starts all over again.</p>
+<div id="def-def1" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 1 </strong></span>Given an initial distribution <span class="math inline">\pi ^{0}</span> of social groups <span class="math inline">S\times H</span>, a signaling equilibrium of labor market is a sequence of anticipated distributions <span class="math inline">\left\{ q_{t}\left( e|s_{t};\eta _{t}\right) \right\} _{1}^{\infty }</span> defined in <a href="#eq-eq3">Equation&nbsp;2</a> and an associated sequence of wage schedules <span class="math inline">\left\{w_{t}\left(s_{t};\eta_{t}\right) \right\} _{1}^{\infty }</span> defined in <a href="#eq-eq4">Equation&nbsp;3</a> , optimal schooling and job choices in binary form <span class="math inline">\left\{ \chi _{\eta _{t}}^{\sigma _{t}}\left( s_{t},\eta _{t},\tau ,s_{t-1},\eta _{t-1}\right) \right\} _{1}^{\infty }</span> defined in <a href="#eq-eq6">Equation&nbsp;5</a>, and an associated sequence of transition probability matrices over <span class="math inline">S\times H,\left\{ P_{t}\right\} _{1}^{\infty }</span> defined in <a href="#eq-eq8">Equation&nbsp;7</a>, such that the anticipated distribution <span class="math inline">q_{t}\left( e|s_{t};\eta _{t}\right)</span> coincide with the observed distribution <span class="math inline">\hat{q}_{t}\left( e|s_{t};\eta _{t}\right)</span> defined in <a href="#eq-eq7">Equation&nbsp;6</a> for all <span class="math inline">t</span>, <span class="math inline">t\geq 1</span>.</p>
+</div>
+<p>I do not pursue the existence issues in this paper. In signaling literature, however, the existence of signaling equilibrium is not a problem, the problem is that there exist many of them. How to find them, and select one of them! One approach to equilibrium selection would be to use some refinement arguments such as the notion of sequential equilibrium, or Bayesian Perfect Equilibrium. These are not explored in this draft. Our focus is instead on issues such as what kind of intergenerational mobility, wage growth and total factor productivity growth the model generates during the transition to a stationary equilibrium, and in the stationary state? Whether there exists multiple equilibria; whether the economy is generating maximum potential growth? Answers to these questions are mostly contained in the transition matrix <span class="math inline">P_{t}</span>.</p>
+</section>
+<section id="classifications-of-equilibria" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="classifications-of-equilibria"><span class="header-section-number">2.4</span> Classifications of equilibria</h2>
+<p>Given an equilibrium path of mobility matrices <span class="math inline">\left\{ P_{t}\right\}</span>, the income distributions <span class="math inline">\left\{ \pi _{t}\right\}</span>, the equilibrium wage schedules <span class="math inline">\left\{ w_{t}(.)\right\}</span>, and the flow of spillover scientific knowledge <span class="math inline">\left\{ R_{t}\right\}</span>, I define the wage growth rate due to social mobility between period <span class="math inline">t</span> and <span class="math inline">t+1</span> by <span class="math inline">\gamma _{w}=\sum_{i,j\in \mathcal{S\times H} }[(w_{t+1}(j)-w_{t}(i))/w_{t}(i)]P_{t}(i,j)\pi _{t}\left( i\right)</span>, and wage growth rate due to total factor productivity growth between period <span class="math inline">t</span> and <span class="math inline">t+1</span> by <span class="math inline">\gamma (R_{t})</span>. Notice that the average growth rate of earnings between period <span class="math inline">t</span> and <span class="math inline">t+1</span> is the sum of <span class="math inline">\gamma _{w}</span> and <span class="math inline">\gamma (R_{t})</span>.</p>
+<p>It is possible to have different types of signaling equilibria. A pure pooling equilibrium is a signaling equilibrium in which all types of agents from all economic backgrounds use the same signal, i.e., <span class="math inline">\sigma _{t}(\tau _{t},s_{t-1},\eta _{t-1})</span> is independent of <span class="math inline">\tau _{t}</span>, <span class="math inline">s_{t-1}</span> and <span class="math inline">\eta _{t-1}</span> for all <span class="math inline">t\geq 1</span>. A strictly separating equilibrium is a signaling equilibrium in which the agents of different talent type and family background use distinct schooling levels, and jobs i.e., <span class="math inline">\sigma _{t}(\tau _{t},s_{t-1},,\eta _{t-1})=\sigma _{t}(\tau _{t}^{\prime },s_{t-1}^{\prime },,\eta _{t-1}^{\prime })</span> or <span class="math inline">\eta _{t}^{\ast }(\tau _{t},s_{t-1},\eta _{t-1})=\eta _{t}^{\ast }(\tau _{t}^{\prime },s_{t-1}^{\prime },\eta _{t-1}^{\prime })</span> if and only if <span class="math inline">\tau _{t}=\tau _{t}^{\prime }</span>, <span class="math inline">s_{t-1}=s_{t-1}^{\prime }</span> and <span class="math inline">\eta _{t-1}=\eta _{t-1}^{\prime }</span>for all <span class="math inline">t\geq 1</span>. These are the kinds of equilibria generally studied in the game theory literature.</p>
+<p>I define other kinds of signaling equilibria relevant to our context. An equal opportunity equilibrium is one in which <span class="math inline">\sigma _{t}(\tau _{t},s_{t-1},\eta _{t-1})=\sigma _{t}(\tau _{t},s_{t-1}^{\prime },\eta _{t-1}^{\prime })\equiv \overline{s}_{t}\left( \tau _{t}\right)</span> say, or <span class="math inline">\eta _{t}^{\ast }(\tau _{t},s_{t-1},\eta _{t-1})=\eta _{t}^{\ast }(\tau _{t},s_{t-1}^{\prime },\eta _{t-1}^{\prime })\equiv \overline{\eta }_{t}\left( \tau _{t}\right)</span> say <span class="math inline">\forall s_{t-1},s_{t-1}^{\prime }\in S</span>, <span class="math inline">\eta _{t-1},\eta _{t-1}^{\prime }\in H</span>, i.e., all workers of the same talent type get the same education level or get the same job, and hence get paid the same wages, no matter what their family backgrounds are. An equal opportunity separating equilibrium is an equal opportunity equilibrium such that <span class="math inline">\overline{s}_{t}(\tau )\neq \overline{s}_{t}(\tau ^{\prime })</span> or <span class="math inline">\overline{\eta }_{t}\left( \tau \right) \neq \overline{\eta }_{t}\left( \tau ^{\prime }\right)</span> if <span class="math inline">\tau \neq \tau ^{\prime }</span>.</p>
+<p>In our framework, the following result is straightforward.</p>
+<div id="prp-" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 1 </strong></span>It is impossible to have a strictly separating equilibrium.</p>
+</div>
+<p>In the next section we will consider implicit contracts and show that it is possible to get strictly separating equilibrium.</p>
+<p>It is often difficult to compute the equilibrium path of an economic system, and we often like to study the properties of stationary equilibrium, which we define as follows:</p>
+<div id="def-" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2 </strong></span>A stationary signaling equilibrium is a signaling equilibrium in which in every period <span class="math inline">t</span>, aggregate flow of spillover knowledge <span class="math inline">R_{t}</span>, subjective beliefs of the employers <span class="math inline">q_{t}\left( .\right)</span>, and hence the wage schedule, <span class="math inline">w_{t}\left( .\right)</span>, the transition probability matrix of the social groups, <span class="math inline">P_{t}</span>, and the distribution of the social groups <span class="math inline">\pi _{t}</span> are all independent of <span class="math inline">t</span>.</p>
+</div>
+<p>I denote these stationary variables without a time subscript. Notice that in a stationary equilibrium, we have <span class="math inline">\pi =\pi P</span>, i.e., <span class="math inline">\pi</span> is an invariant probability distribution with respect to <span class="math inline">P</span>, and the stationary distributions of population over the social groups in <span class="math inline">S\times H</span> are the normalized non-negative eigenvectors of the stationary transition matrix <span class="math inline">P^{\prime }</span>.</p>
+<p>There is some controversy regarding what is the best measure of mobility corresponding to a mobility matrix, <span class="math inline">P</span>, see <span class="citation" data-cites="Conlisk_1990">Conlisk (<a href="#ref-Conlisk_1990" role="doc-biblioref">1990</a>)</span>. We do not use any of those criteria, instead we propose a criterion suitable in our framework: A growth sensitive mobility measure <span class="math inline">\mu \left( P\right) \equiv R/R_{\max }</span>, where <span class="math inline">R</span> is the flow of spillover knowledge and <span class="math inline">R_{\max }</span> is the maximum flow of spillover knowledge attainable in the economy out of all possible assignments of jobs and education levels to workers. Thus, this measure is bounded between <span class="math inline">0</span> and <span class="math inline">1</span>, higher number represents higher growth enhancing mobility. An equilibrium is maximal growth separating if <span class="math inline">\mu \left( P\right) =1</span>. In a stationary equilibrium with a mobility matrix <span class="math inline">P</span> and an invariant probability distribution <span class="math inline">\pi</span> over <span class="math inline">S\times H</span> the distribution of income is stationary over time, and hence there is no wage growth due to mobility. The positive wage growth that has been reported in many empirical studies on geographical mobility, (see <span class="citation" data-cites="Jovanovic.Moffitt_1990">Jovanovic and Moffitt (<a href="#ref-Jovanovic.Moffitt_1990" role="doc-biblioref">1990</a>)</span>, <span class="citation" data-cites="Sicherman.Galor_1990">Sicherman and Galor (<a href="#ref-Sicherman.Galor_1990" role="doc-biblioref">1990</a>)</span>, among others) is a phenomenon along the transition path.</p>
+<p>Note that not all economies will have stationary transition probabilities, nor all equilibria will converge to a stationary equilibrium. I now examine the nature of equilibrium dynamics for various economies. I assume in the rest of the paper except in <a href="#sec-sec4-2">Section&nbsp;4.2</a> that <span class="math inline">H</span> is a singleton set, and drop <span class="math inline">\eta</span> from the arguments of all the entities.</p>
+</section>
+</section>
+<section id="sec-sec3" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Mobility and growth</h1>
+<p>For simplicity, I consider the following simple economy for much of this paper. Let <span class="math inline">T=\left\{ 1,2\right\}</span>, <span class="math inline">S=\left\{ 1,2\right\}</span>. Assume that <span class="math inline">a\left( s,\tau \right) =1</span> if <span class="math inline">s=2</span> and <span class="math inline">\tau =2</span>, and <span class="math inline">a\left( s,\tau \right) =0</span> otherwise.</p>
+<p><span id="eq-eq13"><span class="math display">
+e(s,\tau )=\left\{
+\begin{array}{cc}
+e_{1} &amp;
+\text{if }s=1,\forall \tau \in \mathcal{T} \\
+e_{2} &amp; \text{if }s=2,\tau =1 \\
+e_{3} &amp; \text{if }s=2,\tau =2
+\end{array}
+\right.   
+\tag{10}</span></span></p>
+<p>An interpretation of the above is that the workers with education level <span class="math inline">1</span> are unskilled workers and the talent of the unskilled workers do not affect their productivity; however, higher educated talented workers have higher productivity than higher educated not-so-talented workers.</p>
+<p>Does there exist any signaling equilibrium, and if there exists one, are there many equilibria? Is there an equal opportunity separating equilibrium? Does any of these equilibria attain maximal growth and social mobility? The answers to these questions depend on the productivity technology <span class="math inline">e(\tau ,s)</span> and the cost function, <span class="math inline">\theta (s_{t},\tau _{t},s_{t-1})</span>. I assume that the cost function <span class="math inline">\theta (s_{t},\tau _{t}.s_{t-1})</span> satisfies the following:</p>
+<p><span id="eq-eq12"><span class="math display">
+\left.
+\begin{array}{c}
+\theta (1,\tau _{t},s_{t-1})=0 \forall \tau _{t},s_{t-1},\text{ and} \\
+\\
+\theta (2,2,2)&lt;\theta (2,1,2)&lt;\left( e_{2}-e_{1}\right) +p\left(
+e_{3}-e_{2}\right) &lt;\theta (2,2,1)&lt;\theta (2,1,1)
+\end{array}
+\right]   
+\tag{11}</span></span></p>
+<p><strong>Signaling equilibrium 1:</strong> Suppose the employers in period <span class="math inline">t</span> hold the following subjective probability distribution <span class="math inline">q_{t}\left( e|s)\right)</span>of productivity level <span class="math inline">e</span> given his schooling level <span class="math inline">s</span>, which in matrix form is given by</p>
+<p><span class="math display">
+\left[ q_{t}\left( e
+s\right) \right] _{\underset{s=1,2}{
+e=e_{1},e_{2},e_{3}}}=\left[
+\begin{array}{cc}
+1 &amp; 0 \\
+0 &amp; 1-p \\
+0 &amp; p
+\end{array}
+\right]
+</span></p>
+<p>According to <a href="#eq-eq4">Equation&nbsp;3</a>, given the above expectations, the employer announces the following wage schedule:</p>
+<p><span class="math display">
+w_{t}(s_{t})=\left\{
+\begin{array}{lc}
+1 &amp; \text{if }s_{t}=1 \\
+e_{2}.(1-p)+e_{3}.p &amp; \text{if }s_{t}=2
+\end{array}
+\right. \text{for all }t\geq 0
+</span>Given the above wage schedule, one can easily verify that the equilibrium schooling decisions <span class="math inline">\sigma _{t}(\tau _{t},s_{t-1})</span> of an agent of talent type <span class="math inline">\tau _{t}</span> from the family background <span class="math inline">s_{t-1}</span> is as follows:</p>
+<p><span class="math display">
+\sigma _{t}(\tau _{t},s_{t-1})=\left\{
+\begin{array}{cc}
+1 &amp; \forall \tau _{t}\in \mathcal{T} if s_{t-1}=1 \\
+2 &amp; \forall \tau _{t}\in \mathcal{T} if s_{t-1}=2
+\end{array}
+\right. \text{for all }t\geq 0
+</span></p>
+<p>It can be easily checked that given the above optimum solution, the observed conditional probability distribution of <span class="math inline">e</span> given <span class="math inline">s_{t}</span> will coincide with the anticipated one. Note that the the transition matrix associated with <span class="math inline">\sigma _{t}(.)</span> is the following:</p>
+<p><span class="math display">
+P_{t}=\left(
+\begin{array}{cc}
+1 &amp; 0 \\
+0 &amp; 1
+\end{array}
+\right) \forall t\geq 0
+</span>Thus in this economy there is no intergenerational mobility. Furthermore, the economy is in steady-state from the beginning. Thus, <span class="math inline">R_{t}=</span> <span class="math inline">p</span> <span class="math inline">\cdot \pi _{0}^{2}</span>, and hence the productivity growth rate is given by <span class="math inline">\gamma (p\pi _{0}^{2})</span> which is strictly less than <span class="math inline">\gamma (p)</span>, the maximum attainable productivity growth rate for the economy when all talented individuals from all socio-occupational groups obtain higher education.</p>
+<p>This equilibrium is not equal opportunity separating, nor maximal growth separating type. In this equilibrium, all talent types of the children from each type of family backgrounds are pooled.</p>
+<p>Could there be any other equilibrium for the above economy? For a certain subclass of the above economies, there is another equilibrium, which is growth enhancing separating and is Pareto superior to the above equilibrium. To see this, consider the following:</p>
+<p><strong>Signaling equilibrium 2:</strong> let <span class="math inline">v_{t}\equiv \frac{p}{p\pi _{t-1}^{1}+\pi _{t-1}^{2}}</span>. Note that <span class="math inline">v_{t}&gt;p</span> <span class="math inline">\forall t\geq 1</span>. At <span class="math inline">t=1</span>, <span class="math inline">v_{1}</span> is known. Let us suppose that apart from the assumption <a href="#eq-eq13">Equation&nbsp;10</a>, the cost function also satisfies the condition:</p>
+<p><span class="math display">
+\theta (2,2,1)&lt;\left( e_{2}-e_{1}\right) +v_{1}\left( e_{3}-e_{2}\right)
+&lt;\theta (2,1,1)
+</span></p>
+<p>Suppose the employer holds the following subjective probability distribution for the productivity type <span class="math inline">E_{t}</span> given <span class="math inline">S_{t}</span>:</p>
+<p><span id="eq-eqB1"><span class="math display">
+\overline{q}_{t}\left( e
+s\right) =\left[
+\begin{array}{cc}
+1 &amp; 0 \\
+0 &amp; 1-v_{t} \\
+0 &amp; v_{t}
+\end{array}
+\right] \text{ for all }t\geq 1  
+\tag{12}</span></span> According to <a href="#eq-eq4">Equation&nbsp;3</a>, given above expectations, the employer announces the following wage schedule: <span class="math display">
+\overline{w}(s_{t})=\left\{
+\begin{array}{lc}
+1 &amp; \text{ if }s_{t}=1 \\
+e_{2}.(1-v_{t})+e_{3}.v_{t} &amp; \text{ if }s_{t}=2
+\end{array}
+\right.
+</span></p>
+<p>Given the above wage schedule, the original <span class="math inline">\sigma _{t}(\tau _{t},s_{t-1})</span> will be optimal for all <span class="math inline">(\tau _{t},s_{t-1})</span> except for <span class="math inline">\tau _{t}=2</span>, <span class="math inline">s_{t-1}=1</span>, who will choose <span class="math inline">s_{t}=2</span>. It can be easily checked that for this optimal solution, the observed conditional probability distribution of <span class="math inline">e_{t}</span> given <span class="math inline">s_{t}</span> will coincide with the anticipated one in equation <a href="#eq-eqB1">Equation&nbsp;12</a>. Note that the transition matrix associated with this new optimal schooling decision <span class="math inline">\overline{s}_{t}^{*}(.)</span> is as follows:</p>
+<p><span class="math display">
+\overline{P}_{t}=\left(
+\begin{array}{cc}
+1-p &amp; p \\
+0 &amp; 1
+\end{array}
+\right)
+</span>Thus in this economy there is intergenerational mobility. The proportion of population with higher education will go on increasing and the proportion of the population with lower education will go on decreasing. This process, however, cannot go on for ever, since in that case <span class="math inline">v_{t}\rightarrow p</span>, as <span class="math inline">t\rightarrow \infty</span>, which will mean that there will be some finite <span class="math inline">t_{0}&gt;1</span> such that <span class="math inline">v_{t_{0}}&gt;\theta (2,2,1)</span> for the first time and then on the equilibrium will switch on to the previous one with no mobility. Note, however that the new steady-state equilibrium growth rate will be <span class="math inline">\gamma \left( \pi _{t_{0}}^{2}\cdot p\right)</span> since <span class="math inline">\pi _{t_{0}}^{2}&gt;\pi _{0}^{2}</span>. Furthermore, the short-run growth rate up to period <span class="math inline">t_{0}</span>, is higher in the second equilibrium than in the first type; and the second equilibrium is Pareto superior to the first.</p>
+<p>Furthermore, notice that there will be a positive wage growth during all periods <span class="math inline">t\leq t_{0}</span>, and after <span class="math inline">t_{0}</span>, the source of growth is only from factor productivity growth.</p>
+<p>Thus, in this economy there may exist multiple equilibria; which one will actually realize depends on the expectations of the employers. The question is then, how the employer’s expectations are formed? We need a theory of expectations formation of the producers to select an equilibrium, and we do not pursue this theory here.</p>
+<p>Also note that the first signaling equilibrium will be in stationary state from time <span class="math inline">t=1</span>, will produce no social mobility in any periods. The second signaling equilibrium will produce upward mobility from social class <span class="math inline">s=1</span> to <span class="math inline">s=2</span> up to time <span class="math inline">t=t_{0}</span> according to the transition matrix <span class="math inline">\overline{P}_{t}</span>, and during this period, there will be a positive wage growth due to upward mobility; after period <span class="math inline">t_{0}</span>, however, the process will revert to the mobility pattern of the first signaling equilibrium. Two equilibria, however, will produce two different long-run income distributions.</p>
+</section>
+<section id="sec-sec4" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Labor Market Practices</h1>
+<p>In the previous model, we always have pooling equilibrium, which restricts mobility and wage growth, and hence reduces economic growth. The main reason for the impossibility of having a strictly separated equilibrium is that there are <span class="math inline">\hat{s}\cdot \hat{\tau}</span> types of agents but there are only <span class="math inline">\hat{s}</span> signal classes, and the fact that employers are allowed only to use one-time non-renegotiable wage contracts during the tenure of the employment. Relaxing this assumption, and allowing other kinds of implicit or explicit contracts in which workers may be laid-off or demoted if his productivity is seen to be low, or the worker may be promoted or else he quits if he is found to be more productive worker after working with the firm for a while.</p>
+<p>Suppose we allow those labor market practices. Since workers anticipate those practices, some workers with low innate abilities, who found a higher education more lucrative because he was pooled with the higher innate ability workers, may now find it is not lucrative because of the possibility of on the job screening. He will self-select not to have higher education. Thus the possibility of on the screening may lead to more separating equilibria. In the next two subsections, I extend the model of the previous section by introducing wage contracts as gambles, and allow more than one type of employers, and then examine to what extent these labor market features can lead to further separation of signaling equilibrium.</p>
+<section id="sec-sec4-1" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="sec-sec4-1"><span class="header-section-number">4.1</span> Quits, layoffs, and promotion</h2>
+<p>I assume that the productivity function of the worker <span class="math inline">e(.)</span> does not contain the random shock term <span class="math inline">\epsilon</span> and further assume that the production technology of the economy is such that <span class="math inline">e\left( s,\tau \right) \neq e\left( s,\tau ^{\prime }\right)</span> whenever <span class="math inline">\tau \neq \tau ^{\prime }</span> for all <span class="math inline">s,\tau ,\tau ^{\prime }</span>. In that case, the employer can fully predict the talent type of the worker by observing his output. The employer would like to lay-off the low productive worker or demote him, and encourage the more productive workers to stay with higher pays; both types of workers may quit, however. The problem is that often the employer cannot observe the productivity level of the worker. He might, however, observe another random variable <span class="math inline">Y(s,\tau )</span> which he uses to predict the productivity level of the worker with school level <span class="math inline">s</span> and ability <span class="math inline">\tau</span>. To simplify exposition, I assume that <span class="math inline">Y\left( s,\tau \right) \equiv e\left( s,\tau \right)</span>, i.e., the employer can observe the productivity level of the worker.</p>
+<p>To proceed more formally, assume that time period <span class="math inline">t</span> is divided into two sub periods <span class="math inline">t</span> and <span class="math inline">t.5</span>. and that total wages during a period will be paid in two installments. Consider the following kind of sorting wage contracts: </p>
+<blockquote class="blockquote">
+<p>If the worker’s schooling level is <span class="math inline">s</span> then he will be paid <span class="math inline">w_{0}</span> in the first subperiod and during the second subperiod will be paid a gamble, <span class="math inline">w_{t.5}</span>, which will take value <span class="math inline">w_{*}</span> if his realized productivity level is less than <span class="math inline">c&gt;0</span>, a constant (i.e., he is not promoted) and <span class="math inline">w^{*}</span> if his realized output is larger than <span class="math inline">c</span> (i.e., he is promoted).</p>
+</blockquote>
+<p>Thus under this contract, a worker receives <span class="math inline">w\left( s\right) =w_{0}+Ew_{t.5}</span>. Notice that these kind of contracts also include the simpler contracts of the previous section, where <span class="math inline">w_{0}=w(s)/2</span> and <span class="math inline">w_{t.5}=w\left( s\right) /2</span> with probability 1. What kind of labor contracts can evolve in the competitive markets, and could it lead to ability separating and growth enhanced separating equilibrium? As the following proposition shows, it depends on the nature of the schooling cost function, and the nature of the contracts and the value of <span class="math inline">c</span>.</p>
+<p>Consider the following specific sorting wage contract <span class="math inline">w^{\ast }</span>:</p>
+<blockquote class="blockquote">
+<p>If a worker’s schooling level is <span class="math inline">s=1</span>, he will be paid <span class="math inline">e_{1}/2</span> in both sub-periods; if his schooling level is <span class="math inline">s=2</span>, he will receive <span class="math inline">e_{2}/2</span> in the first sub-period and in the second sub-period <span class="math inline">e_{2}/2</span> if his realized productivity level is <span class="math inline">\tau =1</span> (i.e., if he is not promoted) and he will receive <span class="math inline">e_{3}/2</span>, which is his true productivity, and also a bonus <span class="math inline">\left( e_{3}-e_{1}\right) /2</span>, if his realized productivity level is <span class="math inline">\tau =2</span> (i.e., if he is promoted).</p>
+</blockquote>
+<p>The following two classes of economies will be used for our result:</p>
+<p><span id="eq-eqcond4"><span class="math display">
+\begin{array}{l}
+\theta \left( 2,2,1\right) &lt;\left( e_{3}-e_{1}\right) &lt;\theta \left(
+2,1,1\right) ....(a) \\
+\\
+\theta \left( 2,2,2\right) &lt;\left( e_{2}-e_{1}\right) &lt;\theta \left(
+2,1,2\right) ...(b)
+\end{array}
+\tag{13}</span></span></p>
+<div id="prp-" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 2 </strong></span>For economies satisfying conditions (a) in <a href="#eq-eqcond4">Equation&nbsp;13</a>, and <a href="#eq-eq12">Equation&nbsp;11</a>, the sorting wage contract <span class="math inline">w^{*}</span> above is a signaling equilibrium wage contract. If, furthermore, conditions (b) in <a href="#eq-eqcond4">Equation&nbsp;13</a> are satisfied then the resulting equilibrium is equal opportunity ability separating.</p>
+</div>
+<p>There could be other type of contracts which can produce the same result as in the above proposition, they are basically equivalent to the above contract <span class="math inline">w^{\ast }</span> in the sense that no other contract can pay higher amount while maintaining the zero profit condition on the employers. The situation gets more complicated and interesting when we allow randomness in the productivity function. This will be incorporated in the revised draft.</p>
+<p>Notice that the class of economies satisfying conditions in the above proposition is a subclass of economies of the previous section. So the two signaling equilibria considered in the previous section are also signaling equilibria of the economy considered in the above proposition. But if employers are competitive and government regulations did not prevent employers from announcing above type of contracts, the perfect competition will rule out these two pooling equilibrium.</p>
+</section>
+<section id="sec-sec4-2" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="sec-sec4-2"><span class="header-section-number">4.2</span> Labor Market Signaling and Job Matching</h2>
+<p>We now like to investigate if the presence of various jobs in which productivity level varies for given ability and education levels, can help to achieve further separation. Furthermore, we would like to investigate if market signaling can help in matching workers to jobs, an aspect of job matching that is mostly ignored in the job matching literature.</p>
+<p>The basic structure of our model is very similar to that of <span class="citation" data-cites="Jovanovic_1979">Jovanovic (<a href="#ref-Jovanovic_1979" role="doc-biblioref">1979</a>)</span>; the main essential difference between his model and the present model is that we assume signaling based matching, whereas Jovanovich assumes a random matching in a search theoretic framework. To keep our analysis to simplest form, we consider an economy with two productive sectors: <span class="math inline">\eta =1</span> and <span class="math inline">\eta =2</span>. Both sectors employ skilled labor and unskilled labor. Assume that the sector <span class="math inline">\eta =2</span> is more research intensive and sector <span class="math inline">\eta =1</span> is less research intensive. We assume the flow of spillover knowledge depends on job as follows: <span class="math inline">a\left( s,\tau ,\eta \right) =1</span> if <span class="math inline">s=2</span>, <span class="math inline">\tau =2</span>, and <span class="math inline">\eta =2</span>, and <span class="math inline">a\left( s,\tau ,\eta \right) =0</span> otherwise. The following table summarizes the match specific productivity level <span class="math inline">e( s,\tau ,\eta)</span> to various levels of schooling <span class="math inline">s</span>, talent <span class="math inline">\tau</span> and sector <span class="math inline">\eta</span> combinations.</p>
+<!-- 
+$$
+\begin{tabular}{
+c
+c
+c
+c
+c
+}
+\hline\hline
+\multicolumn{5}{
+l
+}{The productivity function $e\left( s,\tau ,\eta
+\right)$} \\ \hline\hline
+& \multicolumn{2}{
+c
+}{$s=1$} & \multicolumn{2}{
+c
+}{$s=2$} \\ 
+\cline{2-5}\cline{2-5}
+& $\tau =1$ & $\tau =2$ & $\tau =1$ & $\tau =2$ \\ \hline\hline
+$\eta =1$ & $e_{1}$ & $e_{1}$ & $e_{2}$ & $e_{3}$ \\ \hline\hline
+$\eta =2$ & $e_{1}$ & $e_{1}$ & $e_{2}-\epsilon$ & $e_{3}+
+\frac{1-p}{p}\cdot \epsilon$ \\ \hline\hline
+\end{tabular}
+$$
+-->
+<p><span class="math display">
+\begin{array}{
+c
+cc
+cc
+}
+\hline\hline
+&amp; s=1 &amp; &amp; s=2 &amp; \\  \hline\hline
+&amp; \tau =1 &amp; \tau =2 &amp; \tau =1 &amp; \tau =2 \\ \hline\hline
+\eta =1 &amp; e_{1} &amp; e_{1} &amp; e_{2} &amp; e_{3} \\ \hline\hline
+\eta =2 &amp; e_{1} &amp; e_{1} &amp; e_{2}-\epsilon &amp; e_{3}+
+\frac{1-p}{p}\cdot \epsilon \\ \hline\hline
+\end{array}
+</span></p>
+<p>Notice that the two signaling equilibria of the previous section are also equilibria of the above economy. As I have illustrated earlier, in these two equilibria, the market does not produce incentive structure for best matching of workers to jobs. If, however, the employers use on-the-job screening device of the previous subsection, the economy generates a better matching of workers to job. In fact, one can attain a maximal growth separating pooling equilibrium. To see this, consider the following wage contracts:</p>
+<blockquote class="blockquote">
+<p>For each employer <span class="math inline">\eta =1</span> and <span class="math inline">\eta =2</span>, the wage contract is of the same form as in the previous subsection, with the exception that in place of <span class="math inline">e_{2}</span> and <span class="math inline">e_{3}</span> of the previous contract, we use the corresponding productivity values from the above table for <span class="math inline">\eta</span>.</p>
+</blockquote>
+<div id="prp-" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 3 </strong></span>For the class of economies satisfying conditions in <a href="#eq-eq12">Equation&nbsp;11</a>, (a) in <a href="#eq-eqcond4">Equation&nbsp;13</a>, and <span class="math inline">e_{3}-e_{1}&gt;\theta \left( 2,1,2\right)</span>, job matching is achieved in the market through education signaling and self-selection, and it is more separated than the equilibrium in the previous proposition. In equilibrium nobody gets fired nor anybody quits.</p>
+</div>
+<p>Notice that we are not able to obtain strictly separating equilibrium in the above proposition because we assumed for <span class="math inline">s=1</span> that <span class="math inline">e\left( s,\tau ,\eta \right) =e_{1}</span> for all <span class="math inline">\tau</span> and <span class="math inline">\eta</span>. Suppose instead there is an employer for whom <span class="math inline">e\left( s,\tau ,\eta \right)</span> varies with <span class="math inline">\tau</span>, we can then find conditions on the cost of schooling that will lead to strictly separating equilibrium.</p>
+<p>Notice, however, that strictly separating equilibrium, or even maximal growth separating equilibrium is attained only when schooling costs satisfy the conditions in the above propositions. But there are economies which cannot achieve strict separability or even growth maximizing separability or an equal opportunity separability when talented children from poorer family background have higher costs than what the above propositions imply. Notice also that it is not possible for private employers to subsidize such socially disadvantaged children and tie them to work for the company after completing school, unless the company is subsidized by the government (because the net profit from such wage contract is always negative in equilibrium).<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> This problem can be handled only in the school system, which we turn next.</p>
+</section>
+</section>
+<section id="sec-sec5" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Educational Systems: public, private, school voucher</h1>
+<p>What should be the right kind of education policy that can lead to higher mobility and economic growth depends on the school system. There are various types of educational systems adopted by various countries: in some systems, schools are completely public, for instance, in Korea; most countries have dual system with both public and private schools, for instance, in India and the US. Generally the public schools are free but their qualities depend a great deal on the budget it receives from the government, which in turn depends, in some countries such as the US, on the pool of property taxes raised in the neighborhood in which the school is located. Since children living in a particular neighborhood can only attain its public school, we can see immediately that children from poorer family background face higher cost of schooling. There are many other reasons for higher cost, we do not discuss them here.</p>
+<p>If one of the objectives of an educational system is to attain higher social mobility and higher income growth, from our analysis so far, it is clear that the talented children must get higher education and get placed in the growth enhancing sectors. Many times competitive labor market may not be able to produce enough economic incentives for the children of the poorer family background to achieve higher education. While higher education for all might be an important social goal by itself, but given resource constraints, a society might focus on identifying the more talented individuals of poorer family background, and give them only the required subsidy so that they can attain higher education and work in the growth enhancing technical sectors. Poorer the family background, the higher is the subsidy needed. Where would the money come from for such subsidies? Recall that these talented individuals can create higher income for the future generation by creating a positive knowledge; moreover, assuming that productivity function <span class="math inline">e\left( s,\tau ,\eta \right)</span> represents productivity net of pay-roll taxes, with higher mobility, there is higher income growth during the transition to long-run equilibrium, and with progressive or even with proportionate taxes on earnings, the government should be able to raise the required subsidy money. But all children look alike, and they do not wear a tag indicating their talent level, how could the talented ones be identified?</p>
+<p>I argue that this could be done with school voucher system. To see it how, assume that only the private schools provide higher quality education and the public schools provide lower quality education. Any one who can afford can attain a private school; however, whether one will pass the curriculum of a private school, depends on the innate ability and family background of the student. These effects are, however, already reflected in the cost differences. If the voucher for a child of particular family background is such that the voucher reduces the cost of the talented child just enough so that he can attain the higher quality education, then the students or their parents will self-select to receive voucher only for talented children and not so talented ones would rather self-select to go to public school system. Alternatively, government can use the subsidy money to improve the quality of the public schools attained by the children of poorer family backgrounds, so much so that the public schools are of the same quality as the private school. This can also lead to higher social mobility and growth. What kind is a better education policy is an area of constant academic research and focus of continuing political debates in the US congress and elsewhere.</p>
+<p>To get a better idea, consider the economy of <a href="#sec-sec3">Section&nbsp;3</a>. Suppose the government announces a voucher of <span class="math inline">\$0.50</span> to a child of family background <span class="math inline">1</span>, which must be used for the sole purpose of attaining school level <span class="math inline">3</span>. This policy will move the economy to another stationary equilibrium in which the equilibrium subjective probability matrix expressing employer’s beliefs, <span class="math inline">q\left( e|s\right)</span>, the mobility matrix of the three income groups <span class="math inline">P</span>, the associated invariant distribution of income <span class="math inline">\pi</span>, and the income levels <span class="math inline">w(s)</span>, <span class="math inline">s=1,2,3</span> are as follows:</p>
+<p><span class="math display">
+q\left( e
+s\right) =\left[
+\begin{array}{ccc}
+1 &amp; 0 &amp; 0 \\
+0 &amp; 1 &amp; 0 \\
+0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; 1
+\end{array}
+\right] P=\left[
+\begin{array}{ccc}
+1-p &amp; 0 &amp; p \\
+1-p &amp; 0 &amp; p \\
+0 &amp; 1-p &amp; p
+\end{array}
+\right] \pi ^{\prime }=\left[
+\begin{array}{c}
+(1-p)^{2} \\
+p(1-p) \\
+p
+\end{array}
+\right] w=\left[
+\begin{array}{c}
+1 \\
+2 \\
+4
+\end{array}
+\right]
+</span></p>
+<p>It is also clear that in this case our measure of mobility <span class="math inline">\mu \left( P\right) =1</span>, and the growth rate is the highest possible. To get a better insight, let us consider the numerical example. For this specific economy, a subsidy of <span class="math inline">0.50</span> per individual will achieve the goal. Total cost to subsidize all the talented individuals of the old stationary equilibrium is <span class="math inline">\$0.059</span>; but it will improve the total factor productivity growth rate from 2.74% to 14.02%. Thus it might be worthwhile. Also notice that income distribution will become more egalitarian in the long run, which is given by <span class="math inline">\pi ^{\prime }=\left( 0.5329,0.1971,0.27\right)</span> as compared to the earlier one <span class="math inline">\pi =\left( 0.6637,0.24551,0.0908\right)</span>.</p>
+<p>It should be noted that a highly regulated public educational system with competitive bidding for entry into a limited number of higher education slots, can also achieve the same objective of growth and social mobility. This system was introduced by Park regime in South Korea and is believed to have attained a high degree of economic growth and social mobility. There are many other dimensions to the political and academic debate on educational policies, see for instance, <span class="citation" data-cites="Stiglitz_1975">Stiglitz (<a href="#ref-Stiglitz_1975" role="doc-biblioref">1975</a>)</span> in an imperfect information context, and <span class="citation" data-cites="Becker_1962">G. S. Becker (<a href="#ref-Becker_1962" role="doc-biblioref">1962</a>)</span> in a perfect information context.</p>
+</section>
+<section id="sec-sec7" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Policies and conclusions</h1>
+<p>In this paper, we have considered a model of intergenerational social mobility and economic growth, in which innate ability of workers, and the type of their education and jobs determine the rate of technological progress and social mobility. More talented individuals with higher education and working in the growth enhancing sectors can lead to higher rate of technical progress and wage growth. Moreover, higher is the rate of mobilization of these talented individuals to higher education and growth sectors, the higher is the rate of social mobility. The incentive structure in the labor market that matches workers to jobs, together with the talent level and cost of education of individuals of various social backgrounds, determine the incentives for various types of education for individuals. Important features of our model are that the innate ability of an individual is a private knowledge, i.e., (possibly) known only to the individual and that education not only increases productivity of the individual, more so for an higher ability individual, it also acts, at least at the time of initial hiring, as a signaling for individual’s innate productive ability for the purpose of job matching in the labor market.</p>
+<p>In economies with one-time non-renegotiable wage contracts<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>, it is shown that the asymmetric information regarding innate ability (hence productivity level) of workers leads to existence of multiple signaling equilibria arising from multiplicities of unprejudiced employers’ self-fulfilling beliefs regarding the relationship between schooling and productivity. These equilibria vary in the degree of social mobility and economic growth, and all of them could be inefficient in the sense of being far from generating the maximum possible rate of social mobility and economic growth. Furthermore, there are no natural * refinements* based on economic grounds that can lead to selection of an equilibrium.</p>
+<p>The paper considered various labor market practices<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> such as implicit contracts involving quits, layoffs, promotions and demotion of workers based on the employer’s or worker’s assessments of realized productivity on the job, and explicit wage contracts contingent upon the outcome of some publicly observed indicator of one’s actual productivity. It is shown that these labor market practices can lead to removal of some of the above inefficiencies and thus to a higher rate of economic growth and social mobility. The remaining impediments to economic growth and social mobility can only be removed by intervening in the educational system.</p>
+<p>The paper considered briefly various school systems — purely public systems such as in South Korea, and dual systems with both private and public education such as in India and the US. it is argued that, within the dual private-public system, subsidies or school vouchers for higher education to children from poorer family backgrounds can lead to self-selection of the more talented ones with the poorer backgrounds into higher education and growth enhancing jobs, and hence to higher social mobility and economic growth in a cost effective way. It also follows from our analysis that increasing average education level of the population may not be the most effective way of raising the growth rate.</p>
+<p>In most countries, especially in less developed countries, higher education is highly subsidized by the government. If the source of lower social mobility is due to higher cost of education faced by children of poorer family background, subsidizing higher education uniformly for children of all family backgrounds is not necessarily going to be effective in inducing the talented children from poorer family background to opt for higher education.</p>
+<p>The paper has the following implication for the proposed educational policy allowing children to borrow for college education. This will be effective only to the students on the margin who have enough preschool investment so that the rate of return from college is higher than the interest rate on the loan. For those with poorer family background, they would need loans at lower interest rates, or their parents should be given targeted subsidies for the purpose of prenatal and preschool investment to reduce their children’s cost of higher education.</p>
+<p>The practical relevance of the above types of policies hinges on important empirical questions: How to estimate the schooling cost as a function of schooling level, schooling type, school quality, family background and innate ability? How much more scope remains in an economy to reduce inefficiency by developing appropriate labor market practices? Another important empirical issue in this connection is to examine if observed educational attainment and job assignments of individuals in a society are according to their innate ability, or according to their family backgrounds. The existence of multiple equilibria arising from unprejudiced employer’s self-fulfilling expectations also raises important empirical questions: How to verify whether an economy is stuck with a low level equilibrium where growth rate, and social mobility are low, and how to design policies that will allow the economy to move from a low level equilibrium to an equilibrium with higher growth and social mobility?</p>
+<p>The framework proposed here could be calibrated using real data and be used to carry out various policy analyses regarding the cost of schooling subsidies, or school vouchers, and benefits that will accrue to the society in terms higher mobility, faster economic growth, and more egalitarian income distribution. In our future work, we plan to pursue some of these issues using the NLSY (National Longitudinal Surveys of Youths) data for the US.</p>
+<!-- \theindex -->
+</section>
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Adams_1990" class="csl-entry" role="doc-biblioentry">
+Adams, James D. 1990. <span>“Fundamental Stocks of Knowledge and Productivity Growth.”</span> <em>Journal of Political Economy</em> 98 (4): pp. 673–702. <a href="https://doi.org/10.1086/261702">https://doi.org/10.1086/261702</a>.
+</div>
+<div id="ref-Becker_1962" class="csl-entry" role="doc-biblioentry">
+Becker, Gary S. 1962. <span>“Investment in Human Capital: A Theoretical Analysis.”</span> <em>Journal of Political Economy</em> 70 (5, Part 2): 9–49. <a href="https://doi.org/10.1086/258724">https://doi.org/10.1086/258724</a>.
+</div>
+<div id="ref-Becker.Tomes_1979" class="csl-entry" role="doc-biblioentry">
+Becker, Gary S., and Nigel Tomes. 1979. <span>“An Equilibrium Theory of the Distribution of Income and Intergenerational Mobility.”</span> <em>Journal of Political Economy</em> 87 (6): 1153â€“1189. <a href="https://doi.org/10.1086/260831">https://doi.org/10.1086/260831</a>.
+</div>
+<div id="ref-Becker_Tomes_1986" class="csl-entry" role="doc-biblioentry">
+Becker, Gary S., and Nigel Tomes. 1986. <span>“Human Capital and the Rise and Fall of Families.”</span> <em>J. Lab. Econ.</em>
+</div>
+<div id="ref-Ben-Porath_1967" class="csl-entry" role="doc-biblioentry">
+Ben-Porath, Yoram. 1967. <span>“The Production of Human Capital and the Life Cycle of Earnings.”</span> <em>Journal of Political Economy</em> 75 (4, Part 1): 352–65. <a href="https://doi.org/10.1086/259291">https://doi.org/10.1086/259291</a>.
+</div>
+<div id="ref-Coe_Helpman_1995" class="csl-entry" role="doc-biblioentry">
+Coe, D. T., and E. Helpman. 1995. <span>“Internal r&amp;d Spillovers.”</span> <em>European Economic Review</em> 39: 859–87.
+</div>
+<div id="ref-Conlisk_1990" class="csl-entry" role="doc-biblioentry">
+Conlisk, John. 1990. <span>“Monotone Mobility Matrices.”</span> <em>The Journal of Mathematical Sociology</em> 15 (3-4): 173–91. <a href="https://doi.org/10.1080/0022250x.1990.9990068">https://doi.org/10.1080/0022250x.1990.9990068</a>.
+</div>
+<div id="ref-Daniel.etal_1997" class="csl-entry" role="doc-biblioentry">
+Daniel, Kermit, Dan Black, and Jeffrey A Smith. 1997. <span>“College Quality and the Wages of Young Men.”</span>
+</div>
+<div id="ref-Gottfredson_1997" class="csl-entry" role="doc-biblioentry">
+Gottfredson, Linda S. 1997. <span>“Why g Matters: The Complexity of Everyday Life.”</span> <em>Intelligence</em> 24 (1): 79–132. https://doi.org/<a href="https://doi.org/10.1016/S0160-2896(97)90014-3">https://doi.org/10.1016/S0160-2896(97)90014-3</a>.
+</div>
+<div id="ref-Griliches.Mason_1972" class="csl-entry" role="doc-biblioentry">
+Griliches, Zvi, and William M. Mason. 1972. <span>“Education, Income, and Ability.”</span> <em>Journal of Political Economy</em> 80 (3, Part 2): S74–103. <a href="https://doi.org/10.1086/259988">https://doi.org/10.1086/259988</a>.
+</div>
+<div id="ref-Heckman_1995" class="csl-entry" role="doc-biblioentry">
+Heckman, James J. 1995. <span>“Lessons from the Bell Curve.”</span> <em>Journal of Political Economy</em> 103 (5): 1091–1120. <a href="https://doi.org/10.1086/262014">https://doi.org/10.1086/262014</a>.
+</div>
+<div id="ref-Heckman.etal_1995" class="csl-entry" role="doc-biblioentry">
+Heckman, James, Anne Layne-Farrar, and Petra Todd. 1995. <span>“Does Measured School Quality Really Matter? An Examination of the Earnings-Quality Relationship.”</span> National Bureau of Economic Research. <a href="https://doi.org/10.3386/w5274">https://doi.org/10.3386/w5274</a>.
+</div>
+<div id="ref-Herrnstein.Murray_1994_Book_epub" class="csl-entry" role="doc-biblioentry">
+Herrnstein, Richard, and Charles Murray. 1994. <em>The Bell Curve: Intelligence and Class Structure in American Life</em>. 1st Free Press pbk. ed. Free Press. <a href="https://www.amazon.com/Bell-Curve-Intelligence-Structure-Paperbacks-ebook/dp/B003L77VY2%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB003L77VY2">https://www.amazon.com/Bell-Curve-Intelligence-Structure-Paperbacks-ebook/dp/B003L77VY2%3FSubscriptionId%3D0JYN1NVW651KCA56C102%26tag%3Dtechkie-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB003L77VY2</a>.
+</div>
+<div id="ref-Jaffe_1986" class="csl-entry" role="doc-biblioentry">
+Jaffe, Adam. 1986. <span>“Technological Opportunity and Spillovers of r<span>&amp;</span>d: Evidence from Firms<span></span> Patents, Profits and Market Value,”</span> January. <a href="https://doi.org/10.3386/w1815">https://doi.org/10.3386/w1815</a>.
+</div>
+<div id="ref-Jovanovic_1979" class="csl-entry" role="doc-biblioentry">
+Jovanovic, Boyan. 1979. <span>“Job Matching and the Theory of Turnover.”</span> Human Capital. <em>Journal of Political Economics</em>. <a href="http://www.jstor.org/stable/1833078">http://www.jstor.org/stable/1833078</a>.
+</div>
+<div id="ref-Jovanovic.Moffitt_1990" class="csl-entry" role="doc-biblioentry">
+Jovanovic, Boyan, and Robert Moffitt. 1990. <span>“An Estimate of a Sectoral Model of Labor Mobility.”</span> Human Capital. <em>Journal of Political Economy</em> 98 (4): 827–52. <a href="https://doi.org/10.1086/261708">https://doi.org/10.1086/261708</a>.
+</div>
+<div id="ref-Kreps_1990_Book" class="csl-entry" role="doc-biblioentry">
+Kreps, David M. 1990. <em>A Course in Microeconomic Theory</em>. Harvester Wheatsheaf New York.
+</div>
+<div id="ref-Loury_1981" class="csl-entry" role="doc-biblioentry">
+Loury, Glenn. 1981a. <span>“Intergenerational Transfers and the Distribution of Earnings.”</span> <em>Econometrica</em>.
+</div>
+<div id="ref-Loury_1981_1" class="csl-entry" role="doc-biblioentry">
+———. 1981b. <span>“Is Equal Opportunity Enough?”</span> <em>American Economic Review</em>.
+</div>
+<div id="ref-Lucas_1988" class="csl-entry" role="doc-biblioentry">
+Lucas, Robert E. 1988. <span>“On the Mechanics of Economic Development.”</span> <em>Journal of Monetary Economics</em> 22 (1): 3–42. <a href="https://doi.org/10.1016/0304-3932(88)90168-7">https://doi.org/10.1016/0304-3932(88)90168-7</a>.
+</div>
+<div id="ref-Mincer_1958" class="csl-entry" role="doc-biblioentry">
+Mincer, Jacob. 1958. <span>“Investment in Human Capital and Personal Income Distribution.”</span> <em>Journal of Political Economics</em>.
+</div>
+<div id="ref-Raut_1990" class="csl-entry" role="doc-biblioentry">
+Raut, Lakshmi K. 1990. <span>“Capital Accumulation, Income Distribution and Endogenous Fertility in an Overlapping Generations General Equilibrium Model.”</span> Published. <em>Journal of Development Economics</em> 34 (1-2): 123–50. <a href="https://doi.org/10.1016/0304-3878(90)90079-q">https://doi.org/10.1016/0304-3878(90)90079-q</a>.
+</div>
+<div id="ref-Raut_1995" class="csl-entry" role="doc-biblioentry">
+———. 1995. <span>“R &amp; d Spillover and Productivity Growth: Evidence from <span>India</span>n Private Firms.”</span> Published. <em>Journal of Development Economics</em> 48 (1): 1–23. <a href="https://doi.org/10.1016/0304-3878(95)00028-3">https://doi.org/10.1016/0304-3878(95)00028-3</a>.
+</div>
+<div id="ref-Rosen_1977" class="csl-entry" role="doc-biblioentry">
+Rosen, Sherwin. 1977. <span>“Human Capital: Relations Between Education and Earnings.”</span> <em>Frontiers of Quantitative Economics</em> 3: 731–53.
+</div>
+<div id="ref-Rothschild.Stiglitz_1970" class="csl-entry" role="doc-biblioentry">
+Rothschild, Michael, and Joseph E Stiglitz. 1970. <span>“Increasing Risk: I. A Definition.”</span> <em>Journal of Economic Theory</em> 2 (3): 225–43. <a href="https://doi.org/10.1016/0022-0531(70)90038-4">https://doi.org/10.1016/0022-0531(70)90038-4</a>.
+</div>
+<div id="ref-Roy_1951" class="csl-entry" role="doc-biblioentry">
+Roy, A. D. 1951. <span>“Some Thoughts on the Distribution of Earnings.”</span> <em>Oxford Economic Papers</em> 3 (2): 135–46. <a href="http://www.jstor.org/stable/2662082">http://www.jstor.org/stable/2662082</a>.
+</div>
+<div id="ref-Sicherman.Galor_1990" class="csl-entry" role="doc-biblioentry">
+Sicherman, Nachum, and Oded Galor. 1990. <span>“A Theory of Career Mobility.”</span> <em>Journal of Political Economy</em> 98 (1): 169–92. <a href="https://doi.org/10.1086/261674">https://doi.org/10.1086/261674</a>.
+</div>
+<div id="ref-Spence_1973" class="csl-entry" role="doc-biblioentry">
+Spence, Michael. 1973. <span>“Job Market Signaling.”</span> Signaling, mobility. <em>The Quarterly Journal of Economics</em> 87 (3): 355–74. <a href="http://www.jstor.org/stable/1882010">http://www.jstor.org/stable/1882010</a>.
+</div>
+<div id="ref-Stiglitz_1975" class="csl-entry" role="doc-biblioentry">
+Stiglitz, Joseph E. 1975. <span>“The Theory of "Screening," Education, and the Distribution of Income.”</span> <em>The American Economic Review</em> 65 (3): 283–300. <a href="http://www.jstor.org/stable/1804834">http://www.jstor.org/stable/1804834</a>.
+</div>
+<div id="ref-Willis_1986" class="csl-entry" role="doc-biblioentry">
+Willis, Robert J. 1986. <span>“Chapter 10 Wage Determinants: A Survey and Reinterpretation of Human Capital Earnings Functions.”</span> In, 1:525–602. Handbook of Labor Economics. Elsevier. <a href="https://doi.org/10.1016/S1573-4463(86)01013-1">https://doi.org/10.1016/S1573-4463(86)01013-1</a>.
+</div>
+</div>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p> There are alternative models of intergenerational social mobility, see for instance, <span class="citation" data-cites="Becker_Tomes_1986 Becker.Tomes_1979">(<a href="#ref-Becker_Tomes_1986" role="doc-biblioref">Becker Gary S. and Tomes 1986</a>; <a href="#ref-Becker.Tomes_1979" role="doc-biblioref">G. S. Becker and Tomes 1979</a>)</span>, and <span class="citation" data-cites="Loury_1981 Loury_1981_1">(<a href="#ref-Loury_1981" role="doc-biblioref">Loury 1981a</a>, <a href="#ref-Loury_1981_1" role="doc-biblioref">1981b</a>)</span>. These models do not feature asymmetric information regarding innate productive ability of workers.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The arguments in the first strand is based on statistical analyses which show that generally many test scores exhibit the presence of a common factor, known as g-loaded factor which has been found to be a good predictor of many socio-political-economic outcomes, especially in the labor market success and educational attainment. (See, for instance, <span class="citation" data-cites="Herrnstein.Murray_1994_Book_epub">Herrnstein and Murray (<a href="#ref-Herrnstein.Murray_1994_Book_epub" role="doc-biblioref">1994</a>)</span>, and <span class="citation" data-cites="Gottfredson_1997">Gottfredson (<a href="#ref-Gottfredson_1997" role="doc-biblioref">1997</a>)</span>). There are many economic studies which find the opposite. (See, for instance, Heckman’s (<span class="citation" data-cites="Heckman_1995">J. J. Heckman (<a href="#ref-Heckman_1995" role="doc-biblioref">1995</a>)</span>) critique of the <span class="citation" data-cites="Herrnstein.Murray_1994_Book_epub">Herrnstein and Murray (<a href="#ref-Herrnstein.Murray_1994_Book_epub" role="doc-biblioref">1994</a>)</span> book for arguments and references, and see <span class="citation" data-cites="Roy_1951">Roy (<a href="#ref-Roy_1951" role="doc-biblioref">1951</a>)</span> model of earnings function that uses a multi-dimensional vector for ability).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>There is a long controversy over the issue of whether children’s innate ability is genetically inherited from parent’s innate ability. The scientific consensus is that the correlation between parent’s innate ability and a child’s innate ability is somewhere between 0.3 to 0.7. I assumed it to be zero, for simplification. There are other controversies regarding talent, ability and intelligence. Some believe that one is born with a fixed level of intelligence, and training and environment has no effect on intelligence. Others do not agree with it, and believe that ability, intelligence and talent could be improved to some extent with better environment and training. Some believe that intelligence or innate ability is fixed when one is born, and less intelligent people can learn and do complex things that we face in our everyday life, in school curricula, and in modern jobs, except that they might take longer, and thus less productive; this is the view we take in this paper.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p> The general practice in the human capital literature is, however, to treat S as continuous variable, more realistically it is a discrete set.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>There is a longstanding controversy as to whether years of education is a significant determinant of earnings, or is it that ability is the main determinant of earnings, and education just picks up the effect of ability (see <span class="citation" data-cites="Griliches.Mason_1972">Griliches and Mason (<a href="#ref-Griliches.Mason_1972" role="doc-biblioref">1972</a>)</span> and <span class="citation" data-cites="Willis_1986">Willis (<a href="#ref-Willis_1986" role="doc-biblioref">1986</a>)</span>. It has been found that the effect of education on earnings is somewhat lower after ability is controlled for, but it is not insignificant. Much of these empirical studies are carried out in the <span class="citation" data-cites="Mincer_1958">Mincer (<a href="#ref-Mincer_1958" role="doc-biblioref">1958</a>)</span> earnings function framework, where they estimate market wage rate <span class="math inline">w=\phi (s,\tau )</span>, where <span class="math inline">s</span> is the number of years of schooling, and <span class="math inline">\tau</span> is an ability measure. The original Mincer earnings function also includes an experience variable, <span class="math inline">x</span>, which is generally taken to be number of years of work experience. Since it is not relevant for our issues, we drop it.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>There are other ways education of parents can influence the educational achievement of their children, for instance, by providing role models. Also see <a href="#sec-sec5">Section&nbsp;5</a> and <span class="citation" data-cites="Raut_1990 Spence_1973">(<a href="#ref-Raut_1990" role="doc-biblioref">Raut 1990</a>; <a href="#ref-Spence_1973" role="doc-biblioref">Spence 1973</a>)</span> for more on this.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p> Thus we abstract away from bearings on our results from risk sharing between employers and workers.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>These kinds of tied transfers are generally observed in army recruiting and rarely in private sector if there are no tax advantages to such subsidies.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>By this we mean an employment contract in which wage is a function of schooling level only, which is offered during hiring, and not renegotiated later during the tenure of the employment upon receiving further information about the worker’s innate ability.)<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p> These institutions themselves might be the result of asymmetric information.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
