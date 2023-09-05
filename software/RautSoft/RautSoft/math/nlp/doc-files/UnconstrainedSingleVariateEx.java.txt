@@ -1,0 +1,31 @@
+/*
+ * UnconstrainedSingleVariateEx.java
+ *
+ * Created on April 15, 2005, 9:14 PM
+ */
+
+package Exercises.rautsoft.opt;
+import RautSoft.math.nlp.UnconstrainedSingleVariate;
+import RautSoft.Interfaces.FunctionOfOneVariable;
+
+/**
+ *
+ * @author lraut
+ */
+public class UnconstrainedSingleVariateEx {
+    
+    /** Creates a new instance of UnconstrainedSingleVariateEx */
+    public UnconstrainedSingleVariateEx() {
+    }
+    
+    public static void main(String[] args) {
+        FunctionOfOneVariable f = new FunctionOfOneVariable(){
+            public double value(double x){
+                return (x-2)*(x-2);
+            }
+        };
+        double [] xx=new double[6];
+        xx=UnconstrainedSingleVariate.mnbrak(-3,3,f);
+        for (int i=0;i<xx.length;i++) System.out.println(xx[i]);
+    }
+}

@@ -1,0 +1,55 @@
+/*
+ * RautSoftChartEX.java
+ *
+ * Created on April 21, 2005, 11:07 AM
+ */
+
+package Exercises.plot;
+import java.util.*;
+import static RautSoft.util.RautSoftUtil.*;
+import static RautSoft.plot.RautSoftChart.*;
+import RautSoft.Interfaces.*;
+import static RautSoft.math.functions.Orthopoly.*;
+
+/**
+ * This is an exercise on arrays one-dimensional, two dimensional and three dimensional
+ * @author  Lakshmi K. Raut
+ */
+public class RautSoftChartEX {
+       
+    public static void main(String[] args){
+        
+        
+        FunctionOfOneVariable f = new FunctionOfOneVariable() {
+            public double value(double x){return x*x;} };
+            plotLegend = "f(x)= x*x";
+            plot(f , -2.0,2.0);
+            
+            FunctionOfOneVariable f0 = new FunctionOfOneVariable() {
+                public double value(double x){return L(1,x);} };
+                
+                FunctionOfOneVariable f1 = new FunctionOfOneVariable() {
+                    public double value(double x){return L(2,x);} };
+                    
+                    FunctionOfOneVariable f2 = new FunctionOfOneVariable() {
+                        public double value(double x){return L(3,x);} };
+                        
+                        
+                        FunctionOfOneVariable f3 = new FunctionOfOneVariable() {
+                            public double value(double x){return L(4,x);} };
+                            
+                            FunctionOfOneVariable [] ff = new FunctionOfOneVariable[4];
+                            ff[0] = f0;
+                            ff[1]=f1;
+                            ff[2] = f2;
+                            ff[3]=f3;
+                            double [] x0 ={0,0,0,0};
+                            double [] x1 ={8.0,8.0,8.0,8.0};
+                            String [] legends= {"T1(x)", "T2(x)", "T3(x)", "T4(x)"};
+                            
+                            plotTitle = "Plotting Laugerre polynomials of various degrees";
+                            plot(ff,x0,x1, legends);
+                            
+                            Print("The End");
+    }
+}

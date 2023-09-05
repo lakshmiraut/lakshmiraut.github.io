@@ -1,0 +1,134 @@
+package Exercises.opt;
+/*
+ * DonlpJava
+ *
+ * Created on December 17, 2004, 11:44 AM
+ */
+
+
+import Interfaces.*;
+import opt.DonlpJava;
+
+/**
+ *
+ * @author  743661
+ */
+public class DonlpEX2  {
+ 
+
+
+
+
+//============================================================================================
+
+    public static void main(String[] args) {
+
+
+
+final int n=5; //number of variables
+final   int nlin = 5; //number of linear constriants
+final    int nonlin = 0;//number of nonlinear constraints
+        
+double big= 1.0e20;        
+
+        FunctionOfManyVariables myObj = new FunctionOfManyVariables(){
+            public double value(double [] x){
+                  return  (
+ 8.0*Math.pow( (120.0-x[1])/120.0 ,2) +
+    7.75* (1.64*x[1]+360.0 ) * Math.pow( (x[1]+360.0-x[2])/(x[1]+360.0) ,4)  +
+    3.0* (2.69*x[1]+2.98*x[2]+800) * Math.pow((x[1]+x[2]+800-x[3])/(x[1]+x[2]+800),4)
++ 5.2*(4.41*x[1]+8.88*x[2]+2.94*x[3])*
+       Math.pow( (x[1]+x[2]+x[3]-x[4])/(x[1]+x[2]+x[3]) , 5)
++ 10.6*(7.23*x[1]+26.42*x[4]+8.64*x[3]+x[4])*
+        Math.pow( (x[1]+x[2]+x[3]+x[4]-x[5])/(x[1]+x[2]+x[3]+x[4]) ,5)   ) ;
+         
+            }
+        };
+
+
+
+
+//====================
+VectorOfFunctionsOfManyVariables Constraints = new VectorOfFunctionsOfManyVariables(){
+            
+            public double [] value(double [] x){
+                double [] con = new double[nonlin+1];
+                con[0]=0;
+                 con[1]=x[1] + x[2];
+                return con;
+            }
+        };
+
+   
+                
+               
+          double []  x = {0.,/* not used : index 0 */
+                            0.1,0.1,0.1,0.1,0.1 };
+
+
+ 
+//                double [] xLow = {0.0, 0, -100.0};
+//
+               double [] xUp =  {0., 100.0,  100.0};
+                                
+              double [] low = new double [n+nlin+nonlin+1];
+               double [] up = new double [n+nlin+nonlin+1];
+for ( int i = 1 ; i <= 5 ; i++ ) { low[i]=1.e-5; up[i]=big;}
+    for ( int i=  6 ; i <= 10 ; i++ ){ low[i]=-big; }
+    up[6] = 19.0;
+    up[7] = 360.0;
+    up[8] = 800.0;
+    up[9] = -1.e-4;
+    up[10] = -1.e-4; 
+//linear constraints
+
+
+ double [][] gres = new double[n+1][nlin+1];
+
+for (int i=0;i<gres.length;i++) 
+                     for (int j=0;j<gres[0].length;j++)
+                       {gres[i][j]=0;}               
+   
+    /* 5 linear inequality constraints*/
+
+    /* store coefficients of linear constraints directly in gres */
+
+
+    for ( int i = 1 ; i<= 5 ; i++ )
+    { 
+      for  ( int j = 1 ; j <= 5 ; j++ )
+        {
+          gres[j][i] = 0.0 ;
+        }
+    }
+    for ( int i = 1 ; i <= 5 ; i++ ){gres[i][1] = 1.0 ; }
+    for ( int j = 2 ; j <= 5 ; j++ )
+    {
+      gres[j][j] = 1.0;
+      for ( int i=1 ; i<=j-1 ; i++ ) { gres[i][j] = -1.0;}
+    }
+
+    
+    
+
+
+
+
+                                DonlpJava hwjni = new DonlpJava();
+
+                              hwjni.NlpMixedConstrainedNumerical( myObj,x, nlin,nonlin, gres, Constraints,low, up); 
+             
+
+                                hwjni.DonlpJNI();
+                                
+                                System.out.printf("The  optimal solution is: \n");
+                                for (int i=0;i<x.length;i++) System.out.printf("x*[%d] = %10f \n",i, x[i]);
+
+                                System.out.printf("\nThe optimal f* = %f\n", myObj.value(x));
+
+                                
+                                
+                                
+    }
+}
+

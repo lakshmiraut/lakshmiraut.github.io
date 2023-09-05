@@ -1,0 +1,40 @@
+import RautSoft.util.nrutil.*;
+import static RautSoft.util.nrutil.*;
+import static RautSoft.math.calculus.Differentiation.*;
+import RautSoft.math.calculus.*;
+import RautSoft.Interfaces.*;
+
+public class DifferentiationEX {
+    
+    public static void main(String[] args) {
+        FunctionOfOneVariable f = new FunctionOfOneVariable(){
+            public double value(double x){
+                return x*x;
+            }
+        };
+        pDouble error = new pDouble(-999);
+        double df = diffRiddersMethod(f,3,.01,error);
+        System.out.println("The derivative of f(x) = x^2 at x = 3: is " + df );
+        System.out.println("The estimated error = " + error.value);
+        
+        FunctionOfManyVariables   myf   = new FunctionOfManyVariables(){
+            public double value(double[] x){
+                return (x[0]*x[0] + 2*x[1]*x[1] );
+            }
+        };
+        Differentiation ex = new Differentiation();
+        double[] x0 ={2, 3};
+        FunctionOfManyVariables gradf;
+        double d = grad(1, myf,0.000001).value(x0);
+        System.out.println("Grad at x = " + d );
+        //The overloaded grad returns double
+        d = grad(1, myf,x0);
+        System.out.println("Grad at x = " + d );
+        double h = HessianSingleElement(1,1,myf,.01).value(x0);
+        System.out.println("Hessian at x = " + h );
+        //the overloaded gradf function returns a double
+        h = HessianSingleElement(1,1,myf,x0);
+        System.out.println("Hessian at x = " + h );
+    }
+    
+}
