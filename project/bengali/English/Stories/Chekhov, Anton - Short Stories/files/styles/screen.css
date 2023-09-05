@@ -1,0 +1,59 @@
+html { background:white url("/endpapers/reptiles.jpg") fixed; }
+body {
+	max-width:48em;
+	margin:1em auto;
+	padding:6em 6em 1em 3em;
+}
+div.titlepage {
+	clear:both;
+	margin-top:1em;
+	margin-bottom:1em;
+	padding-bottom:1em;
+}
+div.cover,
+div.halftitle,
+div.titleverso,
+div.dochead,
+div.frontmatter,
+	div.dedication,
+	div.contents,
+	div.foreword,
+	div.preface,
+	div.prologue,
+	div.introduction,
+	div.acknowledgments,
+div.body, div.page,
+	div.volume,
+	div.book,
+	div.play,
+	div.chapter,
+	div.act,
+	div.essay,
+	div.story,
+	div.canto,
+div.backmatter,
+	div.afterword,
+	div.postscript,
+	div.epilogue,
+	div.appendix,
+	div.notes,
+	div.glossary,
+	div.bibliography,
+	div.index {
+		clear:both;
+		margin-top:1em;
+		margin-bottom:1em;
+		border-bottom:1px dotted gray;
+		padding-bottom:1em;
+}
+div.colophon {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+.screen-note { 
+	font-size:.9em; text-indent:0;
+	margin-left:1em; margin-right:1em;
+	border:1pt solid gray; padding:2pt;
+}
+a.nr { color:#333; font-style:italic; font-size:80%; }
+

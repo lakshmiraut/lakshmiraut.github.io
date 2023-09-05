@@ -1,0 +1,396 @@
+/* Style Sheet for eBooks@Adelaide web books
+ * This work is licensed under the Creative Commons
+ * Attribution-NonCommercial-ShareAlike 2.5 Australia Licence
+ * (available at http://creativecommons.org/licenses/by-nc-sa/2.5/au/)
+ * Author: Steve Thomas <stephen.thomas@adelaide.edu.au>
+ * Last update: Fri May 23 12:34:05 CST 2008
+ * */
+
+/* base.css
+ * base styles applicable to all media
+ * */
+
+body {
+	color:#000; background-color:#fff;
+	font-family:Verdana, serif;
+	max-width:33em;
+	margin-left:3em; margin-right:3em;
+}
+
+p { text-align:justify; line-height:140%; margin-top:0; margin-bottom:0; }
+p { text-indent:2em; }
+h1,h2,h3,h4,h5,h6 { text-align:center; margin-top:1em; margin-bottom:1em; }
+h1 { font-size:1.6em; font-weight:bold; }
+h2 { font-size:1.4em; font-weight:bold; }
+h3 { font-size:1.2em; font-weight:bold; font-variant:small-caps; }
+h4 { font-size:1em; font-weight:bold; font-variant:small-caps; }
+h5 { font-size:1em; font-weight:bold; font-variant:small-caps; }
+h6 { font-size:1em; font-weight:normal; font-style:italic; }
+
+div.titlepage {
+	text-align:center;
+	font-weight:bold;
+	border:2px groove green;
+	padding:2em 1em;
+}
+div.titlepage p {
+	text-indent:0; text-align:center; line-height:140%;
+}
+div.titlepage h1 { margin-top:0em; margin-bottom:1em; }
+div.titlepage h2 { margin-top:0em; margin-bottom:1em; }
+div.titlepage h3 { margin-top:0em; margin-bottom:1em; font-variant:normal; }
+div.titlepage h4 { margin-top:0em; margin-bottom:1em; font-variant:normal; }
+div.titlepage p  { margin-top:0em; margin-bottom:1em; }
+div.titlepage hr { display:none; }
+div.titlepage p.imprint,
+p.imprint {
+	text-align:center; font-style:italic; color:green;
+	margin-top:3em;
+	margin-bottom:1em; 
+}
+
+div.titleverso {
+        font-family:Verdana, sans-serif;
+        font-size:.8em;
+        color:#666; 
+        text-align:center;
+}
+div.titleverso p { text-align:center; text-indent:0; margin-bottom:1em; }
+
+div.titleverso p a {
+        font-family:Verdana, sans-serif;
+        color:#666; 
+        text-decoration:none;
+}
+div.titleverso p a:visited {
+        font-family:Verdana, sans-serif;
+        color:#666; 
+        text-decoration:none;
+}
+div.titleverso p a:hover {
+        font-family:Verdana, sans-serif;
+        color:#f00; 
+        text-decoration:underline;
+}
+
+div.contents h4 { text-align:left; font-weight:normal; font-variant:normal; }
+div.contents h5 { text-align:left; margin-left:1em; font-weight:normal; font-variant:normal; }
+div.contents h6 { text-align:left; margin-left:1em; font-weight:normal; }
+div.contents li { font-weight:normal; }
+
+div.colophon p { 
+	font-family:Verdana, sans-serif; font-size:.9em;
+	color:#666; 
+	text-align:center;
+}
+
+div.section { margin-bottom:3em; }
+
+div.footnotes {
+	margin:1em;
+        margin-left:1em; margin-right:1em;
+        border-top:1pt solid gray; padding:2pt;
+        font-family:Verdana, sans-serif;
+}
+div.footnotes p {
+	margin:1em;
+        margin-left:1em; margin-right:1em;
+	font-size:0.8em; text-indent:0;
+        font-family:Verdana, sans-serif;
+}
+p.footnote {
+	margin:1em;
+        margin-left:1em; margin-right:1em;
+	font-size:0.8em; text-indent:0;
+        font-family:Verdana, sans-serif;
+}
+div.note p,
+p.note {
+	margin:1em;
+        /* margin-left:1em; margin-right:1em;
+        border:1pt solid gray; padding:2pt; */
+	font-size:.8em; text-indent:0;
+        font-family:Verdana, sans-serif;
+}
+span.note {
+	font-size:.8em;
+        font-family:Verdana, sans-serif;
+}
+span.inline-note {
+	font-size:.8em;
+        font-family:Verdana, sans-serif;
+	color:gray;
+}
+p.sidenote {
+	float:left;
+	max-width:20%;
+	margin:0 1em 0 0;
+	text-align:left;text-indent:0; 
+	font-size:.8em; 
+	font-style:italic;
+	line-height:100%
+}
+span.marginal-note,
+div.marginal-note {
+	float:right; width:20%;
+	text-align:right;text-indent:0; 
+	font-size:.8em;
+	font-style:italic;
+	line-height:100%
+}
+/* span.marginal-note {
+	position:relative; top:auto; right:-4em;
+	text-align:right;
+	font-size:.8em; font-style:italic;
+	line-height:100%
+} */
+span.popup-note, abbr, acronym {
+        border:1px dotted gray; cursor:help; }
+div.quote p, p.quote, blockquote {
+	margin:1em;
+}
+div.quote p,
+p.quote,
+blockquote {
+        /* margin-left:1em; margin-right:1em; */
+        font-style:normal; text-indent:0; 
+}
+div.inscription p,
+p.inscription {
+	margin:1em;
+	text-align:center; text-indent:0; font-variant:small-caps;
+}
+div.notice {
+	margin:1em;
+        margin-left:1em; margin-right:1em;
+	border:1px solid; padding:1em;
+}
+div.notice p { text-align:center; text-indent:0; font-weight:bold; }
+div.headline p { text-align:center; text-indent:0; font-weight:bold; }
+div.dedication p,
+p.dedication { text-align:center; text-indent:0; }
+
+div.rubric p,
+p.rubric {
+        margin:0 1em 1em 1em;
+	text-align:center; text-indent:0;
+	font-style:italic;
+}
+
+div.abstract p,
+p.abstract {
+        margin:0 1em 1em 1em;
+        font-style:italic; font-size:.9em;
+	text-indent:0; 
+}
+
+div.precis p,
+p.precis {
+        margin:0 1em 1em 1em;
+        font-variant:small-caps; font-size:.9em;
+	text-align:center; text-indent:0; 
+}
+
+div.epigraph p,
+p.epigraph {
+        margin:0 1em 1em 1em;
+	text-align:center; text-indent:0; font-style:italic; font-size:.9em;
+}
+.letter-typed {
+        font-family:monospace; font-style:normal;
+        margin-left:1em; margin-right:1em;
+}
+.letter-written {
+        /* font-family:Monotype Corsiva, cursive; */
+	font-style:italic;
+        margin-left:1em; margin-right:1em;
+}
+div.letter-written p { text-align:left; }
+.typed { font-family:monospace; }
+div.written p {
+	/* font-family:Monotype Corsiva, cursive; */
+	font-style:italic;
+}
+div.written p em {
+	font-style:normal;
+}
+.telegram {
+	font-family:Courier, monospace;
+	font-variant:small-caps;
+}
+.speaker { font-style:italic; } /* font-variant:small-caps; } */
+div.act span.speaker { margin-left:-1em; }
+
+.speech { margin-left:1em; }
+
+div.stage p, p.stage, span.stage { text-indent:0; font-style:italic; }
+span.stage em { font-style:normal; font-variant:small-caps; }
+span.stage span.speaker { margin-left:0; }
+div.act p { text-indent:0; margin-left:1em; margin-bottom:1em; }
+div.act p.speaker { text-indent:0; margin-left:0; margin-bottom:0; }
+div.act p span.speaker { margin-left:-1em; }
+div.song { margin:auto; font-style:normal; }
+div.song p { text-align:left; text-indent:0; line-height:140%; }
+div.poem { margin:auto; font-style:normal; }
+div.poem p { text-indent:0; line-height:140%; }
+div.poem pre {
+	font-family:serif;
+	text-align:left; line-height:140%; }
+
+div.canto p { text-indent:0; line-height:140%; }
+
+div.verse {
+	text-align:left; 
+	text-indent:0;
+	margin-top:1em; margin-left:3em;; margin-right:auto; margin-bottom:1em;
+}
+div.verse p { text-indent:0; margin:0; }
+/* p.vl { margin:0; } */
+div.ln {
+	float:right;
+	text-align:right;
+	font-style:italic; font-size:.8em; color:gray;
+}
+
+p.verse,
+.stanza,
+.couplet {
+	text-align:left; text-indent:0; 
+	margin-top:1em; margin-left:3em;; margin-right:auto; margin-bottom:1em;
+}
+
+.chorus { margin-left:4em; font-style:italic; }
+.refrain { margin-left:4em; font-style:italic; }
+span.vln {
+	position:relative; top:auto; right:-4em;
+	text-align:right;
+	font-size:.8em; color:gray;
+}
+div.dochead { text-align:center; }
+div.dochead h2 {
+        font-family:Verdana, sans-serif;
+        font-weight:normal;
+        font-size:1em;
+        font-style:normal;
+        color:gray;
+}
+div.dochead hr { display:none; } /* fix for older pages */
+div.navigation {
+        font-family:Verdana, sans-serif;
+        font-size:.9em;
+        text-align:center;
+        text-indent:0;
+        margin-top:2em;
+	border-bottom:1px dotted gray;
+        padding-bottom:2em;
+}
+div.navigation p {
+        font-size:.9em;
+        text-align:center;
+        text-indent:0;
+}
+div.navigation a,
+div.navigation a:visited {
+        border-right:2px solid gray;
+        border-bottom:2px solid gray;
+        background-color:#ddd;
+        color:#333;
+        text-decoration:none;
+        padding:3px;
+        font-size:.9em;
+        font-family:Verdana, sans-serif;
+}
+div.docinfo {
+        font-family:Verdana, sans-serif;
+        font-size:.9em;
+        color:#666;
+        text-align:center;
+}
+div.docinfo p { text-align:center; text-indent:0; }
+
+div.docinfo p a {
+        font-family:Verdana, sans-serif;
+        text-decoration:underline;
+}
+div.docinfo p a:visited {
+        font-family:Verdana, sans-serif;
+        color:#666; 
+        text-decoration:underline;
+}
+div.docinfo p a:hover {
+        font-family:Verdana, sans-serif;
+        color:#f00; 
+        text-decoration:underline;
+}
+hr { color:#ddd; }
+a:link    {
+	color:#00f; 
+	text-decoration:none; }
+a:active  {
+	color:#f00; 
+	text-decoration:none; }
+a:visited {
+	color:#909; 
+	text-decoration:none; }
+
+a.bm, a.bm:link, a.bm:visited {
+	color:black; text-decoration:none;
+}
+a.bm:active, a.bm:hover { color:red; }
+div.figure { margin:1em 0; text-align:center; }
+div.figure img { border:none; }
+div.figure p { 
+	text-align:center;text-indent:0; 
+	font-size:.9em; font-variant:small-caps;
+	max-width:100%;
+	margin:auto;
+}
+div.ornament { margin:1em 0; text-align:center; }
+div.ornament img { border:none; }
+div.illustration { margin:1em 0; }
+p.illustration, div.illustration p {
+	text-align:center;text-indent:0; 
+}
+div.illustration img { border:none; }
+p.illustration, div.illustration p {
+	text-align:center;
+	font-size:.9em; font-variant:small-caps;
+	max-width:100%;
+	margin:auto;
+}
+
+.left { float:left; }
+.right { float:right; }
+div.center p, p.center { text-align:center; }
+.clear { clear:both; }
+.border { border:1px solid; padding:1em; }
+.sc { font-variant:small-caps; }
+cite { text-decoration:underline; font-style:normal; }
+li { margin-top:.5em; }
+sup { font-size:.7em }
+.transition { margin:2em 0; text-align:center; }
+div.pre { font-family:monospace; text-align:left }
+pre { font-family:monospace; text-align:left }
+/* span[lang] { font-size:larger; } */
+span[lang=la] {font-style:italic; }
+span[lang=grc] {font-family:Symbol; }
+
+div.signed p, p.signed, div.dateline p, p.dateline { text-align:right; font-style:italic; }
+
+table { border:1px solid gray; width:90%; margin:auto; }
+table tr td { border:1px dotted gray; }
+table tr th { border:1px dotted gray; text-align:left; }
+table tr td { border:1px dotted gray; text-align:right; padding:0 1em; }
+
+table.noborder { border:none; width:100%; margin:auto; }
+table.noborder tr th { border:none; text-align:left; }
+table.noborder tr td { border:none; text-align:left; }
+
+ol p { text-align:left; text-indent:0; }
+ol.nv { color:#999; font-style:italic; font-family:Verdana, sans-serif; }
+ol.nv p { color:#000; text-align:left; font-style:normal; font-family:Georgia, serif; }
+ol.upper-roman { list-style-type:upper-roman; }
+ol.lower-roman { list-style-type:lower-roman; }
+ol.upper-alpha { list-style-type:upper-alpha; }
+ol.lower-alpha { list-style-type:lower-alpha; }
+ul.nobullet { list-style-type:none; }

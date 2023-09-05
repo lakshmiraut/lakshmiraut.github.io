@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Econometrics | Lakshmi K. Raut</title>
-    <link>/tag/econometrics/</link>
-      <atom:link href="/tag/econometrics/index.xml" rel="self" type="application/rss+xml" />
+    <title>Econometrics | Academic</title>
+    <link>https://example.com/tag/econometrics/</link>
+      <atom:link href="https://example.com/tag/econometrics/index.xml" rel="self" type="application/rss+xml" />
     <description>Econometrics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2016 14:30:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2016 14:30:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Econometrics</title>
-      <link>/tag/econometrics/</link>
+      <link>https://example.com/tag/econometrics/</link>
     </image>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model (joint paper with Professor James Heckman)</title>
-      <link>/talk/2016-3-04-iim-udaipur/</link>
+      <link>https://example.com/talks/2016-3-04-iim-udaipur/</link>
       <pubDate>Fri, 04 Mar 2016 14:30:00 +0000</pubDate>
-      <guid>/talk/2016-3-04-iim-udaipur/</guid>
+      <guid>https://example.com/talks/2016-3-04-iim-udaipur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intergenerational long-term effects of preschool-structural estimates from a discrete dynamic programming model</title>
+      <link>https://example.com/publication/published/2016-01-01_intergenerational_long-term_ef/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/published/2016-01-01_intergenerational_long-term_ef/</guid>
       <description></description>
     </item>
     
