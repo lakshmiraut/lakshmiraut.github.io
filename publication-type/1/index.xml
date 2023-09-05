@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Dr. Lakshmi K. Raut</title>
-    <link>https://lakshmiraut.github.io/publication-type/1/</link>
-      <atom:link href="https://lakshmiraut.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/publication-type/1/</link>
+      <atom:link href="https://example.com/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2000 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
-      <link>https://lakshmiraut.github.io/publication-type/1/</link>
+      <link>https://example.com/publication-type/1/</link>
     </image>
     
     <item>
       <title>Reciprocity with Two-sided Altruism in Intergenerational Transfers: Evidence from Indonesian Family Life Survey Data</title>
-      <link>https://lakshmiraut.github.io/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</link>
+      <link>https://example.com/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.github.io/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</guid>
+      <guid>https://example.com/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education | Dr. Lakshmi K. Raut</title>
-    <link>https://lakshmiraut.github.io/tag/education/</link>
-      <atom:link href="https://lakshmiraut.github.io/tag/education/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/education/</link>
+      <atom:link href="https://example.com/tag/education/index.xml" rel="self" type="application/rss+xml" />
     <description>Education</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Feb 2015 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Education</title>
-      <link>https://lakshmiraut.github.io/tag/education/</link>
+      <link>https://example.com/tag/education/</link>
     </image>
     
     <item>
       <title>Globalization, Quality and Inequity in Education and Economic Growth - Lessons for India for China</title>
-      <link>https://lakshmiraut.github.io/talks/2015-02-12-iima/</link>
+      <link>https://example.com/talks/2015-02-12-iima/</link>
       <pubDate>Thu, 12 Feb 2015 16:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.github.io/talks/2015-02-12-iima/</guid>
+      <guid>https://example.com/talks/2015-02-12-iima/</guid>
       <description>&lt;h1 id=&#34;iframe-width560-height315-srchttpvsliriimaacin8080jspuibitstream11718130981r_n_p_12_02_2015_wing_11mp4-titleyoutube-video-player-frameborder0-allowaccelerometer-autoplay-clipboard-write-encrypted-media-gyroscope-picture-in-picture-allowfullscreeniframe&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://vslir.iima.ac.in:8080/jspui/bitstream/11718/13098/1/R_n_P_12_02_2015_WING_11.mp4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
 </description>
     </item>
