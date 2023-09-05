@@ -2,605 +2,574 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/slider/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://lakshmiraut.github.io/</loc>
     <lastmod>2023-09-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/3/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/3/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/applied-econometrics/</loc>
+    <loc>https://lakshmiraut.github.io/tag/applied-econometrics/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/disability/</loc>
+    <loc>https://lakshmiraut.github.io/tag/disability/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
+    <loc>https://lakshmiraut.github.io/publication_types/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/</loc>
+    <loc>https://lakshmiraut.github.io/publication/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://lakshmiraut.github.io/tags/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/time-to-event-analysis/</loc>
+    <loc>https://lakshmiraut.github.io/tag/time-to-event-analysis/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/</loc>
     <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/machine-learning/</loc>
+    <loc>https://lakshmiraut.github.io/tag/machine-learning/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2021-02-20-parikh-fesch-mnl-neuralnet/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2021-02-20-parikh-fesch-mnl-neuralnet/</loc>
     <lastmod>2021-02-19T07:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/health/</loc>
+    <loc>https://lakshmiraut.github.io/tag/health/</loc>
     <lastmod>2021-02-19T07:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/</loc>
+    <loc>https://lakshmiraut.github.io/talks/</loc>
     <lastmod>2021-02-19T07:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/</loc>
+    <loc>https://lakshmiraut.github.io/post/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/post/2020-12-10-tex2rmd/</loc>
+    <loc>https://lakshmiraut.github.io/post/2020-12-10-tex2rmd/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</loc>
     <lastmod>2020-01-04T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/pathways-to-disability/</loc>
+    <loc>https://lakshmiraut.github.io/tag/pathways-to-disability/</loc>
     <lastmod>2020-01-04T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2019-04-05-sge-annual-conference/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2019-04-05-sge-annual-conference/</loc>
     <lastmod>2019-04-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/slides/</loc>
+    <loc>https://lakshmiraut.github.io/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/slides/example/</loc>
+    <loc>https://lakshmiraut.github.io/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/2/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/2/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2018-01-01_long-term_effects_of_preschool/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2018-01-01_long-term_effects_of_preschool/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2017-07-14-cbo/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2017-07-14-cbo/</loc>
     <lastmod>2017-07-12T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/early-childhood/</loc>
+    <loc>https://lakshmiraut.github.io/tag/early-childhood/</loc>
     <lastmod>2017-05-02T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</loc>
     <lastmod>2017-05-02T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/signaling/</loc>
+    <loc>https://lakshmiraut.github.io/tag/signaling/</loc>
     <lastmod>2017-05-02T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/social-mobility/</loc>
+    <loc>https://lakshmiraut.github.io/tag/social-mobility/</loc>
     <lastmod>2017-05-02T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2017-01-06-aea/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2017-01-06-aea/</loc>
     <lastmod>2017-01-06T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/6/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/6/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2017-01-01_cost-effectiveness_competitiv/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2017-01-01_cost-effectiveness_competitiv/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2017-01-01_education_and_economic_growth_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2017-01-01_education_and_economic_growth_/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2017-01-01_exits_from_disability_estimate/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2017-01-01_exits_from_disability_estimate/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/project/bengali/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/literature/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://example.com/tag/discrete-dynamic-programming/</loc>
+    <loc>https://lakshmiraut.github.io/tag/discrete-dynamic-programming/</loc>
     <lastmod>2016-03-04T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/econometrics/</loc>
+    <loc>https://lakshmiraut.github.io/tag/econometrics/</loc>
     <lastmod>2016-03-04T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2016-3-04-iim-udaipur/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2016-3-04-iim-udaipur/</loc>
     <lastmod>2016-03-04T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</loc>
     <lastmod>2016-01-03T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/signaling-model/</loc>
+    <loc>https://lakshmiraut.github.io/tag/signaling-model/</loc>
     <lastmod>2016-01-03T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/early-childhood-factors/</loc>
+    <loc>https://lakshmiraut.github.io/tag/early-childhood-factors/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2016-01-01_intergenerational_long-term_ef/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2016-01-01_intergenerational_long-term_ef/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2015-06-01-sge-seminar/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2015-06-01-sge-seminar/</loc>
     <lastmod>2015-06-01T18:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/china/</loc>
+    <loc>https://lakshmiraut.github.io/tag/china/</loc>
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/education/</loc>
+    <loc>https://lakshmiraut.github.io/tag/education/</loc>
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2015-02-12-iima/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2015-02-12-iima/</loc>
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/india/</loc>
+    <loc>https://lakshmiraut.github.io/tag/india/</loc>
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2015-02-11-igidr-globalization-education-india-china/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2015-02-11-igidr-globalization-education-india-china/</loc>
     <lastmod>2015-02-11T15:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2014-09-30-ieg-education-signaling/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2014-09-30-ieg-education-signaling/</loc>
     <lastmod>2014-09-30T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2014-08-19-ieg-education-in-china-india/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2014-08-19-ieg-education-in-china-india/</loc>
     <lastmod>2014-08-19T09:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/4/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/4/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2013-01-01_family_expansion_and_capital_a/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2013-01-01_family_expansion_and_capital_a/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2013-01-01_intergenerational_long_term_ef/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2013-01-01_intergenerational_long_term_ef/</loc>
     <lastmod>2013-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2010-06-29-wea-portland-disability-entry/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2010-06-29-wea-portland-disability-entry/</loc>
     <lastmod>2010-06-30T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</loc>
     <lastmod>2010-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2009-01-01_home_ownership_and_school_outc/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2009-01-01_home_ownership_and_school_outc/</loc>
     <lastmod>2009-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2008-10-24-salem/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2008-10-24-salem/</loc>
     <lastmod>2008-10-24T15:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2008-10-21-singapore-national-university-preschool-paper/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2008-10-21-singapore-national-university-preschool-paper/</loc>
     <lastmod>2008-10-21T15:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2008-10-15-kobe/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2008-10-15-kobe/</loc>
     <lastmod>2008-10-15T15:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2007-07-02-wea-seattle-paper-stochastic-olg/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2007-07-02-wea-seattle-paper-stochastic-olg/</loc>
     <lastmod>2007-07-02T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2007-01-01_ageing_and_elderly_care_in_an_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2007-01-01_ageing_and_elderly_care_in_an_/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2007-01-01_immigration_vs_foreign_investm/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2007-01-01_immigration_vs_foreign_investm/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2007-01-01_school_choice_and_the_intergen/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2007-01-01_school_choice_and_the_intergen/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2006-07-31-pet-hanoi-malaria/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2006-07-31-pet-hanoi-malaria/</loc>
     <lastmod>2006-08-02T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2006-01-01_two-sided_altruism_lindahl_eq/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2006-01-01_two-sided_altruism_lindahl_eq/</loc>
     <lastmod>2006-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2005-01-01_firms_rd_behavior_under_rati/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2005-01-01_firms_rd_behavior_under_rati/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2005-01-01_parental_human_capital_investm/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2005-01-01_parental_human_capital_investm/</loc>
     <lastmod>2005-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/malaria/</loc>
+    <loc>https://lakshmiraut.github.io/tag/malaria/</loc>
     <lastmod>2004-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2003-09-13-social-insurance-conf-maryland/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2003-09-13-social-insurance-conf-maryland/</loc>
     <lastmod>2003-09-13T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2003-07-11-wea-denver-preschool-paper/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2003-07-11-wea-denver-preschool-paper/</loc>
     <lastmod>2003-07-11T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2003-01-01_competitiveness_productivity_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2003-01-01_competitiveness_productivity_/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/shapley-value/</loc>
+    <loc>https://lakshmiraut.github.io/tag/shapley-value/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/theory/</loc>
+    <loc>https://lakshmiraut.github.io/tag/theory/</loc>
     <lastmod>2003-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2002-06-30-wea-seattle-malaria/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2002-06-30-wea-seattle-malaria/</loc>
     <lastmod>2002-06-30T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2002-02-17-japan-4th-collaboration-project-tokyo/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2002-02-17-japan-4th-collaboration-project-tokyo/</loc>
     <lastmod>2002-02-17T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2001-08-03-iitk-malaria/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2001-08-03-iitk-malaria/</loc>
     <lastmod>2001-08-03T15:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2001-07-20-far-eastern-kobe/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2001-07-20-far-eastern-kobe/</loc>
     <lastmod>2001-07-20T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2001-07-20-far-eastern-kobe-with-lien/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2001-07-20-far-eastern-kobe-with-lien/</loc>
     <lastmod>2001-07-20T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2001-03-18-japan-2nd-collaboration-project-tokyo/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2001-03-18-japan-2nd-collaboration-project-tokyo/</loc>
     <lastmod>2001-03-18T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2001-01-01_an_analysis_of_thailandas_ca/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2001-01-01_an_analysis_of_thailandas_ca/</loc>
     <lastmod>2001-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/2000-09-22-japan-1st-collaboration-project-osaka/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2000-09-22-japan-1st-collaboration-project-osaka/</loc>
     <lastmod>2000-09-22T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/1/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/1/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</loc>
     <lastmod>2000-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1999-06-03-world-bank-motives-for-investment/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1999-06-03-world-bank-motives-for-investment/</loc>
     <lastmod>1999-06-03T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication-type/5/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/5/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1999-01-01_aumann-shapley_random_order_va/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_aumann-shapley_random_order_va/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1999-01-01_endogenous_fertility_and_growt/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_endogenous_fertility_and_growt/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1999-01-01_trade_growth_and_development_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_trade_growth_and_development_/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1998-03-27-tn-feschript/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1998-03-27-tn-feschript/</loc>
     <lastmod>1998-03-27T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</loc>
     <lastmod>1998-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1997-12-18-marseilles-france/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1997-12-18-marseilles-france/</loc>
     <lastmod>1997-12-18T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1997-01-01_chapter_20_growth_models_with_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1997-01-01_chapter_20_growth_models_with_/</loc>
     <lastmod>1997-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1997-01-01_complementarities_between_expo/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1997-01-01_complementarities_between_expo/</loc>
     <lastmod>1997-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1997-01-01_construction_of_a_haar_measure/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1997-01-01_construction_of_a_haar_measure/</loc>
     <lastmod>1997-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1996-10-bangkok/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1996-10-bangkok/</loc>
     <lastmod>1996-10-25T10:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1996-01-05-aea-san-francisco/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1996-01-05-aea-san-francisco/</loc>
     <lastmod>1996-01-06T08:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1996-01-01_old-age_security_and_gender_pr/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1996-01-01_old-age_security_and_gender_pr/</loc>
     <lastmod>1996-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1995-10-19-toronto-aumann/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1995-10-19-toronto-aumann/</loc>
     <lastmod>1995-10-19T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1995-08-22-seventh-world-congress/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1995-08-22-seventh-world-congress/</loc>
     <lastmod>1995-08-22T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</loc>
     <lastmod>1995-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1995-01-01_r__d_spillover_and_productivi/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1995-01-01_r__d_spillover_and_productivi/</loc>
     <lastmod>1995-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1995-01-01_signaling_equilibrium_interge/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1995-01-01_signaling_equilibrium_interge/</loc>
     <lastmod>1995-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</loc>
     <lastmod>1995-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1994-07-08-rochester/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1994-07-08-rochester/</loc>
     <lastmod>1994-07-08T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1994-01-01_dynamics_of_endogenous_growth/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1994-01-01_dynamics_of_endogenous_growth/</loc>
     <lastmod>1994-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1993-01-01_per_capita_income_growth_soci/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1993-01-01_per_capita_income_growth_soci/</loc>
     <lastmod>1993-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1993-01-01_theories_of_long-run_growth_ol/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1993-01-01_theories_of_long-run_growth_ol/</loc>
     <lastmod>1993-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1992-01-01_demographic_links_to_savings_i/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1992-01-01_demographic_links_to_savings_i/</loc>
     <lastmod>1992-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1992-01-01_effects_of_social_security_on_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1992-01-01_effects_of_social_security_on_/</loc>
     <lastmod>1992-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</loc>
     <lastmod>1992-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1991-07-02-post-far-east-meeting/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1991-07-02-post-far-east-meeting/</loc>
     <lastmod>1991-07-02T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1991-06-05-pisa-with-tn/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1991-06-05-pisa-with-tn/</loc>
     <lastmod>1991-06-29T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1991-06-29-far-eastern-seoul/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1991-06-29-far-eastern-seoul/</loc>
     <lastmod>1991-06-29T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1992-06-10-austria-with-nerlove/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1992-06-10-austria-with-nerlove/</loc>
     <lastmod>1991-06-10T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1992-06-10-austria/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1992-06-10-austria/</loc>
     <lastmod>1991-06-10T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1991-06-05-pisa/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1991-06-05-pisa/</loc>
     <lastmod>1991-06-05T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1990-12-30-aea-washington-dc/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1990-12-30-aea-washington-dc/</loc>
     <lastmod>1990-12-30T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1990-08-22-sixth-world-congress-spain/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1990-08-22-sixth-world-congress-spain/</loc>
     <lastmod>1990-08-22T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1990-01-01_capital_accumulation_income_d/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1990-01-01_capital_accumulation_income_d/</loc>
     <lastmod>1990-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1989-06-10-far-eastern/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1989-06-10-far-eastern/</loc>
     <lastmod>1989-06-10T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1989-01-01_determinants_of_consumption_an/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1989-01-01_determinants_of_consumption_an/</loc>
     <lastmod>1989-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1988-01-01_r_d_behavior_of_indian_firms_/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1988-01-01_r_d_behavior_of_indian_firms_/</loc>
     <lastmod>1988-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1986-01-01_myopic_topologies_on_general_c/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1986-01-01_myopic_topologies_on_general_c/</loc>
     <lastmod>1986-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/talks/1983-04-29-northeast-dev-consortium/</loc>
+    <loc>https://lakshmiraut.github.io/talks/1983-04-29-northeast-dev-consortium/</loc>
     <lastmod>1983-04-29T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication/published/1981-01-01_theory_of_games_and_its_applic/</loc>
+    <loc>https://lakshmiraut.github.io/publication/published/1981-01-01_theory_of_games_and_its_applic/</loc>
     <lastmod>1981-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/admin/</loc>
+    <loc>https://lakshmiraut.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://lakshmiraut.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

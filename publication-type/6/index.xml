@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 | Academic</title>
-    <link>https://example.com/publication-type/6/</link>
-      <atom:link href="https://example.com/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <title>6 | Dr. Lakshmi K. Raut</title>
+    <link>https://lakshmiraut.github.io/publication-type/6/</link>
+      <atom:link href="https://lakshmiraut.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>6</title>
-      <link>https://example.com/publication-type/6/</link>
+      <link>https://lakshmiraut.github.io/publication-type/6/</link>
     </image>
     
     <item>
       <title>Education and Economic Growth: A Comparative Study of China and India</title>
-      <link>https://example.com/publication/published/2017-01-01_education_and_economic_growth_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2017-01-01_education_and_economic_growth_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2017-01-01_education_and_economic_growth_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2017-01-01_education_and_economic_growth_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Endogenous fertility and growth dynamics</title>
-      <link>https://example.com/publication/published/1999-01-01_endogenous_fertility_and_growt/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1999-01-01_endogenous_fertility_and_growt/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1999-01-01_endogenous_fertility_and_growt/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1999-01-01_endogenous_fertility_and_growt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chapter 20 Growth models with endogenous population: A general framework </title>
-      <link>https://example.com/publication/published/1997-01-01_chapter_20_growth_models_with_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1997-01-01_chapter_20_growth_models_with_/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1997-01-01_chapter_20_growth_models_with_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1997-01-01_chapter_20_growth_models_with_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theories of Long-Run Growth: Old and New</title>
-      <link>https://example.com/publication/published/1993-01-01_theories_of_long-run_growth_ol/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1993-01-01_theories_of_long-run_growth_ol/</link>
       <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1993-01-01_theories_of_long-run_growth_ol/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1993-01-01_theories_of_long-run_growth_ol/</guid>
       <description></description>
     </item>
     

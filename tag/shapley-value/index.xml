@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shapley value | Academic</title>
-    <link>https://example.com/tag/shapley-value/</link>
-      <atom:link href="https://example.com/tag/shapley-value/index.xml" rel="self" type="application/rss+xml" />
+    <title>Shapley value | Dr. Lakshmi K. Raut</title>
+    <link>https://lakshmiraut.github.io/tag/shapley-value/</link>
+      <atom:link href="https://lakshmiraut.github.io/tag/shapley-value/index.xml" rel="self" type="application/rss+xml" />
     <description>Shapley value</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2003 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Shapley value</title>
-      <link>https://example.com/tag/shapley-value/</link>
+      <link>https://lakshmiraut.github.io/tag/shapley-value/</link>
     </image>
     
     <item>
       <title>A Reformulation of the Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
-      <link>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A non-standard analysis of random order values of non-atomic games</title>
-      <link>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
       <description></description>
     </item>
     

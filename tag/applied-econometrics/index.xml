@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Applied Econometrics | Academic</title>
-    <link>https://example.com/tag/applied-econometrics/</link>
-      <atom:link href="https://example.com/tag/applied-econometrics/index.xml" rel="self" type="application/rss+xml" />
+    <title>Applied Econometrics | Dr. Lakshmi K. Raut</title>
+    <link>https://lakshmiraut.github.io/tag/applied-econometrics/</link>
+      <atom:link href="https://lakshmiraut.github.io/tag/applied-econometrics/index.xml" rel="self" type="application/rss+xml" />
     <description>Applied Econometrics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Applied Econometrics</title>
-      <link>https://example.com/tag/applied-econometrics/</link>
+      <link>https://lakshmiraut.github.io/tag/applied-econometrics/</link>
     </image>
     
     <item>
       <title>Early childhood factors and health pathways to disability and death in mid-ages — a multi-state time-to-event life history model</title>
-      <link>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
       <description></description>
     </item>
     

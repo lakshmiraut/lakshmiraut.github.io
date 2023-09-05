@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Time-to-event analysis | Academic</title>
-    <link>https://example.com/tag/time-to-event-analysis/</link>
-      <atom:link href="https://example.com/tag/time-to-event-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <title>Time-to-event analysis | Dr. Lakshmi K. Raut</title>
+    <link>https://lakshmiraut.github.io/tag/time-to-event-analysis/</link>
+      <atom:link href="https://lakshmiraut.github.io/tag/time-to-event-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Time-to-event analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Time-to-event analysis</title>
-      <link>https://example.com/tag/time-to-event-analysis/</link>
+      <link>https://lakshmiraut.github.io/tag/time-to-event-analysis/</link>
     </image>
     
     <item>
       <title>Early childhood factors and health pathways to disability and death in mid-ages — a multi-state time-to-event life history model</title>
-      <link>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate time to event Statistical Models versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pathways to Disability and Death Before Disability in middle ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>https://example.com/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</link>
+      <link>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</link>
       <pubDate>Sat, 04 Jan 2020 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pathways to disability and mortality in mid-ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/talks/2019-04-05-sge-annual-conference/</link>
+      <link>https://lakshmiraut.github.io/talks/2019-04-05-sge-annual-conference/</link>
       <pubDate>Fri, 05 Apr 2019 14:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2019-04-05-sge-annual-conference/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2019-04-05-sge-annual-conference/</guid>
       <description></description>
     </item>
     
