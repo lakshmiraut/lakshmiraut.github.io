@@ -2,189 +2,189 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Dr. Lakshmi K. Raut</title>
-    <link>https://example.com/publication-type/3/</link>
-      <atom:link href="https://example.com/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lakshmiraut.github.io/publication-type/3/</link>
+      <atom:link href="https://lakshmiraut.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
-      <link>https://example.com/publication-type/3/</link>
+      <link>https://lakshmiraut.github.io/publication-type/3/</link>
     </image>
     
     <item>
       <title>Early childhood factors and health pathways to disability and death in mid-ages — a multi-state time-to-event life history model</title>
-      <link>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate time to event Statistical Models versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Determinants and Predictions of Risks of Diseases in Mid Ages: Logistic Regression Models versus Deep Neural Network Models</title>
-      <link>https://example.com/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pathways to Disability and Death Before Disability in middle ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pathways to disability and mortality in mid-ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unscented Kalman filters (UKF), particle filters (PF) and Recurrent Neural Network (RNN) methods for estimating health developments – a survey with simulation results</title>
-      <link>https://example.com/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Altruism, Gaussian curvature and Pareto Optimality: An Implication for Sen’s Meta Ranking Ethical Principle</title>
-      <link>https://example.com/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Application of Lie Groups to Economics and Game Theory</title>
-      <link>https://example.com/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identification of Structural Parameters in Stochastic Dynamic Programming Models</title>
-      <link>https://example.com/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model</title>
-      <link>https://example.com/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Rapid Introduction to Differential Geometry with Applications in Economics and Optimization</title>
-      <link>https://example.com/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Economic Burden of Disability in India: Estimates from the NSS Data</title>
-      <link>https://example.com/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Incentives and Social Security Disability Entitlements in a Counting Process Model</title>
-      <link>https://example.com/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mortality and Disability Risk Sharing under the OASDI Program in a Stochastic Overlapping Generations Framework</title>
-      <link>https://example.com/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria and Income Growth</title>
-      <link>https://example.com/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learned Convention and Subgame Perfect Equilibrium in an Overlapping Generations Model with Two-Sided Altruism</title>
-      <link>https://example.com/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Reformulation of the Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
-      <link>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symmetry Axiom and Haar Measure for Random Order Shapley Value of Games</title>
-      <link>https://example.com/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning to Perfect Manipulation: Implications for Fertility, Savings, and Old-Age Social Security</title>
-      <link>https://example.com/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A non-standard analysis of random order values of non-atomic games</title>
-      <link>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
-      <link>https://example.com/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subgame perfect manipulation of children by overlapping generations of agents with two-sided altruism and endogenous fertility</title>
-      <link>https://example.com/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</guid>
       <description></description>
     </item>
     

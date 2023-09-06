@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr. Lakshmi K. Raut</title>
-    <link>https://example.com/</link>
-      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lakshmiraut.github.io/</link>
+      <atom:link href="https://lakshmiraut.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr. Lakshmi K. Raut</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Dr. Lakshmi K. Raut</title>
-      <link>https://example.com/</link>
+      <link>https://lakshmiraut.github.io/</link>
     </image>
     
     <item>
       <title>Early childhood factors and health pathways to disability and death in mid-ages — a multi-state time-to-event life history model</title>
-      <link>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2023-01-01_early_childhood_factors_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate time to event Statistical Models versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Determinants and Predictions of Risks of Diseases in Middle Ages — Statistical Models versus Neural Network Machine Learning Models</title>
-      <link>https://example.com/talks/2021-02-20-parikh-fesch-mnl-neuralnet/</link>
+      <link>https://lakshmiraut.github.io/talks/2021-02-20-parikh-fesch-mnl-neuralnet/</link>
       <pubDate>Fri, 19 Feb 2021 07:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2021-02-20-parikh-fesch-mnl-neuralnet/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2021-02-20-parikh-fesch-mnl-neuralnet/</guid>
       <description>&lt;p&gt;Captured on my (client) machine&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/bpc_X-FQdZU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;Captured on the host machine&lt;/p&gt;
@@ -41,52 +41,52 @@
     
     <item>
       <title>Determinants and Predictions of Risks of Diseases in Mid Ages: Logistic Regression Models versus Deep Neural Network Models</title>
-      <link>https://example.com/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_determinants_and_predictions_o_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pathways to Disability and Death Before Disability in middle ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2021-01-01_pathways_to_disability_and_dea_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tex2Rmd--A package I developed in C&#43;&#43; and Java to covert Latex document to R markdown and via knitr to html and docx</title>
-      <link>https://example.com/post/2020-12-10-tex2rmd/</link>
+      <link>https://lakshmiraut.github.io/post/2020-12-10-tex2rmd/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/2020-12-10-tex2rmd/</guid>
+      <guid>https://lakshmiraut.github.io/post/2020-12-10-tex2rmd/</guid>
       <description>&lt;p&gt;A software package I developed in C++ and Java that converts a Latex document to the Rmarkdown format. The converted markdown document, possibly after further addition of other features and edits, can be converted to the html and word formats using R package knitr.
-For details how to use and where to get it, follow this link: &lt;a href=&#34;https://example.com/software/Tex2Rmd/index.html&#34;&gt;Tex2Rmd&lt;/a&gt; and for a short guide here &lt;a href=&#34;https://example.com/software/Tex2Rmd/Manual-Tex2Rmd.html&#34;&gt;Tex2Rmd-a short guide&lt;/a&gt;&lt;/p&gt;
+For details how to use and where to get it, follow this link: &lt;a href=&#34;https://lakshmiraut.github.io/software/Tex2Rmd/index.html&#34;&gt;Tex2Rmd&lt;/a&gt; and for a short guide here &lt;a href=&#34;https://lakshmiraut.github.io/software/Tex2Rmd/Manual-Tex2Rmd.html&#34;&gt;Tex2Rmd-a short guide&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To download it and to see a live demo on what it does, you can go directly to &lt;a href=&#34;https://github.com/lakshmiraut/Tex2Rmd/releases/tag/V0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tex2Rmd Github distribution page&lt;/a&gt; of the project.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>https://example.com/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</link>
+      <link>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</link>
       <pubDate>Sat, 04 Jan 2020 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pathways to disability and mortality in mid-ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/talks/2019-04-05-sge-annual-conference/</link>
+      <link>https://lakshmiraut.github.io/talks/2019-04-05-sge-annual-conference/</link>
       <pubDate>Fri, 05 Apr 2019 14:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2019-04-05-sge-annual-conference/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2019-04-05-sge-annual-conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/slides/example/</link>
+      <link>https://lakshmiraut.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/slides/example/</guid>
+      <guid>https://lakshmiraut.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -209,797 +209,797 @@ $$&lt;/p&gt;
     
     <item>
       <title>Pathways to disability and mortality in mid-ages: Estimates from the Health and Retirement Study Data</title>
-      <link>https://example.com/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_pathways_to_disability_and_mor_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unscented Kalman filters (UKF), particle filters (PF) and Recurrent Neural Network (RNN) methods for estimating health developments – a survey with simulation results</title>
-      <link>https://example.com/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2019-01-01_unscented_kalman_filters_ukf_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Altruism, Gaussian curvature and Pareto Optimality: An Implication for Sen’s Meta Ranking Ethical Principle</title>
-      <link>https://example.com/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_altruism_gaussian_curvature_a_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Application of Lie Groups to Economics and Game Theory</title>
-      <link>https://example.com/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_application_of_lie_groups_to_e_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identification of Structural Parameters in Stochastic Dynamic Programming Models</title>
-      <link>https://example.com/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Long-term Effects of Preschool on School Performance, Earnings and Social Mobility</title>
-      <link>https://example.com/publication/published/2018-01-01_long-term_effects_of_preschool/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2018-01-01_long-term_effects_of_preschool/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2018-01-01_long-term_effects_of_preschool/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2018-01-01_long-term_effects_of_preschool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model.</title>
-      <link>https://example.com/talks/2017-07-14-cbo/</link>
+      <link>https://lakshmiraut.github.io/talks/2017-07-14-cbo/</link>
       <pubDate>Wed, 12 Jul 2017 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2017-07-14-cbo/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2017-07-14-cbo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model)</title>
-      <link>https://example.com/talks/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</link>
+      <link>https://lakshmiraut.github.io/talks/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</link>
       <pubDate>Tue, 02 May 2017 14:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2017-05-02-isi-kolkata-longterm-effect-of-preschool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model</title>
-      <link>https://example.com/talks/2017-01-06-aea/</link>
+      <link>https://lakshmiraut.github.io/talks/2017-01-06-aea/</link>
       <pubDate>Fri, 06 Jan 2017 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2017-01-06-aea/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2017-01-06-aea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cost-effectiveness, Competitiveness and Export Performance of Indian Private Firms</title>
-      <link>https://example.com/publication/published/2017-01-01_cost-effectiveness_competitiv/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2017-01-01_cost-effectiveness_competitiv/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2017-01-01_cost-effectiveness_competitiv/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2017-01-01_cost-effectiveness_competitiv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model</title>
-      <link>https://example.com/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_early_childhood_development_e_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Education and Economic Growth: A Comparative Study of China and India</title>
-      <link>https://example.com/publication/published/2017-01-01_education_and_economic_growth_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2017-01-01_education_and_economic_growth_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2017-01-01_education_and_economic_growth_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2017-01-01_education_and_economic_growth_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exits from Disability: Estimates from a Competing Risk Model</title>
-      <link>https://example.com/publication/published/2017-01-01_exits_from_disability_estimate/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2017-01-01_exits_from_disability_estimate/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2017-01-01_exits_from_disability_estimate/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2017-01-01_exits_from_disability_estimate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model (joint paper with Professor James Heckman)</title>
-      <link>https://example.com/talks/2016-3-04-iim-udaipur/</link>
+      <link>https://lakshmiraut.github.io/talks/2016-3-04-iim-udaipur/</link>
       <pubDate>Fri, 04 Mar 2016 14:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2016-3-04-iim-udaipur/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2016-3-04-iim-udaipur/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model (joint paper with Professor James Heckman)</title>
-      <link>https://example.com/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</link>
+      <link>https://lakshmiraut.github.io/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</link>
       <pubDate>Sun, 03 Jan 2016 14:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Rapid Introduction to Differential Geometry with Applications in Economics and Optimization</title>
-      <link>https://example.com/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2016-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational long-term effects of preschool-structural estimates from a discrete dynamic programming model</title>
-      <link>https://example.com/publication/published/2016-01-01_intergenerational_long-term_ef/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2016-01-01_intergenerational_long-term_ef/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2016-01-01_intergenerational_long-term_ef/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2016-01-01_intergenerational_long-term_ef/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preschool Investment,  Earnings Inequality and Social Mobility </title>
-      <link>https://example.com/talks/2015-06-01-sge-seminar/</link>
+      <link>https://lakshmiraut.github.io/talks/2015-06-01-sge-seminar/</link>
       <pubDate>Mon, 01 Jun 2015 18:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2015-06-01-sge-seminar/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2015-06-01-sge-seminar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Globalization, Quality and Inequity in Education and Economic Growth - Lessons for India for China</title>
-      <link>https://example.com/talks/2015-02-12-iima/</link>
+      <link>https://lakshmiraut.github.io/talks/2015-02-12-iima/</link>
       <pubDate>Thu, 12 Feb 2015 16:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2015-02-12-iima/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2015-02-12-iima/</guid>
       <description>&lt;h1 id=&#34;iframe-width560-height315-srchttpvsliriimaacin8080jspuibitstream11718130981r_n_p_12_02_2015_wing_11mp4-titleyoutube-video-player-frameborder0-allowaccelerometer-autoplay-clipboard-write-encrypted-media-gyroscope-picture-in-picture-allowfullscreeniframe&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://vslir.iima.ac.in:8080/jspui/bitstream/11718/13098/1/R_n_P_12_02_2015_WING_11.mp4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/h1&gt;
 </description>
     </item>
     
     <item>
       <title>Globalization, Quality and Inequity in Education and Economic Growth - Lessons for India from China</title>
-      <link>https://example.com/talks/2015-02-11-igidr-globalization-education-india-china/</link>
+      <link>https://lakshmiraut.github.io/talks/2015-02-11-igidr-globalization-education-india-china/</link>
       <pubDate>Wed, 11 Feb 2015 15:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2015-02-11-igidr-globalization-education-india-china/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2015-02-11-igidr-globalization-education-india-china/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Signaling Equilibrium Model of Intergenerational Mobility and Economic growth</title>
-      <link>https://example.com/talks/2014-09-30-ieg-education-signaling/</link>
+      <link>https://lakshmiraut.github.io/talks/2014-09-30-ieg-education-signaling/</link>
       <pubDate>Tue, 30 Sep 2014 14:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2014-09-30-ieg-education-signaling/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2014-09-30-ieg-education-signaling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Equity of Human Capital Accumulation and Sustained Economic Growth - Lessons from China for India</title>
-      <link>https://example.com/talks/2014-08-19-ieg-education-in-china-india/</link>
+      <link>https://lakshmiraut.github.io/talks/2014-08-19-ieg-education-in-china-india/</link>
       <pubDate>Tue, 19 Aug 2014 09:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2014-08-19-ieg-education-in-china-india/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2014-08-19-ieg-education-in-china-india/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Economic Burden of Disability in India: Estimates from the NSS Data</title>
-      <link>https://example.com/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_the_economic_burden_of_disabil_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Family Expansion and Capital Accumulation of a Dynasty</title>
-      <link>https://example.com/publication/published/2013-01-01_family_expansion_and_capital_a/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2013-01-01_family_expansion_and_capital_a/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2013-01-01_family_expansion_and_capital_a/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2013-01-01_family_expansion_and_capital_a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool - Structural Estimates from a Discrete Dynamic Programming Model</title>
-      <link>https://example.com/publication/published/2013-01-01_intergenerational_long_term_ef/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2013-01-01_intergenerational_long_term_ef/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2013-01-01_intergenerational_long_term_ef/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2013-01-01_intergenerational_long_term_ef/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Duration Model of Social Security Disability Program Entitlement,</title>
-      <link>https://example.com/talks/2010-06-29-wea-portland-disability-entry/</link>
+      <link>https://lakshmiraut.github.io/talks/2010-06-29-wea-portland-disability-entry/</link>
       <pubDate>Wed, 30 Jun 2010 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2010-06-29-wea-portland-disability-entry/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2010-06-29-wea-portland-disability-entry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Incentives and Social Security Disability Entitlements in a Counting Process Model</title>
-      <link>https://example.com/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</link>
       <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2010-01-01_economic_incentives_and_social_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home Ownership and School Outcomes of Children: Evidence from the PSID Child Development Supplement</title>
-      <link>https://example.com/publication/published/2009-01-01_home_ownership_and_school_outc/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2009-01-01_home_ownership_and_school_outc/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2009-01-01_home_ownership_and_school_outc/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2009-01-01_home_ownership_and_school_outc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Preschool education vital for children of poor families</title>
-      <link>https://example.com/talks/2008-10-24-salem/</link>
+      <link>https://lakshmiraut.github.io/talks/2008-10-24-salem/</link>
       <pubDate>Fri, 24 Oct 2008 15:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/2008-10-24-salem/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2008-10-24-salem/</guid>
       <description>&lt;p&gt;The talk was featured in the &lt;a href=&#34;&#34;&gt;&lt;strong&gt;Hindu News Magazine&lt;/strong&gt; on October 24, 2008&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model</title>
-      <link>https://example.com/talks/2008-10-21-singapore-national-university-preschool-paper/</link>
+      <link>https://lakshmiraut.github.io/talks/2008-10-21-singapore-national-university-preschool-paper/</link>
       <pubDate>Tue, 21 Oct 2008 15:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2008-10-21-singapore-national-university-preschool-paper/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2008-10-21-singapore-national-university-preschool-paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model</title>
-      <link>https://example.com/talks/2008-10-15-kobe/</link>
+      <link>https://lakshmiraut.github.io/talks/2008-10-15-kobe/</link>
       <pubDate>Wed, 15 Oct 2008 15:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2008-10-15-kobe/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2008-10-15-kobe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Disability and Mortality Risk Sharing within the OASDI Program</title>
-      <link>https://example.com/talks/2007-07-02-wea-seattle-paper-stochastic-olg/</link>
+      <link>https://lakshmiraut.github.io/talks/2007-07-02-wea-seattle-paper-stochastic-olg/</link>
       <pubDate>Mon, 02 Jul 2007 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2007-07-02-wea-seattle-paper-stochastic-olg/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2007-07-02-wea-seattle-paper-stochastic-olg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ageing and Elderly Care in an Open Economy</title>
-      <link>https://example.com/publication/published/2007-01-01_ageing_and_elderly_care_in_an_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2007-01-01_ageing_and_elderly_care_in_an_/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2007-01-01_ageing_and_elderly_care_in_an_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2007-01-01_ageing_and_elderly_care_in_an_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immigration vs Foreign Investment to Ease the Ageing Problems of an Ageing Open Economy</title>
-      <link>https://example.com/publication/published/2007-01-01_immigration_vs_foreign_investm/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2007-01-01_immigration_vs_foreign_investm/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2007-01-01_immigration_vs_foreign_investm/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2007-01-01_immigration_vs_foreign_investm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mortality and Disability Risk Sharing under the OASDI Program in a Stochastic Overlapping Generations Framework</title>
-      <link>https://example.com/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2007-01-01_mortality_and_disability_risk__unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>School Choice and the Intergenerational Poverty Trap</title>
-      <link>https://example.com/publication/published/2007-01-01_school_choice_and_the_intergen/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2007-01-01_school_choice_and_the_intergen/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2007-01-01_school_choice_and_the_intergen/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2007-01-01_school_choice_and_the_intergen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria and Economic Growth (presented by Lien H. Tran)</title>
-      <link>https://example.com/talks/2006-07-31-pet-hanoi-malaria/</link>
+      <link>https://lakshmiraut.github.io/talks/2006-07-31-pet-hanoi-malaria/</link>
       <pubDate>Wed, 02 Aug 2006 12:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2006-07-31-pet-hanoi-malaria/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2006-07-31-pet-hanoi-malaria/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two-sided altruism, Lindahl equilibrium, and Pareto optimality in overlapping generations models</title>
-      <link>https://example.com/publication/published/2006-01-01_two-sided_altruism_lindahl_eq/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2006-01-01_two-sided_altruism_lindahl_eq/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2006-01-01_two-sided_altruism_lindahl_eq/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2006-01-01_two-sided_altruism_lindahl_eq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Firm&#39;s R&amp;D Behavior Under Rational Expectations</title>
-      <link>https://example.com/publication/published/2005-01-01_firms_rd_behavior_under_rati/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2005-01-01_firms_rd_behavior_under_rati/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2005-01-01_firms_rd_behavior_under_rati/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2005-01-01_firms_rd_behavior_under_rati/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental human capital investment and old-age transfers from children: Is it a loan contract or reciprocity for Indonesian families?</title>
-      <link>https://example.com/publication/published/2005-01-01_parental_human_capital_investm/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2005-01-01_parental_human_capital_investm/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2005-01-01_parental_human_capital_investm/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2005-01-01_parental_human_capital_investm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria and Income Growth</title>
-      <link>https://example.com/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learned Convention and Subgame Perfect Equilibrium in an Overlapping Generations Model with Two-Sided Altruism</title>
-      <link>https://example.com/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</link>
       <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2004-01-01_learned_convention_and_subgame_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immigration or Foreign Investment to Cope with Aging Crises of an Aging Open Economy</title>
-      <link>https://example.com/talks/2003-09-13-social-insurance-conf-maryland/</link>
+      <link>https://lakshmiraut.github.io/talks/2003-09-13-social-insurance-conf-maryland/</link>
       <pubDate>Sat, 13 Sep 2003 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2003-09-13-social-insurance-conf-maryland/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2003-09-13-social-insurance-conf-maryland/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Long-Term Effects of Preschool</title>
-      <link>https://example.com/talks/2003-07-11-wea-denver-preschool-paper/</link>
+      <link>https://lakshmiraut.github.io/talks/2003-07-11-wea-denver-preschool-paper/</link>
       <pubDate>Fri, 11 Jul 2003 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2003-07-11-wea-denver-preschool-paper/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2003-07-11-wea-denver-preschool-paper/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Reformulation of the Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
-      <link>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Competitiveness, Productivity and Export Performance of Indian Private Firms</title>
-      <link>https://example.com/publication/published/2003-01-01_competitiveness_productivity_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2003-01-01_competitiveness_productivity_/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2003-01-01_competitiveness_productivity_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2003-01-01_competitiveness_productivity_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Symmetry Axiom and Haar Measure for Random Order Shapley Value of Games</title>
-      <link>https://example.com/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</link>
       <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2003-01-01_symmetry_axiom_and_haar_measur_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria and Economic Growth</title>
-      <link>https://example.com/talks/2002-06-30-wea-seattle-malaria/</link>
+      <link>https://lakshmiraut.github.io/talks/2002-06-30-wea-seattle-malaria/</link>
       <pubDate>Sun, 30 Jun 2002 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2002-06-30-wea-seattle-malaria/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2002-06-30-wea-seattle-malaria/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immigration or Foreign Investment to Cope with Aging Crises of an Aging Open Economy</title>
-      <link>https://example.com/talks/2002-02-17-japan-4th-collaboration-project-tokyo/</link>
+      <link>https://lakshmiraut.github.io/talks/2002-02-17-japan-4th-collaboration-project-tokyo/</link>
       <pubDate>Sun, 17 Feb 2002 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2002-02-17-japan-4th-collaboration-project-tokyo/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2002-02-17-japan-4th-collaboration-project-tokyo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria: Dynamics and Control</title>
-      <link>https://example.com/talks/2001-08-03-iitk-malaria/</link>
+      <link>https://lakshmiraut.github.io/talks/2001-08-03-iitk-malaria/</link>
       <pubDate>Fri, 03 Aug 2001 15:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2001-08-03-iitk-malaria/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2001-08-03-iitk-malaria/</guid>
       <description>&lt;p&gt;For further on malaria project at the World Bank, look at &lt;a href=&#34;http://documents1.worldbank.org/curated/en/491541468740153091/pdf/multi0page.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The World Bank Research Program: Abstract of current sudies, 2001&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Economic Epidemiology of Malaria: Dynamics and Control</title>
-      <link>https://example.com/talks/2001-07-20-far-eastern-kobe/</link>
+      <link>https://lakshmiraut.github.io/talks/2001-07-20-far-eastern-kobe/</link>
       <pubDate>Fri, 20 Jul 2001 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2001-07-20-far-eastern-kobe/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2001-07-20-far-eastern-kobe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental Human Capital Investment and Old-age transfers from Children: Is it a loan contract or reciprocity for Indonesian Families?</title>
-      <link>https://example.com/talks/2001-07-20-far-eastern-kobe-with-lien/</link>
+      <link>https://lakshmiraut.github.io/talks/2001-07-20-far-eastern-kobe-with-lien/</link>
       <pubDate>Fri, 20 Jul 2001 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2001-07-20-far-eastern-kobe-with-lien/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2001-07-20-far-eastern-kobe-with-lien/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Structural Choices Facing a Rapidly Aging Economy,(jointly with Junichi Go to, Koichi Hamada , Masaya Sukuragawa, and Roberta de Santisa</title>
-      <link>https://example.com/talks/2001-03-18-japan-2nd-collaboration-project-tokyo/</link>
+      <link>https://lakshmiraut.github.io/talks/2001-03-18-japan-2nd-collaboration-project-tokyo/</link>
       <pubDate>Sun, 18 Mar 2001 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2001-03-18-japan-2nd-collaboration-project-tokyo/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2001-03-18-japan-2nd-collaboration-project-tokyo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Analysis of Thailand’s Capital Flows</title>
-      <link>https://example.com/publication/published/2001-01-01_an_analysis_of_thailandas_ca/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2001-01-01_an_analysis_of_thailandas_ca/</link>
       <pubDate>Mon, 01 Jan 2001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2001-01-01_an_analysis_of_thailandas_ca/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2001-01-01_an_analysis_of_thailandas_ca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Structural Choices Facing a Rapidly Aging Economy,(jointly with Junichi Go to, Koichi Hamada , Masaya Sukuragawa, and Roberta de Santisa</title>
-      <link>https://example.com/talks/2000-09-22-japan-1st-collaboration-project-osaka/</link>
+      <link>https://lakshmiraut.github.io/talks/2000-09-22-japan-1st-collaboration-project-osaka/</link>
       <pubDate>Fri, 22 Sep 2000 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/2000-09-22-japan-1st-collaboration-project-osaka/</guid>
+      <guid>https://lakshmiraut.github.io/talks/2000-09-22-japan-1st-collaboration-project-osaka/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reciprocity with Two-sided Altruism in Intergenerational Transfers: Evidence from Indonesian Family Life Survey Data</title>
-      <link>https://example.com/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</link>
+      <link>https://lakshmiraut.github.io/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</link>
       <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/2000-01-01_reciprocity_with_two-sided_alt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parental Human Capital Investment and Old-Age Transfers from Children: Is it a loan contract or reciprocity for Indonesian families (joint work with Lien H. Tran)</title>
-      <link>https://example.com/talks/1999-06-03-world-bank-motives-for-investment/</link>
+      <link>https://lakshmiraut.github.io/talks/1999-06-03-world-bank-motives-for-investment/</link>
       <pubDate>Thu, 03 Jun 1999 14:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1999-06-03-world-bank-motives-for-investment/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1999-06-03-world-bank-motives-for-investment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Analysis of Thailand’s Capital Flows</title>
-      <link>https://example.com/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aumann-Shapley random order values of non-atomic games</title>
-      <link>https://example.com/publication/published/1999-01-01_aumann-shapley_random_order_va/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1999-01-01_aumann-shapley_random_order_va/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1999-01-01_aumann-shapley_random_order_va/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1999-01-01_aumann-shapley_random_order_va/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Endogenous fertility and growth dynamics</title>
-      <link>https://example.com/publication/published/1999-01-01_endogenous_fertility_and_growt/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1999-01-01_endogenous_fertility_and_growt/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1999-01-01_endogenous_fertility_and_growt/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1999-01-01_endogenous_fertility_and_growt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trade, Growth and Development: Essays in Honor of Professor T.N. Srinivasan</title>
-      <link>https://example.com/publication/published/1999-01-01_trade_growth_and_development_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1999-01-01_trade_growth_and_development_/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1999-01-01_trade_growth_and_development_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1999-01-01_trade_growth_and_development_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fertility and Growth Dynamics</title>
-      <link>https://example.com/talks/1998-03-27-tn-feschript/</link>
+      <link>https://lakshmiraut.github.io/talks/1998-03-27-tn-feschript/</link>
       <pubDate>Fri, 27 Mar 1998 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1998-03-27-tn-feschript/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1998-03-27-tn-feschript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning to Perfect Manipulation: Implications for Fertility, Savings, and Old-Age Social Security</title>
-      <link>https://example.com/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</link>
       <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Motives for investment in human capital of children and their consequences: evidence from Indonesian Family Life Survey Data,(jointly with Lien H. Tran)</title>
-      <link>https://example.com/talks/1997-12-18-marseilles-france/</link>
+      <link>https://lakshmiraut.github.io/talks/1997-12-18-marseilles-france/</link>
       <pubDate>Thu, 18 Dec 1997 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1997-12-18-marseilles-france/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1997-12-18-marseilles-france/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chapter 20 Growth models with endogenous population: A general framework </title>
-      <link>https://example.com/publication/published/1997-01-01_chapter_20_growth_models_with_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1997-01-01_chapter_20_growth_models_with_/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1997-01-01_chapter_20_growth_models_with_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1997-01-01_chapter_20_growth_models_with_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Complementarities between Exports and Human Capital in Economic Growth: Evidence from the Semiâ€?industrialized Countries</title>
-      <link>https://example.com/publication/published/1997-01-01_complementarities_between_expo/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1997-01-01_complementarities_between_expo/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1997-01-01_complementarities_between_expo/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1997-01-01_complementarities_between_expo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Construction of a Haar measure on the projective limit group and random order values of non-atomic games</title>
-      <link>https://example.com/publication/published/1997-01-01_construction_of_a_haar_measure/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1997-01-01_construction_of_a_haar_measure/</link>
       <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1997-01-01_construction_of_a_haar_measure/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1997-01-01_construction_of_a_haar_measure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The nature and impact of foreign capital flows into Thailand.</title>
-      <link>https://example.com/talks/1996-10-bangkok/</link>
+      <link>https://lakshmiraut.github.io/talks/1996-10-bangkok/</link>
       <pubDate>Fri, 25 Oct 1996 10:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1996-10-bangkok/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1996-10-bangkok/</guid>
       <description>&lt;p&gt;The  paper is jointly with Paitoon Weiboonchutikula, and Bangorn Tubtimtong. The paper was presented by Paitoon Weiboonchutikula)&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Social Mobility and Long-run Growth</title>
-      <link>https://example.com/talks/1996-01-05-aea-san-francisco/</link>
+      <link>https://lakshmiraut.github.io/talks/1996-01-05-aea-san-francisco/</link>
       <pubDate>Sat, 06 Jan 1996 08:00:00 +0000</pubDate>
-      <guid>https://example.com/talks/1996-01-05-aea-san-francisco/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1996-01-05-aea-san-francisco/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Old-age Security and Gender Preference Hypotheses: A Duration Analysis of Malaysian Family Life Survey Data</title>
-      <link>https://example.com/publication/published/1996-01-01_old-age_security_and_gender_pr/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1996-01-01_old-age_security_and_gender_pr/</link>
       <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1996-01-01_old-age_security_and_gender_pr/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1996-01-01_old-age_security_and_gender_pr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Random Order Approach to Aumann-Shapley Value and Haar Measure</title>
-      <link>https://example.com/talks/1995-10-19-toronto-aumann/</link>
+      <link>https://lakshmiraut.github.io/talks/1995-10-19-toronto-aumann/</link>
       <pubDate>Thu, 19 Oct 1995 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1995-10-19-toronto-aumann/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1995-10-19-toronto-aumann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signaling Equilibrium, Intergenerational mobility and long-run growth</title>
-      <link>https://example.com/talks/1995-08-22-seventh-world-congress/</link>
+      <link>https://lakshmiraut.github.io/talks/1995-08-22-seventh-world-congress/</link>
       <pubDate>Tue, 22 Aug 1995 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1995-08-22-seventh-world-congress/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1995-08-22-seventh-world-congress/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A non-standard analysis of random order values of non-atomic games</title>
-      <link>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R &amp; D spillover and productivity growth: Evidence from Indian private firms</title>
-      <link>https://example.com/publication/published/1995-01-01_r__d_spillover_and_productivi/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1995-01-01_r__d_spillover_and_productivi/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1995-01-01_r__d_spillover_and_productivi/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1995-01-01_r__d_spillover_and_productivi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
-      <link>https://example.com/publication/published/1995-01-01_signaling_equilibrium_interge/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1995-01-01_signaling_equilibrium_interge/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1995-01-01_signaling_equilibrium_interge/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1995-01-01_signaling_equilibrium_interge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
-      <link>https://example.com/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</link>
       <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Construction of Haar Measure on Projective Limit Group and Random Order Values of Non-atomic Games</title>
-      <link>https://example.com/talks/1994-07-08-rochester/</link>
+      <link>https://lakshmiraut.github.io/talks/1994-07-08-rochester/</link>
       <pubDate>Fri, 08 Jul 1994 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1994-07-08-rochester/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1994-07-08-rochester/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamics of Endogenous Growth</title>
-      <link>https://example.com/publication/published/1994-01-01_dynamics_of_endogenous_growth/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1994-01-01_dynamics_of_endogenous_growth/</link>
       <pubDate>Sat, 01 Jan 1994 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1994-01-01_dynamics_of_endogenous_growth/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1994-01-01_dynamics_of_endogenous_growth/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Per capita income growth, social expenditures and living standards: Evidence from rural India</title>
-      <link>https://example.com/publication/published/1993-01-01_per_capita_income_growth_soci/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1993-01-01_per_capita_income_growth_soci/</link>
       <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1993-01-01_per_capita_income_growth_soci/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1993-01-01_per_capita_income_growth_soci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theories of Long-Run Growth: Old and New</title>
-      <link>https://example.com/publication/published/1993-01-01_theories_of_long-run_growth_ol/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1993-01-01_theories_of_long-run_growth_ol/</link>
       <pubDate>Fri, 01 Jan 1993 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1993-01-01_theories_of_long-run_growth_ol/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1993-01-01_theories_of_long-run_growth_ol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demographic Links to Savings in Life Cycle Models: Identification of Issues for LDCs</title>
-      <link>https://example.com/publication/published/1992-01-01_demographic_links_to_savings_i/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1992-01-01_demographic_links_to_savings_i/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1992-01-01_demographic_links_to_savings_i/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1992-01-01_demographic_links_to_savings_i/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Social Security on Fertility and Saving: An Overlapping Generations Model</title>
-      <link>https://example.com/publication/published/1992-01-01_effects_of_social_security_on_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1992-01-01_effects_of_social_security_on_/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1992-01-01_effects_of_social_security_on_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1992-01-01_effects_of_social_security_on_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subgame perfect manipulation of children by overlapping generations of agents with two-sided altruism and endogenous fertility</title>
-      <link>https://example.com/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</link>
+      <link>https://lakshmiraut.github.io/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</link>
       <pubDate>Wed, 01 Jan 1992 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</guid>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/1992-01-01_subgame_perfect_manipulation_o_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two sided Altruism, Lindahl Equilibrium and Pareto Efficiency in Overlapping Generations Models</title>
-      <link>https://example.com/talks/1991-07-02-post-far-east-meeting/</link>
+      <link>https://lakshmiraut.github.io/talks/1991-07-02-post-far-east-meeting/</link>
       <pubDate>Tue, 02 Jul 1991 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1991-07-02-post-far-east-meeting/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1991-07-02-post-far-east-meeting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Old Age Security and Son Preference Hypotheses: Evidence from Duration Analysis of Malaysian Women</title>
-      <link>https://example.com/talks/1991-06-05-pisa-with-tn/</link>
+      <link>https://lakshmiraut.github.io/talks/1991-06-05-pisa-with-tn/</link>
       <pubDate>Sat, 29 Jun 1991 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1991-06-05-pisa-with-tn/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1991-06-05-pisa-with-tn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Old Age Security and Son Preference Hypotheses: Evidence from Duration Analysis of Malaysian Women</title>
-      <link>https://example.com/talks/1991-06-29-far-eastern-seoul/</link>
+      <link>https://lakshmiraut.github.io/talks/1991-06-29-far-eastern-seoul/</link>
       <pubDate>Sat, 29 Jun 1991 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1991-06-29-far-eastern-seoul/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1991-06-29-far-eastern-seoul/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Growth Models with Endogenous Population,(jointly with Marc Nerlove)</title>
-      <link>https://example.com/talks/1992-06-10-austria-with-nerlove/</link>
+      <link>https://lakshmiraut.github.io/talks/1992-06-10-austria-with-nerlove/</link>
       <pubDate>Mon, 10 Jun 1991 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1992-06-10-austria-with-nerlove/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1992-06-10-austria-with-nerlove/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Two-sided altruism, Operative Gifts, Bequests, Fertility and Social Security</title>
-      <link>https://example.com/talks/1992-06-10-austria/</link>
+      <link>https://lakshmiraut.github.io/talks/1992-06-10-austria/</link>
       <pubDate>Mon, 10 Jun 1991 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1992-06-10-austria/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1992-06-10-austria/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Old Age Security and Son Preference Hypotheses: Evidence from Duration Analysis of Malaysian Women</title>
-      <link>https://example.com/talks/1991-06-05-pisa/</link>
+      <link>https://lakshmiraut.github.io/talks/1991-06-05-pisa/</link>
       <pubDate>Wed, 05 Jun 1991 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1991-06-05-pisa/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1991-06-05-pisa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Limited Two sided Altruism, Lindahl Equilibrium and Pareto Efficiency in Overlapping Generations Models</title>
-      <link>https://example.com/talks/1990-12-30-aea-washington-dc/</link>
+      <link>https://lakshmiraut.github.io/talks/1990-12-30-aea-washington-dc/</link>
       <pubDate>Sun, 30 Dec 1990 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1990-12-30-aea-washington-dc/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1990-12-30-aea-washington-dc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Limited Two sided Altruism, Lindahl Equilibrium and Pareto Efficiency in Overlapping Generations Models</title>
-      <link>https://example.com/talks/1990-08-22-sixth-world-congress-spain/</link>
+      <link>https://lakshmiraut.github.io/talks/1990-08-22-sixth-world-congress-spain/</link>
       <pubDate>Wed, 22 Aug 1990 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1990-08-22-sixth-world-congress-spain/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1990-08-22-sixth-world-congress-spain/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capital accumulation, income distribution and endogenous fertility in an overlapping generations general equilibrium model</title>
-      <link>https://example.com/publication/published/1990-01-01_capital_accumulation_income_d/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1990-01-01_capital_accumulation_income_d/</link>
       <pubDate>Mon, 01 Jan 1990 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1990-01-01_capital_accumulation_income_d/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1990-01-01_capital_accumulation_income_d/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capital Accumulation, Income Distribution and Endogenous Fertility in an Overlapping Generations General Equilibrium Model</title>
-      <link>https://example.com/talks/1989-06-10-far-eastern/</link>
+      <link>https://lakshmiraut.github.io/talks/1989-06-10-far-eastern/</link>
       <pubDate>Sat, 10 Jun 1989 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1989-06-10-far-eastern/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1989-06-10-far-eastern/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Determinants of Consumption and Savings Behavior in Developing Countries</title>
-      <link>https://example.com/publication/published/1989-01-01_determinants_of_consumption_an/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1989-01-01_determinants_of_consumption_an/</link>
       <pubDate>Sun, 01 Jan 1989 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1989-01-01_determinants_of_consumption_an/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1989-01-01_determinants_of_consumption_an/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R&amp; D Behavior of Indian Firms: A Stochastic Control Model</title>
-      <link>https://example.com/publication/published/1988-01-01_r_d_behavior_of_indian_firms_/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1988-01-01_r_d_behavior_of_indian_firms_/</link>
       <pubDate>Fri, 01 Jan 1988 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1988-01-01_r_d_behavior_of_indian_firms_/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1988-01-01_r_d_behavior_of_indian_firms_/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Myopic topologies on general commodity spaces</title>
-      <link>https://example.com/publication/published/1986-01-01_myopic_topologies_on_general_c/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1986-01-01_myopic_topologies_on_general_c/</link>
       <pubDate>Wed, 01 Jan 1986 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1986-01-01_myopic_topologies_on_general_c/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1986-01-01_myopic_topologies_on_general_c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capital Accumulation, Income inequality, and Endogenous Fertility in an Overlapping Generations General Equilibrium Model</title>
-      <link>https://example.com/talks/1983-04-29-northeast-dev-consortium/</link>
+      <link>https://lakshmiraut.github.io/talks/1983-04-29-northeast-dev-consortium/</link>
       <pubDate>Fri, 29 Apr 1983 09:30:00 +0000</pubDate>
-      <guid>https://example.com/talks/1983-04-29-northeast-dev-consortium/</guid>
+      <guid>https://lakshmiraut.github.io/talks/1983-04-29-northeast-dev-consortium/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theory of Games and its Applications to Economics and Politics</title>
-      <link>https://example.com/publication/published/1981-01-01_theory_of_games_and_its_applic/</link>
+      <link>https://lakshmiraut.github.io/publication/published/1981-01-01_theory_of_games_and_its_applic/</link>
       <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/published/1981-01-01_theory_of_games_and_its_applic/</guid>
+      <guid>https://lakshmiraut.github.io/publication/published/1981-01-01_theory_of_games_and_its_applic/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://example.com/admin/config.yml</link>
+      <link>https://lakshmiraut.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/admin/config.yml</guid>
+      <guid>https://lakshmiraut.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     
