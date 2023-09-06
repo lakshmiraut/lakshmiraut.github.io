@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pathways to disability | Dr. Lakshmi K. Raut</title>
-    <link>https://lakshmiraut.github.io/tag/pathways-to-disability/</link>
-      <atom:link href="https://lakshmiraut.github.io/tag/pathways-to-disability/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lakshmiraut.netlify.app/tag/pathways-to-disability/</link>
+      <atom:link href="https://lakshmiraut.netlify.app/tag/pathways-to-disability/index.xml" rel="self" type="application/rss+xml" />
     <description>Pathways to disability</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jan 2020 12:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Pathways to disability</title>
-      <link>https://lakshmiraut.github.io/tag/pathways-to-disability/</link>
+      <link>https://lakshmiraut.netlify.app/tag/pathways-to-disability/</link>
     </image>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate Time to Event Statistical Models Versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>
-      <link>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</link>
+      <link>https://lakshmiraut.netlify.app/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</link>
       <pubDate>Sat, 04 Jan 2020 12:30:00 +0000</pubDate>
-      <guid>https://lakshmiraut.github.io/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</guid>
+      <guid>https://lakshmiraut.netlify.app/talks/2020-01-04-aea-multi-state-rnn-lstm-paper/</guid>
       <description></description>
     </item>
     

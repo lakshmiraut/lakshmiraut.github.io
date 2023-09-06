@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discrete dynamic programming | Dr. Lakshmi K. Raut</title>
-    <link>https://lakshmiraut.github.io/tag/discrete-dynamic-programming/</link>
-      <atom:link href="https://lakshmiraut.github.io/tag/discrete-dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lakshmiraut.netlify.app/tag/discrete-dynamic-programming/</link>
+      <atom:link href="https://lakshmiraut.netlify.app/tag/discrete-dynamic-programming/index.xml" rel="self" type="application/rss+xml" />
     <description>Discrete dynamic programming</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 04 Mar 2016 14:30:00 +0000</lastBuildDate>
     <image>
-      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Discrete dynamic programming</title>
-      <link>https://lakshmiraut.github.io/tag/discrete-dynamic-programming/</link>
+      <link>https://lakshmiraut.netlify.app/tag/discrete-dynamic-programming/</link>
     </image>
     
     <item>
       <title>Intergenerational Long Term Effects of Preschool -Estimates from a Structural Dynamic Programming Model (joint paper with Professor James Heckman)</title>
-      <link>https://lakshmiraut.github.io/talks/2016-3-04-iim-udaipur/</link>
+      <link>https://lakshmiraut.netlify.app/talks/2016-3-04-iim-udaipur/</link>
       <pubDate>Fri, 04 Mar 2016 14:30:00 +0000</pubDate>
-      <guid>https://lakshmiraut.github.io/talks/2016-3-04-iim-udaipur/</guid>
+      <guid>https://lakshmiraut.netlify.app/talks/2016-3-04-iim-udaipur/</guid>
       <description></description>
     </item>
     
