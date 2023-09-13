@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Lakshmi K. Raut">
+<meta name="dcterms.date" content="2018-09-01">
+<meta name="description" content="Random order Shapley value is reformulated using the Haar measure and the existence of the random order Shapley value is given for classes of non-atomic games of economic importance">
+
+<title>A Reformulation of Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+
+<script src="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/quarto-html/quarto.js"></script>
+<script src="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/quarto-html/popper.min.js"></script>
+<script src="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Reformulated_Shapley_Value_2022-Tex2Quarto_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<link rel="stylesheet" href="raut-html-style1.css">
+</head>
+
+<body>
+
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">A Reformulation of Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</h1>
+                  <div>
+        <div class="description">
+          Random order Shapley value is reformulated using the Haar measure and the existence of the random order Shapley value is given for classes of non-atomic games of economic importance
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  <div class="quarto-title-meta-author">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      Lakshmi K. Raut 
+    </div>
+      <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              Visiting Fellow, University of Chicago
+            </p>
+        </div>
+      </div>
+
+  <div class="quarto-title-meta">
+
+        
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 1, 2018</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="toc-section-number">1</span>  Introduction</a></li>
+  <li><a href="#sec-sec2" id="toc-sec-sec2" class="nav-link" data-scroll-target="#sec-sec2"><span class="toc-section-number">2</span>  The Basic Framework</a>
+  <ul class="collapse">
+  <li><a href="#sec-sec2-1" id="toc-sec-sec2-1" class="nav-link" data-scroll-target="#sec-sec2-1"><span class="toc-section-number">2.1</span>  Generation of Random orders</a></li>
+  <li><a href="#sec-sec2-2" id="toc-sec-sec2-2" class="nav-link" data-scroll-target="#sec-sec2-2"><span class="toc-section-number">2.2</span>  Connection with Aumann-Shapley measurable orders</a></li>
+  <li><a href="#sec-sec2-3" id="toc-sec-sec2-3" class="nav-link" data-scroll-target="#sec-sec2-3"><span class="toc-section-number">2.3</span>  <span class="math inline">\Theta</span>-symmetric random order value operator</a></li>
+  </ul></li>
+  <li><a href="#sec-sec3" id="toc-sec-sec3" class="nav-link" data-scroll-target="#sec-sec3"><span class="toc-section-number">3</span>  The operator <span class="math inline">\Phi_\Gamma</span> is a valid random order value operator</a></li>
+  <li><a href="#sec-sec4" id="toc-sec-sec4" class="nav-link" data-scroll-target="#sec-sec4"><span class="toc-section-number">4</span>  On the choice of a symmetry group</a>
+  <ul class="collapse">
+  <li><a href="#the-projective-limit-automorphism-group-brevetheta" id="toc-the-projective-limit-automorphism-group-brevetheta" class="nav-link" data-scroll-target="#the-projective-limit-automorphism-group-brevetheta"><span class="toc-section-number">4.1</span>  The projective limit automorphism group <span class="math inline">\breve\Theta</span></a></li>
+  <li><a href="#the-existence-and-uniqueness-of-brevetheta-symmetric-random-order-value-operator-on-nbv" id="toc-the-existence-and-uniqueness-of-brevetheta-symmetric-random-order-value-operator-on-nbv" class="nav-link" data-scroll-target="#the-existence-and-uniqueness-of-brevetheta-symmetric-random-order-value-operator-on-nbv"><span class="toc-section-number">4.2</span>  The existence and uniqueness of <span class="math inline">\breve\Theta</span>-symmetric random order value operator on <span class="math inline">NBV</span></a></li>
+  </ul></li>
+  <li><a href="#sec-sec5" id="toc-sec-sec5" class="nav-link" data-scroll-target="#sec-sec5"><span class="toc-section-number">5</span>  Further Remarks</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<div class="cell">
+<style type="text/css">
+
+div .mdframed {
+  padding: 1em;
+  background: blue;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 10px;
+  /* background-image: linear-gradient(to right,  Olive , teal); */
+background-image: linear-gradient(to right,  #837a16 ,  #9f7ce9);
+}
+
+div .boxedText {
+  padding: 1em;
+  background: blue;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 10px;
+  /* background-image: linear-gradient(to right,  darkseagreen , deepskyblue);*/
+ background-image: linear-gradient(to right,  #837a16 ,     #9f7ce9); 
+}
+</style>
+</div>
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>A basic problem in cooperative game theory is to find rules for dividing the worth of the grand coalition among the players so that certain fairness is achieved. Mathematically, the problem is to find a mapping or an operator from the space of all set functions to the space of additive set functions satisfying certain desired properties. Using the linear vector space structure of the space of games, <span class="citation" data-cites="Shapley_1953">Shapley (<a href="#ref-Shapley_1953" role="doc-biblioref">1953</a>)</span> proved the existence and uniqueness of an operator satisfying certain axioms on fair division. The solution thus obtained is known as <em>axiomatic value</em>. Shapley also postulated an alternative set of fairness principles which come to be known as the <em>random order value</em>. In this approach, a player is given his expected marginal contribution in a random ordering of players, each ordering being equally likely among all possible orderings of the players. <span class="citation" data-cites="Shapley_1953">Shapley (<a href="#ref-Shapley_1953" role="doc-biblioref">1953</a>)</span> showed that the formulas for value from both approaches coincide.</p>
+<p>The notion of Shapley value of non-atomic games has been used in designing fair cost allocations schemes and in studying the properties of market games. There have been several developments in the axiomatic value over the past several years, of which I point out briefly the ones relevant to our issues.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> One most widely studied issue has been to find larger spaces of games on which an axiomatic value, possibly a unique one, exists. <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span> proved the existence of axiomatic value on <em>pNA</em> and <em>bv</em><span class="math inline">^{\prime }</span><em>NA</em> (definitions of unknown terms in the introduction can be found in subsequent sections) and provided a ‘’diagonal formula’’ for games in <em>pNA.</em> The space <em>pNA</em> is economically the most important one which contains smooth market games and fair cost allocation schemes. The non-smooth games that arise from markets with strong complementarity, however, do not belong to the above spaces, nor even to the space <em>ASYMP</em> which is the largest space on which the value was shown to exist by <span class="citation" data-cites="Kannai_1966">Kannai (<a href="#ref-Kannai_1966" role="doc-biblioref">1966</a>)</span> (for more on this, see <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span>). <span class="citation" data-cites="Mertens_1988">Mertens (<a href="#ref-Mertens_1988" role="doc-biblioref">1988</a>)</span> extended the diagonal formula to a very large space, known as <em>Mertens space,</em> which includes these non-smooth games and the games from the above spaces. Using this formula Mertens proved the existence of the axiomatic value on the Mertens space.</p>
+<p><span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span> proved that there does not exist an axiomatic value operator on all of <em>BV</em>. To have a value operator on all of <em>BV</em>, the symmetry axiom must be restricted to a proper subgroup. <span class="citation" data-cites="Ruckle_1982">Ruckle (<a href="#ref-Ruckle_1982" role="doc-biblioref">1982</a>)</span> has shown that when the symmetry is restricted to any “locally finite” group of automorphisms, there exists a value operator on all of <em>BV</em>. This result is further refined by <span class="citation" data-cites="Monderer.Ruckle_1990">Dov Monderer and Ruckle (<a href="#ref-Monderer.Ruckle_1990" role="doc-biblioref">1990</a>)</span>. <span class="citation" data-cites="Monderer_1989 Monderer_1986">(<a href="#ref-Monderer_1989" role="doc-biblioref">D. Monderer 1989</a>; <a href="#ref-Monderer_1986" role="doc-biblioref">Dov Monderer 1986</a>)</span> has shown that the non-atomic games that arise from smooth market economies have certain characteristics in which symmetry group could be restricted to appropriate subgroups of automorphisms.</p>
+<p>The literature on extension of the random order value to the continuum case is very limited. <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span> initiated an extension by considering an set <span class="math inline">\Omega</span> of orderings of players that satisfy some measurability condition. They arrived at an Impossibility Principle: <em>There does not exist a measure structure on <span class="math inline">\Omega</span> with respect to which a random order value could be assigned to games in pNA.</em> In the light of this impossibility result, not much research has been directed along this line.</p>
+<p>It is important to note that the main fairness property of the random order value arises from the fact that each player has an equal chance of forming a coalition with a set of players of any size and names, and random order value gives every player its unweighted average marginal contributions over all such coalitions. In the finite player case, the group of automorphisms of the players set and the set of orderings of players generated by the automorphisms are isomorphic, and thus the unweighted mean of the marginal contributions of a player over all orderings symmetrizes the mean with respect to the group of automorphisms. That is, the expected value of random marginal contribution set function becomes invariant with respect to the group of automorphisms. <span class="citation" data-cites="Raut_2003d">Raut (<a href="#ref-Raut_2003d" role="doc-biblioref">2003</a>)</span> has shown that on the space of games with a finite set of players, the expected value (i.e., the mean) of the marginal contributions of a player is symmetric with respect to a group of automorphisms if and only if the randomness of the orders is induced by the automorphism group assigning equal likelihood to each order (i.e., if and only if the mean is unweighted). I use these insights from finite games to reformulate the random order approach to values of games with a continuum of players. <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span> was the first attempt in extending the random order approach to values of non-atomic games along this line. Furthermore, <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span> has constructed an invariant measure structure on an uncountably large group of Lebesgue measure preserving automorphisms. The random order value with respect to this invariant automorphism group coincides with the fully symmetric Aumann-Shapley axiomatic value for a large class of games. In this paper, I provide a general formulation of this approach and prove further results.</p>
+<p>In <a href="#sec-sec2">Section&nbsp;2</a>, I lay out the basic framework for the reformulation and point out the differences between the present approach with the Aumann-Shapley approach. In <a href="#sec-sec3">Section&nbsp;3</a>, I show that the reformulated approach is valid. In <a href="#sec-sec4">Section&nbsp;4</a>, I discuss issues concerning the choice of a symmetry group, and sketch the construction of the invariant probability measurable group <span class="math inline">\breve{\Theta}</span> as projective limit group that was studied in more details in <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span>. In this section I also provide further results on the projective limit group <span class="math inline">\breve{\Theta}</span> and the random order value operator with respect to <span class="math inline">\breve{\Theta}</span>. I relegate most of the remarks to <a href="#sec-sec5">Section&nbsp;5</a>.</p>
+</section>
+<section id="sec-sec2" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> The Basic Framework</h1>
+<p>I adopt the convention of using a subscripted notation <span class="math inline">\mathcal{B}_{X}</span> to denote a Borel <span class="math inline">\sigma</span>-algebra of a topological space X (i.e., the <span class="math inline">\sigma</span>-algebra generated by the class of open sets of X) and to denote any general <span class="math inline">\sigma</span>-algebra, I do not use a subscript. Let <span class="math inline">I=[0,1]\subset \Re</span> be the set of players. Let <span class="math inline">\mathcal{B}_{I}</span> be the Borel <span class="math inline">\sigma</span>-algebra of <span class="math inline">I</span>. The elements of <span class="math inline">\mathcal{B}_{I}</span> are the set of admissible coalitions. A <em>game</em> is a set function <span class="math inline">V:\mathcal{B}_{I}\to \Re</span> such that <span class="math inline">V(\emptyset )=0</span>. Let <span class="math inline">G_{I}</span> be the set of all games. Let <em>FA</em> be the set of finitely additive set functions on <span class="math inline">(I,\mathcal{B}_{I})</span>. A <em>measure</em> is a countably additive set function. One can check easily that <span class="math inline">G_{I}</span> and <em>FA</em> are linear vector spaces. A game V is <em>monotonic</em> if <span class="math inline">V(S)&lt;V(T)</span> for any <span class="math inline">S,T\in \mathcal{B}_{I}</span>, <span class="math inline">S\subset T</span>. A <em>Borel automorphism</em> is a measurable map <span class="math inline">\theta :(I,\mathcal{B}_{I})\to (I,\mathcal{B}_{I})</span> such that it is one-one, onto and <span class="math inline">\theta ^{-1}</span> is also measurable. Let <span class="math inline">\mathcal{G}</span> be the set of all Borel automorphisms on <span class="math inline">(I,\mathcal{B}_{I})</span>. One can check that <span class="math inline">\mathcal{G}</span> is a non-commutative (also known as non-abelian) group with the composition of functions as the group multiplication operation and the identity function as the group identity.</p>
+<p>For each <span class="math inline">\theta \in \Theta</span>, define the linear operator <span class="math inline">\ddot{\theta}:G_{I}\to G_{I}</span> by</p>
+<p><span class="math display">
+(\ddot{\theta}V)(S)=V(\theta ^{-1}(S)), \forall S\in \mathcal{B}_{I}.
+</span></p>
+<p>Given a subgroup of automorphisms, <span class="math inline">\Theta \subset \mathcal{G}</span>, a linear subspace <span class="math inline">Q\subset G_{I}</span> is said to be <span class="math inline">\Theta</span><em>-symmetric</em> if <span class="math inline">\ddot{ \theta}Q\subset Q</span> for all <span class="math inline">\theta \in \Theta</span>. Let Q be a linear subspace of <span class="math inline">G_{I}</span>. An operator <span class="math inline">\Phi :Q\to FA</span> is said to be <em>linear</em> if <span class="math inline">\Phi (\alpha V_{1}+V_{2}) = \alpha \Phi (V_{1})+\Phi (V_{2}) \forall V_{1},V_{2}\in Q,\alpha \in \Re</span>. <span class="math inline">\Phi</span> is said to be <em>positive</em> if the set function <span class="math inline">(\Phi V)</span> is monotonic for any monotonic <span class="math inline">V</span> in the domain of <span class="math inline">\Phi .</span> The operator <span class="math inline">\Phi</span> is said to be <em>efficient</em> if <span class="math inline">\Phi V(I)=V(I) \forall V\in Q</span>. For a <span class="math inline">\Theta</span>-symmetric space <span class="math inline">Q</span>, the operator <span class="math inline">\Phi :Q\to FA</span> is said to be a <span class="math inline">\Theta</span><em>-symmetric operator</em> if <span class="math inline">\Phi \ddot{\theta}V=\ddot{\theta}\Phi V, \forall \theta \in \Theta ,V\in Q</span>.</p>
+<p>I introduce a more general notion of value operator: A <span class="math inline">\Theta</span><em>-symmetric</em> <em>axiomatic value operator</em> on a <span class="math inline">\Theta</span>-symmetric linear space of games <span class="math inline">Q</span> is a positive, linear, efficient, and <span class="math inline">\Theta</span>-symmetric operator <span class="math inline">\Phi :Q\to FA</span>. Note that a <span class="math inline">\mathcal{G}</span>-symmetric axiomatic value operator is the same as the original <em>Aumann-Shapley axiomatic value operator</em>.</p>
+<p>Although for the random order approach of this paper, I do not need to impose any topological structure on the space of games, to relate my results to the literature, I restate the following topological concepts from <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span>. A game <span class="math inline">V</span> is <em>of bounded variation</em> if there exist monotonic games <span class="math inline">U</span> and <span class="math inline">W</span> such that <span class="math inline">V=U-W</span>. Denote by <em>BV</em> the set of all games of bounded variation. It is known that BV is a linear vector space over <span class="math inline">\Re</span>. Define a map <span class="math inline">\parallel . \parallel _{BV}: BV \to \Re</span> by</p>
+<p><span class="math display">
+\parallel V\parallel _{BV}=inf\left\{ U(I)+W(I)
+V=U-W, U\text{ and }W\text{
+are monotonic games}\right\}
+</span></p>
+<p>for each <span class="math inline">V\in</span> <em>BV</em>. It can be shown that <span class="math inline">\parallel .\parallel _{BV}</span> is a well defined norm on <em>BV</em> and with this norm <em>BV</em> is a Banach space, see <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span>, Corollary 4.2, and Proposition 4.3. The following notation is standard in the literature:</p>
+<p><span class="math display">
+\begin{aligned}
+NA &amp;=\text{ the set of non-atomic measures on }\left( I,\mathcal{B}_{I}\right)  \\
+NA^{1} &amp;=\text{ the set of non-atomic probability measures on }\left( I,\mathcal{B}_{I}\right)  \\
+pNA &amp;=\Vert .\Vert _{BV}-\text{closure of the linear space spanned by the powers of }\mu \in NA^{1} \\
+bv^{\prime }NA &amp;=\Vert .\Vert _{BV}-\text{closure of the linear space spanned by }f\circ \mu \in NA^{1}\text{, where }f:I\rightarrow \Re  \\
+&amp;\text{is of bounded variation, continuous at 0 and 1, and }f(0)=0.
+\end{aligned}
+</span> It is known that <em>FA</em>, <em>NA</em> and <em>pNA</em> are all closed subspaces of <em>BV</em>.</p>
+<section id="sec-sec2-1" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-sec2-1"><span class="header-section-number">2.1</span> Generation of Random orders</h2>
+<p>Two features of the random order approach to values of games with finite set of players that I adopt to the present context are: <strong>First</strong>, each automorphism <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> generates a distinct ordering of players, i.e., the set of orders is the same as the group of automorphisms. <strong>Second</strong>, for all games, the mathematical expectation of the random marginal contribution set function is symmetric with respect to the group of automorphisms if and only if each random ordering of players is equally likely (see <span class="citation" data-cites="Raut_2003d">Raut (<a href="#ref-Raut_2003d" role="doc-biblioref">2003</a>)</span>). In the finite players case, the main reason why the expected marginal contribution set function becomes symmetric for any game and with respect to the full group of permutations is that every player is equally likely to form a coalition with a set of players of any size and names in a random order. I adopt these two features to the continuum case.</p>
+<p>Note that each <span class="math inline">\theta \in \Theta</span> generates a binary relation, <span class="math inline">\succ _{\theta }\subset I\times I</span> defined by</p>
+<p><span class="math display">
+\text{ for any }s,t\in I,   s\succ _{\theta }t \Leftrightarrow   \theta
+(s)&gt;\theta (t).
+</span></p>
+<p>Recall that an order <span class="math inline">\succ</span> on a set <span class="math inline">X</span> is a <em>linear order</em>, which is also known as <em>total order, </em>if for any <span class="math inline">x,y\in X</span>, <span class="math inline">x\ne y</span>, either <span class="math inline">x\succ y</span> or <span class="math inline">y\succ x</span>, for no <span class="math inline">x\in I</span>, <span class="math inline">x\succ x</span>, and for any <span class="math inline">x,y,z \in I</span>, <span class="math inline">x\succ y</span>, <span class="math inline">y\succ z</span> <span class="math inline">\Rightarrow</span> <span class="math inline">x\succ z</span>. A total order in this paper is referred to as an <em>order</em>. It is easy to verify that the binary relation <span class="math inline">\succ _{\theta }</span> generated by an automorphism <span class="math inline">\theta</span> is an order on <span class="math inline">I.</span> Let <span class="math inline">\bar{I}=I\cup \{\infty \}.</span> Extend the domain of each <span class="math inline">\theta \in \mathcal{G}</span> from <span class="math inline">I</span> to <span class="math inline">\bar{I}</span> by assigning <span class="math inline">\theta (\infty )=\infty .</span> For an order <span class="math inline">\succ _{\theta }</span>, <span class="math inline">\theta \in \mathcal{G}</span>, and a <span class="math inline">s\in \bar{I}</span>, define <em>an initial segment</em> <span class="math inline">I(s,\theta )</span> by <span class="math inline">I(s,\theta) = {t\in I| \theta (s)&gt;\theta (t)}</span>. The set <span class="math inline">I(s,\theta)</span> is viewed as the set of players who are before player <span class="math inline">s</span> in the order <span class="math inline">\succ _{\theta }</span>.</p>
+<p>Unlike the finite player case, two Borel automorphisms in the continuum case, however, may generate the same ordering of <span class="math inline">I</span>. For instance, take two automorphisms <span class="math inline">\theta</span> and <span class="math inline">e\in \mathcal{G},</span> defined by <span class="math inline">\theta (x)=x^{2}</span> , <span class="math inline">x\in I</span> and <span class="math inline">e(x)=x,x\in I</span>. Both generate the order <span class="math inline">\succ _{e}</span>. Thus the set of orderings of players and the group of Borel automorphisms of players are not isomorphic. I derive the set of orders <span class="math inline">\Omega</span> generated by a group of automorphisms <span class="math inline">\Theta</span> as follows:</p>
+<p>Define an equivalence relation <span class="math inline">\sim</span> on <span class="math inline">\Theta \times \Theta</span> by,</p>
+<p><span class="math display">
+\theta _{1}\sim \theta _{2},\text{ for }\theta _{1},\theta _{2}\in \Theta
+\Leftrightarrow \theta _{1},\theta _{2}\text{ generate the same order on }I.
+</span></p>
+<p>Let <span class="math inline">\Theta _{e}=\left\{ \theta \in \Theta |\theta \sim e\right\}</span>. It can be easily shown that <span class="math inline">\Theta _{e}</span> is a subgroup of <span class="math inline">\Theta</span> and the set of distinct orders, <span class="math inline">\Omega</span>, generated by the automorphisms in <span class="math inline">\Theta</span> is the set of right cosets given by</p>
+<p><span class="math display">
+\Omega \equiv \Theta /\Theta _{e}\equiv \left\{ \Theta _{e}\theta
+\theta
+\in \Theta \right\}
+</span></p>
+<p>In the finite player case, the set of automorphisms of players is finite and for finite sets the concept of equal likelihood is obvious. In the continuum case, however, the set of automorphisms of the players is uncountable. The analogue of the equal likelihood in the continuum case is the following concept of an invariant measure, which requires the underlying space to have a group structure:</p>
+<div id="def-def1" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 1 </strong></span>A measure space <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span>&nbsp;is said to be an <em>invariant measurable group</em> if <span class="math inline">\Theta</span>&nbsp;is a group, the map <span class="math inline">(\theta _{1},\theta _{2})\rightarrow \theta _{1}\theta _{2}^{-1}</span>&nbsp;from <span class="math inline">\left( \Theta \times \Theta ,\mathcal{A}\times \mathcal{A}\right)</span>&nbsp;onto <span class="math inline">\left( \Theta ,\mathcal{A}\right)</span>&nbsp;is measurable, and <span class="math inline">\Gamma</span>&nbsp;is <span class="math inline">\sigma</span>-finite, not identically zero, and right invariant, i.e., <span class="math inline">\Gamma (E\theta )=\Gamma (E)</span>, for all <span class="math inline">E\in A</span>, and <span class="math inline">\theta \in \Theta</span>, where <span class="math inline">E\theta \equiv \left\{ \sigma \theta |\sigma \in E\right\}</span>. <span class="math inline">\Gamma</span> is known as a <em>right invariant measure</em>.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> When <span class="math inline">\Gamma</span>&nbsp;is furthermore a probability measure, a measurable group <span class="math inline">\left(\Theta ,\mathcal{A},\Gamma \right)</span> is said to be a <em>right invariant probability measurable group</em>.</p>
+</div>
+<p>In general <span class="math inline">\Theta _{e}</span> is not a normal subgroup<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> of <span class="math inline">\Theta</span> and hence <span class="math inline">\Omega</span> is not necessarily a group. To see this, consider two automorphisms <span class="math inline">\theta \in \mathcal{G}</span> and <span class="math inline">\theta _{e}\in \Theta _{e}</span> defined by</p>
+<p><span class="math display">
+\begin{aligned}
+\theta (x) &amp;=\left\{
+\begin{array}{ll}
+1-x &amp; if 0\le x&lt;1/2 \\
+x-1/2 &amp; if 1/2\le x\le 1
+\end{array}
+\right. \\
+\theta _{e}(x) &amp;=\left\{
+\begin{array}{ll}
+0.01x &amp; if 0\le x&lt;0.8 \\
+0.008+4.96(x-0.8) &amp; if .8\le x\le 1.
+\end{array}
+\right.
+\end{aligned}
+</span></p>
+<p>Let <span class="math inline">t=0.4</span> and <span class="math inline">s=0.3</span>. Thus <span class="math inline">\theta _{e}(s)&lt;\theta _{e}(t)</span>, but <span class="math inline">(\theta ^{-1}\theta _{e}\theta )(s)=0.507&gt;0.506=(\theta ^{-1}\theta _{e}\theta )(t)</span>, thus <span class="math inline">\theta ^{-1}\theta _{e}\theta \notin \Theta _{e}</span>.</p>
+<p>Thus, the set of orders <span class="math inline">\Omega</span> does not inherit a group structure that can be used to extend the concept of equal likelihood of orderings in <span class="math inline">\Omega</span>. But <span class="math inline">\Omega</span> is a homogeneous space acted on by the group <span class="math inline">\Theta</span>, and for homogeneous spaces there is a natural concept of invariant measure (see Section 55 in <span class="citation" data-cites="Parthasarathy_1977_Book">Parthasarathy (<a href="#ref-Parthasarathy_1977_Book" role="doc-biblioref">1977</a>)</span>, or Section 7.4 in <span class="citation" data-cites="Segal.Kunze_1968_Book">Segal and Kunze (<a href="#ref-Segal.Kunze_1968_Book" role="doc-biblioref">1968</a>)</span>). In the present set-up, however, I can use the <em>natural map <span class="math inline">\Pi :\Theta \to \Omega</span></em> defined by <span class="math inline">\Pi (\theta )=\Theta _{e}\theta</span> to induce an invariant probability measure structure <span class="math inline">\left( \Omega ,\mathcal{B},\mu \right)</span> on the homogeneous space <span class="math inline">\Omega</span> of induced orders. The measure space of orders <span class="math inline">\left( \Omega ,\mathcal{B},\mu \right)</span> will be referred to as a <em>set of random orders</em>.</p>
+</section>
+<section id="sec-sec2-2" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-sec2-2"><span class="header-section-number">2.2</span> Connection with Aumann-Shapley measurable orders</h2>
+<p>In this section I study the relationship between the notion of orders used in this paper and the notion used in <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span>, pp.94-95. Aumann and Shapley defined an order <span class="math inline">\mathcal{R}</span> on <span class="math inline">I</span> to be <span class="math inline">measurable</span> if the <span class="math inline">\sigma</span>-algebra generated by the set of initial segments <span class="math inline">\{I(s, \mathcal{R})|s\in \bar{I}\}</span> coincides with <span class="math inline">\mathcal{B}_{I}</span>. An order <span class="math inline">\succ _{\theta}</span> generated by a Borel automorphism <span class="math inline">\theta \in \mathcal{G}</span> is measurable in the Aumann-Shapley sense, but not every order measurable in the Aumann and Shapley sense can be represented by a Borel automorphism. To see this, let <span class="math inline">u:I\to I\cup \{2\}</span> be a Borel isomorphism<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> and define an order <span class="math inline">\succ _{u}</span> on <span class="math inline">I</span> by <span class="math inline">x,y\in I</span>, <span class="math inline">x\succ _{u}y</span> <span class="math inline">\Leftrightarrow</span> <span class="math inline">u(x)&gt;u(y)</span>. It is easy to see that <span class="math inline">\succ _{u}</span> is an Aumann-Shapley measurable order but it cannot be induced by an automorphism. The difference between an Aumann-Shapley measurable order and an order generated by an automorphism can be seen from the complete characterization of both types of orders in <a href="#prp-prop1-1">Proposition&nbsp;1</a> below.</p>
+<p>An order <span class="math inline">\succ</span> is said to be <em>strongly separable</em> if there is a countable set <span class="math inline">Z\subset I</span> so that for any <span class="math inline">x,y\in I</span>, <span class="math inline">x\succ y</span>, implies that there is a <span class="math inline">z\in Z</span> and <span class="math inline">x\succ z\succ y</span>. An order <span class="math inline">\succ</span> is said to be a <em>complete order</em><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> if any non-empty subset of <span class="math inline">E\subset I</span>, which is bounded above, has a least upper bound (<span class="math inline">l.u.b.</span>) in <span class="math inline">I</span>. An order <span class="math inline">\succ</span> is said to be <em>weakly separable</em> if there is a countable set <span class="math inline">Z\subset I</span> so that for any <span class="math inline">x,y\in I</span>, <span class="math inline">x\succ y</span>, implies that there is a <span class="math inline">z\in Z</span> and <span class="math inline">x\succeq z\succeq y</span>.</p>
+<div id="prp-prop1-1" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 1 </strong></span><br></p>
+<ul>
+<li><ol type="i">
+<li>An order <span class="math inline">\succ</span>&nbsp;on <span class="math inline">I</span>&nbsp;arises from a Borel automorphism if and only if <span class="math inline">\succ</span>&nbsp;is strongly separable and complete.</li>
+</ol></li>
+<li><ol start="2" type="i">
+<li>An order <span class="math inline">\succ</span>&nbsp;on I is Aumann-Shapley measurable if and only if <span class="math inline">\succ</span>&nbsp;is weakly separable and all initial segments are measurable.</li>
+</ol></li>
+</ul>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>[<strong>Proof of <a href="#prp-prop1-1">Proposition&nbsp;1</a>:</strong>] Part (i): Let <span class="math inline">\succ</span> on <span class="math inline">I=[0,1]</span> be a strongly separable complete order. Let <span class="math inline">Z\subset I</span> be the countable set in the definition of strong separability of <span class="math inline">\succ .</span> Let <span class="math inline">\succ _{e}</span> denote the standard order on <span class="math inline">I</span>. Let <span class="math inline">Q_{I}</span> be the set of rational numbers that lie in <span class="math inline">(0,1)</span>. It is well known that <span class="math inline">\succ _{e}</span> is strongly separable on <span class="math inline">(0,1)</span> with respect to <span class="math inline">Q_{I}</span>, and that <span class="math inline">(0,1)</span> is complete. For ease of exposition, let <span class="math inline">(X,\succ )</span> denote the set <span class="math inline">X</span> ordered by <span class="math inline">\succ .</span> Let <span class="math inline">\dot{I}</span> denote the ordered set <span class="math inline">(I,\succ )</span> after its first and last ordered elements being removed. Without loss of generality, I assume that <span class="math inline">Z\subset \dot{I}</span>. An <em>order isomorphism</em> between two ordered sets is a one-one and onto map between the sets which preserves the orders of the sets. By Cantor’s theorem it is known that there exists an order isomorphism <span class="math inline">h:\left( Z,\succ \right) \to \left( Q_{I},\succ _{e}\right)</span>. For each <span class="math inline">x\in \left( \dot{I},\succ \right)</span>, let <span class="math inline">R(x)=\left\{ h(z)|z\in Z\text{ and }x\succ z\right\}</span> which is a subset of <span class="math inline">Q_{I}</span>. It is easy to note that <span class="math inline">R(x)</span> is non-empty and bounded above, and hence has a <span class="math inline">l.u.b.</span> Define the map <span class="math inline">f:\dot{I}\to (0,1)</span> by <span class="math inline">f(x)\equiv l.u.b.R(x)</span>. Strong separability of <span class="math inline">\succ</span> implies that <span class="math inline">f</span> is order preserving and hence one-one. Completeness of <span class="math inline">\succ</span> implies that <span class="math inline">f</span> is a onto map. Now I extend the map <span class="math inline">f</span> to <span class="math inline">\left( I,\succ \right)</span> by letting it map the first and last elements of <span class="math inline">\left( I,\succ \right)</span> respectively to 0 and 1. Notice that the initial segments <span class="math inline">I(s,\succ )</span>, <span class="math inline">s\in \bar{I}</span> under the order <span class="math inline">\succ</span> are all of the form <span class="math inline">I(s,\succ )=f^{-1}[0,x)</span>, where <span class="math inline">x=f(s)</span>. Hence, these initial segments generate <span class="math inline">\mathcal{B}_{I}</span> and <span class="math inline">f^{-1}</span> is measurable. Since <span class="math inline">f</span> is one-one, the Borel isomorphism theorem assures that <span class="math inline">f</span> is measurable, and hence <span class="math inline">f</span> is a Borel automorphism.</p>
+<p>Conversely, an order generated by a Borel automorphism is clearly strongly separable and complete. To see this, let <span class="math inline">\theta</span> be an automorphism. Taking <span class="math inline">Z=\theta ^{-1}\left( Q_{I}\right)</span> in the definition of strong separability, it is easy to note that <span class="math inline">\succ _{\theta }</span> is strongly separable. For any non-empty <span class="math inline">E\subset \left( I,\succ _{\theta }\right)</span> one can show that <span class="math inline">\theta ^{-1}\left( \sup_{t\in E}\theta (t)\right)</span> is the <span class="math inline">l.u.b</span> of <span class="math inline">E</span>.</p>
+Proof of part (ii) follows from <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span>, p.107. %
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+</section>
+<section id="sec-sec2-3" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-sec2-3"><span class="header-section-number">2.3</span> <span class="math inline">\Theta</span>-symmetric random order value operator</h2>
+<p>I now introduce the notion of <span class="math inline">\Theta</span>-symmetric random order value operator. Given a game <span class="math inline">V</span>, and an order <span class="math inline">\succ _{\theta }</span>, <span class="math inline">\theta \in \mathcal{G}</span>, define a <em>marginal contribution set function,</em> <span class="math inline">\phi ^{\theta }V</span> on <span class="math inline">(I,\mathcal{B}_{I})</span> as a measure on <span class="math inline">(I,\mathcal{B}_{I})</span> such that <span id="eq-e1"><span class="math display">
+\left( \phi ^{\theta }V\right) (I(s,\theta ))=V(I(s,\theta )), \forall  s\in
+\bar{I}.  
+\tag{1}</span></span></p>
+<p>Notice that for any <span class="math inline">\theta ,\theta ^{\prime }\in \Theta</span> such that <span class="math inline">\theta \sim \theta ^{\prime }</span>, we have <span class="math inline">I(s,\theta )=I(s,\theta ^{\prime })</span>. Hence it follows from <a href="#eq-e1">Equation&nbsp;1</a> that <span class="math inline">\phi ^{\theta }V(S)=\phi ^{\theta ^{\prime }}V(S)</span> for all <span class="math inline">S\in \mathcal{B}_{I}</span>. This allows us to unambiguously define <span class="math inline">(\phi ^{\omega }V)(S)=(\phi ^{\theta }V)(S)</span> where <span class="math inline">\theta</span> is such that <span class="math inline">\omega =\Theta _{e}\theta</span>.</p>
+<p>Let <span class="math inline">\Phi _{\Gamma }</span> be an operator that associates to each game <span class="math inline">V</span> its expected marginal contribution set function defined by</p>
+<p><span id="eq-e2"><span class="math display">
+\begin{aligned}
+(\Phi _{\Gamma }V)(S) &amp;\equiv \int_{\Omega }(\phi ^{\omega }V)(S)d\mu
+(\omega )  \nonumber \\
+&amp;=\int_{\Theta }(\phi ^{\theta }V)(S)d\Gamma (\theta ), S\in \mathcal{B}_{I}.  
+\end{aligned}
+\tag{2}</span></span></p>
+<p>The second equality follows from the change of variable formula for Lebesgue integrals and the facts in the previous paragraph. Define the space of games:</p>
+<p><span id="eq-e3"><span class="math display">
+L1(\Theta ,\Gamma )=\left\{ V\in G_{I}
+\phi ^{\theta }V(S) \text{ is integrable for all }S\in \mathcal{B}_{I}\right\} .
+\tag{3}</span></span></p>
+<div id="def-" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 2 </strong></span>Let <span class="math inline">\Theta \subset G</span> be a given subgroup of automorphisms and <span class="math inline">Q\subset G_{I}</span> be a linear space of games. The operator <span class="math inline">\Phi _{\Gamma }:Q\rightarrow FA</span> defined in <a href="#eq-e2">Equation&nbsp;2</a> with respect to an invariant probability measurable group structure <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span> on <span class="math inline">\Theta</span> such that <span class="math inline">Q\subset L1(\Theta ,\Gamma )</span> is said to be a <span class="math inline">\Theta</span><em>-symmetric random order value operator</em> on <span class="math inline">Q</span>.</p>
+</div>
+<p>In the next section, I will first prove a few basic properties of <span class="math inline">\Phi _{\Gamma }</span> and <span class="math inline">L1(\Theta ,\Gamma )</span> to establish that these two objects render a valid approach to random order value.</p>
+</section>
+</section>
+<section id="sec-sec3" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> The operator <span class="math inline">\Phi_\Gamma</span> is a valid random order value operator</h1>
+<p>For the operator <span class="math inline">\Phi_\Gamma</span> defined in <a href="#eq-e2">Equation&nbsp;2</a> to yield a random order value operator, three basic facts must be established. <strong>First</strong>, for any game <span class="math inline">V</span> and any order <span class="math inline">\succ _{\theta }</span>, <span class="math inline">\theta \in \Theta</span>, if there exists a measure <span class="math inline">\phi ^{\theta }V</span> satisfying <a href="#eq-e1">Equation&nbsp;1</a>, it should be unique so that for each <span class="math inline">S\in \mathcal{B}_{I}</span>, <span class="math inline">\phi ^{\theta }V(S)</span> is a function of <span class="math inline">\theta</span>. <a href="#prp-prop1">Proposition&nbsp;2</a> ensures this. <strong>Second</strong>, in order for the operator <span class="math inline">\Phi _{\Gamma }</span> to be <span class="math inline">\Theta</span>-symmetric with respect to a given subgroup of automorphisms <span class="math inline">\Theta</span>, the linear space <span class="math inline">L1(\Theta ,\Gamma )</span> defined in <a href="#eq-e3">Equation&nbsp;3</a> must be a <span class="math inline">\Theta</span>-symmetric linear subspace of <span class="math inline">G_{I}</span>. This is shown to be true in <a href="#prp-prop3">Proposition&nbsp;4</a>. <strong>Third</strong>, the approach is of little use if for a given symmetry group of automorphisms <span class="math inline">\Theta</span>, two different invariant probability measure structures on it assign two different finitely additive set functions as mathematical expectations of the random marginal contribution set function of a game. The second part of <a href="#thm-theorem1">Theorem&nbsp;1</a> ensures that the mathematical expectation in <a href="#eq-e2">Equation&nbsp;2</a> depends only on the group of automorphisms <span class="math inline">\Theta</span> but not on a specific invariant probability measurable group structure on <span class="math inline">\Theta</span>. I introduce the following concept to be used through out the paper.</p>
+<div id="def-defn2" class="theorem definition">
+<p><span class="theorem-title"><strong>Definition 3 </strong></span>A set function <span class="math inline">V\in G_{I}</span> is said to be <em>normalized set function</em> if (i) <span class="math inline">V(A_{n})\rightarrow 0</span> as <span class="math inline">n\rightarrow \infty</span>&nbsp;for any sequence of sets, <span class="math inline">A_{n}\in B_{I}</span>, <span class="math inline">A_{n}\downarrow \emptyset</span> as <span class="math inline">n\rightarrow \infty</span>, and (ii) <span class="math inline">V(A_{n})\rightarrow V(A)</span> as <span class="math inline">n\rightarrow \infty</span> for any sequence of sets, <span class="math inline">A_{n} \in B_{I}</span>, <span class="math inline">A_{n}\uparrow A</span> as <span class="math inline">n\rightarrow \infty</span>, where <span class="math inline">A\in B_{I}</span>.</p>
+</div>
+<p>Denote by <span class="math inline">NBV</span> the set of normalized set functions from <em>BV</em>. It is easily seen that <span class="math inline">NBV</span> is a linear space.</p>
+<p>For <a href="#eq-e2">Equation&nbsp;2</a> to be meaningful, the following proposition proves that the marginal contribution set function <span class="math inline">\phi ^{\theta }V</span> is unique so that it is a function of <span class="math inline">\theta</span> not a correspondence, and provides conditions under which <span class="math inline">\phi ^{\theta }V</span> exists for all <span class="math inline">\theta \in \mathcal{G}</span> for a large class of games in <em>BV</em>. The second part of <a href="#prp-prop1">Proposition&nbsp;2</a> is used to prove <a href="#thm-theorem2">Theorem&nbsp;4</a> later.</p>
+<div id="prp-prop1" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 2 </strong></span><br></p>
+<ul>
+<li><ol type="i">
+<li>For a game <span class="math inline">V</span> in <span class="math inline">G_{I}</span> and an order <span class="math inline">\succ_{\theta }</span>, <span class="math inline">\theta \in G</span>, if a marginal contribution set function <span class="math inline">\phi ^{\theta }V(S),S\in B_{I}</span> exists, it is unique.</li>
+</ol></li>
+<li><ol start="2" type="i">
+<li>For any <span class="math inline">V\in</span> NBV, and for any <span class="math inline">\theta \in G</span>, the marginal contribution set function, <span class="math inline">\phi ^{\theta }V</span> exists and it is countably additive; furthermore, for each <span class="math inline">\theta \in G</span>, <span class="math inline">\phi ^{\theta }:</span> NBV <span class="math inline">\rightarrow</span> NBV is a bounded linear operator in the <span class="math inline">\Vert .\Vert _{BV}</span> norm on NBV and for <span class="math inline">V\in</span> NBV, <span class="math inline">\Vert \phi ^{\theta }V\Vert _{BV}\leq \Vert V\Vert _{BV}</span> uniformly for all <span class="math inline">\theta \in G</span>.</li>
+</ol></li>
+</ul>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>Let us denote by <span class="math inline">[s,t)_{\theta }=\{j\in I | \theta (s)\le \theta (j)&lt;\theta (t)\}</span>. Denote by <span class="math inline">\mathcal{D}_{\theta }=\left\{[s,t)_{\theta } | s\in I,t\in \bar{I}\right\}</span>. One can easily verify that <span class="math inline">\mathcal{D}_{\theta }</span> is the smallest Boolean semi algebra containing all initial segments <span class="math inline">\mathcal{I}_{\theta }=\left\{ I(s,\theta ) | s\in \bar{I}\right\}</span>. Without loss of generality, assume that V is monotonic. There is a unique extension of <span class="math inline">\phi ^{\theta }V</span> from <span class="math inline">\mathcal{I}_{\theta }</span> to <span class="math inline">\mathcal{D}</span><span class="math inline">_{\theta }</span> such that <span class="math inline">\phi ^{\theta }V</span> is finitely additive on <span class="math inline">\mathcal{D}_{\theta }</span> and <a href="#eq-e1">Equation&nbsp;1</a> is satisfied. More precisely, note that for the initial segments in <span class="math inline">\mathcal{D}_\theta</span>, <a href="#eq-e1">Equation&nbsp;1</a> defines <span class="math inline">\phi ^{\theta }V</span>, and for all other sets in <span class="math inline">\mathcal{D}_{\theta },</span> there is only one way <span class="math inline">\phi ^{\theta }V</span> can be defined as follows: <span class="math display"> (\phi ^{\theta }V)\left( [s,t)_{\theta }\right) =V\left( I(t,\theta )\right) -V\left( I(s,\theta )\right) \text{ for }s\in I\text{ and }t\in \bar{I}. </span> It is known that such a <span class="math inline">\phi ^{\theta }V</span> can be uniquely extended to a measure on <span class="math inline">\mathcal{B}_{I}</span> (see, for instance, <span class="citation" data-cites="Parthasarathy_1977_Book">Parthasarathy (<a href="#ref-Parthasarathy_1977_Book" role="doc-biblioref">1977</a>)</span>, Corollary 16.9).</p>
+<p>I now prove part (ii) of the proposition. For any <span class="math inline">\theta \in \mathcal{G}</span>, define the real valued function <span class="math inline">F_{\theta }:\bar{I}\to \mathcal{R}</span> by <span class="math inline">F_{\theta }(x)=V\left( \theta ^{-1}\left( [0,x)\right) \right)</span>. Note that for any sequence of real numbers <span class="math inline">x_{n},</span> <span class="math inline">n\ge 0</span> from <span class="math inline">\bar{I}</span> such that <span class="math inline">x_{n}\downarrow 0</span>, we have <span class="math inline">\theta ^{-1}[0,x_{n})\downarrow \emptyset</span> as <span class="math inline">n\to \infty</span>, and since <span class="math inline">V\in</span> <span class="math inline">NBV</span>, it follows that <span class="math inline">F_{\theta }(x_{n})=V\left( \theta ^{-1}\left( [0,x_{n})\right) \right) \to 0</span> as <span class="math inline">n\to \infty</span>. Similarly, for any sequence of real numbers <span class="math inline">x_{n}\uparrow x</span> in <span class="math inline">\bar{I}</span>, we have <span class="math inline">F_{\theta }(x_{n})\to F_{\theta }(x)</span>. Hence by Theorem 8.14 in <span class="citation" data-cites="Rudin_1987_Book">Rudin (<a href="#ref-Rudin_1987_Book" role="doc-biblioref">1987</a>)</span>, there exists a unique signed measure <span class="math inline">\lambda _{\theta}</span> on <span class="math inline">\mathcal{B}_{I}</span> such that</p>
+<p><span class="math display">
+\lambda _{\theta }\left( [0,t)\right) =F_{\theta }(t) \forall t\in \bar{I}.
+</span> Taking <span class="math inline">t=\theta (s)</span>, <span class="math inline">s\in \bar{I}</span>, noting that <span class="math inline">I(s,\theta )=\theta ^{-1}[0,\theta (s))</span>, and defining the measure <span class="math inline">\phi ^{\theta }V</span> on <span class="math inline">\mathcal{B}_{I}</span> by <span class="math inline">\left( \phi ^{\theta }V\right) \equiv \lambda _{\theta }\theta ^{-1}</span>, we get <span class="math display">
+\left( \phi ^{\theta }V\right) \left( I(s,\theta )\right) =V\left(
+I(s,\theta )\right) \forall s\in \bar{I}.
+</span> Hence, there exists a unique (uniqueness follows from part (i) of the proposition) marginal contribution measure for <span class="math inline">\theta \in \mathcal{G}</span>. It is easy to check that <span class="math inline">\phi ^{\theta }:</span> <span class="math inline">NBV\to NBV</span> is linear. Since orders generated by automorphisms are also Aumann-Shapley measurable orders, the rest of the proposition follows from their Proposition 12.8.</p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+<p>The second part of <a href="#prp-prop1">Proposition&nbsp;2</a> establishes that the marginal contribution set function is a measure. The following proposition shows the algebraic interplay of a game <span class="math inline">V</span> and the actions of any subgroup of automorphisms <span class="math inline">\Theta</span> in the arguments, <span class="math inline">\theta ,V,S</span>, of the marginal contribution measure <span class="math inline">(\phi ^{\theta }V)(S)</span>. The second part of the proposition provides a computational formula for the marginal contribution measure for a large class of scalar measure valued games. First part of Proposition <a href="#prp-prop2">Proposition&nbsp;3</a> is used to prove the <span class="math inline">\Theta</span>-symmetry of the linear space of games <span class="math inline">L1(\Theta ,\Gamma )</span> in Proposition <a href="#prp-prop3">Proposition&nbsp;4</a>, and the <span class="math inline">\Theta</span>-symmetry of the operator <span class="math inline">\Phi _{\Gamma }</span> in <a href="#thm-theorem1">Theorem&nbsp;1</a>; the second part of <a href="#prp-prop2">Proposition&nbsp;3</a> is used to establish the diagonal formula <a href="#eq-ee4">Equation&nbsp;9</a> in <a href="#thm-theorem3">Theorem&nbsp;5</a>.</p>
+<div id="prp-prop2" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 3 </strong></span><br></p>
+<ul>
+<li><ol type="i">
+<li>Let <span class="math inline">\Theta</span> be any fixed subgroup of automorphisms in <span class="math inline">G</span>. Suppose for a game <span class="math inline">V\in G_{I},</span> the marginal contribution measure <span class="math inline">\phi ^{\theta }V</span> exists for all <span class="math inline">\theta \in \Theta</span>. Then for any <span class="math inline">\pi \in \Theta</span>, the marginal contribution measure <span class="math inline">\phi ^{\theta }(\ddot{\pi}V)</span> for the game <span class="math inline">\ddot{\pi}V</span> also exists for all <span class="math inline">\theta \in \Theta</span>, and it is related to the marginal contribution measure of <span class="math inline">V</span> by,<br>
+<span id="eq-eq4-1"><span class="math display">
+\phi ^{\theta }(\ddot{\pi}V)(S)=(\phi ^{\theta \pi }V)\left( \pi
+^{-1}(S)\right) ,\forall S\in \mathcal{B}_{I}.  
+\tag{4}</span></span></li>
+</ol></li>
+<li><ol start="2" type="i">
+<li>Let <span class="math inline">f:I\rightarrow \Re</span> be an absolutely continuous function, and <span class="math inline">\theta</span> be any Lebesgue measure preserving automorphism on <span class="math inline">I</span>, then the marginal contribution measure of the scalar measure valued game <span class="math inline">f\circ \lambda</span> is given by:<br>
+<span id="eq-eq4-2"><span class="math display">
+\phi ^{\theta }(f\circ \lambda )\left( S\right) =\int_{S}f^{\prime }\left(
+\theta (t)\right) d\lambda (t).  
+\tag{5}</span></span></li>
+</ol></li>
+</ul>
+</div>
+<p>The following lemma will be used to prove <a href="#prp-prop2">Proposition&nbsp;3</a> and other results:</p>
+<div id="lem-lemma1" class="theorem lemma">
+<p><span class="theorem-title"><strong>Lemma 1 </strong></span>Let <span class="math inline">S\subset \Re</span>. Suppose <span class="math inline">\theta: S \rightarrow S</span>, and <span class="math inline">\pi :S \rightarrow S</span> be two automorphisms of <span class="math inline">S</span>. Denote by <span class="math inline">I(s,\theta )=\{t\in S | \theta (t)&lt;\theta (s)\}</span> for any automorphism <span class="math inline">\theta</span>. Then, <span class="math inline">\pi ^{-1}\left( I(s,\theta )\right) =I\left( \pi ^{-1}(s),\theta \pi \right)</span>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>The result follows from the following equivalent statements:</p>
+<p><span class="math display">
+\begin{aligned}
+x\in \pi ^{-1}\left( I(s,\theta )\right) &amp;\Leftrightarrow \pi (x)\in
+I\left( s,\theta \right) \\
+&amp;\Leftrightarrow \theta (\pi (x))&lt;\theta (s) \\
+&amp;\Leftrightarrow (\theta \pi )(x)&lt;(\theta \pi )\pi ^{-1}(s) \\
+&amp;\Leftrightarrow x\in I\left( \pi ^{-1}(s),\theta \pi \right) .
+\end{aligned}
+</span></p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>[<strong>Proof of <a href="#prp-prop2">Proposition&nbsp;3</a>:</strong>] To prove part (i) note that for any <span class="math inline">s\in I,</span> <span class="math display">
+\begin{aligned}
+(\phi ^{\theta }(\ddot{\pi}V))(I(s,\theta )) &amp;=(\ddot{\pi}V)(I(s,\theta ))\text{ by definition of }\phi ^{\theta } \\
+&amp;=V\left( \pi ^{-1}I(s,\theta ) \right) \text{ by definition of }\ddot{\pi}
+\\
+&amp;=V\left( I\left( \pi ^{-1}(s),\theta \pi \right) \right) \text{ ... (1) } \\
+&amp;=(\phi ^{\theta \pi }V)\left( I(\pi ^{-1}(s),\theta \pi )\right) \text{ by
+definition of }\phi ^{\theta \pi } \\
+&amp;=((\phi ^{\theta \pi }V)\pi ^{-1})\left( I(s,\theta )\right) \text{ ...(2) }
+\end{aligned}
+</span> Steps (1) and (2) follow from <a href="#lem-lemma1">Lemma&nbsp;1</a>. Since the equality holds for all the initial segments in <span class="math inline">\mathcal{I}_{\theta }</span>, they agree on <span class="math inline">\mathcal{B}_{I}</span>. Thus the measure <span class="math inline">(\phi ^{\theta }\ddot{\pi}V)</span> exists whenever the measure <span class="math inline">(\phi ^{\theta \pi }V\pi ^{-1})</span> exists. Since <span class="math inline">\theta \pi \in \Theta</span>, by the hypothesis of the Proposition, <span class="math inline">(\phi ^{\theta \pi }V)</span> exists. But <span class="math inline">(\phi ^{\theta \pi }V)\pi ^{-1}</span> is a measure whenever <span class="math inline">(\phi ^{\theta \pi }V)</span> is a measure. Hence I conclude that <span class="math inline">\phi ^{\theta }(\ddot{\pi}V)</span> exists for all <span class="math inline">\theta \in \Theta</span> and is given by the right hand side of <a href="#eq-eq4-1">Equation&nbsp;4</a>.</p>
+<p>Part (ii) of the Proposition follows from Proposition 5 in <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span>.</p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+<div id="prp-prop3" class="theorem proposition">
+<p><span class="theorem-title"><strong>Proposition 4 </strong></span>The space of games <span class="math inline">L1(\Theta ,\Gamma )</span> is a <span class="math inline">\Theta</span>-symmetric linear subspace of <span class="math inline">G_{I}</span>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>[<strong>Proof of <a href="#prp-prop3">Proposition&nbsp;4</a>:</strong>] It is easy to check that <span class="math inline">L1(\Theta ,\Gamma )</span> is a linear space. I shall show that it is <span class="math inline">\Theta</span>-symmetric. Let <span class="math inline">\pi \in \Theta</span>, and <span class="math inline">V\in L1(\Theta ,\Gamma )</span>. I want to show that <span class="math inline">\ddot{\pi}V\in L1(\Theta ,\Gamma )</span>. From <a href="#prp-prop2">Proposition&nbsp;3</a>(i), it is clear that <span class="math inline">\phi ^{\theta }(\ddot{\pi}V)(S)</span> exists for all <span class="math inline">\theta \in \Theta</span> and <span class="math inline">S\in \mathcal{B}_{I}</span> and is given by (<span class="math inline">\phi ^{\theta \pi }V)\left( \pi ^{-1}(S)\right)</span>. But since <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span> is an invariant probability measurable group, it has the property that for any fixed <span class="math inline">\pi \in \Theta</span> if <span class="math inline">h(\theta )</span> is integrable, then the right translation of the function <span class="math inline">h(\theta \pi )</span> is also integrable and both have the same integral. Since <span class="math inline">(\phi ^{\theta }V)\left( \pi ^{-1}(S)\right)</span> is integrable by assumption, it follows therefore that <span class="math inline">\ddot{\pi}V\in L1(\Theta ,\Gamma)</span>.</p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+<p><a href="#thm-theorem1">Theorem&nbsp;1</a> below assures that the operator <span class="math inline">\Phi_\Gamma</span> defined in <a href="#eq-e2">Equation&nbsp;2</a> is independent of a specific invariant probability measurable group structure on <span class="math inline">\Theta</span> and it coincides with the <span class="math inline">\Theta</span>-symmetric axiomatic value operator on <span class="math inline">a</span> space of games. In fact, a <span class="math inline">\Theta</span>-symmetric random order value operator is a particular characterization of the <span class="math inline">\Theta</span>-symmetric axiomatic value operator.</p>
+<div id="thm-theorem1" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 1 </strong></span>Let <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span> be an invariant probability measurable group structure on a fixed subgroup of automorphisms <span class="math inline">\Theta \subset G</span>. Then the operator <span class="math inline">\Phi _{\Gamma }</span> defined in <a href="#eq-e2">Equation&nbsp;2</a> is positive, linear, efficient and <span class="math inline">\Theta</span> -symmetric on <span class="math inline">L1(\Theta ,\Gamma )</span> or any <span class="math inline">\Theta</span>-symmetric linear subspace of <span class="math inline">L1(\Theta ,\Gamma )</span>. Furthermore, suppose <span class="math inline">\left( \Theta , \mathcal{A}^{\prime },\Gamma ^{\prime }\right)</span> is another invariant probability measurable group structure on <span class="math inline">\Theta</span>, then <span class="math inline">\Phi _{\Gamma }=\Phi _{\Gamma ^{\prime }}</span> on the linear space of games <span class="math inline">L1(\Theta ,\Gamma )\cap L1(\Theta ,\Gamma ^{\prime })</span>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>It is easy to see that <span class="math inline">\Phi _{\Gamma }</span> is linear, positive and efficient. I want to show that the right invariance of <span class="math inline">\Gamma</span> implies <span class="math inline">\Theta</span>-symmetry of <span class="math inline">\Phi _{\Gamma }.</span> To that end, note that <span class="math display">
+\begin{aligned}
+\Phi _{\Gamma }(\ddot{\pi}V)(S) &amp;=\int_{\Theta }\phi ^{\theta }(\ddot{\pi}V)(S)d\Gamma (\theta ) \\
+&amp;=\int_{\Theta }(\phi ^{\theta \pi }V)\left( \pi ^{-1}(S)\right)  d\Gamma
+(\theta ), \text{...(1) } \\
+&amp;=\int_{\Theta }(\phi ^{\theta \pi }V)\left( \pi ^{-1}(S)\right)  d\Gamma
+(\theta \pi )\text{ since }\Gamma \text{ is right invariant} \\
+&amp;=(\Phi _{\Gamma }V)(\pi ^{-1}(S)) \\
+&amp;=\ddot{\pi}(\Phi _{\Gamma }V)(S), S\in \mathcal{B}_{I}\text{ and }V\in
+L1(\Theta ,\Gamma ).
+\end{aligned}
+</span> Step (1) follows from <a href="#prp-prop2">Proposition&nbsp;3</a>(i). Hence, <span class="math inline">\Phi _{\Gamma }\ddot{\pi}=\ddot{\pi}\Phi _{\Gamma }</span>.</p>
+<p>To prove the second part of the theorem, suppose <span class="math inline">V\in L1(\Theta ,\Gamma )\cap L1(\Theta ,\Gamma ^{\prime })</span>. Then <span class="math inline">\phi ^{\theta }V</span> is measurable with respect to the invariant <span class="math inline">\sigma</span>-algebra <span class="math inline">\mathcal{A}_{0}=\mathcal{A} \cap \mathcal{A}^{\prime }</span>, and furthermore, the expected value of the marginal contribution set function <span class="math inline">(\phi ^{\theta }V)(S)</span> will be the same with respect to <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span> and <span class="math inline">\left( \Theta ,\mathcal{A}_{0},\Gamma _{0}\right)</span> where <span class="math inline">\Gamma _{0}</span> is the restriction of <span class="math inline">\Gamma</span> on <span class="math inline">\mathcal{A}_{0}</span>. Note that <span class="math inline">\mathcal{A}_{0}</span> is an invariant <span class="math inline">\sigma</span>-algebra on <span class="math inline">\Theta</span> and we have two probability measures <span class="math inline">\Gamma _{0}</span> and <span class="math inline">\Gamma _{0}^{\prime }</span> which are respectively the restrictions of <span class="math inline">\Gamma</span> and <span class="math inline">\Gamma ^{\prime }</span> to <span class="math inline">\mathcal{A}_{0}</span>. Hence, an application of Theorem B, Section 60 in <span class="citation" data-cites="Halmos_1950">Halmos (<a href="#ref-Halmos_1950" role="doc-biblioref">1950</a>)</span>, taking his E to be the whole set <span class="math inline">\Theta</span> yields <span class="math inline">\Gamma _{0}(F)=\Gamma _{0}^{\prime }(F)</span> for all <span class="math inline">F\in \mathcal{A}_{0}</span>. Thus, the expected values of <span class="math inline">\left( \phi ^{\theta }V\right) (S)</span> with respect to both invariant probability measurable group structures, <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span> and <span class="math inline">\left( \Theta ,\mathcal{A}^{\prime },\Gamma ^{\prime }\right)</span> are the same.</p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+</section>
+<section id="sec-sec4" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> On the choice of a symmetry group</h1>
+<p>In the previous section I have established that given any set of automorphisms with an invariant probability measurable group structure on it, there exists a random order value operator on the space consisting of games for which the mathematical expectations of the random marginal contribution measure are finite. <span class="citation" data-cites="Monderer_1989 Monderer_1986">(<a href="#ref-Monderer_1989" role="doc-biblioref">D. Monderer 1989</a>; <a href="#ref-Monderer_1986" role="doc-biblioref">Dov Monderer 1986</a>)</span> has provided economic situations that lead to restricting the symmetry group. I provide some technical grounds for restricting the symmetry group. Three aspects of the invariant automorphism group that matter for our approach are (1) the characteristics of the automorphisms that are members of the group, (ii) the size of the automorphism group, and (iii) the fineness of the <span class="math inline">\sigma</span>-algebra on it.</p>
+<p>The type of automorphisms that are members of the group matters because these member automorphisms determine what kind of players are equally likely to be placed before a given player. This beckons us to consider the strongly mixing automorphisms. To fix ideas, consider mixing with respect to the Lebesgue measure <span class="math inline">\lambda</span>. A Lebesgue measure preserving automorphism <span class="math inline">\theta \in \mathcal{G}</span> is said to be <em>strongly mixing</em> if <span class="math inline">\lim_{n\to \infty }\lambda \left( \theta ^{-n}E\cap F\right) =\lambda \left( E\cap F\right)</span> for all <span class="math inline">E,F\in \mathcal{B}_{I}</span>. In essence, a strongly mixing automorphism <span class="math inline">\theta</span> allows thorough mixing of any set of players <span class="math inline">t\in E</span> with any other player in the unit interval <span class="math inline">I</span> by producing an orbit <span class="math inline">\mathcal{Q}(E)=\left\{ \theta ^{n}t|t\in {E},n=0,1,..\right\}</span> which is dense and uniformly spread allover <span class="math inline">I</span>. A Lebesgue measure preserving automorphism is <em>weakly mixing</em> if <span class="math inline">\lim_{n\to \infty }\frac{1}{n}\sum_{j=1}^{n}\lambda \left( \theta ^{-j}E\cap F\right)</span> <span class="math inline">=</span> <span class="math inline">\lambda \left( E\cap F\right)</span>. It is known that with respect to the “weak topology”, the set of such automorphisms is of the first category and the set of weakly mixing automorphisms is of the second category. This means that generically a measure preserving automorphism is a weakly mixing but not strongly mixing. <span class="citation" data-cites="Aumann_1967">Robert J. Aumann (<a href="#ref-Aumann_1967" role="doc-biblioref">1967</a>)</span><a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> has shown that it is impossible to find an invariant probability measurable group structure on the whole group of Lebesgue measure preserving automorphisms which satisfies further the condition that the real valued function <span class="math inline">f(\theta )\equiv \lambda \left( E\cap \theta F\right)</span> is measurable for all <span class="math inline">E,F\in \mathcal{B}_{I}</span>.</p>
+<p>The size of the automorphism group matters because the smaller the set of admissible automorphisms, while more games will have a random order value, the symmetry, however, will also be restricted to a smaller set of automorphisms.</p>
+<p>The fineness of the <span class="math inline">\sigma</span>-algebra also matters because the finer the <span class="math inline">\sigma</span>-algebra is, the larger is the set of games with measurable and integrable marginal contributions set functions. It is, however, harder to find an invariant probability measure structure on a group, the finer is the <span class="math inline">\sigma</span>-algebra equipped on it. Indeed, on any group <span class="math inline">\Theta</span>, there always exists a right invariant probability measurable group structure, for instance, the trivial, coarsest <span class="math inline">\sigma</span>-algebra, <span class="math inline">\mathcal{B}=\left\{ \emptyset ,\Theta \right\}</span> with a trivial probability measure that assigns <span class="math inline">0</span> to empty set and 1 to the whole set. But very few games will belong to <span class="math inline">L1(\Theta ,\Gamma)</span>. In the next section I describe a particular invariant measurable group of Lebesgue measure preserving automorphisms constructed in <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span>.</p>
+<section id="the-projective-limit-automorphism-group-brevetheta" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="the-projective-limit-automorphism-group-brevetheta"><span class="header-section-number">4.1</span> The projective limit automorphism group <span class="math inline">\breve\Theta</span></h2>
+<p>One criterion for the choice of the automorphism group <span class="math inline">\breve{\Theta}</span> of Lebesgue measure preserving automorphisms is to achieve thorough mixing of players. This is obtained as a (projective) limit of an increasing sequence of “carefully constructed” finite subgroups, <span class="math inline">\Theta _{n}</span>, <span class="math inline">n\ge 0</span> of Lebesgue measure preserving automorphisms. It is interesting to note that the thorough mixing of players is achieved with the help of recurrent automorphisms in <span class="math inline">\Theta _{n}^{\prime }s</span>.</p>
+<p>A measurable group <span class="math inline">\left( \Theta ,\mathcal{A},\Gamma \right)</span> is <em>separated</em><a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a> if <span class="math inline">\forall \theta \in \Theta</span><em>,</em> <span class="math inline">\theta \ne e</span><em>,</em> there exists <span class="math inline">E\in \mathcal{A}_{\Theta }</span> such that <span class="math inline">0&lt;\Gamma (E)&lt;\infty</span> and <span class="math inline">\Gamma (E\theta \Delta E)&gt;0</span>, where <span class="math inline">\Delta</span> is the symmetric difference operator between two sets. The group <span class="math inline">\breve{\Theta}</span> should be equipped with a fine enough <span class="math inline">\sigma</span>-algebra to have a separated measurable group structure so that it allows sufficiently rich set of games in <span class="math inline">L1(\breve{\Theta},\breve{\Gamma})</span>. I now briefly describe the construction of <span class="math inline">\breve{\Theta}</span>.</p>
+<p>Define recursively an increasing sequence of finite groups, <span class="math inline">\hat{\Theta}_{n}</span>, <span class="math inline">n\geq 0</span> of the following type: Each member of <span class="math inline">\hat{\Theta}_{n}</span> contains Lebesgue measure preserving automorphisms that are discontinuous at most at the points <span class="math inline">\frac{k}{2^{n}},k=1,...,2^{n}-1</span>. These <span class="math inline">2^{n}-1</span> points in <span class="math inline">I</span> determine <span class="math inline">2^{n}</span> dyadic subintervals of I: <span class="math inline">I_{k}=\left[ \frac{k}{2^{n}},\frac{k+1}{2^{n}}\right]</span>, <span class="math inline">k=0,1,...,2^{n}-1</span>. Assume that a member automorphism is linear with slope <span class="math inline">\pm</span> <span class="math inline">1</span> in each subinterval <span class="math inline">I_{k}</span>. For <span class="math inline">n=2</span>, such an automorphism is shown in panel (a) of <a href="#fig-fig1">Figure&nbsp;1</a>.</p>
+<div id="fig-fig1" class="quarto-layout-panel">
+<p></p><figcaption>Figure&nbsp;1: Projective limit group</figcaption><p></p>
+<figure class="figure">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="pject1.png" class="img-fluid figure-img" style="width:3in" data-fig.pos="h"></p>
+</figure>
+</div>
+</div>
+</div>
+</figure>
+</div>
+<p>Let <span class="math inline">N_{n}=\{0,1,2,...,2^{n}-1\}</span>. There are two equivalent representations of the automorphisms in <span class="math inline">\hat{\Theta}_{n}.</span> First representation involves a pair of functions, <span class="math inline">\pi _{n}</span> and <span class="math inline">\mathcal{O}_{n}</span> where <span class="math inline">\pi _{n}:N_{n}\to N_{n}</span> is a permutation of <span class="math inline">N_{n}</span> and <span class="math inline">\mathcal{O}_{n}:N_{n}\to \{-1,1\}</span> is a map as follows: For each <span class="math inline">k\in N_{n},</span> <span class="math inline">\pi _{n}(k)</span> specifies which subinterval of the unit interval the image of the <span class="math inline">k^{th}</span> subinterval be mapped to, and <span class="math inline">\mathcal{O}_{n}\circ \pi _{n}(k)</span> specifies the slope of the automorphism that the image subinterval will take. Denote such an automorphism as described above by the symbol</p>
+<p><span id="eq-e5"><span class="math display">
+\theta _{n}=\left( \pi _{n}(k),\mathcal{O}_{n}\circ \pi _{n}(k)\right)
+_{k=0}^{2^{n}-1}.  
+\tag{6}</span></span> The second representation of the above automorphism is the following:</p>
+<p><span id="eq-e4"><span class="math display">
+\theta _{n}(x)=\left\{
+\begin{array}{cc}
+\frac{\pi _{n}^{{}}(k)}{2^{n}}-\frac{k}{2^{n}}+x &amp; \text{ if } x\in I_{k} \text{ and } \mathcal{O}_{n}(\pi _{n}(k))=+1 \\
+&amp;  \\
+\frac{\pi _{n}(k)+1}{2^{n}}-\frac{k}{2^{n}}-x &amp; \text{ if } \in I_{k} \text{ and } \mathcal{O}_{n}(\pi _{n}(k))=-1 \\
+&amp; k=0,1,...2^{n}-1.
+\end{array}
+\right.  
+\tag{7}</span></span> The notation <span class="math inline">\theta _{n}</span> will be used to mean the representation <a href="#eq-e5">Equation&nbsp;6</a> and the notations <span class="math inline">\theta _{n}(.)</span> or <span class="math inline">\theta _{n}(x)</span> will be used to mean the representation <a href="#eq-e4">Equation&nbsp;7</a> of an element in <span class="math inline">\hat{\Theta}_{n}</span>. To illustrate further, an automorphism <span class="math inline">\theta _{2}(x)</span> corresponding to the permutation <span class="math inline">\pi _{2}(1)=2</span>, <span class="math inline">\pi _{2}(2)=1</span>, <span class="math inline">\pi _{2}(3)=4</span> and <span class="math inline">\pi _{2}(4)=3</span>, and the slope map <span class="math inline">\mathcal{O}_{2}(1)=-1</span>, <span class="math inline">\mathcal{O}_{2}(2)=+1</span>, <span class="math inline">\mathcal{O}_{2}(3)=-1</span>, and <span class="math inline">\mathcal{O}_{2}(4)=+1</span> is drawn in panel (a) of <a href="#fig-fig1">Figure&nbsp;1</a>.</p>
+<p>For all <span class="math inline">n\ge 0</span>, the finite subgroups <span class="math inline">\hat{\Theta}_n</span> of <span class="math inline">\mathcal{G}</span> are defined recursively as follows:</p>
+<p>For <span class="math inline">n=0</span>, there is no subdivision of <span class="math inline">I,</span> and take <span class="math display">
+\hat{\Theta}_{0}=\left\{ \theta _{0}=(\pi _{0}(0),\mathcal{O}_{0}(0))
+\mathcal{O}_{0}(0)\in \left\{ -1,1\right\} \right\} .
+</span> Note that <span class="math inline">\hat{\Theta}_{0}</span> has only two elements. To define <span class="math inline">\hat{\Theta}_{1}</span>, notice that there are two dyadic sub-intervals of <span class="math inline">I</span> denoted as <span class="math inline">I_{0}</span> and <span class="math inline">I_{1}</span>. Each <span class="math inline">\theta _{0}\in \hat{\Theta}_{0}</span>, induces a unique permutation <span class="math inline">\pi _{1,\theta _{0}}</span> of <span class="math inline">N_{1}=\{0,1\}</span> defined by <span class="math display">
+\pi _{1,\theta _{0}}(j)=i \text{ if for all }x\in I_{j},  \theta _{0}(x)\in
+I_{i},  i,j\in N_{1}.
+</span> For each <span class="math inline">\theta _{0}\in \hat{\Theta}_{0}</span> denote by <span class="math display">
+A_{1}(\theta _{0})=\left\{ \theta _{1}=\left( \pi _{1,\theta _{0}}(k),\mathcal{O}_{1}(\pi _{1,\theta _{0}})(k)\right) _{k=0}^{1}
+\mathcal{O}_{1}(\pi _{1,\theta _{0}})(j)\in \left\{ -1,1\right\} ,j=0,1\right\} .
+</span> Define <span class="math inline">\hat{\Theta}_{1}</span>to be the set <span class="math display">
+\hat{\Theta}_{1}=\bigcup_{\theta _{0}\in \hat{\Theta}_{0}}A_{1}(\theta _{0}).
+</span> Note that each <span class="math inline">A_{1}(\theta _{0})</span> has <span class="math inline">2\times 2=4</span> elements and hence <span class="math inline">\hat{\Theta}_{1}</span> has <span class="math inline">2\times 4=8</span> elements. Suppose now that <span class="math inline">\hat{\Theta}_{n-1}</span> is already defined. Construct <span class="math inline">\hat{\Theta}_{n}</span> from <span class="math inline">\hat{\Theta}_{n-1}</span> as follows: Denote the <span class="math inline">2^{n}</span> dyadic sub-intervals at stage <span class="math inline">n</span> be denoted as <span class="math inline">I_{0},</span>… <span class="math inline">I_{2^{n-1}}</span>. Each <span class="math inline">\theta _{n-1}\in \hat{\Theta}_{n-1}</span> induces a unique permutation <span class="math inline">\pi _{n,\theta _{n-1}}</span> of the set <span class="math inline">N_{n}</span> defined by</p>
+<p><span id="eq-ee1"><span class="math display">
+\pi _{n,\theta _{n-1}}(j)=i\text{ if for all }x\in I_{j},  \theta
+_{n-1}(x)\in I_{i},  i,j\in N_{n}.  
+\tag{8}</span></span> For each <span class="math inline">\theta _{n-1}\in \hat{\Theta}_{n-1}</span> define</p>
+<p><span class="math display">
+A_{n}(\theta _{n-1})=\left\{
+\begin{array}{l}
+\theta _{n}=\left( \pi _{n,\theta _{n-1}}(k),\mathcal{O}_{n}(\pi _{n,\theta
+_{n-1}})(k)\right) _{k=0}^{2^{n}-1}
+\\
+\\
+\mathcal{O}_{n}(\pi _{n,\theta _{n-1}})(i)\in \left\{ -1,1\right\}  \forall
+i\in N_{n}
+\end{array}
+\right\} .
+</span> and <span class="math display">
+\hat{\Theta}_{n}=\bigcup_{\theta _{n-1}\in \hat{\Theta}_{n-1}}A_{n}(\theta
+_{n-1}).
+</span></p>
+<p>For each <span class="math inline">n\ge 1</span>, define the projection maps <span class="math inline">f_{n} : \hat{\Theta}_{n}\to \hat{\Theta}_{n-1}</span>,by <span class="math inline">f_{n}(\theta _{n})=\theta _{n-1}</span>, where <span class="math inline">\theta _{n-1}</span> is related to <span class="math inline">\theta _{n}</span> by the requirement that <span class="math inline">\theta _{n}\in A_{n}(\theta _{n-1})</span>. To get an idea about these projection maps, in panel (b) of <a href="#fig-fig1">Figure&nbsp;1</a> a <span class="math inline">\theta _{3}\in \hat{\Theta}_{3}</span> is shown and its projection using the map <span class="math inline">f_{3}</span> is <span class="math inline">\theta _{2}\in \hat{\Theta}_{2}</span> which is shown in panel (a) of the figure.</p>
+<p>Denote by <span class="math display">
+\breve{\Theta}=\left\{ \breve{\theta}=(\theta _{0},\theta _{1},\theta
+_{2},....)
+\theta _{n}\in \hat{\Theta}_{n},\forall n\ge 0\text{ and } f_{n}(\theta _{n})=\theta _{n-1},\forall n\ge 1\right\}.
+</span> For any two elements <span class="math inline">\breve{\theta}=(\theta _{0},\theta _{1},\theta _{2},....)</span> and <span class="math inline">\breve{\theta}^{\prime }=(\theta _{0}^{\prime },\theta _{1}^{\prime },\theta _{2}^{\prime },....)</span> from <span class="math inline">\breve{\Theta}</span>, define the multiplication operation <span class="math inline">\breve{\theta}\circ \breve{\theta}^{\prime }</span> by</p>
+<p><span class="math display">
+\breve{\theta}\circ \breve{\theta}^{\prime }=\left( \theta _{0}\theta
+_{0}^{\prime },\theta _{1}\theta _{1}^{\prime },\theta _{2}\theta
+_{2}^{\prime },...\right)
+</span></p>
+<p>With <span class="math inline">\breve{\theta}^{-1}=(\theta _{0}^{-1},\theta _{1}^{-1},\theta _{2}^{-1},....)</span> as the inverse of <span class="math inline">\breve{\theta}=(\theta _{0},\theta _{1},\theta _{2},....)</span>, and with <span class="math inline">\breve{e}=(e_{0},e_{1},...)</span>, where <span class="math inline">e_{n}</span> is the identity element of <span class="math inline">\hat{\Theta}_{n}</span> as the unit element, note that <span class="math inline">\breve{\Theta}</span> is a group. Define for <span class="math inline">n\ge 0</span> the projection maps <span class="math inline">\pi _{n}:\breve{\Theta}\to \hat{\Theta}_{n}</span> by</p>
+<p><span class="math display">
+\pi _{n}(\breve{\theta})=\theta _{n}, \text{where} \breve{\theta}=(\theta_{0},\theta_{1},\theta _{2},....)
+</span></p>
+<p>Let <span class="math inline">\mathcal{F}=\cup _{n=1}^{\infty }\pi _{n}^{-1}\left( \mathcal{B}_{n}\right)</span>. It can be easily shown that <span class="math inline">\mathcal{F}</span> is a Boolean algebra. Let <span class="math inline">\breve{\mathcal{B}}</span> be the <span class="math inline">\sigma -</span>algebra generated by <span class="math inline">\mathcal{F}</span>. The measure space <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}}\right)</span> is called the <em>projective limit</em> of the sequence of measure spaces, <span class="math inline">(\hat{\Theta}_{n}\mathcal{B}_{n})</span>, <span class="math inline">n\ge 0</span> through the maps <span class="math inline">f_{n},n\ge 1</span>. The following theorem is proved in <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span>.</p>
+<div id="thm-theorem4" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 2 </strong></span>[<strong><span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span></strong>]</p>
+<p>There exists a unique right invariant probability measure, <span class="math inline">\breve{\Gamma}</span> on the projective limit <span class="math inline">(\breve{\Theta},\breve{\mathcal{B}})</span> of the sequence of measurable groups <span class="math inline">\left( \hat{\Theta}_{n},\mathcal{B}_{n},\Gamma _{n}\right) _{0}^{\infty }</span> through the sequence of homomorphisms <span class="math inline">\left\{ f_{n}\right\} _{0}^{\infty }</span> such that</p>
+<p><br></p>
+<ul>
+<li><p>(i ) <span class="math inline">\breve{\Gamma}\pi _{n}^{-1}=\Gamma _{n}.</span></p></li>
+<li><p>(ii ) <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span> is an uncountably large separated probability measurable group.</p></li>
+<li><ol start="3" type="i">
+<li>For each <span class="math inline">\breve{\theta}=(\theta _{0},\theta _{1},...,\theta _{n},...)\in \breve{\Theta}</span>, the limit <span class="math inline">\breve{\theta}(t)=\lim_{n\to \infty }\theta _{n}(t)</span> exists for all <span class="math inline">t\in I</span> and the limit function <span class="math inline">\theta :I\to I</span> is a Lebesgue measure preserving automorphism.</li>
+</ol></li>
+</ul>
+</div>
+<p>Two measure spaces, <span class="math inline">\left( X_{i},\mathcal{B}_{i},\mu _{i}\right)</span>, <span class="math inline">i=1,2</span> are said to be <em>isomorphic</em> if there exists two sets <span class="math inline">N_{i}\subset X_{i}</span>, <span class="math inline">\mu _{i}(N_{i})=0</span>, <span class="math inline">i=1,2</span> and a Borel automorphism <span class="math inline">T:X_{1}\backslash N_{1}\to X_{2}\backslash N_{2}</span> such that <span class="math inline">\mu _{1}T^{-1}=\mu _{2}</span>. In this paper I prove the following isomorphism theorem for the invariant probability measurable group <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span>.</p>
+<div id="thm-theorem5" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 3 </strong></span>[<strong>Isomorphism Theorem</strong>] The projective limit group <span class="math inline">\left(\breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span> is isomorphic to the unit interval with Lebesgue measure, <span class="math inline">\left(I,\mathcal{B}_{I},\lambda \right)</span>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>Let <span class="math inline">L_{2}(I)</span> be the Hilbert space of square integrable functions with respect to the Lebesgue measure on <span class="math inline">(I,\mathcal{B}_{I})</span>. Let <span class="math inline">\mathcal{U}</span> denote the set of all operators <span class="math inline">U</span> on <span class="math inline">L_{2}(I)</span> such that <span class="math inline">U</span> is onto and <span class="math inline">U</span> is isometric, i.e.&nbsp;<span class="math inline">(U(f),U(g))=(f,g)</span>, <span class="math inline">f,g\in L_{2}(I)</span> where <span class="math inline">(,)</span> is the inner-product operation of <span class="math inline">L_{2}(I)</span>. Such an operator <span class="math inline">U</span> of <span class="math inline">L_{2}(I)</span> is known as <em>unitary operator</em>. It is known that with respect to the strong operator topology, i.e., metric of the Banach space of bounded operators on <span class="math inline">L_{2}(I)</span>, <span class="math inline">\mathcal{U}</span> is a complete, separable metric space. Each Lebesgue measure preserving automorphism <span class="math inline">\theta</span> defines a unitary operator <span class="math inline">U(\theta )\in \mathcal{U}</span> by <span class="math inline">\left( U(\theta )f\right) (x)=f\left( \theta (x)\right) , f\in L_{2}(I)</span>. A Borel space is said to be <em>standard</em> if it is Borel isomorphic to the Borel space of a Borel measurable subset of a complete separable metric space. Thus, each <span class="math inline">\left( \hat{\Theta}_{n},\mathcal{B}_{n},\Gamma _{n}\right)</span> is standard and hence their countable Cartesian product <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}}, \breve{\Gamma}\right)</span> is also standard (see <span class="citation" data-cites="Mackey_1957">Mackey (<a href="#ref-Mackey_1957" role="doc-biblioref">1957</a>)</span>, Theorem 3.1). Notice that for any <span class="math inline">\breve{\theta}=\left( \theta _{0},\theta _{1},...,\theta _{n},...\right) \in \breve{\Theta}</span>, we have <span class="math inline">\left\{ \breve{\theta}\right\} =\lim_{n\to \infty }\pi _{n}^{-1}(\theta _{n})</span>. Hence <span class="math inline">\breve{\Gamma}\left( \{\breve{\theta}\}\right) =\lim_{n\to \infty }\breve{\Gamma}\pi _{n}^{-1}(\theta _{n})=\lim_{n\to \infty }\Gamma _{n}\left( \{\theta _{n}\}\right) =0</span>, for all <span class="math inline">\breve{\theta}\in \breve{\Theta}</span>. Thus, <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span> is isomorphic to <span class="math inline">\left( I,\mathcal{B}_{I},\lambda \right)</span> (see <span class="citation" data-cites="Parthasarathy_1977_Book">Parthasarathy (<a href="#ref-Parthasarathy_1977_Book" role="doc-biblioref">1977</a>)</span>.</p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+<p>I utilize the above two theorems to derive a diagonal formula for the random order value operator with respect to the projective limit group <span class="math inline">\breve{\Theta}</span> on a larger class of games than it was shown in <span class="citation" data-cites="Raut_1997">Raut (<a href="#ref-Raut_1997" role="doc-biblioref">1997</a>)</span>, and also use these results to prove <a href="#thm-theorem2">Theorem&nbsp;4</a> and <a href="#thm-theorem3">Theorem&nbsp;5</a> below.</p>
+</section>
+<section id="the-existence-and-uniqueness-of-brevetheta-symmetric-random-order-value-operator-on-nbv" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="the-existence-and-uniqueness-of-brevetheta-symmetric-random-order-value-operator-on-nbv"><span class="header-section-number">4.2</span> The existence and uniqueness of <span class="math inline">\breve\Theta</span>-symmetric random order value operator on <span class="math inline">NBV</span></h2>
+<div id="thm-theorem2" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 4 </strong></span>There exists a unique <span class="math inline">\breve{\Theta}</span>-symmetric random order value operator <span class="math inline">\Phi_{\breve{\Gamma}}</span> on <em>NBV</em>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>Let <span class="math inline">V\in \text{NBV}</span>. Let <span class="math inline">S\in \mathcal{B}_{I}</span> be an arbitrarily fixed coalition. By <a href="#prp-prop2">Proposition&nbsp;3</a>(i), the measure <span class="math inline">\left( \phi ^{\breve{\theta}}V\right) (S)</span> exists for all <span class="math inline">\breve{\theta}\in \breve{\Theta}</span>. Denote by <span class="math inline">h(\breve{\theta})\equiv \left( \phi ^{\breve{\theta}}V\right) (S)</span>. I want to show that <span class="math inline">h</span> is integrable with respect to the invariant probability measurable group <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span>. To that end, for any <span class="math inline">\breve{\theta}=\left( \theta _{0},\theta _{1},...,\theta _{n},\theta _{n+1},..\right) \in \breve{\Theta}</span>, define a sequence <span class="math inline">\breve{\theta}_{n}</span>, <span class="math inline">n\ge 0</span> of elements in <span class="math inline">\breve{\Theta}</span> by <span class="math inline">\breve{\theta}_{n}\equiv \left( \theta _{0},\theta _{1},...,\theta _{n},\theta _{n}...\right)</span>, and for any function <span class="math inline">h:\breve{\Theta}\to {\Re }</span>, define a sequence of functions, <span class="math inline">h_{n}:\breve{\Theta}\to {\Re }</span> by <span class="math inline">h_{n}(\breve{\theta})\equiv h(\breve{\theta}_{n})</span>. It is then clear that <span class="math inline">\lim_{n\to \infty }h_{n}(\breve{\theta})=h(\breve{\theta})</span> for all <span class="math inline">\breve{\theta}\in \breve{\Theta}</span>. It is also clear that <span class="math inline">h_{n}(\breve{\theta})</span> is <span class="math inline">\pi _{n}^{-1}\left( \mathcal{B}_{n}\right)</span> measurable, and hence <span class="math inline">h_{n}(\breve{\theta})</span> is measurable with respect to <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}}\right)</span> for all <span class="math inline">n\ge 0</span>. Furthermore, <span class="math display">
+h_{n}(\breve{\theta})
+=
+(\phi ^{\breve{\theta}_{n}}V)(S)
+\le \Vert \phi ^{\breve{\theta}_{n}}V\Vert _{BV}\le \Vert V\Vert _{BV}.
+</span> Thus by the Lebesgue’s dominated convergence theorem, the function <span class="math inline">h(\breve{\theta}),</span> which is the point-wise limit of a sequence of measurable functions dominated by a constant, is integrable with respect to <span class="math inline">\left(\breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span>.</p>
+<p>The uniqueness of <span class="math inline">\Phi _{\breve{\Gamma}}</span> follows from <a href="#thm-theorem1">Theorem&nbsp;1</a>.</p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+<p>What kind of randomization pattern does the projective limit group render? To examine it, let <em>pNA</em><span class="math inline">\left( \mu \right)</span> be the linear space of games generated by the polynomials of the non-atomic probability measure <span class="math inline">\mu</span> on the unit interval <span class="math inline">I.</span> Fix a <span class="math inline">t\in I</span> and an integer <span class="math inline">n\ge 0</span>. Suppose <span class="math inline">t\in I_{1}</span>. Consider the initial segments of player <span class="math inline">t</span> in each of the random orders <span class="math inline">\theta _{n}\in \hat{\Theta}_{n}</span>, that has the same value for <span class="math inline">t</span>, say <span class="math inline">\theta _{n}(t)=t_{0}</span>. From <a href="#fig-fig1">Figure&nbsp;1</a> it is clear that all these random orders place before player <span class="math inline">t</span> a particular type of sets of Lebesgue measure <span class="math inline">t_{0}</span>. The type of the sets depends on <span class="math inline">t_{0}</span>, and <span class="math inline">n</span>. For example, suppose <span class="math inline">t_{0}&lt;1/2</span>, then all these random orders do not place any players from the interval <span class="math inline">[1/2,1]</span>. Thus, the random orders in <span class="math inline">\breve{\Theta}</span> allow a player <span class="math inline">t</span> to form coalitions with sets of players of any size <span class="math inline">t_{0},</span> <span class="math inline">0\le t_{0}\le 1</span> but not all sets of players of a given size <span class="math inline">t_{0}.</span> Therefore, for games in which the worth of a coalition depends only through its size (in the Lebesgue measure sense) but not through any of their other identities, i.e., for anonymous games such as the games in <em>pNA</em><span class="math inline">\left( \lambda \right)</span>, one can expect that the expected marginal contribution of a player with respect to the group of random orders <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span> coincides with the fully symmetric Aumann and Shapley axiomatic value.</p>
+<p>For general non-atomic games of the form <span class="math inline">f\circ \mu ,</span> <span class="math inline">\mu \in NA^{1},</span> the <span class="math inline">\breve{\Theta}</span>-symmetric random order value will not in general coincide with the fully symmetric value. But the procedure could be modified to produce the fully symmetric random order value as follows: For a general non-atomic measure <span class="math inline">\mu</span> it is known from the isomorphism theorem of measure theory (see for instance, Proposition 26.6 in <span class="citation" data-cites="Parthasarathy_1977_Book">Parthasarathy (<a href="#ref-Parthasarathy_1977_Book" role="doc-biblioref">1977</a>)</span>) that there exists a <span class="math inline">\xi \in \mathcal{G}</span> such that <span class="math inline">\mu \xi ^{-1}=\lambda</span>. For games of this form, I take the set of orders to be the orders generated by the set of automorphisms <span class="math inline">\breve{\Theta}_{\mu }\equiv \left\{ \theta \xi |\theta \in \breve{\Theta}\right\} .</span> Note that <span class="math inline">\breve{\Theta}_{\mu }</span> is a translation of <span class="math inline">\breve{\Theta}.</span> I induce an invariant measure structure on the homogeneous space <span class="math inline">\breve{\Theta}_{\mu }</span> from the invariant measure structure of <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span> using the one-one and onto map <span class="math inline">\breve{\theta}\longmapsto \breve{\theta}\xi</span> between <span class="math inline">\breve{\Theta}</span> and <span class="math inline">\breve{\Theta}_{\mu }</span>. Denote the corresponding measure space as <span class="math inline">\left( \breve{\Theta}_{\mu },\breve{\mathcal{B}_{\mu }},\breve{\Gamma}_{\mu }\right)</span>. We then have the following result.</p>
+<div id="thm-theorem3" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 5 </strong></span>Let <span class="math inline">f:I\to {\Re }</span> be an absolutely continuous function, and let <span class="math inline">\mu</span> be a non-atomic probability measure on <span class="math inline">I</span>. The unique <span class="math inline">\breve{\Theta}_{\mu }</span>-symmetric random order value of the scalar measure game <span class="math inline">f\circ \mu</span> yields the following diagonal formula: <span id="eq-ee4"><span class="math display">
+\Phi _{\breve{\Gamma}_{\mu }}[f\circ \mu ](S)=\mu (S)\int_{0}^{1}f^{\prime
+}(t)d\lambda (t).  
+\tag{9}</span></span> Thus, the <span class="math inline">\breve\Theta_\mu</span>-symmetric random order value operator <span class="math inline">\Phi _{\breve\Gamma}</span> coincides with the Aumann-Shapley axiomatic value operator on all of <span class="math inline">pNA\left( \mu \right)</span>.</p>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>Note that in the case of <span class="math inline">\mu =\lambda ,</span> <span class="math display">
+\begin{aligned}
+\Phi _{\breve{\Gamma}}(f\circ \lambda )(S) &amp;=\int_{\breve{\Theta}}\left(
+\phi ^{\breve{\theta}}(f\circ \lambda )\right) (S)d\breve{\Gamma}(\breve{\theta}) \\
+&amp;=\int_{\breve{\Theta}}\int_{S}f^{\prime }(\breve{\theta}(t))d\lambda (t)d
+\breve{\Gamma}(\breve{\theta}),\text{ ...(1) } \\
+&amp;=\int_{S}\left[ \int_{\breve{\Theta}}f^{\prime }(\breve{\theta}(t))d\breve{\Gamma}(\breve{\theta})\right] d\lambda (t),\text{ by the Fubini's Theorem}
+\\
+&amp;=\int_{S}\left[ \int_{0}^{1}f^{\prime }(x)d\lambda (x)\right] d\lambda (t),\text{ ... (2)} \\
+&amp;=\lambda (S)\int_{0}^{1}f^{\prime }(x)d\lambda (x).
+\end{aligned}
+</span> In the above, the step (1) follows from <a href="#eq-eq4-2">Equation&nbsp;5</a> and step (2) follows from <a href="#thm-theorem5">Theorem&nbsp;3</a> and the fact that <span class="math inline">f^{\prime }\in L_{1}(I)</span>. Note that for any <span class="math inline">\xi \in \mathcal{G}</span>, <span class="math inline">\Phi _{\breve{\Gamma}}\left( \xi ^{*}\left( f\circ \lambda \right) \right) (S)</span> <span class="math inline">=\Phi _{\breve{\Gamma} }\left( f\circ \lambda \right) \left( \xi ^{-1}(S)\right)</span> <span class="math inline">=\lambda \left( \xi ^{-1}(S)\right) \int_{0}^{1}f^{\prime }(x)dx</span> <span class="math inline">=\xi ^{*}\Phi _{\breve{ \Gamma}}\left( f\circ \lambda \right) (S)</span>. Thus <span class="math inline">\breve{\Theta}</span>-symmetric random order value of a game of the form <span class="math inline">(f\circ \lambda )(S)</span> is symmetric with respect to the full group of automorphisms, <span class="math inline">\mathcal{G}</span>.</p>
+<p>For the general non-atomic measure <span class="math inline">\mu ,</span> note that for any order <span class="math inline">\bar{ \theta}=\theta \xi \in \breve{\Theta}_{\mu },</span> we have <span class="math display">
+\begin{aligned}
+\phi ^{\bar{\theta}}\left( f\circ \mu \right) \left( S\right) &amp;=\phi
+^{\theta \xi }\left( f\circ \mu \right) \left( \xi ^{-1}\xi \left( S\right)
+\right) \\
+&amp;=\phi ^{\theta }\left( \ddot{\xi}\left( f\circ \mu \right) \right) \left(
+\xi \left( S\right) \right) \text{ ... (1) }  \\
+&amp;=\phi ^{\theta }\left( f\circ \lambda \right) \left( \xi \left( S\right)
+\right) \\
+&amp;=\int_{\xi \left( S\right) }f^{\prime }\left( \theta \left( t\right)
+\right) d\lambda \left( t\right) \text{... (2).}
+\end{aligned}
+</span> In the above, the step (1) follows from <a href="#eq-eq4-1">Equation&nbsp;4</a> and the step (2) follows from <a href="#eq-eq4-2">Equation&nbsp;5</a>. Hence, <span class="math display">
+\begin{aligned}
+\Phi _{\breve{\Gamma}_{\mu }}(f\circ \mu )(S) &amp;=\int_{\breve{\Theta}_{\mu
+}}\phi ^{\bar{\theta}}\left( f\circ \mu \right) \left( S\right) d\breve{
+\Gamma}_{\mu }(\bar{\theta}) \\
+&amp;=\int_{\breve{\Theta}_{\mu }}\left[ \int_{\xi (S)}f^{\prime }(\theta
+\left( t\right) )d\lambda \left( t\right) \right] d\breve{\Gamma}_{\mu }(
+\bar{\theta}) \\
+&amp;=\int_{\xi \left( S\right) }\int_{\breve{\Theta}}f^{\prime }\left( \theta
+\left( t\right) \right) d\breve{\Gamma}(\theta \grave{)}d\lambda \left(
+t\right) ,\text{ by the Fubini's Theorem} \\
+&amp;=\int_{\xi \left( S\right) }d\lambda \left( t\right) \int_{0}^{1}f^{\prime
+}(x)dx \\
+&amp;=\mu (S)\int_{0}^{1}f^{\prime }(x)dx.
+\end{aligned}
+</span></p>
+<div style="text-align:right;">
+<span class="math inline">\blacksquare</span>
+</div>
+</div>
+</section>
+</section>
+<section id="sec-sec5" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Further Remarks</h1>
+<p><strong>Remark R1: </strong> There are economically important non-smooth games which neither belong to bv<span class="math inline">^{\prime }</span>NA, MIX, nor even to ASYMP. <span class="citation" data-cites="Mertens_1988">Mertens (<a href="#ref-Mertens_1988" role="doc-biblioref">1988</a>)</span> extended the diagonal formula for the value to a very powerful closed subspace of games in BV, known as Mertens space, on which the extended diagonal formula provides a value operator of norm 1 and the Mertens space was shown to include all well known spaces such as bv<span class="math inline">^{\prime}</span>NA, ASYMP, DIFF and DIAG. J.F. Mertens and Abraham Neyman suggested to me to explore if the Mertens space belongs to <span class="math inline">L1(\breve{\Theta},\breve{\Gamma})</span>. I have not tried to get a general answer to this question, instead I show that the <span class="math inline">\breve{\Theta}</span>-symmetric random order value exists for the non-smooth game of n-handed gloves marketsconsidered in example 19.2 of <span class="citation" data-cites="Aumann.Shapley_1974_Book">Robert J. Aumann and Shapley (<a href="#ref-Aumann.Shapley_1974_Book" role="doc-biblioref">1974</a>)</span> : <span class="math inline">V(S)=\min \left\{ \mu _{1}(S),\mu _{2}(S),...,\mu _{n}(S)\right\}</span>, <span class="math inline">\mu _{i}\in NA</span><span class="math inline">^{1}</span>, <span class="math inline">i=1,2,...n,</span>&nbsp;and <span class="math inline">S\in B_{I}</span>. This kind of non-smooth games arise in economies with strong complementarities. Aumann and Shapley showed that this game did not belong even to ASYMP&nbsp;when <span class="math inline">n&gt;2</span>. One of the motivations for <span class="citation" data-cites="Mertens_1988">Mertens (<a href="#ref-Mertens_1988" role="doc-biblioref">1988</a>)</span> to extend the diagonal formula to the Mertens space was to include such games in the space. Notice that V is of bounded variation. Since each <span class="math inline">\mu _{i}</span> is a non-atomic probability measure, the game <span class="math inline">V(S)</span>&nbsp;is normalized and hence belongs to NBV. Thus there exists a unique <span class="math inline">\breve{\Theta}</span>-symmetric random order value for V.</p>
+<p><strong>Remark R2: </strong> An important issue regarding the reformulated random order approach of this paper is: What characteristics of the group <span class="math inline">\breve{\Theta}</span> that makes the random order value coincides with the axiomatic value on pNA(<span class="math inline">\lambda</span>)? In <a href="#sec-sec2">Section&nbsp;2</a>, I argued that a random order generated according to the probability model <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span>&nbsp;has the characteristics that the random set of players that is placed before any given player is equally likely to be of any size <span class="math inline">s\in \lbrack 0,1]</span>; for anonymous games in which the worth of a coalition depends only through its size not names such as games in pNA(<span class="math inline">\lambda)</span>, each player gets the average of the set of all possible marginal contributions with coalitions of all possible sizes, and thus the average is fully symmetrized in the sense that the value thus obtained is symmetric with respect to the full group of automorphisms. Locally finite groups of automorphisms may not do the job, as I have illustrated in <a href="#sec-sec2">Section&nbsp;2</a>. The games that arise in most economic applications are anonymous. However, for a wider applicability of the present approach, we must construct a larger invariant probability measurable group structure than <span class="math inline">\left( \breve{\Theta},\breve{\mathcal{B}},\breve{\Gamma}\right)</span>, so that the random order value <span class="math inline">\Phi _{\breve{\Gamma}}(V)</span> with respect to it also fully symmetrizes many non-anonymous games.</p>
+<p><strong>Remark R3: </strong> Robert Aumann pointed out to me that for an alternative reformulation of random order approach to value, one might give up the measure theoretic model of the player set, i.e., <span class="math inline">\left( I,\mathcal{B}_{I}\right)</span>, and consider instead a torus or other topological spaces with more well-behaved automorphism groups as the player space. It should be noted that there can exist only two orders on any topological space that is connected. This, for instance, will greatly simplify our analysis of random order value. I do not know, however, what kind of fairness such a symmetry group entails and what kind of economic situations are appropriate for such models; most of the economic models with a continuum of agents, however, have employed a measure theoretic structures on the space of agents, and thus we must begin to imagine the nature and study the implications of economic models with a topological space of agents.</p>
+<p><strong>Remark R4: </strong> If the set <span class="math inline">\Theta</span>&nbsp;is taken to be the full automorphism group <span class="math inline">G</span>, then the existence of an Aumann-Shapley axiomatic value operator on <span class="math inline">pNA</span>&nbsp;can be reduced to the question of the existence of an invariant probability measurable group structure, <span class="math inline">\left( \mathcal{G},\mathcal{B},\Gamma \right)</span>, with the property that <span class="math inline">pNA\subset L1(G,\Gamma)</span>. Could one circumvent the Impossibility Principle of Aumann and Shapley in this reformulated approach? Indeed, on any group <span class="math inline">\Theta</span>, there always exists a right invariant probability measurable group structure, for instance, the trivial, coarsest <span class="math inline">\sigma</span>-algebra, <span class="math inline">B=\left\{ \emptyset ,\Theta \right\}</span> with a trivial probability measure that assigns <span class="math inline">0</span>&nbsp;to empty set and 1 to the whole set. The coarser the <span class="math inline">\sigma</span>-algebra is, the meager are the sets of measurable and integrable functions, and hence fewer games belong to <span class="math inline">L1(\Theta ,\Gamma )</span>&nbsp;which may not include games in pNA. I guess the proof of Aumann-Shapley impossibility theorem could be adopted to the present framework to produce a negative answer to the above question. Very little is known about the structure of the group <span class="math inline">G</span>&nbsp;that can shed light on the above issues, and I have not pursued these issues any further in this paper.</p>
+<p>I keep the above unresolved issues for future research to shed more light on.</p>
+</section>
+<section id="references" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Aumann_1967" class="csl-entry" role="doc-biblioentry">
+Aumann, Robert J. 1967. <span>“Random Measure Preserving Transformations.”</span> Shapley Value. In <em>Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability</em>, 2:321–26. Part II. L. M. LeCam; J. Neyman, University of California Press. <a href="http://digitalassets.lib.berkeley.edu/math/ucb/text/math_s5_v2_p2_article-21.pdf">http://digitalassets.lib.berkeley.edu/math/ucb/text/math_s5_v2_p2_article-21.pdf</a>.
+</div>
+<div id="ref-Aumann.Shapley_1974_Book" class="csl-entry" role="doc-biblioentry">
+Aumann, Robert J., and Lloyd S. Shapley. 1974. <em>Values of Non-Atomic Games</em>. Shapley Value. Princeton University Press.
+</div>
+<div id="ref-Halmos_1950" class="csl-entry" role="doc-biblioentry">
+Halmos, Paul Richard. 1950. <em>Measure Theory</em>. Vol. 2. van Nostrand New York. <a href="https://doi.org/10.1007/978-1-4684-9440-2">https://doi.org/10.1007/978-1-4684-9440-2</a>.
+</div>
+<div id="ref-Kannai_1966" class="csl-entry" role="doc-biblioentry">
+Kannai, Yakar. 1966. <span>“Values of Games with a Continuum of Players.”</span> <em>Israel Journal of Mathematics</em> 4 (1): 54–58. <a href="https://doi.org/10.1007/bf02760070">https://doi.org/10.1007/bf02760070</a>.
+</div>
+<div id="ref-Mackey_1957" class="csl-entry" role="doc-biblioentry">
+Mackey, George W. 1957. <span>“Borel Structure in Groups and Their Duals.”</span> <em>Trans. Amer. Math. Soc.</em> 85 (1): 134–65. <a href="https://doi.org/10.1090/s0002-9947-1957-0089999-2">https://doi.org/10.1090/s0002-9947-1957-0089999-2</a>.
+</div>
+<div id="ref-Mertens_1988" class="csl-entry" role="doc-biblioentry">
+Mertens, J. F. 1988. <span>“The Shapley Value in the Non Differentiate Case.”</span> <em>Int J Game Theory</em> 17 (1): 1–65. <a href="https://doi.org/10.1007/bf01240834">https://doi.org/10.1007/bf01240834</a>.
+</div>
+<div id="ref-Monderer_1989" class="csl-entry" role="doc-biblioentry">
+Monderer, D. 1989. <span>“Weighted Majority Games Have Many <span class="math inline">\mu</span>-Values.”</span> <em>Int J Game Theory</em> 18 (3): 321–25. <a href="https://doi.org/10.1007/bf01254295">https://doi.org/10.1007/bf01254295</a>.
+</div>
+<div id="ref-Monderer_1986" class="csl-entry" role="doc-biblioentry">
+Monderer, Dov. 1986. <span>“Measure-Based Values of Nonatomic Games.”</span> <em>Mathematics of Operations Research</em> 11 (2): 321–35. <a href="https://doi.org/10.1287/moor.11.2.321">https://doi.org/10.1287/moor.11.2.321</a>.
+</div>
+<div id="ref-Monderer.Ruckle_1990" class="csl-entry" role="doc-biblioentry">
+Monderer, Dov, and William H. Ruckle. 1990. <span>“On the Symmetry Axiom for Values of Nonatomic Games.”</span> <em>International Journal of Mathematics and Mathematical Sciences</em> 13 (1): 165–69. <a href="https://doi.org/10.1155/s0161171290000229">https://doi.org/10.1155/s0161171290000229</a>.
+</div>
+<div id="ref-Neyman_2002" class="csl-entry" role="doc-biblioentry">
+Neyman, Abraham. 2002. <span>“Chapter 56&nbsp;<span>V</span>alues of Games with Infinitely Many Players.”</span> <em>Handbook of Game Theory with Economic Applications Volume 3</em>, 2121–67. <a href="https://doi.org/10.1016/s1574-0005(02)03019-9">https://doi.org/10.1016/s1574-0005(02)03019-9</a>.
+</div>
+<div id="ref-Parthasarathy_1977_Book" class="csl-entry" role="doc-biblioentry">
+Parthasarathy, Kalyanapuram Rangachari. 1977. <span>“Introduction to Probability and Measure.”</span>
+</div>
+<div id="ref-Raut_1997" class="csl-entry" role="doc-biblioentry">
+Raut, Lakshmi K. 1997. <span>“Construction of a <span>Haar</span> Measure on the Projective Limit Group and Random Order Values of Non-Atomic Games.”</span> Published. <em>Journal of Mathematical Economics</em> 27 (2): 229–50. <a href="https://doi.org/10.1016/s0304-4068(96)00753-7">https://doi.org/10.1016/s0304-4068(96)00753-7</a>.
+</div>
+<div id="ref-Raut_2003d" class="csl-entry" role="doc-biblioentry">
+———. 2003. <span>“Symmetry Axiom and Haar Measure for Random Order Shapley Value of Games.”</span> Working: Shapley Value. <em>Working Paper</em>.
+</div>
+<div id="ref-Ruckle_1982" class="csl-entry" role="doc-biblioentry">
+Ruckle, William H. 1982. <span>“Projection in Certain Spaces of Set Functions.”</span> <em>Mathematics of Operations Research</em> 7 (2): 314–18. <a href="https://doi.org/10.1287/moor.7.2.314">https://doi.org/10.1287/moor.7.2.314</a>.
+</div>
+<div id="ref-Rudin_1987_Book" class="csl-entry" role="doc-biblioentry">
+Rudin, W. 1987. <em>Real and Complex Analysis</em>. McGraw-Hill, New York.
+</div>
+<div id="ref-Segal.Kunze_1968_Book" class="csl-entry" role="doc-biblioentry">
+Segal, I. E., and R. A. Kunze. 1968. <em>Integrals and Operators</em>. New Delhi: Tata McGraw-Hill Publishing Company Ltd., New Delhi.
+</div>
+<div id="ref-Shapley_1953" class="csl-entry" role="doc-biblioentry">
+Shapley, Lloyd S. 1953. <span>“A Value for n-Person Games.”</span> Technical report. <em>Contributions to the Theory of Games</em>.
+</div>
+</div>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p> For other recent developments in axiomatic value, see <span class="citation" data-cites="Neyman_2002">Neyman (<a href="#ref-Neyman_2002" role="doc-biblioref">2002</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p> In the finite players case an automorphism is known as permutation.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>When <span class="math inline">\Theta</span> is a locally compact topological group, and <span class="math inline">\mathcal{A}</span> is the Borel <span class="math inline">\sigma</span>-algebra, such that <span class="math inline">\Gamma (U)&gt;0</span>, for every non-empty open set <span class="math inline">U\subset \Theta</span>, then the Borel measure <span class="math inline">\Gamma</span> is known as the Haar Measure.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p> N is a normal subgroup of a group G if for all <span class="math inline">\theta \in \text{G}</span>, we have <span class="math inline">\theta ^{-1}\nu \theta \in \text{N}</span> for all <span class="math inline">\nu \in \text{N}</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p> The Borel isomorphism theorem states that for any two sets of the same cardinality if both sets are Borel subsets of complete and separable metric spaces, then there exists a Borel isomorphism between these two sets, i.e., there exists a one-one and onto map between the sets such that both the map and its inverse are Borel measurable with respect to the relative Borel <span class="math inline">\sigma</span>-algebras of the sets. Notice that both <span class="math inline">I</span> and <span class="math inline">I\cup \{2\}</span> are Borel subsets of <span class="math inline">\Re</span>, hence there exists a Borel isomorphism between these two sets.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p> This is also referred as order complete and it is distinct from the completeness axiom used in defining preference relation in the utility theory.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p> I am grateful to Professor Robert Aumann for drawing my attention to this result.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p> This separation notion for measurable groups is the analogue of the Hausdorff separation axiom for topological spaces, see <span class="citation" data-cites="Halmos_1950">Halmos (<a href="#ref-Halmos_1950" role="doc-biblioref">1950</a>)</span>, p.273.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

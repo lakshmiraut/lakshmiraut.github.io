@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Malaria | Dr. Lakshmi K. Raut</title>
-    <link>https://lakshmiraut.netlify.app/tag/malaria/</link>
-      <atom:link href="https://lakshmiraut.netlify.app/tag/malaria/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lakshmiraut.github.io/tag/malaria/</link>
+      <atom:link href="https://lakshmiraut.github.io/tag/malaria/index.xml" rel="self" type="application/rss+xml" />
     <description>Malaria</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2004 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lakshmiraut.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Malaria</title>
-      <link>https://lakshmiraut.netlify.app/tag/malaria/</link>
+      <link>https://lakshmiraut.github.io/tag/malaria/</link>
     </image>
     
     <item>
       <title>Economic Epidemiology of Malaria and Income Growth</title>
-      <link>https://lakshmiraut.netlify.app/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</link>
-      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.netlify.app/publication/workpaper/2004-01-01_economic_epidemiology_of_malar_unpublished/</guid>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2015-01-01_economic_epidemiology_of_malar_unpublished/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2015-01-01_economic_epidemiology_of_malar_unpublished/</guid>
       <description></description>
     </item>
     

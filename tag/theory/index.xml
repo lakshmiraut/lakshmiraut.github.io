@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theory | Dr. Lakshmi K. Raut</title>
-    <link>https://lakshmiraut.netlify.app/tag/theory/</link>
-      <atom:link href="https://lakshmiraut.netlify.app/tag/theory/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://lakshmiraut.github.io/tag/theory/</link>
+      <atom:link href="https://lakshmiraut.github.io/tag/theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Theory</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2003 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://lakshmiraut.netlify.app/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Theory</title>
-      <link>https://lakshmiraut.netlify.app/tag/theory/</link>
+      <link>https://lakshmiraut.github.io/tag/theory/</link>
     </image>
     
     <item>
-      <title>A Reformulation of the Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
-      <link>https://lakshmiraut.netlify.app/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
-      <pubDate>Wed, 01 Jan 2003 00:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.netlify.app/publication/workpaper/2003-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning to Perfect Manipulation: Implications for Fertility, Savings, and Old-Age Social Security</title>
-      <link>https://lakshmiraut.netlify.app/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</link>
-      <pubDate>Thu, 01 Jan 1998 00:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.netlify.app/publication/workpaper/1998-01-01_learning_to_perfect_manipulati_unpublished/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>A non-standard analysis of random order values of non-atomic games</title>
-      <link>https://lakshmiraut.netlify.app/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
-      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.netlify.app/publication/workpaper/1995-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2022-01-01_a_non-standard_analysis_of_ran_unpublished/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2022-01-01_a_non-standard_analysis_of_ran_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Reformulation of the Aumann-Shapley Random Order Values of Non-Atomic Games Using Invariant Measures</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2022-01-01_a_reformulation_of_the_aumann-_unpublished/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2022-01-01_a_reformulation_of_the_aumann-_unpublished/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Signaling Equilibrium, Intergenerational Social Mobility and Long Run Growth</title>
-      <link>https://lakshmiraut.netlify.app/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</link>
-      <pubDate>Sun, 01 Jan 1995 00:00:00 +0000</pubDate>
-      <guid>https://lakshmiraut.netlify.app/publication/workpaper/1995-01-01_signaling_equilibrium_interge_unpublished/</guid>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_signaling_equilibrium_interge_unpublished/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2017-01-01_signaling_equilibrium_interge_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Perfect Manipulation: Implications for Fertility, Savings, and Old-Age Social Security</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2015-01-01_learning_to_perfect_manipulati_unpublished/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2015-01-01_learning_to_perfect_manipulati_unpublished/</guid>
       <description></description>
     </item>
     
