@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Social mobility | Dr. Lakshmi K. Raut</title>
+    <title>Social Mobility | Dr. Lakshmi K. Raut</title>
     <link>https://lakshmiraut.github.io/tag/social-mobility/</link>
       <atom:link href="https://lakshmiraut.github.io/tag/social-mobility/index.xml" rel="self" type="application/rss+xml" />
-    <description>Social mobility</description>
+    <description>Social Mobility</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2017 14:30:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Social mobility</title>
+      <title>Social Mobility</title>
       <link>https://lakshmiraut.github.io/tag/social-mobility/</link>
     </image>
     
@@ -49,6 +49,14 @@
       <link>https://lakshmiraut.github.io/talks/2015-06-01-sge-seminar/</link>
       <pubDate>Mon, 01 Jun 2015 18:00:00 +0000</pubDate>
       <guid>https://lakshmiraut.github.io/talks/2015-06-01-sge-seminar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>THREE ESSAYS ON INTER-TEMPORAL ECONOMIC DEVELOPMENT</title>
+      <link>https://lakshmiraut.github.io/publication/unpublished/1985-12-1-yale_ph.d.thesis/</link>
+      <pubDate>Sun, 01 Dec 1985 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/unpublished/1985-12-1-yale_ph.d.thesis/</guid>
       <description></description>
     </item>
     
