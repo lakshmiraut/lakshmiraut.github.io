@@ -5,7 +5,7 @@
     <link>https://lakshmiraut.github.io/publication-type/5/</link>
       <atom:link href="https://lakshmiraut.github.io/publication-type/5/index.xml" rel="self" type="application/rss+xml" />
     <description>5</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 1999 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>5</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>A Rapid Introduction to Differential Geometry with Applications in Economics and Statistics</title>
+      <link>https://lakshmiraut.github.io/publication/books/2023-01-01_a_rapid_introduction_to_differ_unpublished/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/books/2023-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trade, Growth and Development: Essays in honor of Professor T.N. Srinivasan</title>
+      <link>https://lakshmiraut.github.io/publication/books/1999-1-1-trade-growth-development-tv-volume/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/books/1999-1-1-trade-growth-development-tv-volume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Trade, Growth and Development: Essays in Honor of Professor T.N. Srinivasan</title>
       <link>https://lakshmiraut.github.io/publication/published/1999-01-01_trade_growth_and_development_/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
       <guid>https://lakshmiraut.github.io/publication/published/1999-01-01_trade_growth_and_development_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory of Games and its  Applications to Economics and Politics</title>
+      <link>https://lakshmiraut.github.io/publication/books/1981-1-1-theory-of-games/</link>
+      <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/books/1981-1-1-theory-of-games/</guid>
       <description></description>
     </item>
     

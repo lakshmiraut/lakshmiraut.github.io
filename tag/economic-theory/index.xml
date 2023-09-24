@@ -5,7 +5,7 @@
     <link>https://lakshmiraut.github.io/tag/economic-theory/</link>
       <atom:link href="https://lakshmiraut.github.io/tag/economic-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Economic Theory</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 1985 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Economic Theory</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
+      <title>A Rapid Introduction to Differential Geometry with Applications in Economics and Statistics</title>
+      <link>https://lakshmiraut.github.io/publication/books/2023-01-01_a_rapid_introduction_to_differ_unpublished/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/books/2023-01-01_a_rapid_introduction_to_differ_unpublished/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>THREE ESSAYS ON INTER-TEMPORAL ECONOMIC DEVELOPMENT</title>
       <link>https://lakshmiraut.github.io/publication/unpublished/1985-12-1-yale_ph.d.thesis/</link>
       <pubDate>Sun, 01 Dec 1985 00:00:00 +0000</pubDate>
       <guid>https://lakshmiraut.github.io/publication/unpublished/1985-12-1-yale_ph.d.thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory of Games and its  Applications to Economics and Politics</title>
+      <link>https://lakshmiraut.github.io/publication/books/1981-1-1-theory-of-games/</link>
+      <pubDate>Thu, 01 Jan 1981 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/books/1981-1-1-theory-of-games/</guid>
       <description></description>
     </item>
     

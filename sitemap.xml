@@ -258,11 +258,23 @@
     <lastmod>2014-08-19T09:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_a_rapid_introduction_to_differ_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication-type/5/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/publication/workpaper/2014-01-01_application_of_lie_groups_to_e_unpublished/</loc>
+    <loc>https://lakshmiraut.github.io/publication/books/2023-01-01_a_rapid_introduction_to_differ_unpublished/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tag/applied-mathematics/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/publication/books/</loc>
+    <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tag/economic-theory/</loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -398,10 +410,6 @@
     <lastmod>1999-06-03T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/publication-type/5/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_an_analysis_of_thailandas_ca/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -410,7 +418,15 @@
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://lakshmiraut.github.io/tag/development/</loc>
+    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_endogenous_fertility_and_growt/</loc>
+    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/publication/books/1999-1-1-trade-growth-development-tv-volume/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -578,10 +594,6 @@
     <lastmod>1985-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/economic-theory/</loc>
-    <lastmod>1985-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lakshmiraut.github.io/tag/rd/</loc>
     <lastmod>1985-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -594,12 +606,12 @@
     <lastmod>1983-04-29T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/applied-mathematics/</loc>
+    <loc>https://lakshmiraut.github.io/publication/unpublished/1981-1-1_random-order-semi-value_unpublished/</loc>
     <lastmod>1981-06-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/publication/unpublished/1981-1-1_random-order-semi-value_unpublished/</loc>
-    <lastmod>1981-06-01T00:00:00+00:00</lastmod>
+    <loc>https://lakshmiraut.github.io/publication/books/1981-1-1-theory-of-games/</loc>
+    <lastmod>1981-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/1981-01-01_theory_of_games_and_its_applic/</loc>
