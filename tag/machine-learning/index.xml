@@ -5,12 +5,20 @@
     <link>https://lakshmiraut.github.io/tag/machine-learning/</link>
       <atom:link href="https://lakshmiraut.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Machine learning</title>
       <link>https://lakshmiraut.github.io/tag/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>Machine learning imputation of race in statistical estimates of disability and mortality risks using Social Security administrative data</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2024-10-17-race-imputation/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2024-10-17-race-imputation/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Health Outcomes in Mid-Ages: Multistate time to event Statistical Models versus Long Short Term Memory (LSTM) Recurrent Neural Network (RNN) Models</title>

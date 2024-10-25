@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Early childhood | Dr. Lakshmi K. Raut</title>
+    <title>Early Childhood | Dr. Lakshmi K. Raut</title>
     <link>https://lakshmiraut.github.io/tag/early-childhood/</link>
       <atom:link href="https://lakshmiraut.github.io/tag/early-childhood/index.xml" rel="self" type="application/rss+xml" />
-    <description>Early childhood</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 May 2017 14:30:00 +0000</lastBuildDate>
+    <description>Early Childhood</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Early childhood</title>
+      <title>Early Childhood</title>
       <link>https://lakshmiraut.github.io/tag/early-childhood/</link>
     </image>
+    
+    <item>
+      <title>Early childhood factors and health pathways to disability and death in mid-ages — a multi-state time-to-event model</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2024-10-23_early_childhood_factors_and_health/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2024-10-23_early_childhood_factors_and_health/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Neural Network Machine Learning Models for Prediction of Risks of Various Diseases in Mid-Ages</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2024-10-17-mlogit-vs-deep-learning-full-sample/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2024-10-17-mlogit-vs-deep-learning-full-sample/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pathways to Disability and Death in Middle Ages: Estimates from the Health and Retirement Study Data</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2024-9-26-pathways_to_disability_version3/</link>
+      <pubDate>Thu, 26 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2024-9-26-pathways_to_disability_version3/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Early Childhood Development, Earnings Inequality and Social Mobility in an Education Signaling Model)</title>
