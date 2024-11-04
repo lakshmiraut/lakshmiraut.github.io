@@ -17,7 +17,7 @@
       <link>https://lakshmiraut.github.io/post/2020-12-10-tex2rmd/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://lakshmiraut.github.io/post/2020-12-10-tex2rmd/</guid>
-      <description>&lt;p&gt;A software package I developed in C++ and Java that converts a Latex document to the Rmarkdown format. The converted markdown document, possibly after further addition of other features and edits, can be converted to the html and word formats using R package knitr. 
+      <description>&lt;p&gt;A software package I developed in C++ and Java that converts a Latex document to the Rmarkdown format. The converted markdown document, possibly after further addition of other features and edits, can be converted to the html and word formats using R package knitr.
 For details how to use and where to get it, follow this link: &lt;a href=&#34;https://lakshmiraut.github.io/software/Tex2Rmd/index.html&#34;&gt;Tex2Rmd&lt;/a&gt; and for a short guide here &lt;a href=&#34;https://lakshmiraut.github.io/software/Tex2Rmd/Manual-Tex2Rmd.html&#34;&gt;Tex2Rmd-a short guide&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;To download it and to see a live demo on what it does, you can go directly to &lt;a href=&#34;https://github.com/lakshmiraut/Tex2Rmd/releases/tag/V0.1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tex2Rmd Github distribution page&lt;/a&gt; of the project.&lt;/p&gt;
 </description>
