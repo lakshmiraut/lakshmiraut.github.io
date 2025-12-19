@@ -3,7 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://lakshmiraut.github.io/publication-type/3/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tag/generative-ai/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/2025-12-18_generative-ai-for-synthetic-tabular-data/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/publication_types/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/publication/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tag/synthetic-data-generation/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tags/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/publication/workpaper/</loc>
+    <lastmod>2025-12-18T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/tag/disability/</loc>
@@ -18,23 +50,7 @@
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/publication_types/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/publication/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tags/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lakshmiraut.github.io/tag/time-to-event-analysis/</loc>
-    <lastmod>2024-10-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/publication/workpaper/</loc>
     <lastmod>2024-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -54,15 +70,7 @@
     <lastmod>2024-10-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/machine-learning-model/</loc>
-    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/</loc>
-    <lastmod>2024-10-17T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/statistical-model/</loc>
     <lastmod>2024-10-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -80,10 +88,6 @@
   </url><url>
     <loc>https://lakshmiraut.github.io/tag/human-capital/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/</loc>
-    <lastmod>2023-09-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/workpaper/2020-01-01_health_outcomes_in_mid-ages_mu_unpublished/</loc>
@@ -126,10 +130,6 @@
     <lastmod>2020-01-04T12:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/pathways-to-disability/</loc>
-    <lastmod>2020-01-04T12:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lakshmiraut.github.io/talks/2019-04-05-sge-annual-conference/</loc>
     <lastmod>2019-04-05T14:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -150,6 +150,10 @@
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://lakshmiraut.github.io/tag/education/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://lakshmiraut.github.io/publication/workpaper/2018-01-01_identification_of_structural_p_unpublished/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -159,6 +163,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/2018-01-01_long-term_effects_of_preschool/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tag/social-mobility/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -175,10 +183,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/tag/signaling/</loc>
-    <lastmod>2017-05-02T14:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/social-mobility/</loc>
     <lastmod>2017-05-02T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -210,10 +214,6 @@
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/discrete-dynamic-programming/</loc>
-    <lastmod>2016-03-04T14:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://lakshmiraut.github.io/tag/econometrics/</loc>
     <lastmod>2016-03-04T14:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -224,14 +224,6 @@
   </url><url>
     <loc>https://lakshmiraut.github.io/talks/2016-01-02-aea-meetings-san-francisco-preschool-paper-with-heckman/</loc>
     <lastmod>2016-01-03T14:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/signaling-model/</loc>
-    <lastmod>2016-01-03T14:30:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/early-childhood-factors/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/2016-01-01_intergenerational_long-term_ef/</loc>
@@ -246,11 +238,11 @@
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/education/</loc>
+    <loc>https://lakshmiraut.github.io/talks/2015-02-12-iima/</loc>
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/talks/2015-02-12-iima/</loc>
+    <loc>https://lakshmiraut.github.io/tag/growth-theory/</loc>
     <lastmod>2015-02-12T16:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -267,10 +259,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/workpaper/2015-01-01_learning_to_perfect_manipulati_unpublished/</loc>
-    <lastmod>2015-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/malaria/</loc>
     <lastmod>2015-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -347,6 +335,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/2007-01-01_immigration_vs_foreign_investm/</loc>
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://lakshmiraut.github.io/tag/intergenerational-transfers/</loc>
     <lastmod>2007-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -439,10 +431,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/published/1999-01-01_aumann-shapley_random_order_va/</loc>
-    <lastmod>1999-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/development/</loc>
     <lastmod>1999-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -558,19 +546,7 @@
     <lastmod>1991-06-05T09:30:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://lakshmiraut.github.io/tag/development-economics/</loc>
-    <lastmod>1991-02-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/publication/unpublished/1991-02-1-endogenous_fertility_technological_change_yale_economic_grwoth_center_unpublished/</loc>
-    <lastmod>1991-02-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/growth-theory/</loc>
-    <lastmod>1991-02-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/overlapping-generations-models/</loc>
+    <loc>https://lakshmiraut.github.io/publication/unpublished/1991-02-1-endogenous_fertility_technological_change_yale/</loc>
     <lastmod>1991-02-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -595,10 +571,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://lakshmiraut.github.io/publication/unpublished/1989-03-1-partia_-likelihood_npmle_ucsd_unpublished/</loc>
-    <lastmod>1989-03-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://lakshmiraut.github.io/tag/applied-economics/</loc>
     <lastmod>1989-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

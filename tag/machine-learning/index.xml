@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine learning | Dr. Lakshmi K. Raut</title>
+    <title>Machine Learning | Dr. Lakshmi K. Raut</title>
     <link>https://lakshmiraut.github.io/tag/machine-learning/</link>
       <atom:link href="https://lakshmiraut.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Machine learning</description>
+    <description>Machine Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Machine learning</title>
+      <title>Machine Learning</title>
       <link>https://lakshmiraut.github.io/tag/machine-learning/</link>
     </image>
+    
+    <item>
+      <title>Determinants and Predictions of Risks of Diseases in Mid Ages: Logistic Regression Models versus Deep Neural Network Models</title>
+      <link>https://lakshmiraut.github.io/publication/published/2024-10-24_determinants_and_predictions_kirith_volume/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/published/2024-10-24_determinants_and_predictions_kirith_volume/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine learning imputation of race in statistical estimates of disability and mortality risks using Social Security administrative data</title>
