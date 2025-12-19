@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Synthetic data generation | Dr. Lakshmi K. Raut</title>
+    <link>https://lakshmiraut.github.io/tag/synthetic-data-generation/</link>
+      <atom:link href="https://lakshmiraut.github.io/tag/synthetic-data-generation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Synthetic data generation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Synthetic data generation</title>
+      <link>https://lakshmiraut.github.io/tag/synthetic-data-generation/</link>
+    </image>
+    
+    <item>
+      <title>Generative AI for Synthetic Tabular Data: Privacy, Utility, and Sensitivity of Downstream Policy Inference using HRS Data</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2025-12-18_generative-ai-for-synthetic-tabular-data/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2025-12-18_generative-ai-for-synthetic-tabular-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

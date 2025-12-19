@@ -5,12 +5,20 @@
     <link>https://lakshmiraut.github.io/publication/workpaper/</link>
       <atom:link href="https://lakshmiraut.github.io/publication/workpaper/index.xml" rel="self" type="application/rss+xml" />
     <description>Work-in-progress</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Dec 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://lakshmiraut.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Work-in-progress</title>
       <link>https://lakshmiraut.github.io/publication/workpaper/</link>
     </image>
+    
+    <item>
+      <title>Generative AI for Synthetic Tabular Data: Privacy, Utility, and Sensitivity of Downstream Policy Inference using HRS Data</title>
+      <link>https://lakshmiraut.github.io/publication/workpaper/2025-12-18_generative-ai-for-synthetic-tabular-data/</link>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://lakshmiraut.github.io/publication/workpaper/2025-12-18_generative-ai-for-synthetic-tabular-data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Early childhood factors and health pathways to disability and death in mid-ages — a multi-state time-to-event model</title>
